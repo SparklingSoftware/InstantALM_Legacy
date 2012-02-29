@@ -1,0 +1,139 @@
+
+===== A =====
+
+===== B =====
+
+===== C =====
+
+==== COP ====
+
+See [[:general:glossary#Process Improvement Team|Process Improvement Team]]
+
+==== Community Of Practice ====
+
+<< TODO >>
+
+Within this group following roles exist:
+  * [[:general:roles#COP Member|COP Member]]
+  * [[:general:roles#COP Lead|COP Lead]]
+
+===== D =====
+
+===== E =====
+
+===== F =====
+
+===== G =====
+
+==== Global ALM Community ====
+
+The collection of communities across the globe that work on Software Process Improvements using the Global SPII.\\ 
+For more information see:{{page>contentsnippets:general:external_links#ALM Community&noheader}}
+
+
+===== H =====
+
+===== I =====
+
+
+==== Improvement Proposal ====
+
+<< TODO >>
+
+==== IP ====
+
+See [[:general:glossary#Improvement Proposal|Improvement Proposal]]
+
+===== J =====
+
+===== K =====
+
+===== L =====
+
+===== M =====
+
+==== Management Steering Group ====
+
+<< TODO >>
+
+==== MSG ====
+
+See [[:general:glossary#Management Steering Group|Management Steering Group]]
+
+===== N =====
+
+===== O =====
+
+==== PIT ====
+
+See [[:general:glossary#Process Improvement Team|Process Improvement Team]]
+
+==== Process Improvement Team ====
+
+<< TODO >>
+
+Within this group following roles exist:
+  * [[:general:roles#PIT Member]]
+  * [[general:roles#PIT Lead|PIT Lead]]
+
+===== Q =====
+
+===== R =====
+
+===== S =====
+
+==== Satellite Communities / SPII / SEPG ====
+
+These are the communities that have implemented parts of "Share" and are using it to improve their software delivery processes. They can both be collaborating with the Global ALM Community to contribute to the Global ALM Standards Library, or they can download a local clone of the Global ALM Standards Libraries and tailor it for their own use without contributing back to the global community.
+
+The communities can be within an organisation or across in the form of after-hour sessions for instance.
+
+==== SEPG ====
+
+See [[:general:glossary#Software Engineering Process Group|Software Engineering Process Group]]
+
+==== Software Engineering Process Group ====
+
+<< TODO >>
+
+==== Software Process Improvement Infrastructure ====
+
+See [[:Introduction|Software Process Improvement Infrastructure Overview]] 
+
+==== SPII ====
+
+See [[:general:glossary#Software Process Improvement Infrastructure| Software Process Improvement Infrastructure]]
+
+==== Standard ====
+
+It is really hard to define what a standard is, but here are a couple of examples of standards. 
+
+  * Process maps
+  * Role descriptions
+  * Templates
+  * Job aids
+  * Tools selections
+  * Link to external content
+
+As you can see, the types are quite diverse, so the definition is pretty much: "Whatever the communities agree on".
+
+==== Standards library ====
+
+The portal that contains the [[general:glossary#standard| Standards]]
+
+===== T =====
+
+===== U =====
+
+===== V =====
+
+===== W =====
+
+===== X =====
+
+===== Y =====
+
+===== Z =====
+
+
+

@@ -1,0 +1,19 @@
+
+
+~~NOCACHE~~
+<nodisp>
+
+   <spii_meta>
+      <title>Methods Overview</title>
+      <hierarchy view="Methods" parent="" />
+   </spii_meta>
+
+</nodisp> 
+
+===== Methods overview =====
+
+[[:methods:Agile:Introduction|Agile]]
+[[:methods:Waterfall:Introduction|Waterfall]]
+[[:methods:rup|Rational Unified Process (RUP)]]
+[[:methods:openup|Open Unified Process (OpenUP)]]
+

@@ -1,0 +1,26 @@
+
+<nodisp>
+
+   <spii_meta> 
+      <revision_days>Live</revision_days>
+      <status>Live</status>
+      <hierarchy view=“Artefacts” parent='N' />
+   </spii_meta> 
+
+</nodisp>
+
+===== ALM000001 - .NET Coding Guidelines =====
+
+**Description**
+
+These coding guidelines will help [[:roles:developer|developers]] write more consistant code. 
+
+**Downloads**
+
+{{filelist>data/downloads/DotNet Coding Guidelines/*&direct=1}}
+
+**References**
+http://www.csharpcodingguidelines.com/
+http://csharpguidelines.codeplex.com/
+http://www.dennisdoomen.net/
+

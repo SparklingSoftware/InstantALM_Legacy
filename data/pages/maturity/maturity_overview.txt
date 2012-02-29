@@ -1,0 +1,15 @@
+
+===== ALM Maturity Matrix =====
+
+
+^ Level ^ Project Management ^ Test ^ Development ^ Architecture ^ Deployment ^ Support ^
+|  5  |   Enterprise Service Bus (ESB)   ||||||
+| ::: |   Enterprise 2.0 Communication Practices   ||||||
+| ::: |   Traditional Knowledge management   ||||||
+|  4  |   TODO   ||||||
+|  3  |   TODO   ||||||
+|  2  |   TODO   ||||||
+|  1  |   TODO   ||||||
+| ::: | [[maturity:project_repo|Project Repo]] | Test Cases Repo | Source Control | Architecture Report | Change Management Repo | Support Tickets Repo |
+
+

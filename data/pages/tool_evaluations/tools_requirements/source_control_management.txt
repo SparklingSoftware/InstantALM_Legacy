@@ -1,0 +1,79 @@
+
+<nodisp>
+
+   <spii_meta>
+      <title>VCS Requirements</title>
+      <hierarchy view="Tools" parent=":tools:vcs" />
+   </spii_meta>
+
+</nodisp>
+
+
+===== Version Control System (VCS) Requirements =====
+
+^ 3.1 ^ Security ^
+| 3.1.1 | We require the ability to host repositories on our repository server that are protectable in the form of no access, read-only access, or read/write access. Some project code is of sensitive nature, thus the requirement of no access. We also want the ability to restrict who can update source code of a project.   |
+| 3.1.2 | We also require the ability to secure branches individually, enabling production support team’s access to the production mainline branch, and development team’s access to alternate branches.   |
+| 3.1.3 | Integrated AD authentication and ability to utilise AD groups to manage user access would be desirable. One less password for users is always a good thing.   |
+^ 3.2 ^ Backup, Reliability and Robustness  ^
+| 3.2.1 | We must have the ability to back up the repositories.   |
+| 3.2.2 | We must have the ability to support the source control system in DR in the event of a disaster scenario.   |
+| 3.2.3 | The tool must be able to support 99.5% uptime, and have minimal disruption to users during times of required maintenance.   |
+^ 3.3 ^ Support ^
+| 3.3.1 | The system must be able to be supported by the internal SDLC team who provide advice and guidance on use of the tool. They should also have the ability to support SCM issues when they arise, helping teams to resolve them quickly.   |
+| 3.3.2 | Second level support is desirable. This could be in the form of paid support, or alternatively a wide community of people currently using the tool to consult with when issues do occur.   |
+| 3.3.3 | Ideally individual SCM users should not require support. There should be no great complexity to SCM, and it should be stable enough not to require any substantial support.    |
+| 3.3.4 | We require a basic user guide to enable developers that have not encountered the system before get up to speed mostly self-sufficiently. We could create this if no suitable guide exists, and that may be more beneficial as we can customise it to our needs.   |
+^ 3.4 ^ History/Reproducibility ^
+| 3.4.1 | NAB Wholesale requires the ability to rebuild previous versions of software using source control for all software components that currently exist in production or will be deployed into production in the future. This enables us to resolve defects and understand the operation of software components after deployment if required. This may be an APRA requirement.   Comment [b1]: Verify this is APRA based  |
+| 3.4.2 | Code once delivered should be immutable. Code can be changed by altering the workspace and delivering those changes. But code in the repository history cannot be editable in anyway.   |
+| 3.4.3 | Ability to roll back items to a state prior to the previous check in or indeed any previous time that exists in source.   |
+^ 3.5 ^ Scalability  ^
+| 3.5.1 | The system must be able to support the current number of users at NAB Wholesale with room for future expansion.   |
+| 3.5.2 | NAB Wholesale development currently occurs across the world. As such the source control management tool needs to be able to support our distributed structure without the need for high speed network links connecting the various locations.   |
+^ 3.6 ^ Performance ^
+| 3.6.1 | Creation of new users should be simple. The process should take less than half an hour.   |
+| 3.6.2 | New repositories should be setup easily, also in a reasonable time frame of less than 1 hour.   |
+| 3.6.3 | Checkouts should be fast, a sub 1 second process for up to 20 files, if checking out is even required. Modern version control systems often don’t require a checkout unless single user checkout is enforced.   |
+| 3.6.4 | Integration with the wider team’s code should take less than 5 minutes for a typical project[6] where no significant time is spent manually resolving merge conflicts. This should essentially be proportional to the size of change, rather than the repository size.   |
+| 3.6.5 | Creation of a new workspace should occur in less than 10 minutes for typical project[7]. Location should be largely irrelevant, as we should be maintaining a reasonable service level regardless of where our users or teams are located.   |
+| 3.6.6 | Updating of a workspace should take less than 5 minutes. Where there are no files to be updated, it should be a sub 1 minute operation.   |
+| 3.6.7 | Applying labels to the repository should take less than 20 seconds.   |
+| 3.6.8 | Pulling up the last 100 revisions (i.e. the recent history of the project) of the repository should take sub 20 seconds.   |
+| 3.6.9 | Geographically distant development teams must be able to use the tool with minimal impact to above performance.   |
+| 3.6.10 | Adding 1000 files should be easy and fast taking less than 20 seconds. Essentially the system should know where there are new files that need to be added so it’s easy and quick. Note delivery of files would be part of the integration performance requirement.   |
+^ 3.7 ^ Functionality ^
+| 3.7.1 | All code delivered should be traceable back to the person whom delivered it. Comments should be mandatory and comments should allow tracing back delivery to requirements or defects.   |
+| 3.7.2 | Comment template would be desirable to ensure all required information is included.   |
+| 3.7.3 | Traceability of source code delivery back to requirements and defects is currently listed as a nice to have feature. Only one team actually asked for this functionality. This could also mean a number of different things. Modern tools usually will support hyper linking from the comments associated with delivering code. As such some level of Integration between source control and requirements/bug tracking would be a nice to have feature.   |
+| 3.7.4 | We require the ability to diff between any two versions in the repository. As well as current checked out worked on version.   |
+| 3.7.5 | Ability to utilise different diff tools for different file types is currently supported. However no evidence that it is currently used or even known about has been found. This will be left as not required.   |
+| 3.7.6 | It must contain the ability to label or tag a version in the repository, so we can go back to a specific released set of code for debugging or to resolve a defect. This should be self-sufficient and be able to be automated as part of the continuous integration build process.   |
+| 3.7.7 | The system must be able to easily create branches as the development team requires. Note this should be self-sufficient, and should not require the assistance of the SDLC team.   |
+| 3.7.8 | Users must be able to branch from any version in the repository, so we can retrospectively resolve defects, then build test and deploy to production, finally merging back into any other development branch in progress, and the production branch.   |
+| 3.7.9 | Users must be able to work on individual workspaces, and continuously integrate their changes with other users quickly and easily.   |
+| 3.7.10 | Users should be able to integrate their delivery easily with others via inbuilt merge functionality.   |
+| 3.7.11 | The tool must support varying branching methodologies. We have teams that deal with their pipeline of work differently, some teams use branch by feature, others teams using multiple simultaneous branches concurrently due to unknown release dates.   |
+| 3.7.12 | There should be easy and functional tools to enable users to utilise the source control management system. This could be in the form of Integration with development IDE’s in use within NAB Wholesale (i.e. IntelliJ IDEA, Eclipse, and Visual Studio). This should also be available outside the IDE, on the command line or through GUI another tool.   |
+| 3.7.13 | Support for disconnected mode to enable remote users where network connectivity is not always as reliable as local users. A user in the Asia should not have a problem working if the connection back to NAB Melbourne is broken or unstable.   |
+| 3.7.14 | Support for a web interface to extract information about the source code and history is highly desirable as many continuous integration tools support integration with such interfaces which can give productivity gains to project teams.   |
+| 3.7.15 | Atomic check in’s and delivery is required to ensure the integrity of delivered code by users. Again, we must have to be able to rebuild previous versions of the software components if required. What is delivered to source control management must come out exactly as it was always.   |
+| 3.7.16 | Integrity checking of repositories should be an available feature to validate repositories content.  |
+| 3.7.17 | The Source Control Management platform should be available to Windows, Linux and UNIX (Solaris) hosts as we operate on all 3 platforms.   |
+| 3.7.18 | All repositories and branches should be able to be centrally co-located to enable easy finding of code, as well as enable other requirements like backup and access control.   |
+| 3.7.19 | The system must be able to store binary items to support storage of 3rd party and dependent libraries used by the source code. Again, everything required to develop or build the code should be able to be included in the source control system.   |
+| 3.7.20 | The system should have a mechanism to ignore files that should not be in source control. Files that usually fit into this category are the obj and bin directory in .Net projects, or compiled class and jar files in java.   |
+| 3.7.21 | As we operate in teams, the ability to concurrently checkout the same file is necessary.   |
+| 3.7.22 | If we require concurrent checkout, we also require the ability to manage merge conflict resolution using a 3 way visual diff.   |
+| 3.7.23 | We should have the ability to shelve changes, so that a user can shelve change half way, work on something else (i.e. a bug) deliver that work, and then unshelve the changes originally in motion.   |
+| 3.7.24 | Where the version control tool uses a global repository that is a big tree down to individual projects, the ability to branch one sub part of this tree would be necessary as you would not want to branch the whole repository.   |
+| 3.7.25 | The system should be able to cope with and merge new files with the same name, which are added to different branches of the same repository. It would of course usually result in a merge conflict needing manual intervention.   |
+| 3.7.26 | The system should support full history, even when renaming files.   |
+| 3.7.27 | To support the high performance requirements of this system, incremental retrieval of updates to a workspace should occur. That is only pulling down updates to files that have actually changed.         |
+| 3.7.28 | Support for blame command to identify the user which contributed a given line or set of lines to source code.   |
+| 3.7.29 | We require the ability to extend the SCM systems functionality to enable the enforcement of rules around certain operations.   |
+| 3.7.30 | Ability to easily work on multiple streams of work without excessive work to switch streams.   |
+| 3.7.31 | SCC compliant tool, to integrate with Enterprise architect would be useful to the architecture team. |
+^ references: ^ ^
+| [6] | Typical projects as surveyed in NAB Wholesale Banking Defined in Appendix D  |
+| [7] | Typical projects as surveyed in NAB Wholesale Banking Defined in Appendix D  |

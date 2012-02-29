@@ -1,0 +1,12 @@
+
+
+===== Frameworks and BOKs =====
+
+  * [[:frameworks:itil|ITIL (...)]]
+  * [[:frameworks:pm_bok|PM BOK (Project Management Body of Knowledge)]]
+  * [[:frameworks:ba_bok|BA BOK (Business Analysis Body of Knowledge)]]
+  * [[:frameworks:itsqb|ITSQB (...)]]
+  * 
+
+
+

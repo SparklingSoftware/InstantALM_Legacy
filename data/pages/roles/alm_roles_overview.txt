@@ -1,0 +1,61 @@
+
+<nodisp>
+
+   <spii_meta>
+      <title>Installation overview</title>
+      <hierarchy view="roles" parent="" />
+   </spii_meta>
+</nodisp>
+
+===== Roles in the Application Lifecycle Management (ALM) =====
+
+Below is a list of roles that are identified withing the ALM. They are sorted (best fit approach) into competencies, however some of the roles are actully cross competency. 
+
+It also ignores methodologies. Agile methodologies tend to encourage cross-competency team interaction. The roles below ignore the offical job title of people and refers to the work they are performing on the team, which can Business Analist in the morning and tester in the afternoon. Either role is described below so that the same person can learn about the expected outcomes in both team roles.
+
+
+==== Business Stakeholders ====
+
+  * Financial sponsor
+  * Subject Matter Expert (SME)
+
+==== Business Analists ====
+
+  * Process Analist
+  * << TODO >>
+
+==== Project Management ====
+
+  * Sales Manager
+  * Delivery Manager
+
+==== Architecture ====
+
+  * Enterprise Architect
+  * Solution Architect
+  * Security Architect
+
+==== Procurement ====
+
+  * << TODO >>
+
+==== Implementation ====
+
+  * Technical Project Lead
+  * [[roles:developer|Developer]]
+  * Security Administrator
+
+==== Test ====
+
+  * Test Manager
+  * Test Lead
+  * Tester
+
+==== Deployment ====
+  
+
+==== Operations ====
+
+  * [[:roles:service_manager|Service Manager]]
+
+

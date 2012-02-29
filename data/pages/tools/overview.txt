@@ -1,0 +1,40 @@
+
+~~NOCACHE~~
+<nodisp>
+
+   <spii_meta>
+      <title>Tools evaluations overview</title>
+      <hierarchy view="Tools" parent="" />
+   </spii_meta>
+
+</nodisp>
+
+===== Tools evaluated =====
+
+The following tools are evaluated following the [[http://www.instantspii.org/doku.php?id=spii:processes:evaluate_a_tool|Tool evaluation process]] from the [[http://www.instantspii.org|InstantSPII]] website.
+
+Where applicable these tools are mapped to the particular process/practice where they are used so that a consolidated view starts to emerge. The following tools have been identified:
+
+^ Tool ^ Description ^ Used in area/practice ^
+| [[:tools:vcs|Version Control System (VCS)]] | Provides management of changes to documents like source code. | 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

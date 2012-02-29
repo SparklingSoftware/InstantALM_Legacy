@@ -1,0 +1,21 @@
+
+ <spii_meta>
+    <title>Installation overview</title>
+    <hierarchy view="roles" parent="roles:alm_roles_overview" />
+ </spii_meta>
+
+
+===== Developer =====
+
+^ Processes where this role is involved in ^
+| todo  |
+| todo  |
+
+^ Job-aids ^
+| SCM Policies |
+| [[:job-aids:artefacts:alm000001|.NET Coding Guidelines]] |
+
+^ Tools used ^
+| Source Control Management |
+
+
