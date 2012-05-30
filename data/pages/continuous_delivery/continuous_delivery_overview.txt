@@ -10,4 +10,10 @@
 
 ===== Continuous Delivery Overview =====
 
+<< Explain generic pattern >>
+
+  * [[:continuous delivery:benefits|Benefits of Continuous Delivery]]
+  * [[:continuous delivery:processes|Processes and requirements (History, ITIL practices, Security)]]
+  * [[:continuous delivery:tools|Tools used to satisfy requirements]]
+  * [[:continuous delivery:metrics and reporting|Metrics and reporting]]
 

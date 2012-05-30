@@ -1,0 +1,36 @@
+
+===== The Open Group Architecture Framework (TOGAF) =====
+
+
+The Open Group Architecture Framework (TOGAF) is a framework with a detailed method and a set of supporting tools that can be used freely by a business organization for developing the enterprise architecture. TOGAF offers a comprehensive approach that is useful for the designing, planning, implementation, and governance of an enterprise information architecture. TOGAF offers a high level and holistic design approach that can be modeled at the levels of ‘Business’, ‘Application’, ‘Data’, and ‘Technology’. TOGAF can provide a well-tested overall starting model to the information architects, which they can then build upon later. The framework is based on the concepts of modularization and standardization with the existing and proven technologies and products. TOGAF is an important and reliable enterprise architecture standard that helps to ensure consistent standards, methods, and communication among the enterprise architecture professionals. TOGAF helps the enterprise architecture professionals to leverage the non-proprietary methods, use the resources more efficiently and effectively, which in turn results in a greater return on investment. The TOGAF professionals reap several benefits such as, greater industry credibility, job effectiveness, and better career opportunities.
+TOGAF was published by the members of The Open Group, working within the Architecture Forum((http://www.opengroup.org/architecture)). The TOGAF Version 1 in 1995 was originally based on the Technical Architecture Framework for Information Management (TAFIM)//[[:general:glossary|glossary]]//, that was issued by the US Department of Defense (DoD)((http://www.defense.gov/)). The US DoD provided ‘The Open Group’ permission and direct encouragement to develop TOGAF by building on the TAFIM framework, which itself was the outcome of several years of development effort and millions of dollars of investment by the US Government. The members of The Open Group Architecture Forum have published successive versions of TOGAF so as to help the businesses to attain the right balance between IT efficiency and business innovation, while also considering the constantly evolving needs of the business environment.
+TOGAF 7 (‘Technical Edition’) was issued in December 2001, while the TOGAF 8 (‘Enterprise Edition’) was published in December 2002 and republished as TOGAF 8.1 in December 2003. It was updated later in November 2006 as TOGAF 8.1.1. The latest version of TOGAF (TOGAF 9) was launched in February 2009 and it underwent evolutionary development from TOGAF 8. TOGAF 9 has several new enhanced features such as: 
+1.	Increased rigor (with a formal Content Metamodel that links the artifacts of TOGAF together)
+2.	Business capability-based planning
+3.	Guidance on how to use TOGAF to develop Security Oriented Architectures (SOA)//[[:general:glossary|glossary]]//
+4.	Elimination of the unnecessary differences 
+5.	More examples and templates 
+6.	A formal business-driven approach to architecture scoping and segmentation
+
+==== Structure of TOGAF ====
+The basic structure of TOGAF’s documentation underlines the layout and content of an Architecture Capability within an enterprise, as shown below:
+
+{{ :togaf.png?nolink |}}
+
+ 
+There are seven parts to the TOGAF document:
+1.	PART I (Introduction) - It provides a high-level introduction for the key concepts of enterprise architecture and especially for the TOGAF approach. The part includes the definitions of terms used throughout TOGAF and release notes detailing the changes between this version and the previous version of TOGAF
+2.	PART II (Architecture Development Method) – It is the core of TOGAF. It describes the TOGAF Architecture Development Method (ADM), which is a step-by-step approach for developing an enterprise architecture. There four interrelated areas of specialization, also called architecture domains: Business Architecture; Applications Architecture; Data Architecture; and Technical Architecture
+3.	PART III (ADM Guidelines and Techniques) – It contains a collection of guidelines and techniques available for use while applying TOGAF and the TOGAF ADM
+4.	PART IV (Architecture Content Framework) – It describes the TOGAF content framework with a structured meta-model for architectural artifacts, the use of re-usable architecture building blocks, and an overview of typical architecture deliverables
+5.	PART V (Enterprise Continuum & Tools) – It discusses the appropriate taxonomies and tools to categorize and store the outputs of architecture activity within an enterprise
+6.	PART VI (TOGAF Reference Models) – It provides a selection of architectural reference models, which includes the TOGAF Foundation Architecture, and the Integrated Information Infrastructure Reference Model (III-RM)
+7.	PART VII (Architecture Capability Framework) – It discusses the organization, processes, skills, roles, and responsibilities required to establish and operate an architecture function within an enterprise
+The purpose behind breaking the TOGAF specification into these independent parts is to allow for the separate segments of specialization to be considered in detail and potentially addressed in isolation. Although the parts work together as a whole, it is also feasible to select a specific part for use while excluding the others. For instance, a business may wish to implement the ADM process, but excluding the use any of the materials related to Architecture Capability.
+
+==== Benefits of TOGAF Certification ====
+Some of the advantages of the TOGAF certification are:
+1.	It helps the organizations to standardize to an open method for IT architecture and avoid a possible lock-in with the proprietary methods of major consulting firms
+2.	 The TOGAF customers can model their Information Technology architecture on the open, industry standard method, which can work properly with all the major frameworks. 
+3.	The organizations can also procure tools, training, and leverage the services of consultants (both individuals as well as integrators) with confidence, on the relevance of the certified conformance with TOGAF standards 
+4.	For the service providers and tool vendors, the TOGAF certification offers a medium to clearly demonstrate the conformity of their products and services 

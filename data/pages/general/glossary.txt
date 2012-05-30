@@ -1,13 +1,35 @@
 
+===== Glossary of IT terms and abbreviations =====
+
+Send us feedback if you would like to get content added!
+
+
 ===== A =====
+
+==== American National Standards Institute (ANSI) ====
+
+It is a private non-profit organization that oversees the development of voluntary consensus standards for the products, processes, systems, services, and personnel in the USA. It also coordinates the American standards with the global standards so that the American products can be used internationally.
 
 ===== B =====
 
+==== Business Case (PRINCE2) ====
+
+In the PRINCE2 project management methodology, the Business Case is the 'driver' of the project. It is used to decide from beforehand if the project is a worthwhile investment. The Business Case is used to justify the investment of time, money and resources into a project by highlighting the benefits from the project. The Business Case is made of the eight key sections: Reasons; Options; Benefits; Risks; Costs; Timescale; Investment Appraisal; and Evaluation.
+
+==== Business Relationship Management (BRM) ====
+
+It is an approach for understanding, defining, and supporting a range of inter-business activities that are related to the provision of knowledge and services via networks, with a focus on the emergence of online networks as the primary medium for conducting business relationships. It is aimed at providing a complete and holistic model of business relationships and business relationship value over time, so as to make the different aspects of business relationships both explicit and measurable.
+
+
 ===== C =====
+
+==== Capability Maturity Model Integration (CMMI) ====
+
+It is a process improvement approach where the goal is to help organizations improve their performance. CMMI can be useful for guiding process improvements across a project, a division, or an entire organization. CMMI can help to integrate the traditionally separate organizational functions with set process improvement goals and priorities, thus providing guidance for quality processes and a point of reference for appraising the current processes.
 
 ==== COP ====
 
-See [[:general:glossary#Process Improvement Team|Process Improvement Team]]
+see [[:general:roles#Community Of Practice|Community Of Practice]]
 
 ==== Community Of Practice ====
 
@@ -17,11 +39,37 @@ Within this group following roles exist:
   * [[:general:roles#COP Member|COP Member]]
   * [[:general:roles#COP Lead|COP Lead]]
 
+==== Components (RUP) ====
+
+The components are non-trivial modules and subsystems of software that are required to fulfil a specific function. 
+
+==== Contract Administration ====
+
+It relates to the management of the relationship with the seller.
+
+==== Contract Close-Out ====
+
+It pertains to the completion and the settlement of a contract with the resolution of all outstanding issues.
+
 ===== D =====
 
 ===== E =====
 
+==== Eclipse Process Framework (OpenUP) ====
+
+It is an open source project that is managed by the Eclipse Foundation. It has the two goals: to provide an extensible framework and exemplary tools for software process engineering; and to provide exemplary and extensible process content for a range of software development and management processes supporting iterative, incremental development, and agile methods and applicable to a broad set of development platforms and applications. 
+
 ===== F =====
+
+==== Financial Management of IT Services (ITIL) ==== 
+
+It is aimed at helping an IT service provider in effectively managing its budgeting, accounting and charging requirements. The ITIL Financial Management has the following sub-processes: ‘Financial Management Support’; ‘Financial Planning’; ‘Financial Analysis and Reporting’; and ‘Service Invoicing’.
+
+
+==== Information Security Management System (ITIL) ====
+
+The ITIL-process Security Management lays down the structured position of information security in the management organisation. It is based on the code of practice for information security management system (ISMS) also known as the ISO/IEC 27002 standard. The main objective of information security is to protect the information assets against risks and to maintain their value to the organization.
+
 
 ===== G =====
 
@@ -40,9 +88,34 @@ For more information see:{{page>contentsnippets:general:external_links#ALM Commu
 
 << TODO >>
 
+
+==== Institute of Electrical and Electronics Engineers (IEEE) ====
+
+It is a non-profit association that is dedicated to advancing technological innovation and excellence. IEEE is one of the leading standards making organizations and its standards relate to a broad range of industries such as, power and energy, Information Technology, biomedical and healthcare, transportation, nanotechnology, telecommunications and information assurance.
+
 ==== IP ====
 
 See [[:general:glossary#Improvement Proposal|Improvement Proposal]]
+
+==== International Organization for Standardization (ISO) 9000 standards ====
+
+The ISO 9000 family of standards pertain to quality management systems and they are designed in order to help the organizations ensure that they meet the needs of customers and other stakeholders. 
+
+==== ISO ====
+
+See [[:general:glossary#International Organization for Standardization (ISO) 9000 standards|International Organization for Standardization]]
+
+==== Iterative Software Development Process (as in RUP) ====
+
+It is a software development process that prescribes the development of initially small but ever-larger portions of a software project for helping those who are involved in the discovery of important issues early before the problems or faulty assumptions can lead to disaster. It commences with an initial planning stage and it ends with the deployment of the cyclic interactions in between the stages. 
+
+==== IT Service Management (ITSM) ====
+
+It is a discipline for managing the Information Technology systems that are based on the customer's perspective of the contribution of IT to business. ITSM is process-focused and it thus it is aligned with the process improvement frameworks (such as, TQM, Six Sigma, business process management, CMMI).
+
+==== ITSM ====
+
+See [[:general:glossary#IT Service Management (ITSM)|IT Service Management]]
 
 ===== J =====
 
@@ -52,7 +125,7 @@ See [[:general:glossary#Improvement Proposal|Improvement Proposal]]
 
 ===== M =====
 
-==== Management Steering Group ====
+==== Management Steering Group (PII) ====
 
 << TODO >>
 
@@ -64,11 +137,17 @@ See [[:general:glossary#Management Steering Group|Management Steering Group]]
 
 ===== O =====
 
+===== P =====
+
+==== PII ====
+
+<< TODO >>
+
 ==== PIT ====
 
 See [[:general:glossary#Process Improvement Team|Process Improvement Team]]
 
-==== Process Improvement Team ====
+==== Process Improvement Team (PII) ====
 
 << TODO >>
 
@@ -76,9 +155,26 @@ Within this group following roles exist:
   * [[:general:roles#PIT Member]]
   * [[general:roles#PIT Lead|PIT Lead]]
 
+
+==== Project Brief (PRINCE2) ====
+
+It is a description and an outline for what the project is attempting to achieve and the business justifications behind a project implementation
+
+==== Project Initiation Documentation (PRINCE2) ====
+
+It bundles the information that was acquired throughout the Starting up a Project and Initiating a Project processes in a PRINCE2 controlled project environment. The Project Initiation Document, or PID, is a PRINCE2 term that means the plan of the overall approach in project management.
+
 ===== Q =====
 
 ===== R =====
+
+==== Rational Method Composer (RUP) ====
+
+A flexible process management platform having a set of comprehensive tooling and rich process libraries to help the companies implement effective processes for successful software and IT projects. It features more than 100 selectable and customizable process guidance, (including RUP), for solving the common problems in business, management or software development.
+
+==== Rational Process Library (RUP) ====
+
+It is a diverse collection of method content, guidance, templates, and processes having more than 100 selectable and customizable process best practices that can be applied to a large number of processes and domains. It offers a robust collection of best practices guidance for software and system development, management, and governance and it is included in IBM Rational Method Composer.
 
 ===== S =====
 
@@ -92,17 +188,27 @@ The communities can be within an organisation or across in the form of after-hou
 
 See [[:general:glossary#Software Engineering Process Group|Software Engineering Process Group]]
 
+==== Service Catalogue (ITIL) ====
+
+It is a list of services provided by an organization to its employees or its customers. Each of the service within the catalogue normally includes: A description of the service; Timeframes or service level agreement for fulfilling the service; Who is entitled to request/view the service; Costs (if any); and How to fulfil the service. 
+
+
+==== Service Oriented Architecture (SOA) ====
+
+It is a set of principles and methodologies that are needed for the design and development of software in the form of interoperable services. These services are well-defined business functionalities built as software components (i.e. snippets of code or data structures) that can be reused for different purposes. 
+
+==== Service Portfolio Management (ITIL) ====
+
+It helps to ensure that the IT service providers have the right mix of services to reach the desired business objectives. The sub-processes of Service Portfolio Management in ITIL are: ‘Define and Analyze new or changed Services’; ‘Approve new or changed Services’; and ‘Service Portfolio Review’. 
+
+==== Software Lifecycle (or Software Development Lifecycle) ====
+
+It is a general model for the software development process, encompassing all the activities and work products required to develop a software system. Such a model may be both activity-centred (focusing on the activities of software development) and entity-centred (focusing on the work products created by these activities).
+
+
 ==== Software Engineering Process Group ====
 
 << TODO >>
-
-==== Software Process Improvement Infrastructure ====
-
-See [[:Introduction|Software Process Improvement Infrastructure Overview]] 
-
-==== SPII ====
-
-See [[:general:glossary#Software Process Improvement Infrastructure| Software Process Improvement Infrastructure]]
 
 ==== Standard ====
 
@@ -123,7 +229,20 @@ The portal that contains the [[general:glossary#standard| Standards]]
 
 ===== T =====
 
+==== Technical Architecture Framework for Information Management (TAFIM) ====
+
+It is a reference model of the 1990s that is used for enterprise architecture development as defined by the United States Department of Defense (DoD). TAFIM identifies the services, standards, concepts, components, and configurations that can be utilized to guide the development of technical architectures to meet the specific mission requirements.
+
 ===== U =====
+
+==== Unified Modeling Language (UML) ====
+
+It is an industry-standard language that helps to clearly communicate requirements, architectures and designs. The UML was originally developed by Rational Software (acquired by IBM), and it is presently maintained by the standards organization Object Management Group.
+
+
+==== Unified Process (or Unified Software Development Process) ====
+
+It is a well known iterative and incremental software development process framework. Unified Process is an extensible framework that is needed to be customized for specific organizations or projects. The Unified Process has four phases in the lifecycle: Inception; Elaboration; Construction and Transition.
 
 ===== V =====
 

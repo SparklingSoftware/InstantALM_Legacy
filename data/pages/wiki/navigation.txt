@@ -9,6 +9,7 @@
 [[:maturity:maturity_overview|Maturity]]
 [[:continuous_delivery:continuous_delivery_overview|Continuous Delivery]]
 [[:tools:overview|Tools]]
+[[:metrics and reporting:Overview|Metrics and Reporting]]
 
 **Alphabetical**
 [[:job_aids:decissions|Decissions]]

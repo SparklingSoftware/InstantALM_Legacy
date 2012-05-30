@@ -1,13 +1,9 @@
 
+===== Administrative Pages ====
 
-===== Administrative Pages =====
-
-[[:wiki:orphaned pages|Orphaned pages]]
-[[:wiki:wanted|Pages wanted]]
-[[:wiki:revisions|Job-aids revision report]]
-
-
-
-
+[[:wiki:orphans|Orphaned pages]]
+[[:wiki:pages wanted|Pages Wanted]]
+[[:wiki:revisions|Pgaes up for revision]]
+[[:wiki:statistics|Usage Statistics]]
 
 

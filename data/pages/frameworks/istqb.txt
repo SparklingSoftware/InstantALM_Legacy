@@ -1,0 +1,40 @@
+
+===== International Software Testing Qualifications Board (ISTQB) =====
+
+The International Software Testing Qualifications Board (ISTQB)((http://www.istqb.org/about-istqb.html)) is a not-for-profit association legally registered in Belgium that operates on a global scale. ISTQB is an organization for software testing qualification certification and it was founded in Edinburg in 2002. ISTQB is a worldwide organization that is based on the volunteer work offered by hundreds of international testing experts. ISTQB certification scheme is based on a Body of Knowledge (the Syllabi and Glossary) and the examination rules that are applied consistently globally with the study materials and examination modules available in multiple languages. 
+The International Software Testing Qualifications Board defines the "ISTQB Certified Tester" scheme that has become the global leader in the certification of competences in software testing. It has issued over 200,000 certifications across 70+ countries world-wide, having a growth rate of approximately 10,000 new certifications issued per quarter (as of December 2011) . ISTQB is an international de-facto reference and it ranks in the third position in the IT industry in terms of number of certified persons (below only PMI and ITIL), among the technology-independent certifications schemes.  ISTQB is at the first position among the certifications for Testing.  
+
+==== Levels of ISTQB ====
+ISTQB has defined three levels of syllabi
+1.	Foundation
+2.	Advanced (Test Manager, Technical Test Analyst, Test Analyst)
+3.	Expert (Improving the Test Process, Test Automation, Test Management, Security Testing)
+The Syllabi for ISTQB certification are publicly available for download from the official website of ISTQB  and the Syllabi for the certifications are prepared by the industry experts. The syllabi are also continually reviewed and improved with the terms used in the syllabi being described in the ISTQB Glossary. Some of the stages that are included at the Foundation level are: ‘software testing fundamentals’; ‘testing throughout the software lifecycle’//[[:general:glossary|glossary]]//; ‘static techniques’; ‘testing design techniques’; ‘test management’ and ‘tool support of testing’. 
+ 
+{{ :istqb.png?nolink |}}
+
+==== Working Groups ====
+The development of ISTQB has been facilitated by international working groups so as to achieve the cooperative design of syllabi, exam rules, processes, etc. The ISTQB Working Groups (WGs) help to ensure that the development and the spread of the knowledge take place according to the most up-to-date needs of the profession. Each Working Group is composed of many members from different Boards across the globe and they are all led by a Chair and a Vice Chair. The Working Groups are:
+1.	Marketing WG – It formulates and implements the Marketing Strategy of ISTQB, and organizing marketing initiatives aimed at growing ISTQB Brand
+2.	Product Development Steering Committee (PDSC) – It defines the roadmap for the overall Product Architecture roadmap of ISTQB as well as the deployment plan
+3.	Strategy WG – It has the goal of defining the overall road-map for ISTQB evolution
+4.	Glossary WG – It maintains a glossary of testing and related terms that can be used as a reference or source document for syllabi at Foundation, Advanced and Expert levels
+5.	Foundation Level WG – It is responsible for the defining and maintaining the Foundation Level syllabus with clear and measurable learning objectives as well as unambiguously defining the contents and topics
+6.	Advanced Level WG - It aims to develop and maintain the Advanced Level syllabus, taking into account the Foundation syllabus and the emerging technical applicable standards
+7.	Expert Level WG – It aims at defining the Expert Level modules
+8.	Exam WG – It is responsible for creating and maintaining the examination format and guidelines as well as the ISTQB practice exams
+9.	Processes WG – It has the goal of defining and maintaining the processes that govern the activities of ISTQB, the Member Boards and Training Providers and Exam Providers
+10.	Audit WG – It aims to perform regular checks on the application of ISTQB’s rules and processes by the Member Board
+11.	 Governance WG – It is responsible for ensuring adherence to rules and processes
+12.	TBOK (Testing Body of Knowledge) WG 
+
+==== Benefits ====
+There are several benefits for the professionals with ISTQB certifications that include:
+1.	International recognition of ISQTB certifications for acquired competences and skills
+2.	Possibility to use the logo ‘Certified Tester’ for the professionals
+3.	Support to career path from the foundation level to the expert level
+4.	The ISQTB certifications can be a competitive advantage for the business organizations due to increased level of reliability of software applications developed and cost optimization of test activities accrued from the ISTQB competencies
+5.	The certification for the IT consulting companies can offer higher level of services to the customers and enhancing revenues and brand value
+6.	The companies having a large number of certified testers can benefit from the Partner Program of ISQTB 
+7.	ISTQB Glossary brings uniformity in standards for the testers across the globe
+8.	The educational institutions and consulting companies can become an Accredited Trainer Provider for ISQTB and they can benefit from using the logos used by ISQTB
