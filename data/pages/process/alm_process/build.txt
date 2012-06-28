@@ -11,3 +11,9 @@
 
 ===== Build =====
 
+
+[[:process:build:develop|Develop Software]]
+
+[[:process:build:test|Test Software]]
+
+

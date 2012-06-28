@@ -1,0 +1,14 @@
+
+===== ALM Maturity Model: Developing =====
+
+Development: how we work with code
+
+  * Check in frequency: as you move to a CI process the frequency of check in drives how quickly problems are found.
+  * Behaviour: how responsible do developers act about ensuring the code is good, follows the broken window theory
+  * Int. Documentation: what kind of documentation is available internally – not quantity, more quality. Preferably automated and easy to maintain.
+  * Ext. Documentation: what kind of documentation is available internally – not quantity, more quality
+  * Feedback loop: how long before a developer gets feedback on the quality implementation for a user story. This reflects the efficiency of tools, process and project. For example having too many dependencies may make build time too long. This feedback must have value - so tests and environments like live.
+  * Code Management: coping with the need for multiple developers to work on the same code at the same time, using source control effectively allows parallelism and root cause tracking.
+  * Source control: how do we use source control, making source control the start of an quality process rather than just a repository. 
+
+

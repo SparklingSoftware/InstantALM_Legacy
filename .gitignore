@@ -4,6 +4,7 @@ conf/
 bin/
 inc/
 lib/
+StandardsBrowser/
 
 data/attic/
 data/cache/

@@ -1,7 +1,7 @@
 
 ===== Open Unified Process (OpenUP) =====
 
-The Open Unified Process (OpenUP) is a component of the Eclipse Process Framework (EPF)//[[glossary|glossary]]//, an open source process framework developed within the Eclipse Foundation((http://www.eclipse.org/)) (a not-for-profit, organization that acts as the steward of Eclipse, an open source community focused on building an open development platform made of extensible frameworks, tools and runtimes for developing, implementing and managing the software lifecycle stages). OpenUP is a lean Unified Process that uses iterative and incremental approaches in a structured lifecycle. It adopts a pragmatic and agile philosophy that emphasizes on the collaborative nature of software development. OpenUP is a tools-agnostic, low-ceremony process that can address a wide variety of project types.
+The Open Unified Process (OpenUP) is a component of the Eclipse Process Framework (EPF)//[[:general:glossary|glossary]]//, an open source process framework developed within the Eclipse Foundation((http://www.eclipse.org/)) (a not-for-profit, organization that acts as the steward of Eclipse, an open source community focused on building an open development platform made of extensible frameworks, tools and runtimes for developing, implementing and managing the software lifecycle stages). OpenUP is a lean Unified Process that uses iterative and incremental approaches in a structured lifecycle. It adopts a pragmatic and agile philosophy that emphasizes on the collaborative nature of software development. OpenUP is a tools-agnostic, low-ceremony process that can address a wide variety of project types.
 
 ==== Core Principles of OpenUP ====
 OpenUP is based on the following four key principles:

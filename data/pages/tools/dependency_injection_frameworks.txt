@@ -1,0 +1,28 @@
+===== Tools: Dependency Injection Frameworks =====
+
+
+
+==== Java ====
+
+
+
+
+==== .NET ====
+
+=== References ===
+
+  * Codevance comparison: [(http://codevanced.net/post/Mocking-frameworks-comparison.aspx)]
+  * Mocking frameworks compare[(http://code.google.com/p/mocking-frameworks-compare)]
+  * Roy Osherove, poll: which mocking isolation framework do you use [(http://weblogs.asp.net/rosherove/archive/2009/09/30/poll-which-mocking-isolation-framework-do-you-use.aspx)]
+  * Video: Understanding mock objects [(http://www.osherove.com/videos/2009/8/25/tdd-understanding-mock-objects.html)]
+
+The long list:
+^ Framework ^ Status ^ Reason if not on shortlist ^
+| [[http://code.google.com/p/moq/ | MOQ ]] | Shortlisted | |
+| Rhino Mock |
+| Just Mock |
+| Type Mock |
+| NMock |
+
+
+

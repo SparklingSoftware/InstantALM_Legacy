@@ -1,0 +1,17 @@
+
+
+===== ALM Maturity Model: Product Management =====
+
+==== Description ====
+
+Product Management: understanding & communicate the product needs
+
+==== Metrics ====
+
+  * Vision: understanding the direction of the product and aligning with technology changes
+  * Requirements: gathering new features and change requests, communicating stories in an actionable and testable way, prioritising by value. Better quality stories reduce confusion and increase velocity.
+  * Documentation: gather and report in a consistent way, understand all the documents other roles create (dev & arch esp.)
+  * Communications: communicating to internal & extern teams and customers. Is everyone aware of the product vision and changes etc
+  * Co-Ordination: how does product management integrate with dev, architecture and project management office – is it aligned, reducing confusion and arguments between the different functions.
+  * Delivery: moving from ad hoc delivery to repeatable delivery with selection of stories into releases rather than holding up releases for stories 
+

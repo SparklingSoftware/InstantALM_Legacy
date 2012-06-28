@@ -1,0 +1,20 @@
+
+===== Unit Testing Tool Requirements =====
+
+
+This section assumes understanding of [[:general:glossary#unit testing|Unit Testing]] and the [[:tools:reference implementations|Reference Implementations]].
+
+
+==== Easy ====
+
+  * Plain class methods and properties
+  * Generics
+  * Events
+  * Exceptions
+
+
+==== Complex ====
+
+  * Asynchronous / Multi Threading / Parallel Processes
+  * Timing in Real-time scenario's
+

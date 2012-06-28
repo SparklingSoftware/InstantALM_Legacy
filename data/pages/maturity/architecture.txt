@@ -1,0 +1,16 @@
+
+===== ALM Maturity Model: Architecture =====
+
+
+==== Description ====
+
+Architecture: how we manage our technical direction
+
+==== Metrics ====
+
+  * Documentation (A): ensuring we have light-weight documentation and diagrams that aid continual product evolution
+  * Technical Debt management: keeping track of decisions that reduce velocity or options for future delivery, proactive planning to remove over time
+  * Technical Risk management: keeping track of technical risks to the project in the existing solution, understand and communicate the impact of risks and costs to fix them.
+  * Vision (A): understanding to technology vision for the product, aligning it with the product road map 
+
+

@@ -3,7 +3,10 @@
 
 The "Application Lifecyle Management Job aids" contains standards and practices agreed by the ALM-Community [(www.alm-community.org)]
 
-There are multiple views on the same content, so depending on what your after you might choose different navigations. The views currently implemented are:
+While reading, you will find that not all content is applicable to you. However, all content specifies what [[:organization categories|organization categories]] tend to implement that particular practice.
+
+
+There are multiple views on the same content, so depending on what your after you might choose different navigation. The views currently implemented are:
 
   * [[:process:alm_process|Drill into the ALM Process maps]].
   * [[:roles:alm_roles_overview|Look at the different roles within ALM and their responsibilities]].

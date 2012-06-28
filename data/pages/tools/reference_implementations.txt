@@ -1,0 +1,32 @@
+===== Reference Implementations =====
+
+
+==== Reference Enterprise Solutions ====
+
+
+
+
+=== .NET ===
+
+[[todo|todo]]
+
+=== Java ===
+
+[[todo|todo]]
+
+=== Ruby ===
+
+[[todo|todo]]
+
+==== Continuous Delivery ====
+
+
+=== .NET ===
+
+
+=== Java ===
+
+
+=== Ruby ===
+
+

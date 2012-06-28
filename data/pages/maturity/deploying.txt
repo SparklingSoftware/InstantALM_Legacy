@@ -1,0 +1,10 @@
+
+===== ALM Maturity Model: Deploying =====
+
+Deploying: how we deploy into environments
+
+  * Deployment: how we make a release live, making this painless and automated reduces friction to testing and rapid evolution
+  * Resource: what skills are needed to deploy, having special skills constraints becomes a blocker, ultimately it should be the final output of CI
+  * Database: repositories and databases need to be deployable as easily as the application
+  * Environment: having well defined standard environments with automation allows for creation of test environments and additional live capacity automatically 
+

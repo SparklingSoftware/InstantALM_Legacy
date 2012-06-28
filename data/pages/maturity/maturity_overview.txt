@@ -1,15 +1,46 @@
 
 ===== ALM Maturity Matrix =====
 
+This ALM Maturity model is based on information from these locations:
+  * The Pragmatic Capability Model Of Software Delivery (PCM-OSD) [(http://blog.figmentengine.com/)]
+  * 
 
-^ Level ^ Project Management ^ Test ^ Development ^ Architecture ^ Deployment ^ Support ^
-|  5  |   Enterprise Service Bus (ESB)   ||||||
-| ::: |   Enterprise 2.0 Communication Practices   ||||||
-| ::: |   Traditional Knowledge management   ||||||
-|  4  |   TODO   ||||||
-|  3  |   TODO   ||||||
-|  2  |   TODO   ||||||
-|  1  |   TODO   ||||||
-| ::: | [[maturity:project_repo|Project Repo]] | Test Cases Repo | Source Control | Architecture Report | Change Management Repo | Support Tickets Repo |
+
+==== Maturity Categories ====
+
+  * Development: how we work with code
+  * Building: how we turn code into deployable artefacts
+  * Deploying: how we deploy into environments
+  * Testing: how do we ensure that the deployment is good
+  * Reporting: how we drive transparency (for quality)
+  * Support: how we manage incidents and requests
+  * Product Management: how we understand & communicate the product needs
+  * Architecture: how we manage our technical direction
+  * Operations: how we manage the run-time environments 
+
+
+==== Maturity Models ====
+
+GL = Guideline, VM = Virtual Machine, Repo = Repository
+
+
+^ Level      ^ [[:maturity:developing|Developing]] ^ [[:maturity:building|Building]] ^ [[:maturity:testing|Testing]]      ^ [[:maturity:reporting|Reporting]] ^ [[:maturity:deploying|Deploying]] ^ [[:maturity:support|Support]] ^ [[:maturity:product management|Product Management]] ^ [[:maturity:architecture|Architecture]] ^ [[:maturity:operations|Operations]] ^
+|  Extreme       | Secure Coding Metrics           | Gated Commits                   | 100% Coverage                      |                                   | Automated Deployment after Build Success | | | |
+|  :::           | [[http://martinfowler.com/bliki/FeatureToggle.html|Feature Toggle]]        | Build from VM Snapshot          |                                    |                                   | | | | |
+|  Advanced      | Secure Coding GL                | Triggered Builds                | High Code Coverage                 | Cross Silo Analysis               | One-click deploy to STG/Prod/DR Env      | | | |
+|  :::           | Dev/Test Data Strategy          | Build Cluster                   | Security Scans                     |                                   | Test Gated automation process            | | | |
+|  :::           | Pair Programming                | Build Cluster                   | Risk based manual testing          |                                   | Automated Database Deployments           | | | |
+|  :::           |                                 |                                 |                                    |                                   | Automated SOA/Multi-Tier Deployments     | | | |
+|  Intermediate  | Risk Based Unit tests           | Build on Commit                 | Some static analysis               | Trend Reporting                   | One-click deploy to Test Env             | | | |
+|  :::           | Mocking and DI                  | Dependency Repo                 | Nightly automated functional tests | Cross silo reporting              | | | | |
+|  :::           | Test Driven Development         | Secured Config                  | Performance Testing During Build   |                                   | | | | |
+|  :::           | Full Code-Test-Req Traceability | Secured Config                  | Performance Testing During Build   |                                   | | | | |
+|  Beginner      | Some Unit Tests                 | Self Service Build              | Automated Tests at build time      | Real-Time reporting               | Self Service Deploy to test          | | | |
+|  :::           |                                 | Nightly Builds                  | Test-Requirement Traceability      |                                   | Standardised Deployment              | | | |
+|  :::           |                                 | Build Artefact Repo             |                                    | Some Information Radiators        | | | | |
+|  Base          | Coding GL                       | Build Script                    | Test Case Repo                     | Tool Generated Reports            | Multiple Environments Exist  | | | |
+|  :::           | Version Control                 | Build Machine                   | Manual Testing                     | Report Runner                     | Deployment Scripts           | | | |
+
+
 
 

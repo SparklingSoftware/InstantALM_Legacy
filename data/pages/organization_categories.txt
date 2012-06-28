@@ -1,0 +1,21 @@
+
+===== Organization Categories =====
+
+==== Introduction ====
+
+Before we can talk about increasing process maturity, we need to specify the target audiences. Not all standards are applicable to all organizations. The following Organization categories are defined and are used throughout this standards library.
+
+These definitions should be used pragmatically, as they will hardly ever fit your companies profile exactly. It is intended as a guideline to indicate what categories are likely to use. At the end of the day, every organization is different and its up to the organization to decide what is or isn't applicable and also what would help your organization deliver better and/or faster and/or cheaper.
+
+Also, the industry matters for each these categories. A small company specializing in on-line financial services, would fall under the financial regulatory requirements (which dictate things like "separation of concerns", Audit trails and document keeping) and would therefore require a higher level of formality in the processes.
+
+==== Organization Categories ====
+
+^ Category ^ Description ^ Employees ^ Formality ^
+| Small Commercial Org. | Building and selling a small amount of core software products or on-line services | <25 | Very informal |
+| Medium Commercial Org. | Building and selling a suite of software products, having more R&D products in trial | 25-100 | Some formality, cross role communication needed |
+| Large Commercial Org. | Building and selling many products in many industries. | >100 | Formal |
+| Small Internal IT Department. | Delivering dedicated IT services as part of a (non-IT) organization | <25 | Some formality |
+| Medium or Large Internal IT Department. | Delivering dedicated IT services as part of a (non-IT) organization | >25 | Formal |
+
+

@@ -1,0 +1,10 @@
+
+===== ALM Maturity Model: Building =====
+
+
+Building: how we turn code into deployable artefacts
+
+  * Build: how easy is it to create a new build, making this quick and painless reduces friction to introducing CI and other automated tools
+  * Binaries: how to manage the output of a build, is it versioned and tracked – and do we test the same artefact through all environments up to production
+  * Configuration: often ignored it can turn a well designed system into an un-deployable mess, ultimately should be automated and by convention over config as much as possible 
+

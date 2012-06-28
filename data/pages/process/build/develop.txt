@@ -1,0 +1,22 @@
+
+
+
+
+
+===== Develop Software =====
+
+Inputs:
+  * Requirements
+  * Architecture Documentation
+
+<ditaa>
+
+     +--------------+     +----------------+     +----------+   +----------+
+     |              |     |                |     |          |   |          |
+---->| Write Tests  |---->| See tests fail |---->| Fix Test |-->| Refactor |
+     |              |     |                |     |          |   |          |
+     +--------------+     +----------------+     +----------+   +----------+
+
+</ditaa>
+
+

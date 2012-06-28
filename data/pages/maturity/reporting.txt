@@ -1,0 +1,17 @@
+
+===== ALM Maturity Model: Reporting =====
+
+==== Description ====
+
+
+
+==== Metrics ====
+
+Reporting: how we drive transparency (for quality)
+
+  * Visibility: increasing transparency drives the team to higher quality, and allows cross project comparison & learning
+  * Traceability: being able to track why change occur, from end user feature to code, config and environment changes allows quicker fixing and trend detection
+  * Integration: how well integrated is information sharing within the project team, is there one information repository or unconnected datasets (bugs not related to builds for example)
+  * Defects: how defects are tracked and related to changes in the system enables better investigation and reporting 
+
+

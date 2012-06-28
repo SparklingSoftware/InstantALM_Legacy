@@ -1,0 +1,16 @@
+
+===== ALM Maturity Model: Testing =====
+
+==== Description: ====
+How do we ensure that the deployment is good
+
+==== Metrics ====
+
+  * Code Quality: how do we ensure that code is good, pair programming and automated tools help, and toxicity reports can drive technical debt reduction and help in adjusting estimates for changing code in toxic areas.
+  * Manual test: how is manual testing carried out, having some targeted smoke/sanity tests can quickly discover defects, user confirmations for stories allows dev to tests themselves.
+  * Unit test: how do we do unit testing, using TDD improves the design, and increased coverage improves the ability to detect regressions earlier –whilst there is no defined lower limited for coverage, 60% seems to be a reasonable target for most teams. This should be higher for critical systems (and platform).
+  * Acceptance test: how are acceptance tests carried out, these normally start out manual, but moving to automation allows cheaper tests cycles, and frees up testers to do targeted manual tests
+  * Performance: often left until after a release causes performance issues (loss in revenue or increased costs), doing it earlier is cheaper (than fixing after) and can be ROI based (http://www.phpied.com/the-performance-business-pitch/)
+  * Security: testing the security of the application can be automated to detect the main problem areas (OWASP top 10), and ultimately ovoid creating weaknesses in the first place.
+  * Automation: moving from highly skilled resources running low-value manual processes, to automating as much as possible and targeting manual work where is leverages skill sets most 
+

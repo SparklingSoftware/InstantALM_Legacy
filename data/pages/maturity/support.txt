@@ -1,0 +1,15 @@
+
+===== ALM Maturity Model: Support =====
+
+==== Description ====
+
+Support: how we manage incidents and requests
+
+==== Metrics ====
+
+  * Support process definition: do we have a defined process for managing a incident, is it reviewed for effectiveness?
+  * Support structure: what resource is allocated to providing support, having designated support reduces interrupting people unnecessarily & increases velocity.
+  * Triage: how do we decide the priority to assign problems, and the resolution time. Ensuring that there is agreement to priorities across the whole team (especially with the business) ensure focus on what matters.
+  * Self-service support: how do external teams/users get support for themselves (forums/wiki), can the community improve the knowledge base
+  * Support SLA: do we have publicised goals, do we have processes for managing exceptions and ensuring we monitor compliance 
+
