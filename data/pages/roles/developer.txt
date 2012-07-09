@@ -13,7 +13,7 @@
 
 ^ Job-aids ^
 | SCM Policies |
-| [[:job-aids:artefacts:alm000001|.NET Coding Guidelines]] |
+| [[:job_aids:artefacts:alm000001|.NET Coding Guidelines]] |
 
 ^ Tools used ^
 | Source Control Management |

@@ -1,22 +1,38 @@
 
-
-
-
-
 ===== Develop Software =====
 
-Inputs:
-  * Requirements
-  * Architecture Documentation
+
+==== Description ====
+
+The purpose of developing software is to implement the requirements according to the [[:general:glossary#acceptance criteria|Acceptance Criteria]] for a particular feature. 
+
+
+==== Input / Outputs ====
+
+^ Inputs: ^   Outputs: ^
+| Requirements     |      Updated Sources Checked into Source Control |
+| Architecture Documentation | |
+
+^ RASCI ^ Role ^
+| [[:general:glossary#rasci - responsible|Responsible]] | [[:roles:developer|Developer]] |
+| [[:general:glossary#rasci - accountable|Accountable]] | |
+| [[:general:glossary#rasci - supportive|Supportive]] | |
+| [[:general:glossary#rasci - consulted|Consulted]] | |
+| [[:general:glossary#rasci - informed|Informed]] | |
+   
+
+==== Process ====
+
 
 <ditaa>
 
-     +--------------+     +----------------+     +----------+   +----------+
-     |              |     |                |     |          |   |          |
----->| Write Tests  |---->| See tests fail |---->| Fix Test |-->| Refactor |
-     |              |     |                |     |          |   |          |
-     +--------------+     +----------------+     +----------+   +----------+
+    +--------------+    +----------------+    +----------+    +----------+
+    |              |    |                |    |          |    |          |
+--->| Write Tests  |--->| See tests fail |--->| Fix Test |--->| Refactor |
+    |              |    |                |    |          |    |          |
+    +--------------+    +----------------+    +----------+    +----------+
 
 </ditaa>
+
 
 

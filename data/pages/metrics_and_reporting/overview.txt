@@ -1,0 +1,61 @@
+
+===== Metrics and Reporting =====
+
+==== Description ====
+
+This area describes the various metrics we can get out of the ALM Processes and also describes various ways they can be represented (Reports, Lists, Notifications, etc)
+
+Higher maturity metrics are not available for lower maturity level processes. The [[:maturity:maturity_overview|"ALM Maturity Model"]] covers which practices are executed at which level and also gives guidance on how to execute them and to increase maturity.
+
+
+==== Maturity ====
+
+org = Organisation, eff = Efficiency
+Please read the information about the [[:organization_categories|Organisation Categories]] before proceeding as not all reporting might be applicable.
+
+^ Maturity ^ Metric ^   Applicable   ^^^
+^   ^^ Small Org. ^ Medium Org. ^ Large Org. ^
+| Extreme | | | | 
+| Advanced | | | | 
+| Intermediate | | | | 
+| Beginner | | | | 
+| Basic | [[:metrics and reporting:defects by cluster|Defects by Cluster]] | Yes | Yes | Yes | 
+| :::   | [[:metrics and reporting:test environment availability|Test Environment Availability]] | Yes | Yes | Yes |
+| :::   | [[:metrics and reporting:test environment stability|Test Environment Stability]] | Yes | Yes | Yes |
+| :::   | [[:metrics and reporting:test coverage of requirements|Test Coverage of Requirements]] | Yes | Yes | Yes |
+| :::   | [[:metrics and reporting:defect removal eff|Defect Removal Eff]] | Yes | Yes | Yes |
+| :::   | [[:metrics and reporting:average test spend per project|Average Test $/Project]] | Yes | Yes | Yes |
+| :::   | [[:metrics and reporting:defect age|Defect Age]] | Yes | Yes | Yes |
+| :::   | [[:metrics and reporting:defect resolution rate|Defect Resolution Rate]] | Yes | Yes | Yes |
+| :::   | [[:metrics and reporting:defect detection rate|Defect Detection Rate]] | Yes | Yes | Yes |
+| :::   | [[:metrics and reporting:percentage automation|% Automation]] | Yes | Yes | Yes |
+
+
+==== Not categorised (yet) ====
+
+  * Defects per Requirement
+  * Story Churn (Actual change)
+  * Story Churn (Story Clarification)
+  * Bug fix Churn (Failed to fix a bug)  note: Specifically in branched code base
+  * Number of regression bugs
+  * % Automation
+    * Unit Testing
+    * Automated Integration
+    * System Testing
+    * Automated UI
+  * Defects Executed / Day
+  * Test Size
+  * Average Time / Test Case
+  * Average Test-Dev ratio / project
+  * Mean Time Between Failure (MTBU) (Prod)
+  * Time Until Failure (TUF) (Time between deployment and first failure)
+  * Defect Removal Efficiency (sub metric: test vs prod)
+  * #tests finding defects
+  * Predicted # defect in production
+  * Average # tests / requirement/feature
+  * Root Cause Analysis
+
+
+
+
+

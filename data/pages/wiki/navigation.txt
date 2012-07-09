@@ -1,5 +1,6 @@
 **About ALM Stds Lib**
 [[:introduction|Introduction]] 
+[[:contribute|Contribute]]
 
 **Navigate by:**
 [[:process:alm_process|ALM Process]]
@@ -18,7 +19,6 @@
 **General**
 [[:general:frequently asked questions|FAQ]]
 [[:general:glossary|Glossary]]
-[[:general:research|Research]]
 
 **Admin**
 [[:wiki:admin|Admin pages]]
