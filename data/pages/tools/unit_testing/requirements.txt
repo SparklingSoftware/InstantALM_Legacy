@@ -24,6 +24,8 @@ Cat = Category, Dev = [[:roles:developer]]
 | DNUT009 | Simple | As a dev I want the unit testing framework to work with events. |
 | DNUT010 | General | As a dev I want the unit testing framework to allow me to debug the Component. |
 | DNUT011 | Reporting | As a dev I want the unit testing framework to be able to create/update/delete information in the test management tool so that it reflects the current status of the test results |
+| DNUT012 | Reporting | As a dev I want the unit testing framework to analyze the code coverage and allow reporting of it. |
+| DNUT013 | General | As a dev I want the unit testing framework to be lightning fast. |
 
 === Complex ===
 

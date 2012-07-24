@@ -1,0 +1,116 @@
+===== The Competitive Advantage of Continuous Delivery =====
+
+==== Introduction ====
+
+Technology has changed the way organisations are run and how companies do business. Nowhere is this more apparent than the success of lean start-ups that have in a short while outdone organizations that have been in existence for decades. 
+
+Amazon and eBay for instance have given traditional brick and mortar stores a run for their money. With nothing more than a website, FaceBook now has a captive audience of close to a billion users – such a feat would incredibly expensive for a traditional corporation. 
+
+To survive organizations ranging from international banks to farming equipment manufacturers have shifted their focus to the internet and software to realize that much needed competitive advantage. Software can be used for many things in a business. However, its purpose can be reduced to just two things – the enablement of your company’s vision and its role as a tool for soliciting feedback from existing customers and the public.
+
+But just procuring software is no longer enough. It matters that the technology is nimble, adaptable and easy to rapidly deploy. The quality of software depends on how quickly bugs can be detected and enhancements implemented, tested and applied to production environments.
+
+Traditionally, software releases and new versions have taken place every 6 or so months. In reality, many systems in use today may stay for close to 12-24 months before a new release is rolled out. The concept of Continuous Delivery (CD) is geared toward helping organizations and software project teams do something that many deemed impossible until now – that is, roll out a new release or improvement several times a month, week or day.
+
+Such speed provides a formidable competitive advantage drastically reducing the amount of time and resources wasted as your business waits for enhancements/improvements to the software. 
+
+In a nutshell, CD provides two key benefits each to the business and the IT side of the organization. 
+
+For the business,
+
+a.	You can validate the benefit and practicality of your business plan super fast as you continuously tailor it to real time feedback from end users or clients. In other words, if your plan is inherently flawed, wouldn’t you rather find out as early on as is practically possible instead of establishing such flaws months or years later when you have invested considerable amounts of cash in actualising the plan?
+
+b.	CD significantly reduces project and delivery costs. The conventional software development project runs over a long time with substantial time lapses and numerous changes between releases. As such, they have an air of unpredictability i.e. despite testing on simulated UAT environments, no one can really tell with certainty whether the system will actually work in a production environment or what bugs are likely to come up. 
+
+On the best of days, the transition to production may be smooth sailing with no significant hiccups. But when it goes bad, the cost of correction and rework can present a nightmare to any business.
+
+For the technology department,
+
+a.	IT teams and IT project managers have the benefit of obtaining feedback from the one source that is least likely to get feature and functionality tests wrong – the production environment. 
+
+b.	As releases are small, frequent and incremental, CD not only reduces the risk of each release, it also makes it easier to zero in on the source of a bug.
+
+
+==== Executing Continuous Delivery ====
+
+CD is a powerful tool for successful software release. But like every great process, its effectiveness is hinged on one thing – correct execution. CD execution is dependent on three things:
+
+  * Thorough configuration management
+  * Testing agility
+  * A seamless deployment pipeline
+
+Configuration management
+
+Five factors determine how successful configuration management can be achieved:
+
+a.	Automation of the software building, testing and deployment process. In layman terms, this implies placing testing scripts, deployment scripts, build scripts, migration scripts and source code in a secure and current version control repository.
+b.	Centralized, consistent and coherent configuration of application runtime and deploy time configuration.
+c.	The ability to create or deploy changes in configuration using a completely automated process.
+d.	Application development should start with small modules and develop incrementally incorporating larger and more sophisticated features. That way, the software will remain operational throughout and bugs can be detected early. Incomplete features can have a ‘disable’ toggle that makes them unavailable for end users until every module necessary for their successful operation is in place.
+e.	Cooperation between the different teams that are involved in the software delivery process. For this to happen, it helps if operations and end user teams are involved from the start of the project. Failure to do so is usually one of the main impediments to end user buy during change management. When involved early, operations units can provide invaluable insights during functional and non-functional testing.
+
+Testing agility
+
+The second component of successful CD execution is testing agility. Agility in this context has both organizational and technical components. From the technical viewpoint, tests must be automated at each stage i.e. unit, component, functional and non-functional testing. 
+
+In application development, it is crucial for system engineers and testers to have a high confidence level in the credibility of their testing process prior to production release. This is no different for CD. By the time each release makes it to the production environment, it must have satisfied the business requirements it was originally built for. 
+
+Testing agility is dependent on integrating quality into the continuous delivery process. It is no longer enough for testing to be just another phase in the application development process. Instead, testing must happen in some shape or form throughout the delivery process. Quality ceases to be the responsibility of QAs and testers and becomes something everyone in the team is a part of. 
+
+Testers collaborate with business process analysts to agree on acceptance criterion that’s practical and testable. Acceptance test-driven software development should be considered where testers work with developers to ensure that acceptance requirements are met as early on as possible and validated through automated testing. Developers must work with testers to ensure acceptance tests are either evergreen or tweaked accordingly when they are not. 
+
+Seamless Deployment Pipeline
+
+The deployment pipeline refers to the software delivery process beginning from check-in to eventual release. The pipeline is most effective if it is implemented via modelling tools such as Go from ThoughtWorks. Once the deployment pipeline is in place, any change you make to the software’s configuration must pass through it. 
+
+With the pipeline, a build is created, automated tests are run and the system is made available for installation in test and production environments. In a sense, the deployment pipeline is a continuation of the continuous integration that takes place during development – in other words, it extends the integration onto the test and operations phases.
+
+The modelling tool you use to manage your deployment pipeline eventually becomes a comprehensive record of all builds including data on build versions, the user that deployed the build to test or production environments, and what the results of deploying the build were. A good deployment pipeline is one that executes the CD workflow including enforcing authorization and authentication. 
+
+As such, the deployment pipeline modelling tool can serve as an efficient means of auditing the delivery and deployment process. The pipeline also makes it easy for one to identify bottlenecks and therefore formulate ways to better manage the CD process.
+
+==== Project Management through Continuous Delivery ====
+
+Because of how radically different CD is from traditional application development, it is perhaps no surprise that settling into the discipline will be a challenged for many teams of developers. Many practices of application development that you held onto for years will have to be done away with. It is not impossible to do though. 
+
+The successful implementation of CD can be realized through the integration of regular reflection and retrospection in the development process as well as a gradual transition from past development techniques to the CD approach. That ensures that any slippage into the old methodologies is identified and ‘whipped’ back into line. As the new methodology sinks into the psyche of all team members, the number of instances when this happens will reduce considerably.
+
+Regular reflection and retrospection
+
+Even when it relates to tackling the same problem in two different organisations, every software development project has a unique tone, narrative and rhythm. In the classic application development methodology, developers would usually report substantial progress from the start and up to some point close to the halfway mark of a project. 
+
+But it is often at this mid-point in the project that business analysts, operations staff and end users start to realize that the system does not work as it ought to.
+
+The result? 
+
+The project is thrown into ‘crisis mode’ where team members have to put in long hours and withstand substantial pressure from management to try and get the system to work. An unpleasant air hangs over the team and morale often takes a beating. While the ‘crisis mode’ may eventually deliver the desired results in ‘record time’, errors and inefficient code is inevitable. Unfortunately, ‘crisis mode’ has become the norm for many application development projects.
+
+In application development projects where CD is practiced and where build, test and deployment phases are fully automated, progress may appear slower at the beginning compared to the frequency of updates from older development methodologies. This is one of the main reasons first time CD adopters and project managers in particular will experience an initial unease. 
+
+Yet, this ‘silence’ at the project’s beginning is actually a sign that things are moving as they should. The impact of CD is to bring the slowest and most difficult parts of the project forward so that systematic, accurate and steady progress may be realised for the rest of the development life cycle. 
+
+But that is not the only thing you gain from CD.
+
+Continuous delivery implies that once the foundational steps are done, the system is always in a deployable state throughout the development process. This effectively eliminates the integration and testing stages that are usually at the end of software development projects. Project risk is therefore substantially reduced since these two stages often unearth major system flaws that require time and resources to correct (unlike CD where testing is continuous due to the frequency releases).
+
+Another advantage of CD is the faster rate of user and customer feedback. Incremental development and the continual releases automatically create an environment for appraisal and feedback on each new feature. That way, you can make the necessary adjustments fairly early on and ensure you have a practical, functioning and user-accepted system at all times.
+
+Success factors in incremental development
+
+For incremental development to work, you require the collaboration and commitment of analysts, developers and testers. The different teams will play a crucial role in breaking down system requirements into smaller, testable, functional and independent features. This process of breaking down requirements into bite-sized chunks is a powerful platform for separating the essential aspects of a given feature from the not-so-important. 
+
+That way, managers and the project team can further fine tune project scope. It is not unusual to discover during this feature drill-down that some features initially categorised as must-haves are in fact a collection of many non-essential features and a few real essentials. Project teams can thus focus time and energies on what is most important while leaving the non-essentials to later on. Alternatively, the business may simply opt to completely do away with the non-essential modules.
+
+Another key success factor for incremental development is a commitment by the entire team to push at least one release to test or production environment per day. This may appear impractical at the beginning but once the team gets the hang of it, such regularity ensures continuous integration. 
+
+To make such release frequency easier to realize, the components of the application must be built with minimal coupling between components. In large development teams, it should also be possible for one to disable features that are still work-in-progress until the developers responsible for that feature are done with it. 
+
+===== Are you doing CD? ====
+
+Can you tell if you are really doing CD? The answer is yes. And the reason is fairly straightforward – if you are doing CD, your system will always be ready for the production environment. On the other hand, if your releases are rare, chaotic and/or poorly integrated with earlier releases, then you are not doing CD. 
+
+In fact, the single most important measurement in CD is release cycle time – the time between when you determine a certain feature will be in the system to when it is made available to users in a release. The tools used to model the deployment pipeline can provide a good measure of this cycle time. 
+
+It is only when you have a good grasp of the average cycle times that you can start to identify inefficiencies and continuously improve the process. This in turn lowers the cost of application development while delivering higher quality software.	  
+
+
