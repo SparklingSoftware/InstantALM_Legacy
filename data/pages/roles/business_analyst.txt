@@ -1,0 +1,18 @@
+===== Business Analyst =====
+
+** Description: **
+a person in a team who will deal with customers and specify the direction to the software roject. This person should analyze the requirements, work out the project strategy, write documentation and lead the project to the successful completion.  He should posses technical, managerial and creative skills
+
+^ Processes where this role is involved in ^
+| todo  |
+| todo  |
+
+^ Job-aids ^
+| todo |
+| todo |
+
+^ Tools used ^
+| [[:tools:bpm|Business Process Modelling]] |
+
+
+

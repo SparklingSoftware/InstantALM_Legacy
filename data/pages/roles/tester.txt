@@ -1,0 +1,28 @@
+
+
+
+
+
+ <spii_meta>
+    <title>Installation overview</title>
+    <hierarchy view="roles" parent="roles:alm_roles_overview" />
+ </spii_meta>
+
+
+===== Tester =====
+
+** Description: **
+A person who will test the software during the course of software development. He should be familiar with various techniques and methods of software testing (black box testing, smoke testing, etc) and should very patient.
+
+
+^ Processes where this role is involved in ^
+| todo  |
+| todo  |
+
+^ Job-aids ^
+| todo |
+| todo |
+
+^ Tools used ^
+| [[:tools:test management|Test Management System]] |
+

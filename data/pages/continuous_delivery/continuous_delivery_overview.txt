@@ -10,10 +10,21 @@
 
 ===== Continuous Delivery Overview =====
 
-<< Explain generic pattern >>
+Continuous delivery is a software development strategy that optimizes your delivery process to get high-quality, valuable software delivered as quickly as possible. This approach allows you to validate your business hypothesis fast and then rapidly iterate by testing new ideas on users. Although Continuous Delivery focuses on engineering practices, the concept of continuous delivery has implications for the whole product-delivery process, including the “fuzzy front end” and the design and analysis of features.
 
+Read on:
   * [[:continuous delivery:competitive advantage|Competitive Advantage of Continuous Delivery]]
   * [[:continuous delivery:processes|Processes and requirements (History, ITIL practices, Security)]]
   * [[:continuous delivery:tools|Tools used to satisfy requirements]]
   * [[:continuous delivery:metrics and reporting|Metrics and reporting]]
+
+==== High-Level Continuous Delivery Pattern: ====
+
+This generic pattern has been created by the good people of National Australia Bank and we are very thankful to be able to use it.
+{{map>:continuous_delivery:cd_pattern.jpg?800|High Level Continuous Delivery Pattern}}
+
+  * [[:job_aids:artefacts:alm000001|Coding Guidelines @ 51,86,105,92]]
+
+{{<map}}
+
 

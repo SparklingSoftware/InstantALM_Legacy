@@ -4,4 +4,36 @@
 ===== Metric: Defects by Cluster =====
 
 
+** Description: **
+This metric reports on the quality distribution across features of the software product.
+
+** Benefits: **
+
+[[:todo|todo]]
+
+** Disadvantages and Risks of not doing it: **					
+
+[[:todo|todo]]
+
+^ Inputs: ^ Measured by: ^
+| Cluster | This is coming from the Project Plan, where all the stories are grouped into Features. In progress tracking tools, these features are often called "Epics". Other clustering can also be applied, which should also be specified in the project planning tool so that Project Management can use the report in their stakeholder management activities |
+| Defects | The defects are gathered in the Test Management tool. To enable this reporting, the feature (and/or cluster) needs to be specified while creating the defect. Automated testing should set this information as well. The data can be gathered from non-prod and/or from prod, depending on what the user wants to know about. |
+
+==== Example Report ====
+
+** Data: **
+
+^ Features:              ^ Sev1 ^ Sev2 ^ Sev3 ^ Sev4 ^
+| Admin Screens          |  1   |   0  |   30 |   60 |
+| Authentication         |  4   |   1  |    0 |    0 |
+| Facebook Integration   |  5   |   1  |  110 |   90 |
+| Linked-in Integration  |  7   |   2  |   70 |  120 |
+| Reporting              |  1   |   4  |   30 |   12 |
+| Import/export          |  0   |   0  |    4 |    7 |
+
+** Chart: **
+
+{{:metrics:defects_per_cluster_chart.png?600|}}
+
+
 

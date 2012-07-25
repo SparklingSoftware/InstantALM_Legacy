@@ -7,15 +7,19 @@
 
 ===== Developer =====
 
+** Description: **
+A person in a team who will control the projects performed by your software development team. He will follow the execution of the software project, control time and budget. He should be organized himself and have excellent organizational skills. He is responsible for the software team’s activity, and project accounting.
+
+
 ^ Processes where this role is involved in ^
 | todo  |
 | todo  |
 
 ^ Job-aids ^
 | SCM Policies |
-| [[:job_aids:artefacts:alm000001|.NET Coding Guidelines]] |
+| [[:job_aids:artefacts:alm000001|Coding Guidelines]] |
 
 ^ Tools used ^
-| Source Control Management |
+| [[:tools:vcs|Version Control System]] |
 
 

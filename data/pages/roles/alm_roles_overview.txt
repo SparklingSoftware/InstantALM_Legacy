@@ -19,9 +19,9 @@ It also ignores methodologies. Agile methodologies tend to encourage cross-compe
   * Financial sponsor
   * Subject Matter Expert (SME)
 
-==== Business Analists ====
+==== Business Analysis ====
 
-  * Process Analist
+  * [[roles:business analyst|Business Analist]]
   * << TODO >>
 
 ==== Project Management ====
@@ -42,14 +42,14 @@ It also ignores methodologies. Agile methodologies tend to encourage cross-compe
 ==== Implementation ====
 
   * Technical Project Lead
-  * [[roles:developer|Developer]]
+  * [[:roles:developer|Developer]]
   * Security Administrator
 
 ==== Test ====
 
   * Test Manager
   * Test Lead
-  * Tester
+  * [[:roles:tester|Tester]]
 
 ==== Deployment ====
   
