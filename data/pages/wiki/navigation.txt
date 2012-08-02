@@ -17,7 +17,7 @@
 [[:risk assessments|Risk Assessments]]
 
 **Alphabetical**
-[[:job_aids:decissions|Decissions]]
+[[:job_aids:decisions|Decisions]]
 [[:job_aids:Artefacts|Artefacts]]
 
 **General**
