@@ -1,18 +1,36 @@
-===== Business Analyst =====
+
+<spii_meta>
+   <title>Business Analyst</title>
+   <hierarchy view="roles" parent="roles:alm_roles_overview" />
+</spii_meta>
+
+===== <<Name>> =====
 
 ** Description: **
-a person in a team who will deal with customers and specify the direction to the software roject. This person should analyze the requirements, work out the project strategy, write documentation and lead the project to the successful completion.  He should posses technical, managerial and creative skills
+
+<<Description>>
 
 ^ Processes where this role is involved in ^
-| todo  |
-| todo  |
+| [[:process:todo:todo| Todo -> Todo]]  |
+| [[:process:todo:todo| Todo -> Todo]]  |
+| [[:process:todo:todo| Todo -> Todo]]  |
 
 ^ Job-aids ^
-| todo |
-| todo |
+| [[:todo|todo]] |
+| [[:todo|todo]] |
 
 ^ Tools used ^
-| [[:tools:bpm|Business Process Modelling]] |
+| [[:todo|todo]] |
 
-
+^ Maturity     ^ Practices ^
+| Extreme      |           |
+| :::          |           |
+| Advanced     |           |
+| :::          |           |
+| Intermediate |           |
+| :::          |           |
+| Beginner     |           |
+| :::          |           |
+| Base         |           |
+| :::          |           |
 

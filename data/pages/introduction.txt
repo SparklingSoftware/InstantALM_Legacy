@@ -1,7 +1,14 @@
 
-====== About the ALM Job-aid Database ======
+====== About the ALM Library ======
 
-The "Application Lifecyle Management Job aids" contains standards and practices agreed by the ALM-Community [(www.alm-community.org)]
+The "Application Lifecyle Management Library" contains Job-aids, standards and practices agreed by the ALM-Community [(www.alm-community.org)]
+
+The difference between this Library and others is that:
+  * The content is 100% community driven and only contains content that your peers consider useful. The rest simply doesn't make it in there or gets removed.
+  * You can download an instance of the library and easily customise it for you own context.
+  * Following proper open-source practices, you can still receive updates from the global community for the sections that haven't been customised. For the sections that have been, there are plenty of merge tools to help you to keep your organisation up to date with the industry.
+  * Focussed on removing re-invention of wheels: Investigating things properly and providing all the information to prevent other re-doing the same work. (Unless they disagree of course! In that case the community is more than happy to have the debate! See [[:contribute|Contribute]] for more information.)
+Please read the [[:download|Download an instance]] section for more information about how to join this global movement.
 
 While reading, you will find that not all content is applicable to you. However, all content specifies what [[:organization categories|organization categories]] tend to implement that particular practice.
 
@@ -14,7 +21,7 @@ There are multiple views on the same content, so depending on what your after yo
   * [[:methods:methods_overview|Look at methods and how they fit into ALM]].
   * [[:maturity:maturity_overview|Find the next logical step to move up in maturity]]
   * [[:continuous_delivery:continuous_delivery_overview|How "Continuous Delivery" can boost your quality and productivity]].
-  * Just browse the list of job aids by [[:job_aids:artefacts|artefacts]] or [[:job_aids:decissions|Decissions]].
+  * Just browse the list of job aids by [[:job_aids:artefacts|artefacts]] or [[:job_aids:decisions|Decisions]].
   * [[:tools:overview|Tools used in ALM]]
 
 

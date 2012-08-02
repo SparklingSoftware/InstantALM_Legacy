@@ -1,6 +1,7 @@
 **About ALM Stds Lib**
 [[:introduction|Introduction]] 
 [[:contribute|Contribute]]
+[[:download|Download an Instance]]
 
 **Navigate by:**
 [[:process:alm_process|ALM Process]]
@@ -11,6 +12,9 @@
 [[:continuous_delivery:continuous_delivery_overview|Continuous Delivery]]
 [[:tools:overview|Tools]]
 [[:metrics and reporting:Overview|Metrics and Reporting]]
+
+**Assessments:**
+[[:risk assessments|Risk Assessments]]
 
 **Alphabetical**
 [[:job_aids:decissions|Decissions]]

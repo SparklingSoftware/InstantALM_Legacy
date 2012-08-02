@@ -10,6 +10,14 @@
 
 ===== Introduction to Agile =====
 
+Agile Manifesto:
+  * **Individuals and interactions** over documents and process
+  * **Working software** over comprehensive documentation
+  * **Customer Collaboration** over contract negotiation
+  * **Responding to change** over following a plan
 
+==== Posters ====
+[[:methods:agile:standup poster|Generic Standup Poster]]
+[[:methods:agile:retrospective poster|Generic Retrospective Poster]]
 
 

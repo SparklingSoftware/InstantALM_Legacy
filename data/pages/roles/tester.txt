@@ -1,12 +1,7 @@
-
-
-
-
-
- <spii_meta>
-    <title>Installation overview</title>
-    <hierarchy view="roles" parent="roles:alm_roles_overview" />
- </spii_meta>
+<spii_meta>
+  <title>Tester</title>
+  <hierarchy view="roles" parent="roles:alm_roles_overview" />
+</spii_meta>
 
 
 ===== Tester =====
@@ -25,4 +20,16 @@ A person who will test the software during the course of software development. H
 
 ^ Tools used ^
 | [[:tools:test management|Test Management System]] |
+
+^ Maturity     ^ Practices ^
+| Extreme      |           |
+| :::          |           |
+| Advanced     |           |
+| :::          |           |
+| Intermediate |           |
+| :::          |           |
+| Beginner     |           |
+| :::          |           |
+| Base         | Assign features while raising defects         |
+| :::          | Use Test Management tool to manage test cases |
 

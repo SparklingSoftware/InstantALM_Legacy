@@ -1,0 +1,39 @@
+
+===== Metric: Test Coverage of Requirements =====
+
+** Description: **
+This metric shows the risk profile during testing. Not all requirements have to be tested with every release, which saves effort and therefore money. However, there is always a risk that changes did unexpectedly impact the untested areas. This metric specifies the risk taken. 
+
+It can be a single number to specify the average risk across the release and it can be combined with feature information to specify the risk per feature. This is typically presented in drill-down UI interactions.
+
+** Benefits: **
+
+[[:todo|todo]]
+
+** Disadvantages and Risks of not doing it: **					
+
+[[:todo|todo]]
+
+^ Inputs: ^ Measured by: ^
+| Number of Requirements | The number of requirements are collected from the requirement management tool. |
+| Number of Requirements tested | The number of test cases executed for this release are collected from the test management tool per feature. |
+| Number of Requirements per feature (Optional) | The number of requirements are collected from the requirement management tool. The requirements have to be mapped to features to provide more detailed information |
+| Number of Requirements tested per feature (Optional) | The number of test cases executed for this release are collected from the test management tool per feature.|
+
+==== Example Report ====
+
+** Data: **
+
+[[:todo|todo]]
+
+
+^ Features:              ^ Requirements ^ Test Cases Executed ^ Coverage ^ Not Covered ^
+| Admin Screens          |  400         |   300               |   75     |   25        |
+| Authentication         |   40         |    40               |  100     |    0        |
+| Facebook Integration   |  100         |    50               |   50     |   50        |
+| Linked-in Integration  |   90         |    30               |   33     |   67        |
+| Reporting              |   40         |    35               |   88     |   12        |
+| Import/export          |  200         |   100               |   50     |   50        |
+
+** Chart: **
+

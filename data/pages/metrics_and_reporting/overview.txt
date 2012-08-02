@@ -20,8 +20,8 @@ Please read the information about the [[:organization_categories|Organisation Ca
 | Intermediate | | | | 
 | Beginner | | | | 
 | Basic | [[:metrics and reporting:defects by cluster|Defects by Cluster]] | Yes | Yes | Yes | 
-| :::   | [[:metrics and reporting:test environment availability|Test Environment Availability]] | Yes | Yes | Yes |
-| :::   | [[:metrics and reporting:test environment stability|Test Environment Stability]] | Yes | Yes | Yes |
+| :::   | [[:metrics and reporting:test environment unavailability|Test Environment Unavailability]] | Yes | Yes | Yes |
+| :::   | [[:metrics and reporting:test environment instability|Test Environment Instability]] | Yes | Yes | Yes |
 | :::   | [[:metrics and reporting:test coverage of requirements|Test Coverage of Requirements]] | Yes | Yes | Yes |
 | :::   | [[:metrics and reporting:defect removal eff|Defect Removal Eff]] | Yes | Yes | Yes |
 | :::   | [[:metrics and reporting:average test spend per project|Average Test $/Project]] | Yes | Yes | Yes |
@@ -56,6 +56,7 @@ Please read the information about the [[:organization_categories|Organisation Ca
   * Root Cause Analysis
 
 
+**Downloads**
 
-
+{{filelist>data/downloads/metrics and reporting/*&direct=1}}
 

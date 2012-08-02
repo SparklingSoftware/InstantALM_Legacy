@@ -1,0 +1,28 @@
+
+===== Metric: Test Environment In availability =====
+
+
+** Description: **
+This metric reports on the amount of times the .....
+
+** Benefits: **
+
+[[:todo|todo]]
+
+** Disadvantages and Risks of not doing it: **					
+
+[[:todo|todo]]
+
+^ Inputs: ^ Measured by: ^
+| [[:todo|todo]] | [[:todo|todo]]
+| [[:todo|todo]] | [[:todo|todo]]
+
+==== Example Report ====
+
+** Data: **
+
+| [[:todo|todo]] | [[:todo|todo]]
+
+** Chart: **
+
+| [[:todo|todo]] | [[:todo|todo]]

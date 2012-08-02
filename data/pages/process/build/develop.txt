@@ -23,16 +23,8 @@ The purpose of developing software is to implement the requirements according to
 
 ==== Process ====
 
+{{:process:build:build_and_test.jpg?1000|}}
 
-<ditaa>
-
-    +--------------+    +----------------+    +----------+    +----------+
-    |              |    |                |    |          |    |          |
---->| Write Tests  |--->| See tests fail |--->| Fix Test |--->| Refactor |
-    |              |    |                |    |          |    |          |
-    +--------------+    +----------------+    +----------+    +----------+
-
-</ditaa>
 
 
 

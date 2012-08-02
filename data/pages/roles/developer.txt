@@ -1,8 +1,8 @@
 
- <spii_meta>
-    <title>Installation overview</title>
-    <hierarchy view="roles" parent="roles:alm_roles_overview" />
- </spii_meta>
+<spii_meta>
+   <title>Installation overview</title>
+   <hierarchy view="roles" parent="roles:alm_roles_overview" />
+</spii_meta>
 
 
 ===== Developer =====
@@ -12,7 +12,7 @@ A person in a team who will control the projects performed by your software deve
 
 
 ^ Processes where this role is involved in ^
-| todo  |
+| [[:process:build:develop| Build -> Develop Software]]  |
 | todo  |
 
 ^ Job-aids ^
@@ -23,3 +23,14 @@ A person in a team who will control the projects performed by your software deve
 | [[:tools:vcs|Version Control System]] |
 
 
+^ Maturity     ^ Practices ^
+| Extreme      |           |
+| :::          |           |
+| Advanced     |           |
+| :::          |           |
+| Intermediate |           |
+| :::          |           |
+| Beginner     |           |
+| :::          |           |
+| Base         | Use Coding Guidelines       |
+| :::          | Perform formal code reviews |

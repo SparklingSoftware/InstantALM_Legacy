@@ -29,6 +29,12 @@ Convincing management of the importance of  implementing coding standards is one
 
   * There is a big risk that formal code reviews are impossible and there is certainly an efficiency loss when doing formal code reviews without agreed coding standards. You can find the pro's and con's of [[:todo|formal code reviews]] in that [[:todo|standard]].
 
+
+==== Effort ====
+
+[[ todo | todo ]]
+
+
 ==== .NET Coding Guidelines ====
 
 {{filelist>data/downloads/ALM000001/dotnet/*&direct=1}}

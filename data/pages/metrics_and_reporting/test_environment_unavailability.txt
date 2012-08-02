@@ -1,0 +1,30 @@
+
+===== Metric: Test Environment unvailability =====
+
+** Description: **
+This metric reports on the amount of times the test environments are unavailable while needed.
+
+** Benefits: **
+
+[[:todo|todo]]
+
+** Disadvantages and Risks of not doing it: **					
+
+[[:todo|todo]]
+
+^ Inputs: ^ Measured by: ^
+| Unavailability | In low maturity organisations this is mainly a manual process to capture the data. The person who needs to perform the testing has to record it when it happens and when they notice it isn't available. For the higher maturity organisations, this metric could be recorded by running a short scripts that tests the availability. |
+
+==== Example Report ====
+
+** Data: **
+
+^ Environment:           ^ Jan  ^ Feb  ^ March ^ April ^
+| SIT_12                 |  60  |  50  |   52  |   34 |
+| SIT_14                 |   8  |   5  |    7  |   14 |
+| SIT_16                 |   6  |   9  |    7  |    8 |
+| STG_21                 |  20  |  21  |   22  |   19 |
+| STG_25                 |  20  |  21  |   22  |   19 |
+
+** Chart: **
+
