@@ -1,10 +1,74 @@
 ===== Download and Customise your own ALM Library Instance =====
 
+This ALM Library is a combination of (free) open source tools and commercially available software. The library will function exactly the same with or without the commercial plugins, they do however add to the useability of the system. the section [[:download#commercial plugins|Commercial Plugins]] explains more about the differences in user experience.
+
+Before you get started is a good idea to have a look at the System Requirements for hosting an ALM Library an plan accordingly.
+
+| Generic:                 | Webserver like IIS or Apache  |
+| :::                      | PHP Enabled                   |
+| < 5 concurrent users     | ? CPU, ? GB Ram               |
+| < 10 concurrent users    | ? CPU, ? GB Ram               |
+| < 50 concurrent users    | ? CPU, ? GB Ram               |
+| < 100 concurrent users   | ? CPU, ? GB Ram               |
+| < 1000 concurrent users  | ? CPU, ? GB Ram               |
 
 
-The library is developer with DokuWiki.
+Please also following normal change processes (drinking your own champagne) and think about things like:
+todo:
+  * Create Implementation plan
+    * Determine BAU Requirements like support teams, disaster recovery.
+    * Create a capacity plan
+  * Raise change request according internal procedures.
 
+==== Installing an on-Premise ALM Library ====
 
-The content can be downloaded here.
+Getting you own on-premise instance of this ALM Library can achieved by following the steps below:
 
+=== 1. Setup your web server ===
+
+todo:
+  * Apache or IIS instructions
+  * Proxies
+  * DNS entries / host headers
+
+=== 2. Download and Install DokuWiki ===
+
+todo:
+  * www.dokuwiki.org
+  * Unzip to webserver
+
+=== 3. Configure dokuwiki ===
+
+todo:
+  * Install the following plugins
+
+=== 4. Install GIT ===
+
+todo:
+  * download git
+  * configure git
+
+=== 5. Download the latest ALM Library content ===
+
+todo:
+  * What git command to run from what location
+
+=== 6. Test the entire system ===
+
+^ Id ^ Test Case          ^ Instructions ^
+|  1 | Open Dokuwiki      | Go to the URL end see whether DokuWiki loads |
+|  2 | todo               | todo |
+|  3 | todo               | todo |
+|  4 | todo               | todo |
+
+=== 7. Update Documentation and Asset Records ===
+
+todo:
+  * Infrastructure Documents
+  * CMDB
+
+==== 8. User Training and Guides ====
+
+todo:
+  * Create User Guides
 
