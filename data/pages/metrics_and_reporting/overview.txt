@@ -24,7 +24,7 @@ Please read the information about the [[:organization_categories|Organisation Ca
 | :::   | [[:metrics and reporting:test environment instability|Test Environment Instability]] | Yes | Yes | Yes |
 | :::   | [[:metrics and reporting:test coverage of requirements|Test Coverage of Requirements]] | Yes | Yes | Yes |
 | :::   | [[:metrics and reporting:defect removal eff|Defect Removal Eff]] | Yes | Yes | Yes |
-| :::   | [[:metrics and reporting:average test spend per project|Average Test $/Project]] | Yes | Yes | Yes |
+| :::   | [[:metrics and reporting:average $ spend per project per role|Average Role $/Project]] | Yes | Yes | Yes |
 | :::   | [[:metrics and reporting:defect age|Defect Age]] | Yes | Yes | Yes |
 | :::   | [[:metrics and reporting:defect resolution rate|Defect Resolution Rate]] | Yes | Yes | Yes |
 | :::   | [[:metrics and reporting:defect detection rate|Defect Detection Rate]] | Yes | Yes | Yes |

@@ -1,0 +1,37 @@
+===== Metric: Average Spend per Project per Role =====
+
+** Description: **
+
+This metric is a very rough indication on historic efforts per project for each role.
+
+Effort classification: Low
+
+** Benefits: **
+
+Historic spend can be used as input for estimating the funding requirements for future projects.
+
+** Disadvantages and Risks of not doing it: **					
+
+If there are other metrics that are more accurately presenting the effort spend in previous projects, then it's obviously a good idea to use those in stead. However, in some cases, this metric is the best you are going to get.
+
+Without this information (via this metric of otherwise) estimating is much harder as it cannot be validated against previous experiences.
+
+^ Inputs: ^ Measured by: ^
+| Spend per Project per Role | This information is usually gathered from the financial systems and/or from the Project Management timekeeping where available. |
+
+==== Example Report ====
+
+** Data: **
+
+^ Project: ^ Size: ^ Test (K$)  ^ Dev. (K$) ^ BA (K$) ^ PM (K$) ^
+| Jupiter  |    S  |   12       |    22     |   23    |     4   |
+| Mars     |    M  |   49       |    43     |    8    |    11   |
+| Orion    |  XXL  |  429       |   625     |  290    |   105   |
+| Uranus   |    L  |  123       |   137     |    6    |    26   |
+| Pluto    |   XS  |    5       |     5     |    5    |    12   |
+| Venus    |   XL  |  114       |   106     |    4    |    12   |
+
+** Chart: **
+
+[[:todo|todo]]
+
