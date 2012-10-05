@@ -1,0 +1,31 @@
+
+===== Write Code =====
+
+==== Description ====
+
+The purpose of "Writing Code" is to implement the requirements according to the [[:general:glossary#acceptance criteria|Acceptance Criteria]] for a particular feature. 
+
+==== Input / Outputs ====
+
+^ Inputs: ^   Outputs: ^
+| Requirements     |      Updated Sources Checked into Source Control |
+| Architecture Documentation | |
+
+^ RASCI ^ Role ^
+| [[:general:glossary#rasci - responsible|Responsible]] | [[:roles:developer|Developer]] |
+| [[:general:glossary#rasci - accountable|Accountable]] | |
+| [[:general:glossary#rasci - supportive|Supportive]] | |
+| [[:general:glossary#rasci - consulted|Consulted]] | |
+| [[:general:glossary#rasci - informed|Informed]] | |
+
+==== Process ====
+
+<rigrr>
+
+<Definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" targetNamespace="http://rapilabs.com/definitions/20120204"><Collaboration id="2"><Participant id="4" name="Development Team" processRef="3"/></Collaboration><Process id="3"><LaneSet id="5"><Lane id="6" name="Testing"/><Lane id="7" name="Developing"><FlowNodeRef>9</FlowNodeRef><FlowNodeRef>13</FlowNodeRef><FlowNodeRef>15</FlowNodeRef><FlowNodeRef>17</FlowNodeRef></Lane><Lane id="8" name="Requirements"/></LaneSet><StartEvent id="9" name="Start New Feature"/><Task id="11" name="Story KickOff"/><Task id="13" name="Investigate Reuse"/><Task id="15" name="Write Tests"/><Task id="17" name="Implement Feature"/><SequenceFlow id="16" sourceRef="15" targetRef="17"/><SequenceFlow id="14" sourceRef="13" targetRef="15"/><SequenceFlow id="12" sourceRef="11" targetRef="13"/><SequenceFlow id="10" sourceRef="9" targetRef="11"/></Process><bpmndi:BPMNDiagram id="rigrr.rapilabs.com"><bpmndi:BPMNPlane bpmnElement="2"><bpmndi:BPMNShape bpmnElement="4"><dc:Bounds x="30" y="27" width="1000" height="778"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="6"><dc:Bounds x="80" y="27" width="950" height="178"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="7"><dc:Bounds x="80" y="205" width="950" height="300"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="8"><dc:Bounds x="80" y="505" width="950" height="300"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="9"><dc:Bounds x="182" y="323" width="40" height="40"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="11"><dc:Bounds x="272" y="83" width="100" height="646"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="13"><dc:Bounds x="419" y="319" width="137" height="96"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="15"><dc:Bounds x="606" y="327" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="17"><dc:Bounds x="757" y="327" width="129" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="16"><di:Waypoint x="706" y="367"/><di:Waypoint x="757" y="367"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="14"><di:Waypoint x="556" y="367"/><di:Waypoint x="606" y="367"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="12"><di:Waypoint x="372" y="406"/><di:Waypoint x="419" y="367"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="10"><di:Waypoint x="222" y="343"/><di:Waypoint x="272" y="406"/></bpmndi:BPMNEdge></bpmndi:BPMNPlane></bpmndi:BPMNDiagram></Definitions>
+
+</rigrr>
+
+
+{{:process:build:build_and_test.jpg?1000|}}
+
