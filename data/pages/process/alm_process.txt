@@ -1,30 +1,14 @@
 
-
-~~NOCACHE~~
-
 <nodisp>
-
-
-
-   <spii_meta>
-
+   <pii_meta>
       <title>Application Lifecycle Management</title>
-
       <hierarchy view="ALM Process" parent="" />
-
       <hierarchy view="Alphabetical" parent="A" order="ASC" />
-
-   </spii_meta>
-
-
-
+   </pii_meta>
 </nodisp>
 
 
-
 ===== Application Lifecycle Management Process (ALM Process) =====
-
-
 
 The following process map describes the ALM Process from a very high level:
 
@@ -38,31 +22,5 @@ The following process map describes the ALM Process from a very high level:
   * [[:process:alm_process:retirement|Retirement @ 421,201,477,232]]
 
 {{<map}}
-
-
-Links: (Remove)
-
-  * [[:process:alm_process:business_case|Business Case]]
-
-  * [[:process:alm_process:requirements_gathering|Requirements Gathering]]
-
-  * [[:process:alm_process:design|Design]]
-
-  * [[:process:alm_process:evaluate|Evaluate]]
-
-  * [[:process:alm_process:procurement|Procurement]]
-
-  * [[:process:alm_process:build|Build]]
-
-  * [[:process:alm_process:deployment|Deployment]]
-
-  * [[:process:alm_process:operations|Operations]]
-
-  * [[:process:alm_process:optimisation|Optimisation]]
-
-  * [[:process:alm_process:retirement|Retirement]]
-
-
-
 
 
