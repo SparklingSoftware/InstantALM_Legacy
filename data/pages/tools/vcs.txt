@@ -1,12 +1,4 @@
 
-<nodisp>
-
-   <pii_meta>
-      <title>Version Control System (VCS)</title>
-      <hierarchy view="Tools" parent=":tools:overview" />
-   </pii_meta>
-
-</nodisp>
 
 ===== Version Control System (VCS) =====
 

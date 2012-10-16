@@ -1,13 +1,4 @@
 
-~~NOCACHE~~
-<nodisp>
-
-   <pii_meta>
-      <title>Tools evaluations overview</title>
-      <hierarchy view="Tools" parent="" />
-   </pii_meta>
-
-</nodisp>
 
 ===== Tools in the ALM and beyond... =====
 
