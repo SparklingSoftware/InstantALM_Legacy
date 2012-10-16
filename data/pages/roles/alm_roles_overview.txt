@@ -1,11 +1,4 @@
 
-<nodisp>
-
-   <spii_meta>
-      <title>Installation overview</title>
-      <hierarchy view="roles" parent="" />
-   </spii_meta>
-</nodisp>
 
 ===== Roles in the Application Lifecycle Management (ALM) =====
 

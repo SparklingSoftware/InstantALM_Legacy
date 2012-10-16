@@ -1,12 +1,4 @@
 
-<nodisp>
-
-<spii_meta>
-   <title>Overview</title>
-   <hierarchy view="Frameworks and BOKs" parent=”” />
-</spii_meta> 
-
-</nodisp>
 
 ===== Frameworks and BOKs =====
 

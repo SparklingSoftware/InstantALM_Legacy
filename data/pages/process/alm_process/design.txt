@@ -1,13 +1,4 @@
 
-~~NOCACHE~~
-<nodisp>
-
-   <spii_meta>
-      <title>Design The Solution</title>
-      <hierarchy view="ALM Process" parent="" />
-   </spii_meta>
-
-</nodisp>
 
 ===== Design the solution =====
 

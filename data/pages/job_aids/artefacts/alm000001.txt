@@ -1,13 +1,5 @@
 
-<nodisp>
 
-   <spii_meta> 
-      <revision_days>Live</revision_days>
-      <status>Live</status>
-      <hierarchy view=“Artefacts” parent='C' />
-   </spii_meta> 
-
-</nodisp>
 
 ===== ALM000001 - Coding Guidelines =====
 

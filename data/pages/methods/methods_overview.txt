@@ -1,14 +1,5 @@
 
 
-~~NOCACHE~~
-<nodisp>
-
-   <spii_meta>
-      <title>Methods Overview</title>
-      <hierarchy view="Methods" parent="" />
-   </spii_meta>
-
-</nodisp> 
 
 ===== Methods overview =====
 

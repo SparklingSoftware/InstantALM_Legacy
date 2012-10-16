@@ -1,7 +1,3 @@
-<spii_meta>
-  <title>Tester</title>
-  <hierarchy view="roles" parent="roles:alm_roles_overview" />
-</spii_meta>
 
 
 ===== Tester =====

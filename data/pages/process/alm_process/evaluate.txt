@@ -1,12 +1,3 @@
 
-~~NOCACHE~~
-<nodisp>
-
-   <spii_meta>
-      <title>Evaluate Available Vendor Products</title>
-      <hierarchy view="ALM Process" parent="" />
-   </spii_meta>
-
-</nodisp>
 
 ===== Evaluate Available Vendor Products =====

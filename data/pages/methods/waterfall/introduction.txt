@@ -1,12 +1,3 @@
-~~NOCACHE~~
-<nodisp>
-
-   <spii_meta>
-      <title>Introduction to Waterfall</title>
-      <hierarchy view="Methods" parent="" />
-   </spii_meta>
-
-</nodisp>
 
 ===== Introduction to Waterfall =====
 

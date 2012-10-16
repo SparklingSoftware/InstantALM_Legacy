@@ -1,12 +1,4 @@
 
-<nodisp>
-
-   <spii_meta>
-      <title>Operations process</title>
-      <hierarchy view="ALM Process" parent="process:alm_process" />
-   </spii_meta>
-
-</nodisp>
 
 ===== Operations process =====
 

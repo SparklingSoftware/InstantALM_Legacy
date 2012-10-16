@@ -1,12 +1,4 @@
 
-~~NOCACHE~~
-
-<nodisp>
-   <spii_meta>
-      <title>VCS Advice</title>
-      <hierarchy view="Tools" parent=":tools:vcs" />
-   </spii_meta>
-</nodisp>
 
 
 ===== Version Control System (VCS) Advice=====

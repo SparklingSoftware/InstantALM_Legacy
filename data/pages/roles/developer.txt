@@ -1,8 +1,4 @@
 
-<spii_meta>
-   <title>Installation overview</title>
-   <hierarchy view="roles" parent="roles:alm_roles_overview" />
-</spii_meta>
 
 
 ===== Developer =====
