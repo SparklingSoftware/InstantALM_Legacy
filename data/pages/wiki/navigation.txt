@@ -1,5 +1,5 @@
 **About ALM Stds Lib**
-[[:introduction|Introduction]] 
+[[:start|Introduction]] 
 [[:contribute|Contribute]]
 [[:download|Download an Instance]]
 
@@ -26,3 +26,4 @@
 
 **Admin**
 [[:wiki:admin|Admin pages]]
+

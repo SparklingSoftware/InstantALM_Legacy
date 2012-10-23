@@ -1,0 +1,51 @@
+===== Metric: Defect Detection Percentage =====
+
+** Description: **
+
+Defect Detection Percentage (DDP) is the number of defects found during testing, divided by the total number of defects found after testing, i.e. the total number of knows defects.
+
+DDP = defects found by testing / total known defects
+
+After the release the DDP can only decline as the percentage goes down with every defect found in production.
+
+Effort classification: Medium
+
+This is a LEAD indicator
+
+** Benefits: **
+
+Historical DDP can be used for future predictions about the real quality based on the current findings.
+
+** Disadvantages and Risks of not doing it: **					
+
+This metric is an indicator for risk appetite. By having an estimate of the number of defects left in the system, stakeholders can make a decision to proceed or to postpone the release to allow for more testing. It mitigates the risks of testing too little (or too much for that matter!).
+
+^ Inputs: ^ Measured by: ^
+| Number of defects found during testing | The number of defects found during testing can be retrieved from the [[:tools:test_management|test management]] system. DDP can be measured by time period (per iteration for instance) or for the life of the application, or perhaps both! This is something the user of the reports has to specify. |
+| Total number of defects found | The total number of defect is the sum of [[:todo|known errors]] from the [[:tools:helpdesk system|help-desk system]] and the defects in the test management system. |
+
+==== Example Report ====
+
+** Data: **
+
+Across applications:
+
+^ Application ^ Defects found during test ^ Total Known Defects ^ Defect Detection Percentage ^
+| Mars        | 510                       | 609                 | 84%                         |
+| Venus       | 395                       | 450                 | 87%                         |
+| Jupiter     | 15823                     | 19324               | 82%                         |
+| Uranus      | 613                       | 1133                | 54%                         |
+
+{{:metrics_and_reporting:defect_detection_percentage_per_project.gif?nolink|}}
+
+Or for a specific application, across iterations:
+
+**Application: Venus**
+^ Iteration    ^ Defects found during test ^ Total Known Defects ^ Defect Detection Percentage ^
+| Iteration 1  | 520                       | 609                 | 85%                         |
+| Iteration 2  | 581                       | 660                 | 88%                         |
+| Iteration 3  | 631                       | 706                 | 89%                         |
+| Iteration 4  | 650                       | 721                 | 90%                         |
+
+{{:metrics_and_reporting:defect_detection_percentage_per_iteration.gif?nolink|}}
+
