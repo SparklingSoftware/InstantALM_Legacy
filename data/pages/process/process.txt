@@ -1,0 +1,17 @@
+===== End-to-end IT Process =====
+
+{{map>:process:service_lifecycle.png|End-to-end IT Process}}
+
+  * [[:process:process:strategy|Strategy @ 333,73,464,182]]
+  * [[:process:process:design|Design @ 486,124,626,228]]
+  * [[:process:process:build and test|Build and Test @ 585,248,698,360]]
+  * [[:process:process:deployment|Deployment @ 571,391,685,503]]
+  * [[:process:process:operations|Operations@ 408,463,563,569]]
+  * [[:process:process:support|Support @ 206,433,381,548]]
+  * [[:process:process:optimise|Optimise@ 160,260,279,379]]
+  * [[:process:process:retirement|Retirement @ 0,62,137,207]]
+
+  * [[:process:process:project management|Project Management @ 423,241,562,315]]
+  * [[:process:process:service management|Service Management @ 320,317,449,385]]
+ 
+{{<map}}
