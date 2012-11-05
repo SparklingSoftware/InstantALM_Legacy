@@ -1,0 +1,23 @@
+===== Single Sign On =====
+
+==== Description ====
+
+As a user 
+I want to the security credentials to be passed on from my PC login
+so that I don't have to enter my credentials every time I need to use the tool
+
+---- dataentry sometool ----
+Requirement     : Single Sign On
+product1        : 5
+product2        : 3
+product3        : 4
+product4        : 1
+product5        : 5
+----
+
+
+
+
+
+
+

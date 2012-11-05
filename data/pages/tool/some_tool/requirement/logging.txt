@@ -1,0 +1,23 @@
+===== Logging =====
+
+==== Description ====
+
+As a user 
+I want logging according to the enterprise standards
+so that the support is more efficient
+
+---- dataentry sometool ----
+Requirement     : Logging
+product1        : 7
+product2        : 3
+product3        : 5
+product4        : 1
+product5        : 1
+----
+
+
+
+
+
+
+

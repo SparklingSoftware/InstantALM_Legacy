@@ -1,0 +1,70 @@
+===== Tools: <<Tool function>> =====
+
+==== Description: ====
+
+<<Description>>
+
+==== Sources ====
+
+<<Link to sources used on this page>>
+
+==== Stakeholders ====
+
+^ Stakeholder: ^ Engaqed ^
+| GMM 	| Requirement Gathering |
+| eFX	| Requirement Gathering |
+| Web, Collaboration and Reporting	| Requirement Gathering |
+| Service Management PIT	| Presented during PIT Meetings |
+| Knowledge Management PIT	| Presented during PIT Meetings |
+
+
+==== Requirements ====
+
+[[:tools:splunk:requirements|Requirements]]
+
+
+==== Formal evaluation ====
+
+Entire list of tools:
+^ Tool ^ Status ^ Reason if not on shortlist ^
+| [[:todo|todo]] | Shortlisted   | |
+| [[:todo|todo]] | Shortlisted   | |
+| [[:todo|todo]] | Not evaluated | Not able to be hosted on-premise |
+| [[:todo|todo]] | Shortlisted   | |
+| [[:todo|todo]] | Not evaluated | Latest release >5 years |
+
+<< Provide an exec summary (Max 250 words) for the evaluation >>
+
+==== Results ====
+
+<< Provide an exec summary (Max 250 words) for the results >>
+
+==== Training ====
+
+**< 10 Minute Elevator Pitch**
+
+<<Link to a really short introduction of this tools function>>
+
+**< 90 min Introductions**
+
+<<Link to a introduction of this tools function which explains why you should use this tool function>>
+
+** Base Training **
+
+<<Links to Base training>>
+
+** Beginner Training **
+
+<<Links to Beginner training>>
+
+** Intermediate Training **
+
+<<Links to Intermediate training>>
+
+** Advanced Training **
+
+<<Links to Advanced training>>
+
+**Extremer Training**
+
+<<Links to Extreme training>>

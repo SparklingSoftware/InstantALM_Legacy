@@ -1,4 +1,10 @@
 ===== How to Contribute =====
 
-[[todo]]
+
+[[http://en.wikibooks.org/wiki/LaTeX/Mathematics |Mathematics Syntax]]
+
+
+
+
+
 

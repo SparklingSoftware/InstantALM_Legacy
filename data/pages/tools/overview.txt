@@ -1,18 +1,34 @@
 
 
+
+
 ===== Tools in the ALM and beyond... =====
+
+
 
 ==== Reference Enterprise Solution ====
 
+
+
 In order to evaluation tools, we are going to make some assumptions:
+
   * Enterprise applications look like [[:tools:reference implementations| this]].
+
   * The organization aligns with the major [[:frameworks:overview|Frameworks]] and BOKs like ITIL, ITSQB, etc
+
+
 
 ==== Evaluations ====
 
+
+
 The following tools are evaluated following the [[http://www.instantpii.org/doku.php?id=processes:evaluate_a_tool|Tool evaluation process]] from the [[http://www.instantpii.org|InstantPII]] website.
 
+
+
 Where applicable these tools are mapped to the particular process/practice where they are used so that a consolidated view starts to emerge. The following tools have been identified:
+
+
 
 ^ ^ Tool ^ Description ^ Used in area/practice ^
 | A |
@@ -34,7 +50,7 @@ Where applicable these tools are mapped to the particular process/practice where
 | P |
 | Q |
 | R | [[:tools:requirement management|Requirement Management]] | Repository that contains the requirements for one or more pieces of software |
-| S |
+| S | [[:tools:some tool|Some Tool]] | Testing dokuwiki on how to store tool evaluation data |
 | T | [[:tools:test management|Test Management]] | Repository that contains test cases for one or more pieces of software |
 | U | [[:tools:unit testing | Unit Testing]] | Unit testing frameworks help automate testing |
 | V | [[:tools:vcs|Version Control System (VCS)]] | Provides management of changes to documents like source code. | 
@@ -42,4 +58,6 @@ Where applicable these tools are mapped to the particular process/practice where
 | X |
 | Y |
 | Z |
+
+
 

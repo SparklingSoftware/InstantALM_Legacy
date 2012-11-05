@@ -1,10 +1,15 @@
 ===== Metric: Defect Removal Efficiency =====
+http://qtp.blogspot.com.au/2009/04/defect-removal-efficiency.html
+http://qtp.blogspot.com.au/2009/06/software-testing-documentation.html
+
 
 ** Description: **
 
 This metric describes how efficient found defects are removed from the product.
 
 Effort classification: Low
+
+
 
 ** Benefits: **
 
@@ -15,12 +20,10 @@ By measuring the efficiency, we know whether or not there are opportunities to i
 There is a risk of undetected inefficiencies and therefore lower teams velocity.
 
 ** Inputs **
-
 ^ Inputs: ^ Measured by: ^
 | Features |  |
 | TimeStamp of defect found | The test management system records the timestamp when the defect is raised. The tester needs to specify the feature to which this defect is related. |
 | TimeStamp of defect resolved | The test management system records the timestamp when the defect is marked resolved. |
-
 
 ==== Example Report ====
 
@@ -37,4 +40,14 @@ There is a risk of undetected inefficiencies and therefore lower teams velocity.
 ** Chart: **
 
 [[:todo|todo]]
+
+
+\[
+ {Defect Removal Efficiency} = \frac{Defects Removed}{Defects Found}
+\]
+
+
+
+
+
 

@@ -1,0 +1,62 @@
+===== Tool: Some Tool =====
+
+==== Description: ====
+
+This tool does something really important...
+
+==== Sources ====
+
+<<Link to sources used on this page>>
+
+==== Options that have been considered ====
+
+Entire list of tools:
+^ Tool ^ Status ^ Reason if not on shortlist ^
+| [[:todo|todo]] | Shortlisted   | |
+| [[:todo|todo]] | Shortlisted   | |
+| [[:todo|todo]] | Not evaluated | Not able to be hosted on-premise |
+| [[:todo|todo]] | Shortlisted   | |
+| [[:todo|todo]] | Not evaluated | Latest release >5 years |
+
+==== Evaluation ====
+
+---- datatable ----
+cols       : requirement, product1, product2, product3, product4, product5, %pageid%
+headers    : Requirement, Product 1, product 2, product 3, product 4, product 5, Link
+filter     : %class%=sometool
+summarize  : product1, product2, product3, product4, product5
+----
+
+==== Advise ====
+
+<< Provide an exec summary (Max 250 words) for the results >>
+
+==== Training ====
+
+**< 10 Minute Elevator Pitch**
+
+<<Link to a really short introduction of this tools function>>
+
+**< 90 min Introductions**
+
+<<Link to a introduction of this tools function which explains why you should use this tool function>>
+
+** Base Training **
+
+<<Links to Base training>>
+
+** Beginner Training **
+
+<<Links to Beginner training>>
+
+** Intermediate Training **
+
+<<Links to Intermediate training>>
+
+** Advanced Training **
+
+<<Links to Advanced training>>
+
+**Extremer Training**
+
+<<Links to Extreme training>>
