@@ -1,0 +1,36 @@
+===== Metric: Defect Age =====
+
+** Description: **
+
+<<Description of the metric. What does this metric tell the user?>>
+
+Effort classification: (Low/Medium/High/Extreme)
+
+** Benefits: **
+
+[[:todo|todo]]
+
+** Disadvantages and Risks of not doing it: **					
+
+[[:todo|todo]]
+
+^ Inputs: ^ Measured by: ^
+| Input 1 | Where do we get the information from and what do people need to do so that we can get these metrics? |
+| Input 2 | Where do we get the information from and what do people need to do so that we can get these metrics? |
+
+==== Example Report ====
+
+** Data: **
+
+^ Features:              ^ Data Point 1 ^ Data Point 2 ^ Data Point 3 ^ Data Point 4 ^
+| Admin Screens          |    1         |     1        |    9         |    10        |
+| Authentication         |    2         |    11        |    8         |    90        |
+| Facebook Integration   |    3         |   111        |    7         |   100        |
+| Linked-in Integration  |    4         |  1111        |    6         |    60        |
+| Reporting              |    5         |   111        |    5         |    40        |
+| Import/export          |    6         |    11        |    4         |    30        |
+
+** Chart: **
+
+[[:todo|todo]]
+

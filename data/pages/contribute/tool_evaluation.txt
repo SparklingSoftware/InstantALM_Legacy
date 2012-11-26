@@ -1,0 +1,48 @@
+===== Tool Evaluation =====
+
+The majority of the IPs are actually around tooling. This makes sense, as these are close and dear to people’s heart. Furthermore everyone has their own preferences and technology keeps moving, so it’s an ever changing arena.
+
+These evaluations are a three step process:
+
+{{:collaboration_in_share:tool_evaluation_process.png?600|}}
+
+  - [[:contribute:tool_evaluation#requirements|Requirements]]
+  - [[:contribute:tool_evaluation#tool evaluation|Tool evaluation]]
+  - [[:contribute:tool_evaluation#advice|Advice to the SEPG]]
+
+==== Requirements ====
+
+Everyone will always start with the requirements right? Wrong!
+
+What you will find is the moment you start talking about tools, EVERYONE jumps into solution mode. It is surprisingly hard to have a requirements discussion around tooling. By starting at the beginning however, you pave the road ahead. It will deliver a platform to have healthy debates of the purpose of the tools, why are we using it, how does it tie in with the other standards, etc.
+
+The outcome will be a list in a text document that can be put up to the [[:general:glossary#PIT|PIT]] and potentially the [[:general:glossary#SEPG|SEPG]] for sign off, depending on the scale of the evaluation. For a simple tool used by only one [[:general:glossary#Process Area|Process Area]], you would probably only request sign-off from the PIT. For the centralised test management tool, you would without doubt request it from the SEPG. Either way, we need to close off the requirements phase completely by getting all involved to agree of the list of requirements. Everyone needs to be clear that changing the requirements after sign-off can be done, but requires much effort from all involved again as it means getting sign-off again...
+
+It is important to note that the requirements are solely based on end-user outcomes. Price, Politics, etc should not be part of this requirements list. Which is great as it will prevent many distractions! 
+
+==== Tool evaluation ====
+
+Without doubt, many tools will be mentioneded during the requirements phase and now is the time to evaluate them. Out of the entire list of available options (Which can be massive), create a shortlist of most likely contenders. This shouldn't be too hard, as on the basis of the requirements, many options usually drop off from the list and you’ll be left with a handful. It comes down to reducing effort as much as you can without loosing trust you didn't remove one of the winners. Unfortunately this balance is one a case-by-case basis
+
+The evaluation is not just a paper exercise. The evaluation includes actually installing and running the application. If it’s impossible to have it running in your own organisation ask the vendor for references so you can see it working on within that organisation. 
+
+The reason is that a feature list is often ambiguous and there are usually a couple in the list where the actual implementation does not match your expectation. To make things worse, Murphy’s Law dictates that it will be your most important feature! “The testing of the pudding is the eating”.
+
+The context in which you are evaluating tools must be identical, or as identical as possible. Obviously we need to compare apples with apples. For future reference, we need to specify our test setup so others could reproduce the results. This is following basic academic principles really…
+
+The best way to approach this evaluation is to create a spread sheet where the requirements are listed as rows. The columns are the products to be evaluated. Every working group (2 or three people) that has been assigned one of the tools to evaluate, needs to rate every tool to the specified requirement. The improvement lead can merge the results later on.
+
+Because most of the ratings are subjective (performance requirements would not be subjective for instance), we still need to line up the rankings to make sure the different teams used the same scales. The best (and probably only) way to do this is to have a meeting with all of the participants where all the results are discussed and compared. The result is a rating matrix of tools vs requirements. This would also need to get sign-off from the PIT and potentially the SEPG.
+
+==== Advice ====
+
+So, we now have a list of requirements and we have done the evaluation based on those requirements.
+
+Up until now, we have left cost and politics out of the exercise. Both are unfortunately part of life and that’s why there is an advice phase. The outcome of this step is a text document that gives an advice to the SEPG what to do with the results.
+This is obviously also where cost comes in. The #1 tool might be better than #2, but let’s say the price is also 10 fold of #2, does that justify the decision to buy #1? Probably not….
+
+And although there is always some form of politics involved in these decisions, having the discussion backed by fact like the list of requirements and the evaluation results, makes it very hard for outsiders to force politics into the mix. This is also why it is o, so important to evaluation the tools properly and measure apples against apples. If there is any scent of skewing the numbers, you’re back to square one. If you nail the evaluation though, that gives you very strong ammunition to overcome politically driven decisions.
+
+The advice gets signed off by all the participants, the PIT and the SEPG and happy days! A new standard has been created!
+(Don’t forget to include the adoption and the revision plans! See here for more details…)
+

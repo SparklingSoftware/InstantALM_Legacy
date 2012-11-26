@@ -1,0 +1,28 @@
+
+====== About the ALM Library ======
+
+The "Application Lifecyle Management Library" contains Job-aids, standards and practices agreed by the ALM-Community [(www.alm-community.org)]
+
+The difference between this Library and others is that:
+  * The content is 100% community driven and only contains content that your peers consider useful. The rest simply doesn't make it in there or gets removed.
+  * You can download an instance of the library and easily customise it for you own context.
+  * Following proper open-source practices, you can receive updates from the global community, straight into the library. For the sections that have been customised, there are plenty of merge tools to help you to keep your organisation up to date with the industry.
+  * This initiative is focussed on prevention of re-invention of wheels by Investigating things properly and disclosing all the information that led to the decision so that others won't have to re-do the same work. (Unless they disagree of course! In that case the community is more than happy to have the debate! See [[:contribute|Contribute]] for more information.)
+
+Please read the [[:download|Download an instance]] section for more information about how to join this global movement.
+
+Not all content is applicable to your specific environment, hence the ability to customise portions. To help you do this, all content specifies what [[:organization categories|organization categories]] tend to implement that particular practice. 
+
+There are multiple views on the same content, so depending on what your after you might choose different navigation. The views currently implemented are:
+
+  * [[:process:alm_process|Drill into the ALM Process maps]].
+  * [[:roles:alm_roles_overview|Look at the different roles within ALM and their responsibilities]].
+  * [[:frameworks:overview|There are many existing frameworks and BOKs, this area explains how they overlap and relate.]]
+  * [[:methods:methods_overview|Look at methods and how they fit into ALM]].
+  * [[:maturity:maturity_overview|Find the next logical step to move up in maturity]]
+  * [[:continuous_delivery:continuous_delivery_overview|How "Continuous Delivery" can boost your quality and productivity]].
+  * Just browse the list of job aids by [[:job_aids:artefacts|artefacts]] or [[:job_aids:decisions|Decisions]].
+  * [[:tools:overview|Tools used in ALM]]
+
+
+

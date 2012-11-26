@@ -1,0 +1,36 @@
+
+<spii_meta>
+   <title><<Name>></title>
+   <hierarchy view="roles" parent="roles:alm_roles_overview" />
+</spii_meta>
+
+===== Project Manager =====
+
+** Description: **
+
+<<Description>>
+
+^ Processes where this role is involved in ^
+| [[:process:todo:todo| Todo -> Todo]]  |
+| [[:process:todo:todo| Todo -> Todo]]  |
+| [[:process:todo:todo| Todo -> Todo]]  |
+
+^ Job-aids ^
+| [[:todo|todo]] |
+| [[:todo|todo]] |
+
+^ Tools used ^
+| [[:todo|todo]] |
+
+^ Maturity     ^ Practices ^
+| Extreme      |           |
+| :::          |           |
+| Advanced     |           |
+| :::          |           |
+| Intermediate |           |
+| :::          |           |
+| Beginner     |           |
+| :::          |           |
+| Base         | Specify list of Feature Areas the application consists of |
+| :::          |           |
+
