@@ -1,0 +1,14 @@
+===== Contribute Information Shortcuts =====
+
+To quickly find the information you need, use the following links:
+
+==== Related Systems ====
+
+[[http://almcommunity.atlassian.net|Progress Tracking Tool]]
+
+
+==== Writing Content ====
+
+[[:contribute:do work:guidelines|The guidelines for writing content]]
+
+

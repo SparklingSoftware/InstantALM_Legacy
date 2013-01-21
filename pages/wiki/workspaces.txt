@@ -1,0 +1,16 @@
+~~NOCACHE~~
+===== Workspaces =====
+ 
+This page allows users to manage the streams of work that are going on in parallel.
+
+bla-die-bla 
+bla-die-bla 
+bla-die-bla 
+bla-die-bla 
+
+~~branches_manage~~
+
+
+
+
+ 

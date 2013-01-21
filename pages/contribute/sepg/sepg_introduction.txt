@@ -1,0 +1,35 @@
+===== Sustainable Enterprise Process Group (SEPG) =====
+
+The purpose of the SEPG is to bring together multiple or even many silo's to make enterprise wide improvements. Initially most improvements are within silo's, but as the organization matures, more and more improvements need cross silo involvement and support to achieve successful implementations.
+
+The SEPG consists of 2 members of each [[:contribute:pit:pit_introduction|Process Improvement Team (PIT)]]. Usually only the PIT lead will attend the SEPG meetings, but to improve the progress of the initiatives, a delegate will be appointed to attend the SEPG meeting in case the PIT lead needs to apologize.
+
+The PII Admin will organize and chair the [[:contribute:sepg:sepg meeting|SEPG meetings]], not having a vote him/her self.
+
+According the [[:contribute:sepg:charter|SEPG Charter]], the group will meet on a regular basis, taking minutes to keep the traceability of what happened, when and more importantly Why!.
+
+The minutes will be stored on the PII Blog.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

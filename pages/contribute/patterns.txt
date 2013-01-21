@@ -1,0 +1,21 @@
+===== Patterns and Anti-Patterns =====
+
+This page will explain some patterns and anti-patterns that tend to happen in (Process Improvement Infrastructures) PIIs if not mindful. Many will agree that the anti patterns below are not ideal, but still continue to apply them. Often without understanding the seriousness of the consequences.
+
+
+==== IP assigned to multiple PITs ====
+
+**Anti pattern**
+
+
+
+
+
+==== Multiple leads for a PIT ====
+
+**Anti pattern**
+
+
+
+
+

@@ -1,0 +1,40 @@
+
+===== Continuous Delivery Overview =====
+
+Continuous delivery is a software development strategy that optimizes your delivery process to get high-quality, valuable software delivered as quickly as possible. This approach allows you to validate your business hypothesis fast and then rapidly iterate by testing new ideas on users. Although Continuous Delivery focuses on engineering practices, the concept of continuous delivery has implications for the whole product-delivery process, including the “fuzzy front end” and the design and analysis of features.
+
+Background information:
+  * [[:continuous delivery:competitive advantage|Competitive Advantage of Continuous Delivery]]
+  * [[:continuous delivery:tools|Tools used]]
+  * [[:continuous delivery:metrics and reporting|Metrics and reporting]]
+
+==== Continuous Delivery Infrastructure ====
+
+This generic infrastructure overview has been created by the good people of National Australia Bank and we are very thankful to be able to use it.
+
+{{map>:continuous_delivery:continuous_delivery.png?800|High Level Continuous Delivery Pattern}}
+
+  * [[:job_aids:artefacts:alm000001|Coding Guidelines @ 51,86,105,92]]
+
+{{<map}}
+
+
+==== Continuous Delivery Process ====
+
+The following process assumes the infrastructure above. The steps are described in more detail below the diagram.
+
+<rigrr>
+
+<Definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" targetNamespace="http://rapilabs.com/definitions/20120204" name="Build Server Create Package"><Process id="3"><StartEvent id="2" name="New Code Checked In"/><Task id="5" name="Source Control Management notifies Build Server"/><Task id="7" name="Build server gets latest source code"/><Task id="9" name="Build Server Compiles Code"/><Task id="11" name="Build Server runs automate tests"/><Task id="13" name="Build Server creates Binary Package"/><Task id="15" name="Build Server Copies Package to Package Management System"/><EndEvent id="17" name="Package Created"/><SequenceFlow id="16" sourceRef="15" targetRef="17"/><SequenceFlow id="14" sourceRef="13" targetRef="15"/><SequenceFlow id="12" sourceRef="11" targetRef="13"/><SequenceFlow id="10" sourceRef="9" targetRef="11"/><SequenceFlow id="8" sourceRef="7" targetRef="9"/><SequenceFlow id="6" sourceRef="5" targetRef="7"/><SequenceFlow id="4" sourceRef="2" targetRef="5"/></Process><bpmndi:BPMNDiagram id="rigrr.rapilabs.com"><bpmndi:BPMNPlane bpmnElement="3"><bpmndi:BPMNShape bpmnElement="2"><dc:Bounds x="56" y="60" width="40" height="40"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="5"><dc:Bounds x="146" y="40" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="7"><dc:Bounds x="296" y="40" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="9"><dc:Bounds x="446" y="40" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="11"><dc:Bounds x="596" y="40" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="13"><dc:Bounds x="746" y="40" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="15"><dc:Bounds x="896" y="40" width="135" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="17"><dc:Bounds x="1076" y="60" width="40" height="40"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="16"><di:Waypoint x="1031" y="80"/><di:Waypoint x="1076" y="80"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="14"><di:Waypoint x="846" y="80"/><di:Waypoint x="896" y="80"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="12"><di:Waypoint x="696" y="80"/><di:Waypoint x="746" y="80"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="10"><di:Waypoint x="546" y="80"/><di:Waypoint x="596" y="80"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="8"><di:Waypoint x="396" y="80"/><di:Waypoint x="446" y="80"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="6"><di:Waypoint x="246" y="80"/><di:Waypoint x="296" y="80"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="4"><di:Waypoint x="96" y="80"/><di:Waypoint x="146" y="80"/></bpmndi:BPMNEdge></bpmndi:BPMNPlane></bpmndi:BPMNDiagram></Definitions>
+
+</rigrr>
+
+  - The team of developers each work on their own PC, but check in their code in a central repository. The Continuous Delivery process starts when the developer has finished a (part of a) feature and submits that piece of code to the central repository.
+  - The [[:tools:source control management|Source control Management]] system will notify the [[:continuous delivery:build server|Build Server]] that changes have been made to the central code base. 
+  - This will trigger the [[:continuous delivery:build server|Build Server]] to retrieve the latest source code from the [[:tools:source control management|Source control Management]]. This step is one of the biggest benefits of Continuous Delivery (and of Continuous Integration which is a subset of Continuous Delivery). There is only one source of truth in terms of the latest source code and that is the Source Control Management.
+  - A compilation of the source code into executable code is started. This is done on the Build Server where the configuration is strictly controlled, making it very obvious that the responsibility of the success of the compilation lies with the developer who committed last. No more "It works on my machine!". Because no customer cares about that...
+  - Once successfully compiled, the build server will setup a test environment to run automated test against the compiled executables. The duration of these tests depends on the [[:continuous delivery:automated testing strategy|Automated Testing Strategy]]. Many strategies exist, but in general, a quick set of tests (<10 min) is ran after each commit and a nightly build can run the full regression suite (Potentially taking hours).
+  - Once the automated tests have satisfied certain criteria, the executables are bundled into a package that can be used by an automated deployment strategy during later steps.
+  - The packages are copied into a [[:tools:package management system|Package Management System]] (Definitive Software Library or DSL in ITIL words) for future reference. It is vital that a [[:continuous delivery:version strategy|Version Strategy]] is applied so that all packages are uniquely identifiable. The [[:continuous delivery:version strategy|Version Strategy]] in combination with a [[:continuous delivery:branching strategy|Branching Strategy]] will make sure that code changes can be planned and tracked even in case of emergency production changes, multiple features being build in parallel, etc.
+
+

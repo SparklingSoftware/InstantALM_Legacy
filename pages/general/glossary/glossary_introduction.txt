@@ -5664,7 +5664,21 @@ See also test plan.
 
 ==== PII ====
 
-« TODO » 
+Process Improvement Infrastructure (PII) is all the infrastructure that allows organizations to efficiently improve their processes. It involves software tools, improvement processes, etc.
+
+
+
+
+
+
+==== PII Admin ====
+
+This is the person that is the functional owner of the PII and is responsible for the smooth operations of the improvement organisation.
+
+[[TODO]]
+
+
+
 
 ==== PIT ====
 

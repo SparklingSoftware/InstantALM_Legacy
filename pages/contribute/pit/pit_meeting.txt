@@ -1,0 +1,12 @@
+===== PIT Meeting =====
+
+
+
+
+
+PIT Meeting minutes will be stored in the PII Blog, tagged with the PIT name so that everyone can filter and search for the rationale behind decisions.
+
+[[todo|More information is needed about the PII Blog]]
+
+
+

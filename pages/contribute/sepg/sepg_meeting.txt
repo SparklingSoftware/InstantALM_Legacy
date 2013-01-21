@@ -1,0 +1,35 @@
+~~NOCACHE~~
+<nodisp>
+  <revision_frequency>5</revision_frequency>
+</nodisp>
+
+===== SEPG Meeting =====
+
+SEPG Meetings are the most important meetings in the Process Improvement Infrastructure (PII) as this is where all the decisions are made. 
+
+As the SEPG consists of the all the PIT leads, this meeting can become quite crowded. To make things worse, the SEPG members tend to be senior employees, with busy calendars of their own. The suggestions below will help SEPG meetings happen more efficiently:
+  - Schedule the meetings on a periodic basis every time in the same location so that participants never have to look up the details of the meetings. You can organize the meetings on the same day and time every other week for instance. With the room reservations going on for at least a year, that is one less worry. New SEPG members will pick up the pattern easily.
+  - PIT Leads should assign a "Shadow lead" within the PIT. A person that can attend the SEPG meeting if the PIT lead cannot attend. That way, a very high PIT representation during the SEPG meeting is achieved.
+  - Even though very tempting, don't allow special presentations during the SEPG meeting. Schedule them on other timeslots, so the SEPG meetings will stay as short as they can be.
+
+==== Agenda ====
+
+A typical SEPG Meeting Agenda will look like this:
+
+
+  - Introduction of attendees.
+  - Various Misc Updates from the organization.
+  - IPs to be "Signed-off".
+  - IPs that have been "Screened".
+  - Deliverables to be approved.
+  - IPs that need to be discussed that are "In Progress".
+  - Meeting closure
+
+
+==== Minutes ====
+
+Meeting minutes are uploaded to the PII Blog, with the tag: "SEPG". This makes the minutes easily searchable, traceable in timelines, etc.
+
+[[todo|More information about uploading minutes goes here]]
+
+

@@ -1,28 +1,38 @@
 
+~~NOCACHE~~
+<nodisp>
+  <revision_frequency>30</revision_frequency>
+</nodisp>
+
 ====== About the ALM Library ======
 
 The "Application Lifecyle Management Library" contains Job-aids, standards and practices agreed by the ALM-Community [(www.alm-community.org)]
 
-The difference between this Library and others is that:
+  * The content is 100% community driven and only contains content that your peers consider useful. The rest simply doesn't make it in.
+  * Installing an on-premise instance of this library provides the end user with regular updates of improvements which can be chosen to be adopted or ignored.
+  * This initiative is focused on prevention of re-invention of wheels by:
+    * Investigating and keeping conversation history
+    * Disclosing all the information that led to the decision.
+    See [[:contribute|Contribute]] for more information.)
 
-  * The content is 100% community driven and only contains content that your peers consider useful. The rest simply doesn't make it in there or gets removed.
-  * You can download an instance of the library and easily customise it for you own context.
-  * Following proper open-source practices, you can still receive updates from the global community for the sections that haven't been customised. For the sections that have been, there are plenty of merge tools to help you to keep your organisation up to date with the industry.
-  * Focussed on removing re-invention of wheels: Investigating things properly and providing all the information to prevent other re-doing the same work. (Unless they disagree of course! In that case the community is more than happy to have the debate! See [[:contribute|Contribute]] for more information.)
+The various content areas are:
 
-Please read the [[:download|Download an instance]] section for more information about how to join this global movement.
+{{map>:alm_views.png|Application Lifecycle Views}}
 
-While reading, you will find that not all content is applicable to you. However, all content specifies what [[:organization categories|organization categories]] tend to implement that particular practice.
+  * [[:process:process introduction|Process @ 623,123,759,221]]
+  * [[:roles:roles introduction|Roles @ 647,281,764,356]]
+  * [[:methods:methods introduction|Methods @ 561,410,692,489]]
+  * [[:maturity:maturity introduction|Maturity @ 354,440,484,534]]
+  * [[:continuous delivery:continuous delivery introduction|Continuous Delivery @ 40,227,162,375]]
+  * [[:tools:tools introduction|Tools @ 56,128,157,202]]
+  * [[:metrics and reporting:metrics and reporting introduction|Metrics and Reporting @ 206,2,344,87]]
+  * [[:knowledge management:knowledge management introduction|Knowledge Management @ 485,4,590,89]]
+  * [[:job aids:job aids introduction|alphabetical @ 166,440,250,526]]
+ 
+{{<map}}
 
-There are multiple views on the same content, so depending on what your after you might choose different navigation. The views currently implemented are:
 
-  * [[:process:alm_process|Drill into the ALM Process maps]].
-  * [[:roles:alm_roles_overview|Look at the different roles within ALM and their responsibilities]].
-  * [[:frameworks:overview|There are many existing frameworks and BOKs, this area explains how they overlap and relate.]]
-  * [[:methods:methods_overview|Look at methods and how they fit into ALM]].
-  * [[:maturity:maturity_overview|Find the next logical step to move up in maturity]]
-  * [[:continuous_delivery:continuous_delivery_overview|How "Continuous Delivery" can boost your quality and productivity]].
-  * Just browse the list of job aids by [[:job_aids:artefacts|artefacts]] or [[:job_aids:decisions|Decisions]].
-  * [[:tools:overview|Tools used in ALM]]
+
+
 
 

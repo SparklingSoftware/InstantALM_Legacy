@@ -1,0 +1,20 @@
+===== Discuss Screened IP in the SEPG =====
+
+This is the first time the SEPG gets to discuss and approve progress of an Improvement. In total there will be three opportunities for the SEPG to control the progress and direction of improvements, each with increasing detail about the improvements to be made.
+
+One of the agenda items during the [[:contribute:sepg:sepg meeting|SEPG Meeting]] is to go over all the "Screened" IPs. The PIT lead that has screened the IPs usually starts the discussion.
+
+The SEPG will determine, without detailed analysis, so only in general terms, whether this is an idea that should be implemented. If not the IP will be closed with the rationale specified in much detail as that will be communicated to the submitter of the IP.
+
+If the SEPG believes it is indeed an improvement to the current processes, it also needs to determine whether it is that urgent and/or important that currently "In Progress" IPs need to be delayed in favor of this one. If so, the IPs gets the status "In Analysis" and it gets assigned to a ([[:contribute:patterns#ip assigned to multiple pits|and only one]]) PIT.
+
+Of not, the IPs that has just been screened goes into "Parked"
+
+[[todo|graphically show IP statusses]]
+
+
+
+
+
+
+

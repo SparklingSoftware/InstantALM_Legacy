@@ -1,0 +1,31 @@
+===== Creating Image Maps =====
+
+The way to create an image map as part of the wiki is shown below:
+
+<rigrr>
+
+<Definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" targetNamespace="http://rapilabs.com/definitions/20120204" name="Create an Image Map"><Process id="3"><StartEvent id="2" name="Want to create Image Map"/><Task id="5" name="Insert Image into wiki page"/><Task id="7" name="Open Image in Paint.NET"/><Task id="9" name="Copy Syntax from other page"/><Task id="11" name="copy coordinates from Paint.NET"/><EndEvent id="13" name="Done"/><SequenceFlow id="12" sourceRef="11" targetRef="13"/><SequenceFlow id="10" sourceRef="9" targetRef="11"/><SequenceFlow id="8" sourceRef="7" targetRef="9"/><SequenceFlow id="6" sourceRef="5" targetRef="7"/><SequenceFlow id="4" sourceRef="2" targetRef="5"/></Process><bpmndi:BPMNDiagram id="rigrr.rapilabs.com"><bpmndi:BPMNPlane bpmnElement="3"><bpmndi:BPMNShape bpmnElement="2"><dc:Bounds x="57" y="63" width="40" height="40"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="5"><dc:Bounds x="147" y="43" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="7"><dc:Bounds x="297" y="43" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="9"><dc:Bounds x="447" y="43" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="11"><dc:Bounds x="597" y="43" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="13"><dc:Bounds x="744" y="63" width="40" height="40"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="12"><di:Waypoint x="697" y="83"/><di:Waypoint x="744" y="83"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="10"><di:Waypoint x="547" y="83"/><di:Waypoint x="597" y="83"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="8"><di:Waypoint x="397" y="83"/><di:Waypoint x="447" y="83"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="6"><di:Waypoint x="247" y="83"/><di:Waypoint x="297" y="83"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="4"><di:Waypoint x="97" y="83"/><di:Waypoint x="147" y="83"/></bpmndi:BPMNEdge></bpmndi:BPMNPlane></bpmndi:BPMNDiagram></Definitions>
+
+</rigrr>
+
+
+==== Details of the steps ====
+  - Find an image and insert it as image. 
+    - Make sure it's not wider as 800 pixels as most wiki templates (themes) cannot handle wider images
+    - Transparent images work fine, just make sure the image works on both bright and dark backgrounds.
+  - Open the image in an image editor like Paint.NET that can show the coordinates of areas of the image. 
+  - Copy the ImageMap example syntax (see below) into the target wiki page and replace the <<Image>> with the filename of the image in step 1 and <<Caption>> with your own caption.
+  - Replace the example areas with your areas, using the coordinates from the image editor. The order of the coordinates is: X1,Y1,X2,Y2.
+
+For example:
+
+<code>
+{{map><<Image>>|<<Caption>>}}
+
+  * [[:namespace:wikipage1|page1 @ 10,20,30,40]]
+  * [[:namespace:wikipage2|page2 @ 200,300,400,500]]
+ 
+{{<map}}
+</code>
+
+

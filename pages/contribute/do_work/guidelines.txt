@@ -1,0 +1,41 @@
+===== Writing Guidelines =====
+
+These guidelines will assist you in writing high quality content and will increase consistency to the standards library. They are mandatory for submitting new content to be added to the [[http://www.instantalm.org|ALM-Library]].
+
+
+=== General ===
+
+The language to be used is "US English".
+
+=== Wiki Syntax ===
+
+[[:wiki:syntax|General Wiki Syntax]]
+[[:wiki:syntax imagemaps|Image map Syntax]]
+[[http://en.wikibooks.org/wiki/LaTeX/Mathematics |Mathematics Syntax]]
+
+=== Process Page Layout ===
+
+A Process page will have the following sections:
+
+^ Section ^ Description ^
+| Unique Process Step Name | The name of the step that is described by this page. It has to be unique | 
+| Purpose | |
+| Inputs and Outputs | |
+| RASCI | |
+| Swimlane Diagram | |
+| Detailed Description | |
+
+An example page can be found here: [[todo|todo]]
+
+=== Tools Page Layout ===
+
+A Tool page will have the following sections:
+^ Section ^ Description ^
+| Unique Tool Name | This is the generic name of the function of a (set of) tool(s) e.g. "Source Control Management" rather than "Git" |
+| Datatable | |
+| Purpose | |
+| Requirements | |
+| Evaluation | |
+| Advise | |
+
+An example page can be found here: [[todo|todo]]

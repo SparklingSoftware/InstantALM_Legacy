@@ -5,6 +5,8 @@
 
 ===== C =====
 
+[[:job aids:job aid:JA000001|Coding Guidelines]]
+
 ===== D =====
 
 ===== E =====
@@ -26,6 +28,8 @@
 ===== M =====
 
 ===== N =====
+
+[[:job aids:job aid:JA000001|.NET coding Guidelines]]
 
 ===== O =====
 

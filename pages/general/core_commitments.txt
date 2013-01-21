@@ -1,0 +1,13 @@
+===== Core Commitements =====
+
+These core commitments for the ALM-Community serve as the backbone for all to remain true to ourselves.
+
+
+  - All content is community driven and always up for debate. Straw mans are the exception to the rule, but should be discussed asap.
+  - History and minute keeping will prevent re-invention of wheels and re-iterating discussions.
+  - Keep this library as small as possible.
+  - Keep this library up-to-date using revisions cycles.
+  - Keep this library of high quality by automated QA.
+
+
+

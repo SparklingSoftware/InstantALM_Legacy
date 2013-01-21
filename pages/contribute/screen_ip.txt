@@ -1,0 +1,64 @@
+===== Screen a "New" IP =====
+
+==== Purpose ====
+
+The purpose of this task is to only allow sensible IPs to reach the SEPG and therefor not waste any time of the SEPG meeting.
+As 9 out of 10 IPs tend to be pretty well thought of, just making sure the right wording is used, the numbers make sense, etc is usually all that is needed.
+
+In the odd occasion where things aren't fully clear, a simple email, phone call or short meeting should be enough to clarify the intend of the IP.
+
+This step should take no more than 5-10 minutes in straight forward cases and no more than 30 minutes in more unclear submissions. The idea is to save time in the SEPG meeting, if the preparation takes more time then we would save, then STOP!!! 
+
+At this stage it might all be a waste of time as the IP might not be needed for some reason or might even already be implemented! The seniority of the SEPG members can often lead to much changed insights once discussed, so don't put to much effort in it. 
+
+The IP needs to be JUST details enough (and accurate enough) to be properly discussed, that's all. 
+
+The Analysis phase will go into more details of the IP and will sort out inaccuracies, etc. Don't worry about things too much here.
+
+==== The process ====
+
+<rigrr>
+
+
+<Definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" targetNamespace="http://rapilabs.com/definitions/20120204" name="Submit new Improvement Proposal"><Collaboration id="65"><Participant id="67" name="Organisation" processRef="66"/></Collaboration><Process id="66"><LaneSet id="68"><Lane id="69" name="Employee"><FlowNodeRef>72</FlowNodeRef><FlowNodeRef>74</FlowNodeRef></Lane><Lane id="70" name="PII Admin"><FlowNodeRef>76</FlowNodeRef></Lane><Lane id="71" name="SEPG / PITs"><FlowNodeRef>78</FlowNodeRef><FlowNodeRef>80</FlowNodeRef><FlowNodeRef>82</FlowNodeRef><FlowNodeRef>84</FlowNodeRef></Lane></LaneSet><StartEvent id="72" name="Has Idea"/><SubProcess id="74" name="Submit Improvement Proposal (IP)"><Documentation textFormat="text/x-url">/doku.php?id=contribute:submit_idea:submit_improvement_proposal</Documentation></SubProcess><Task id="76" name="Assign IP to PIT"/><Task id="78" name="Screen IP"/><ExclusiveGateway id="80" name="Discuss with SEPG?"/><Task id="82" name="Close IP"/><SequenceFlow id="81" name="No" sourceRef="80" targetRef="82"/><EndEvent id="84" name="IP Screened"/><SequenceFlow id="83" name="Yes" sourceRef="80" targetRef="84"/><SequenceFlow id="79" sourceRef="78" targetRef="80"/><SequenceFlow id="77" sourceRef="76" targetRef="78"/><SequenceFlow id="75" sourceRef="74" targetRef="76"/><SequenceFlow id="73" sourceRef="72" targetRef="74"/></Process><bpmndi:BPMNDiagram id="rigrr.rapilabs.com"><bpmndi:BPMNPlane bpmnElement="65"><bpmndi:BPMNShape bpmnElement="67"><dc:Bounds x="6" y="13" width="1000" height="492"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="69"><dc:Bounds x="56" y="13" width="950" height="114"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="70"><dc:Bounds x="56" y="127" width="950" height="120"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="71"><dc:Bounds x="56" y="247" width="950" height="258"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="72"><dc:Bounds x="127" y="40" width="40" height="40"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="74"><dc:Bounds x="226" y="19" width="100" height="82"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="76"><dc:Bounds x="226" y="152" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="78"><dc:Bounds x="226" y="276" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="80"><dc:Bounds x="395" y="291" width="50" height="50"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="82"><dc:Bounds x="370" y="408" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="81"><di:Waypoint x="420" y="341"/><di:Waypoint x="420" y="408"/></bpmndi:BPMNEdge><bpmndi:BPMNShape bpmnElement="84"><dc:Bounds x="553" y="296" width="40" height="40"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="83"><di:Waypoint x="445" y="316"/><di:Waypoint x="553" y="316"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="79"><di:Waypoint x="326" y="316"/><di:Waypoint x="395" y="316"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="77"><di:Waypoint x="276" y="232"/><di:Waypoint x="276" y="276"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="75"><di:Waypoint x="276" y="101"/><di:Waypoint x="276" y="152"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="73"><di:Waypoint x="167" y="60"/><di:Waypoint x="226" y="60"/></bpmndi:BPMNEdge></bpmndi:BPMNPlane></bpmndi:BPMNDiagram></Definitions>
+
+</rigrr>
+
+
+==== What to do ====
+
+
+=== 1. Open the IP ===
+
+As a PIT lead you'll get IPs assigned to you to be "Screened". These IPs have the status "New" so just open the progress tracking tool and find all "New" IPs that have been assigned to your PIT.
+
+[[todo|More detailed instructions on exactly how to do this go here]]
+
+This IP has all the details of the improvement embedded into it.
+
+
+=== 2. Assert the improvement details ===
+
+
+Assert the details of the improvement. For instance:
+  - Does the title accurately reflect the description?
+  - Is the title unambiguous or confusing with other improvements?
+  - Does the improvement make sense to discuss to be implemented? (For instance non IT improvements would be forwarded and closed)
+  - 
+
+  * If more details are needed, don't hesitate to contact the submitter of the improvement.
+  * If an improvement involves more than one PIT, than one PIT screening the IP is enough, unless:
+    * Another PIT is much better positioned to screen the improvement
+
+If the IP doesn't need to be discussed in the SEPG, it can be closed with clear description of the reasons for closing it before even discussing it in the SEPG.
+
+
+=== 3. Move the IP to "Screened" ===
+
+Change the status of the IP from "New" to "Screened".
+
+[[todo|More detailed instructions on exactly how to do this go here]]
+
+
+
+

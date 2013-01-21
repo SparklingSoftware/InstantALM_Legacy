@@ -6,7 +6,7 @@
 
 
 
-~~REVISIONS:all~~
+~~REVISIONS:revisions~~
 
 
 

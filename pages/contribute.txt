@@ -1,7 +1,65 @@
 ===== How to Contribute =====
 
+Thanks for considering to contribute! This library could not exist without the help of all the people who have contributed. These are not just words, we really mean it. Please read the [[:general:core commitments|core commitments]] for more information why contributors are vital.
 
-[[http://en.wikibooks.org/wiki/LaTeX/Mathematics |Mathematics Syntax]]
+The Process Improvement Infrastructure (PII) tries to make it as simple as possible to contribute. However, the key to standards is reaching agreements and in order to reach agreement (usually via consensus) some process is needed. The same process also helps prevent inefficiencies in making process improvements itself. Drinking out own champagne if you will.
+
+If you already understand how to contribute, but just quickly look something up, you can go straight to the [[:contribute:shortcuts|Shortcuts]] page.
+
+==== Lean process ====
+
+The PII that the ALM Community uses follows a very lean process where pretty much every step is optional. It really depends on your organization to what rigor you want to implement the process. As everything, this library also allows you to customise the PII process as you see fit.
+
+**It is however STRONGLY encouraged to keep the process as simple as possible, in particular approvals.**
+
+The reason is that approvals really kills progress. Lean processes make it possible to quickly implement improvements, which increases motivation for people to contribute more. Approvals does the exact opposite.
+
+Having said that, some approval steps are very useful. When dealing for silo's for instance (In the ALM space, that could be Dev, Test, BA, Project Managers), it is a good idea to make it mandatory for all silo's to approve changes. That way, all silo's will sooner or later realise they are part of a bigger organization and they are not the center of the universe. The still keep progress in the back of our minds, these approvals should happen during a meeting where all approvers are invited. Non attendance means approval by absence.
+
+==== The teams within the PII ====
+
+The following teams and groups are the driving force behind the PII)
+
+{{map>:interaction_between_sepg_pit_msg_and_twg.png|PII Teams}}
+
+  * [[:contribute:sepg:sepg introduction|SEPG @ 354,104,784,197]]
+  * [[:contribute:pit:pit introduction|pit @ 392,200,764,353]]
+  * [[:contribute:msg:msg introduction|msg @ 3,104,312,197]]
+  * [[:contribute:twg:twg introduction|twg @ 18,328,240,440]]
+ 
+{{<map}}
+
+
+=== To start with the non-funded world: ===
+
+The most important team in the Software Engineering Process Group (SEPG). This group consists of the leads of the all the Process Improvement Teams (PITs). You can read more about the [[:contribute:sepg:sepg introduction|sepg]], but in short: This is the community body where all the decisions are made!
+
+The PITs are the teams (4 to 12 people each) that focus on a particular Process Area to make improvements. Process areas are for instance "Development", "Test", "Project Management", "Procurement", "Fraud", etc. It doesn't really matter what exactly the scope and name of the process area is and whether or not it overlaps with other Process Areas. The important thing is that an "area" of organization is hurting and the PIT is going to improve things.
+
+As said the PIT Lead is a formal member of the SEPG and for practical purposes, a delegate is also also formally chosen. This will help progress of initiatives by having the delegate attend the SEPG meeting if the PIT lead cannot.
+
+The above is expected to happen along normal day-to-day activities and for middle management to encourage all employees to participate in process improvements.)
+
+=== funded world: ===
+
+The Management Steering Group (MSG) supports the PII both financially and morally (The latter by cascading communications of appreciation, positively including PII Membership in performance conversations, etc).
+
+Obviously supporting initiatives with funding is an important part of the MSG. They can decide to put funding behind some initiatives and thereby speeding up the progress of those improvements. (some initiatives are impossible without funding, so "speeding up" in that case means starting :-)).
+
+The funding isn't handed over the communities. In stead a Technical Working Group (TWG) is formed to implement the improvement. This TWG is a formal project with deadlines, deliverables and outcomes that have to be delivered. The TWG reports into the MSG for financials and prgress, the actually "customer" is the SEPG and they get to sign off on the deliverables. 
+
+This is on a high level how the PII works. If you want to know more about it (as there is much more to it) pleas don't hessitate to [[http://www.sparklingsoftware.com.au/contact-us|contact SparklingSoftware]] as we specialise in implementing PII in big and small organisations.
+
+==== The high level process ====
+
+Good, with that out of the way, let's have a look at the suggested process at a high level.
+(You can click on the steps for more details about the underlying process)
+
+<rigrr>
+<Definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" targetNamespace="http://rapilabs.com/definitions/20120204" name="High Level PII Process"><Process id="30"><StartEvent id="29" name="Great Idea"/><SubProcess id="32" name="Submit Idea"><Documentation textFormat="text/x-url">/doku.php?id=contribute:submit_idea</Documentation></SubProcess><SubProcess id="34" name="Screen Improvement Proposal"><Documentation textFormat="text/x-url">/doku.php?id=contribute:screen_ip</Documentation></SubProcess><SubProcess id="36" name="Discuss Improvement by SEPG"><Documentation textFormat="text/x-url">/doku.php?id=contribute:discuss_screened_ip</Documentation></SubProcess><ExclusiveGateway id="38" name="Work on it now?"/><SubProcess id="40" name="Determine Deliverables / Funding"><Documentation textFormat="text/x-url">/doku.php?id=contribute:analysis</Documentation></SubProcess><SubProcess id="42" name="List of Deliverables approved by SEPG"><Documentation textFormat="text/x-url">/doku.php?id=contribute:discuss_deliverables</Documentation></SubProcess><SubProcess id="44" name="Do Work"><Documentation textFormat="text/x-url">/doku.php?id=contribute:do_work</Documentation></SubProcess><SubProcess id="46" name="Deliverables approved by SEPG"><Documentation textFormat="text/x-url">/doku.php?id=contribute:approve_deliverables</Documentation></SubProcess><EndEvent id="48" name="Done"/><SequenceFlow id="47" sourceRef="46" targetRef="48"/><SequenceFlow id="45" sourceRef="44" targetRef="46"/><SequenceFlow id="43" sourceRef="42" targetRef="44"/><SequenceFlow id="41" sourceRef="40" targetRef="42"/><SequenceFlow id="39" sourceRef="38" targetRef="40"/><SubProcess id="50" name="Park Improvement for later"><Documentation textFormat="text/x-url">/doku.php?id=contribute:park_ip</Documentation></SubProcess><IntermediateCatchEvent id="52" name="New Iteration"><TimerEventDefinition id="53"/></IntermediateCatchEvent><SequenceFlow id="54" sourceRef="52" targetRef="38"/><SequenceFlow id="51" sourceRef="50" targetRef="52"/><SequenceFlow id="49" sourceRef="38" targetRef="50"/><SequenceFlow id="37" sourceRef="36" targetRef="38"/><SequenceFlow id="35" sourceRef="34" targetRef="36"/><SequenceFlow id="33" sourceRef="32" targetRef="34"/><SequenceFlow id="31" sourceRef="29" targetRef="32"/><DataObject id="55" name="Parked"/><DataObject id="56" name="In Analysis"/><DataObject id="57" name="In Progress"/><DataObject id="58" name="Awaiting Sign-off"/><DataObject id="59" name="New"/><DataObject id="60" name="Screened"/><DataObject id="61" name="Done"/></Process><bpmndi:BPMNDiagram id="rigrr.rapilabs.com"><bpmndi:BPMNPlane bpmnElement="30"><bpmndi:BPMNShape bpmnElement="29"><dc:Bounds x="26" y="110" width="40" height="40"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="32"><dc:Bounds x="93" y="90" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="34"><dc:Bounds x="220" y="90" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="36"><dc:Bounds x="345" y="90" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="38"><dc:Bounds x="524" y="105" width="50" height="50"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="40"><dc:Bounds x="630" y="90" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="42"><dc:Bounds x="769" y="90" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="44"><dc:Bounds x="911" y="90" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="46"><dc:Bounds x="1038" y="90" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="48"><dc:Bounds x="1165" y="110" width="40" height="40"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="47"><di:Waypoint x="1138" y="130"/><di:Waypoint x="1165" y="130"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="45"><di:Waypoint x="1011" y="130"/><di:Waypoint x="1038" y="130"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="43"><di:Waypoint x="869" y="130"/><di:Waypoint x="911" y="130"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="41"><di:Waypoint x="730" y="130"/><di:Waypoint x="769" y="130"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="39"><di:Waypoint x="574" y="130"/><di:Waypoint x="630" y="130"/></bpmndi:BPMNEdge><bpmndi:BPMNShape bpmnElement="50"><dc:Bounds x="499" y="301" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="52"><dc:Bounds x="437" y="321" width="40" height="40"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="54"><di:Waypoint x="457" y="321"/><di:Waypoint x="524" y="130"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="51"><di:Waypoint x="499" y="341"/><di:Waypoint x="477" y="341"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="49"><di:Waypoint x="549" y="155"/><di:Waypoint x="549" y="301"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="37"><di:Waypoint x="445" y="130"/><di:Waypoint x="524" y="130"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="35"><di:Waypoint x="320" y="130"/><di:Waypoint x="345" y="130"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="33"><di:Waypoint x="193" y="130"/><di:Waypoint x="220" y="130"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="31"><di:Waypoint x="66" y="130"/><di:Waypoint x="93" y="130"/></bpmndi:BPMNEdge><bpmndi:BPMNShape bpmnElement="55"><dc:Bounds x="559" y="221" width="40" height="50"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="56"><dc:Bounds x="597" y="14" width="40" height="50"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="57"><dc:Bounds x="845" y="14" width="40" height="50"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="58"><dc:Bounds x="990" y="14" width="40" height="50"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="59"><dc:Bounds x="166" y="13" width="40" height="50"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="60"><dc:Bounds x="288" y="12" width="40" height="50"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="61"><dc:Bounds x="1128" y="14" width="40" height="50"/></bpmndi:BPMNShape></bpmndi:BPMNPlane></bpmndi:BPMNDiagram></Definitions>
+
+</rigrr>
+
 
 
 

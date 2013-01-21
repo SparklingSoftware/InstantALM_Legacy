@@ -1,0 +1,8 @@
+===== Approve Deliverables =====
+
+
+During the next SEPG meeting the changes will be discussed and potentially approved. If not approved (very rare as all members had the opportunity to review before the meeting) the PII Admin will revert the changes and thereby unlock the workspace. Most improvements will be approved by the SEPG and the PII Admin will promote the content to "Live" right there and then.
+
+The workspace will exist (locked) until it is archived/deleted.
+
+

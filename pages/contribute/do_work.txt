@@ -1,0 +1,58 @@
+===== Do Work =====
+
+Once a PIT is ready to do the work needed for the Improvement and the list of deliverables have been agreed by the SEPG, the Improvement status is changes from "In Analysis" to "In Progress".
+
+Doing work usually means making changes to this wiki, but not always. At the end of day, improvements are intended to streamline all employees future behavior and actions. This doesn't necessarily mean changing this wiki. In fact changing this wiki is just a side effect of what we want to achieve!
+
+If, for instance, a PIT has come to realize that a currently mandated processes of double entering time sheet information in two systems can easily be reduced to one because no one is using the data in one of the two system anymore (Its amazing how often this is actually the case...), then the improvement just means removing the second system from the organization. This will unlikely change this wiki. Keeping history (meeting minutes, approval emails, etc) is extremely important in the scenario above btw as it's not kept in the history of this library.
+
+Having said that, most improvements will impact the process descriptions.
+
+==== Atomic Submission of Changes ====
+
+In order to keep improvements separated from each other and to allow approvals across multiple pages, each initiative will get it's own workspace, which is an exact copy of the "Live" content.
+
+Once the improvement has been finished in it's own workspace, it can be submitted to the SEPG for approval. A simple step will then merge all the changes into the "Live" content and make it instantly available for everyone to see and use.
+
+Changes that others have submitted, have been approved and are promoted to "Live" need to be merged into the current workspace. This is to ensure "Live" content is not accidentally reversed. Luckily this is nothing new in IT as it is something that software developers have been doing since the 1980s. 
+
+This wiki hides (most of) the details behind user friendly screens and forms, so that non technical user will be able to perform these tasks. If you do have questions about the steps or you notice unexpected (warning) messages, don't hesitate to contact either the [[:general:glossary:glossary introduction#pii admin|PII Admin]] or someone else familiar with merging files (think: Developer :-)).
+
+==== The process ====
+
+The process of making improvements is shown below. Don't be frightened by the number of steps, most of them you would do intuitively!
+The steps are explained in more detail just below the diagram.
+
+<rigrr>
+
+
+<Definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" targetNamespace="http://rapilabs.com/definitions/20120204" name="Make Improvements"><Process id="3"><StartEvent id="2" name="Start work on Improvement"/><ExclusiveGateway id="5" name="Workspace Exists?"/><Task id="7" name="Select Workspace"/><Task id="9" name="Make Changes"/><Task id="11" name="Submit for approval"/><EndEvent id="13" name="Improvement Submitted"/><SequenceFlow id="12" sourceRef="11" targetRef="13"/><SequenceFlow id="10" sourceRef="9" targetRef="11"/><SequenceFlow id="14" name="Feedback, Multiple Contributors, etc" sourceRef="9" targetRef="9"/><SequenceFlow id="8" sourceRef="7" targetRef="9"/><SequenceFlow id="6" sourceRef="5" targetRef="7"/><Task id="16" name="Create new workspace for this Improvement"/><Task id="18" name="User get redirected to new workspace"/><SequenceFlow id="19" sourceRef="18" targetRef="9"/><SequenceFlow id="17" sourceRef="16" targetRef="18"/><SequenceFlow id="15" sourceRef="5" targetRef="16"/><SequenceFlow id="4" sourceRef="2" targetRef="5"/></Process><bpmndi:BPMNDiagram id="rigrr.rapilabs.com"><bpmndi:BPMNPlane bpmnElement="3"><bpmndi:BPMNShape bpmnElement="2"><dc:Bounds x="27" y="69" width="40" height="40"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="5"><dc:Bounds x="123" y="64" width="50" height="50"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="7"><dc:Bounds x="225" y="49" width="109" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="9"><dc:Bounds x="366" y="49" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="11"><dc:Bounds x="522" y="49" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="13"><dc:Bounds x="676" y="69" width="40" height="40"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="12"><di:Waypoint x="622" y="89"/><di:Waypoint x="676" y="89"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="10"><di:Waypoint x="466" y="89"/><di:Waypoint x="522" y="89"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="14"><di:Waypoint x="466" y="89"/><di:Waypoint x="416" y="49"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="8"><di:Waypoint x="334" y="89"/><di:Waypoint x="366" y="89"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="6"><di:Waypoint x="173" y="89"/><di:Waypoint x="225" y="89"/></bpmndi:BPMNEdge><bpmndi:BPMNShape bpmnElement="16"><dc:Bounds x="227" y="179" width="106" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="18"><dc:Bounds x="366" y="179" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="19"><di:Waypoint x="416" y="179"/><di:Waypoint x="416" y="129"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="17"><di:Waypoint x="333" y="219"/><di:Waypoint x="366" y="219"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="15"><di:Waypoint x="148" y="114"/><di:Waypoint x="227" y="219"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="4"><di:Waypoint x="67" y="89"/><di:Waypoint x="123" y="89"/></bpmndi:BPMNEdge></bpmndi:BPMNPlane></bpmndi:BPMNDiagram></Definitions>
+
+</rigrr>
+
+
+The process starts when the user wants to make improvements to the library and the SEPG had approved the list of deliverables. The IP has therefore the status "In Progress".
+
+The user will open a browser and open the standards library. If you are reading this in a browser, you must have managed that :-)
+
+The first thing to do is check whether a workspace already exist. This is done by clicking on the drop-down list in the top-right corner. The list will at least show "Master" and "Create New" and zero or more IPs to choose from. If the workspace exist, you can select that, otherwise select "Create new". This is the decision in the process map above.
+
+For explanation purposes, let's assume the workspace doesn't exist and we click "Create New". The system will now move you to a page that shows a list of existing workspaces and IPs that are in progress. (You should only work on IPs that are in progress). Administrators have the option to manage the existing workspaces. Every user has the ability to create new workspaces if they do not exist yet. As for this description we were going to create a new workspace, so we select the IP we are going to work on. After creation, we are automatically moved to that new workspace. The library will show an alert message that we are looking at draft content and show a link to the "Live" content.
+
+We can now start to make changes.
+
+Please follow [[:contribute:do work:guidelines|the guidelines for writing content]] in this standards library so a consistent look and feel is maintained throughout the site.
+
+Every content change (including deletes) is stored with your domain login details, so please be mindful of your changes.
+Big Brother is watching you!!
+
+Don't hessitate to ask others to contribute pieces or to discuss the improvements in the [[:contribute:pit:pit meeting|PIT meetings]] so as much rationale behind the changes is captured. (Minute meetings should be stored in the PII Blog, so link above).
+
+Once all changes are made and everyone is happy to submit the proposal to the SEPG for approval, the person leading the initiative will commit all changes. By clicking on the "Submit content" link in the menu on the left, a form will open that shows all changed files (Including all merges from other initiatives). By clicking on the files, the changes are shown between the original and the current. This allows for easy review before submitting for approval.
+
+The submission will lock the workspace and send an email to all SEPG members for review. The reason for locking the workspace is to make sure everyone has been looking at the same content. 
+
+Only the PII Admin role can revert the committed changes and unlock the workspace again. This is as if the commit never happened and the PIT has to commit the changes all over again which will send another notification to the SEPG members.
+
+Read on what happens to you changes on the [[:contribute:approve_deliverables|Approve Deliverables]] page.
+
