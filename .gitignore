@@ -1,19 +1,13 @@
 
 
-conf/
-bin/
-inc/
-lib/
-StandardsBrowser/
-
-data/attic/
-data/cache/
-data/index/
-data/locks/
-data/meta/
-data/media_attic/
-data/media_meta/
-data/tmp/
+attic/
+cache/
+index/
+locks/
+meta/
+media_attic/
+media_meta/
+tmp/
 
 *.php
 .htaccess.dist
@@ -22,8 +16,8 @@ COPYING
 README
 VERSION
 
-data/.htaccess
-data/_dummy
-data/deleted.files
-data/security.png
-data/security.xcf
+.htaccess
+_dummy
+deleted.files
+security.png
+security.xcf
