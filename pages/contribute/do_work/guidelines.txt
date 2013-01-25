@@ -5,13 +5,87 @@ These guidelines will assist you in writing high quality content and will increa
 
 === General ===
 
-The language to be used is "US English".
+The language to be used: "US English".
+Date notation:           "dd-MM-yyyy"
+Time notation:           "hh:mm" using 24 hour notation (GMT if applicable)
 
 === Wiki Syntax ===
 
 [[:wiki:syntax|General Wiki Syntax]]
 [[:wiki:syntax imagemaps|Image map Syntax]]
 [[http://en.wikibooks.org/wiki/LaTeX/Mathematics |Mathematics Syntax]]
+
+=== Namespace Layout ===
+
+The namespace layout is as below. As you can see there is a high similarity between the Navigation Menu, but there are some differences!
+Submissions containing divergence from the layout below will NOT be accepted.
+
+  * : (root)
+    * <color grey>start</color>
+    * <color grey>contribute</color>
+    * :process
+      * <color grey>process introduction</color>
+    * :roles   (General information pages and automated overview of roles)
+      * <color grey>roles introduction</color>
+    * :role    (No page, just namespace)
+      * <color grey>_template.txt</color>
+      * <color grey><<ROLE_NAME>>     (DataEntry: role)      </color>
+      * <color grey><<ROLE_NAME>>     (DataEntry: role)      </color>
+    * :methods
+      * <color grey>methods introduction</color>
+    * :maturity
+      * <color grey>maturity introduction</color>
+    * :continuous delivery
+      * <color grey>continuous delivery</color>
+    * :tools                 (General information pages and automated overview of tools)
+      * <color grey>tools introduction</color>
+    * :tool    (No page, just namespace)
+        * <color grey>_template.txt</color>
+      * <color grey>_template.txt</color>
+      * <color grey><<TOOL_NAME>>     (DataEntry)      </color>
+      * <color grey><<TOOL_NAME>>     (DataEntry)      </color>
+    * :metrics and reporting
+      * <color grey>metrics and reporting introduction</color>
+    * :knowledge management
+      * <color grey>knowledge management</color>
+    * :job aids   (General information pages and automated overview of job aids)
+    * :job aid     (No page, just namespace)
+        * <color grey>_template.txt</color>
+        * <color grey><<JAxxxxxx-NAME>>   (DataEntry)  </color>
+        * <color grey><<JAxxxxxx-NAME>>   (DataEntry)  </color>
+    * :adoption
+      * :trainings    (General information pages and automated overview of available training)
+      * :training      (No page, just namespace)
+        * <color grey>_template.txt</color>
+        * <<COURSE_NAME>>      (DataEntry)  </color>
+        * <<COURSE_NAME>>      (DataEntry)  </color>
+      * :adoption plans   (General information pages and automated overview)
+      * :adoption plan    (No page, just namespace)
+        * <color grey>_template.txt</color>
+        * <color grey><<ADOPTION_PLAN_NAME>>   (DataEntry)  </color>
+        * <color grey><<ADOPTION_PLAN_NAME>>   (DataEntry)  </color>
+      * :self assessments
+        * <color grey>self assessments introduction</color>
+      * :governance
+        * <color grey>governance introduction</color>
+    * :general
+      * <color grey>:faq</color>
+      * :glossary (Links to sub-pages)
+        * <color grey>alphabetical</color>
+        * <color grey>per source</color>
+        * <color grey>tag cloud</color>
+      * glossary item   (No page, just namespace)
+        * <color grey><<ITEM_NAME>>   (DataEntry)    </color>
+        * <color grey><<ITEM_NAME>>   (DataEntry)    </color>
+    * :wiki
+      * :git
+        * <color grey>local change status</color>
+        * <color grey>remote change status</color>
+    * :admin
+      * <color grey>orphaned pages</color>
+      * <color grey>pages wanted</color>
+      * <color grey>pages up for revision</color>
+      * <color grey>usage statistics</color>
 
 === Process Page Layout ===
 

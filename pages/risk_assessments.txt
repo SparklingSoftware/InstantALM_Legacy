@@ -1,8 +1,0 @@
-===== Risk Assessment =====
-
-This section can help determine the risks associated with the current situation. The assessment should be performed by the entire team.
-
-
-
-
-[[:todo | todo ]]
