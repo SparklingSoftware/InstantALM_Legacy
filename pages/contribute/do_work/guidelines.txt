@@ -17,14 +17,22 @@ Time notation:           "hh:mm" using 24 hour notation (GMT if applicable)
 
 === Namespace Layout ===
 
-The namespace layout is as below. As you can see there is a high similarity between the Navigation Menu, but there are some differences!
-Submissions containing divergence from the layout below will NOT be accepted.
+The namespace layout is as below. Before we go into the details its important to make a couple of comments about the list:
+  - As you can see there is a high similarity between the Navigation Menu.
+  - Process Names need to be unique !
+  - Submissions that diverge from the layout below will NOT be accepted.
+
+**The layout:**
 
   * : (root)
     * <color grey>start</color>
     * <color grey>contribute</color>
-    * :process
+    * :processes  (General information pages)
       * <color grey>process introduction</color>
+    * :process (No page, just namespace)
+      * <color grey>_template.txt</color>
+      * <color grey><<PROCESS>></color>
+      * <color grey><<PROCESS>></color>
     * :roles   (General information pages and automated overview of roles)
       * <color grey>roles introduction</color>
     * :role    (No page, just namespace)
@@ -36,11 +44,10 @@ Submissions containing divergence from the layout below will NOT be accepted.
     * :maturity
       * <color grey>maturity introduction</color>
     * :continuous delivery
-      * <color grey>continuous delivery</color>
+      * <color grey>continuous delivery introduction</color>
     * :tools                 (General information pages and automated overview of tools)
       * <color grey>tools introduction</color>
     * :tool    (No page, just namespace)
-        * <color grey>_template.txt</color>
       * <color grey>_template.txt</color>
       * <color grey><<TOOL_NAME>>     (DataEntry)      </color>
       * <color grey><<TOOL_NAME>>     (DataEntry)      </color>
@@ -49,17 +56,20 @@ Submissions containing divergence from the layout below will NOT be accepted.
     * :knowledge management
       * <color grey>knowledge management</color>
     * :job aids   (General information pages and automated overview of job aids)
+      * <color grey>job aids introduction</color>
     * :job aid     (No page, just namespace)
         * <color grey>_template.txt</color>
-        * <color grey><<JAxxxxxx-NAME>>   (DataEntry)  </color>
-        * <color grey><<JAxxxxxx-NAME>>   (DataEntry)  </color>
+        * <color grey><<ALMxxxxxx-NAME>>   (DataEntry)  </color>
+        * <color grey><<ALMxxxxxx-NAME>>   (DataEntry)  </color>
     * :adoption
       * :trainings    (General information pages and automated overview of available training)
+        * <color grey>training introduction</color>
       * :training      (No page, just namespace)
         * <color grey>_template.txt</color>
-        * <<COURSE_NAME>>      (DataEntry)  </color>
-        * <<COURSE_NAME>>      (DataEntry)  </color>
+        * <color grey><<COURSE_NAME>>      (DataEntry)  </color>
+        * <color grey><<COURSE_NAME>>      (DataEntry)  </color>
       * :adoption plans   (General information pages and automated overview)
+        * <color grey>adoption introduction</color>
       * :adoption plan    (No page, just namespace)
         * <color grey>_template.txt</color>
         * <color grey><<ADOPTION_PLAN_NAME>>   (DataEntry)  </color>
@@ -69,12 +79,13 @@ Submissions containing divergence from the layout below will NOT be accepted.
       * :governance
         * <color grey>governance introduction</color>
     * :general
-      * <color grey>:faq</color>
+      * <color grey>faq</color>
       * :glossary (Links to sub-pages)
         * <color grey>alphabetical</color>
         * <color grey>per source</color>
         * <color grey>tag cloud</color>
-      * glossary item   (No page, just namespace)
+      * glossaryitems   (No page, just namespace)
+        * <color grey>_template.txt</color>
         * <color grey><<ITEM_NAME>>   (DataEntry)    </color>
         * <color grey><<ITEM_NAME>>   (DataEntry)    </color>
     * :wiki

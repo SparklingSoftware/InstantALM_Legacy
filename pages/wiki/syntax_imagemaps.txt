@@ -28,4 +28,6 @@ For example:
 {{<map}}
 </code>
 
-
+===Continue reading:===
+[[:contribute:do_work:guidelines|Back to guidelines]]
+[[https://www.dokuwiki.org/plugin:imagemap|Imagemap plugin on Dokuwiki.org]]
