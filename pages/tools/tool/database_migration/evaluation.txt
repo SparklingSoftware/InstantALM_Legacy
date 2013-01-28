@@ -1,5 +1,0 @@
-
-===== Tools: Database Migration - Evaluation =====
-
-^ Long list ^ Status ^ Reason if not on shortlist ^
-| [[http://dbdeploy.com | DBDeploy]] | Shortlisted | |
