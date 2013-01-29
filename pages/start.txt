@@ -19,7 +19,7 @@ The various content areas are:
 
 {{map>:alm_views.png|Application Lifecycle Views}}
 
-  * [[:process:process introduction|Process @ 623,123,759,221]]
+  * [[:processes:process introduction|Process @ 623,123,759,221]]
   * [[:roles:roles introduction|Roles @ 647,281,764,356]]
   * [[:methods:methods introduction|Methods @ 561,410,692,489]]
   * [[:maturity:maturity introduction|Maturity @ 354,440,484,534]]
@@ -32,6 +32,8 @@ The various content areas are:
 {{<map}}
 
 
+{{keywords>it best practices, it standards, the sdlc, software engineer, software developer, application development}}
+{{description>This community driven "Wikipedia of IT best practices" is freely accessible and even installed on premise!}}
 
 
 
