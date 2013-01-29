@@ -47,10 +47,19 @@ The namespace layout is as below. Before we go into the details its important to
       * <color grey>continuous delivery introduction</color>
     * :tools                 (General information pages and automated overview of tools)
       * <color grey>tools introduction</color>
-    * :tool    (No page, just namespace)
-      * <color grey>_template.txt</color>
-      * <color grey><<TOOL_NAME>>     (DataEntry)      </color>
-      * <color grey><<TOOL_NAME>>     (DataEntry)      </color>
+    * :tool    (No pages, just redirect to :tools:tools introduction)
+      * :requirements  (No pages, just redirect to :tools:tools introduction)
+        * <color grey>_template.txt</color>
+        * <color grey><<TOOL_NAME requirements>>     (DataEntry)      </color>
+        * <color grey><<TOOL_NAME requirements>>     (DataEntry)      </color>
+      * :evaluation    (No pages, just redirect to :tools:tools introduction)
+        * <color grey>_template.txt</color>
+        * <color grey><<TOOL_NAME evaluation>>     (DataEntry)      </color>
+        * <color grey><<TOOL_NAME evaluation>>     (DataEntry)      </color>
+      * :advise         (No pages, just redirect to :tools:tools introduction)
+        * <color grey>_template.txt</color>
+        * <color grey><<TOOL_NAME advise>>     (DataEntry)      </color>
+        * <color grey><<TOOL_NAME advise>>     (DataEntry)      </color>
     * :metrics and reporting
       * <color grey>metrics and reporting introduction</color>
     * :knowledge management
