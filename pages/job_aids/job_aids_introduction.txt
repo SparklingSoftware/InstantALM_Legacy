@@ -1,3 +1,5 @@
+===== Job Aids introduction =====
+
 
 ===== A =====
 
@@ -5,7 +7,7 @@
 
 ===== C =====
 
-[[:job aids:job aid:JA000001|Coding Guidelines]]
+[[:job aid:JA000001|Coding Guidelines]]
 
 ===== D =====
 
@@ -29,7 +31,7 @@
 
 ===== N =====
 
-[[:job aids:job aid:JA000001|.NET coding Guidelines]]
+[[:job aid:JA000001|.NET coding Guidelines]]
 
 ===== O =====
 

@@ -8,15 +8,14 @@ A person in a team who will control the projects performed by your software deve
 
 
 ^ Processes where this role is involved in ^
-| [[:process:build:develop| Build -> Develop Software]]  |
-| todo  |
+| [[:process:development| Development]]  |
 
 ^ Job-aids ^
 | SCM Policies |
-| [[:job_aids:artefacts:alm000001|Coding Guidelines]] |
+| [[:job_aid:ja000001|Coding Guidelines]] |
 
 ^ Tools used ^
-| [[:tools:vcs|Version Control System]] |
+| [[:tool:introduction:version control system|Version Control System]] |
 
 
 ^ Maturity     ^ Practices ^
