@@ -14,7 +14,7 @@ It also ignores methodologies. Agile methodologies tend to encourage cross-compe
 
 ==== Business Analysis ====
 
-  * [[roles:role:business analyst|Business Analist]]
+  * [[:role:business analyst|Business Analist]]
   * << TODO >>
 
 ==== Project Management ====
@@ -35,20 +35,20 @@ It also ignores methodologies. Agile methodologies tend to encourage cross-compe
 ==== Implementation ====
 
   * Technical Project Lead
-  * [[:roles:role:developer|Developer]]
+  * [[:role:developer|Developer]]
   * Security Administrator
 
 ==== Test ====
 
   * Test Manager
   * Test Lead
-  * [[:roles:role:tester|Tester]]
+  * [[:role:tester|Tester]]
 
 ==== Deployment ====
   
 
 ==== Operations ====
 
-  * [[:roles:role:service_manager|Service Manager]]
+  * [[:role:service_manager|Service Manager]]
 
 

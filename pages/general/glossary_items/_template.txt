@@ -1,0 +1,7 @@
+
+---- glossary ----
+title:          <<GLOSSARY TITLE>>
+description: 	<<GLOSSARY MEANING>>
+source:         <<Pick: BABOK, ITSQB, ISO29119, PMBOK, ITIL>>
+----
+

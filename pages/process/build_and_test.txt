@@ -1,4 +1,6 @@
-===== Build and Test Process =====
+===== Process: Build and Test=====
+
+==== Description ====
 
 The build and test process area is one of the most affected by the decision to between methods. If the processes is based on waterfall, there is very formal interaction between development and testing, whereas in agile projects, the interaction is much closer and in shorter cycles. The tester would ideally sit next to the developer and start testing efforts concurrently with the development efforts. This will obviously impact the exact processes (please find more information about [[:methods:methods introduction|Agile and Waterfall Methods]]), but those differences need to be put into perspective as well. 
 
@@ -7,14 +9,35 @@ testing, write test plans and test cases and execute those according the defined
 
 We will therefore focus on the generic practices and call out differences where we need to.
 
+
+==== Input / Outputs ====
+
+^ Inputs: ^   Outputs: ^
+| <<INPUT1>>     |      <<OUTPUT1>>  |
+| <<INPUT2>>     |      <<OUTPUT2>>  |
+
+^ RASCI ^ Role ^
+| [[:general:glossary:glossary_introduction#rasci - responsible|Responsible]] | <<TODO>> |
+| :::                                                                         | <<TODO>> |
+| [[:general:glossary:glossary_introduction#rasci - accountable|Accountable]] | <<TODO>> |
+| :::                                                                         | <<TODO>> |
+| [[:general:glossary:glossary_introduction#rasci - supportive|Supportive]]   | <<TODO>> |
+| :::                                                                         | <<TODO>> |
+| [[:general:glossary:glossary_introduction#rasci - consulted|Consulted]]     | <<TODO>> |
+| :::                                                                         | <<TODO>> |
+| [[:general:glossary:glossary_introduction#rasci - informed|Informed]]       | <<TODO>> |
+   
+==== Process ====
+
 For explanation purposes we are going to assume this very simplified high level process:
 
 <rigrr>
 
-<Definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" targetNamespace="http://rapilabs.com/definitions/20120204" name="Waterfall Process"><Process id="3"><StartEvent id="2"/><Task id="5" name="Requirements"/><Task id="7" name="Development"/><Task id="9" name="Testing"/><Task id="11" name="Sign Off"/><Task id="13" name="Deployment"/><EndEvent id="15"/><SequenceFlow id="14" sourceRef="13" targetRef="15"/><SequenceFlow id="12" sourceRef="11" targetRef="13"/><SequenceFlow id="10" sourceRef="9" targetRef="11"/><SequenceFlow id="8" sourceRef="7" targetRef="9"/><SequenceFlow id="6" sourceRef="5" targetRef="7"/><SequenceFlow id="4" sourceRef="2" targetRef="5"/></Process><bpmndi:BPMNDiagram id="rigrr.rapilabs.com"><bpmndi:BPMNPlane bpmnElement="3"><bpmndi:BPMNShape bpmnElement="2"><dc:Bounds x="13" y="45" width="40" height="40"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="5"><dc:Bounds x="88" y="25" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="7"><dc:Bounds x="217" y="25" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="9"><dc:Bounds x="355" y="25" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="11"><dc:Bounds x="489" y="25" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="13"><dc:Bounds x="620" y="25" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="15"><dc:Bounds x="755" y="45" width="40" height="40"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="14"><di:Waypoint x="720" y="65"/><di:Waypoint x="755" y="65"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="12"><di:Waypoint x="589" y="65"/><di:Waypoint x="620" y="65"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="10"><di:Waypoint x="455" y="65"/><di:Waypoint x="489" y="65"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="8"><di:Waypoint x="317" y="65"/><di:Waypoint x="355" y="65"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="6"><di:Waypoint x="188" y="65"/><di:Waypoint x="217" y="65"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="4"><di:Waypoint x="53" y="65"/><di:Waypoint x="88" y="65"/></bpmndi:BPMNEdge></bpmndi:BPMNPlane></bpmndi:BPMNDiagram></Definitions>
+<Definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" targetNamespace="http://rapilabs.com/definitions/20120204" name="Waterfall Process"><Process id="3"><StartEvent id="2"/><Task id="5" name="Requirements"/><SubProcess id="7" name="Development"><Documentation textFormat="text/x-url">doku.php?id=process:develpment</Documentation></SubProcess><SubProcess id="9" name="Testing"><Documentation textFormat="text/x-url">doku.php?id=process:testing</Documentation></SubProcess><Task id="11" name="Sign Off"/><Task id="13" name="Deployment"/><EndEvent id="15"/><SequenceFlow id="14" sourceRef="13" targetRef="15"/><SequenceFlow id="12" sourceRef="11" targetRef="13"/><SequenceFlow id="10" sourceRef="9" targetRef="11"/><SequenceFlow id="8" sourceRef="7" targetRef="9"/><SequenceFlow id="6" sourceRef="5" targetRef="7"/><SequenceFlow id="4" sourceRef="2" targetRef="5"/></Process><bpmndi:BPMNDiagram id="rigrr.rapilabs.com"><bpmndi:BPMNPlane bpmnElement="3"><bpmndi:BPMNShape bpmnElement="2"><dc:Bounds x="13" y="45" width="40" height="40"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="5"><dc:Bounds x="88" y="25" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="7" isExpanded="false"><dc:Bounds x="217" y="25" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="9" isExpanded="false"><dc:Bounds x="355" y="25" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="11"><dc:Bounds x="489" y="25" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="13"><dc:Bounds x="620" y="25" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="15"><dc:Bounds x="755" y="45" width="40" height="40"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="14"><di:Waypoint x="720" y="65"/><di:Waypoint x="755" y="65"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="12"><di:Waypoint x="589" y="65"/><di:Waypoint x="620" y="65"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="10"><di:Waypoint x="455" y="65"/><di:Waypoint x="489" y="65"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="8"><di:Waypoint x="317" y="65"/><di:Waypoint x="355" y="65"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="6"><di:Waypoint x="188" y="65"/><di:Waypoint x="217" y="65"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="4"><di:Waypoint x="53" y="65"/><di:Waypoint x="88" y="65"/></bpmndi:BPMNEdge></bpmndi:BPMNPlane></bpmndi:BPMNDiagram></Definitions>
 
 </rigrr>
 
+As you can see there is a natural order where we first specify the requirements, we then build the software, test it and when we are satisfied with the quality, we deploy it to production. Obviously in practice and depending on our chosen method, we hop back and forth, do tasks concurrently, split a release up in tiny chunk and follow the above process iteratively, but few people will disagree that this is the general order of things.
 
 
 {{keywords>it best practices, the sdlc, software engineer, software developer}}

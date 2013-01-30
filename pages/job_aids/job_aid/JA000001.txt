@@ -5,7 +5,7 @@
 
 ==== Description ====
 
-These coding guidelines will help [[:roles:developer|developers]] write more consistant code. 
+These coding guidelines will help [[:role:developer|developers]] write more consistent code. 
 
 ==== Benefits ====
 
@@ -29,7 +29,7 @@ Convincing management of the importance of  implementing coding standards is one
 
 ==== .NET Coding Guidelines ====
 
-{{filelist>data/downloads/ALM000001/dotnet/*&direct=1}}
+{{filelist>data/downloads/ALM000001/dotnet"*&direct=1}}
 
 ** Sources **
 http://www.csharpcodingguidelines.com/

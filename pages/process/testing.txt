@@ -1,0 +1,40 @@
+===== Process: Testing =====
+
+==== Description ====
+
+The IT testing process is highly aligned with the ITSQB processes. There are slight differences though, as ISTQB doesn't take other frameworks into consideration and therefore only takes a testers perspective on ALM. That is not a bad thing as it happens to be the scope. But this ALM Library takes a holistic approach to increasing IT Efficiency across the SDLC, balancing effort/benefits across the various competencies.
+
+==== Input / Outputs ====
+
+^ Inputs: ^   Outputs: ^
+| <<INPUT1>>     |      <<OUTPUT1>>  |
+| <<INPUT2>>     |      <<OUTPUT2>>  |
+
+^ RASCI ^ Role ^
+| [[:general:glossary:glossary_introduction#rasci - responsible|Responsible]] | <<TODO>> |
+| :::                                                                         | <<TODO>> |
+| [[:general:glossary:glossary_introduction#rasci - accountable|Accountable]] | <<TODO>> |
+| :::                                                                         | <<TODO>> |
+| [[:general:glossary:glossary_introduction#rasci - supportive|Supportive]]   | <<TODO>> |
+| :::                                                                         | <<TODO>> |
+| [[:general:glossary:glossary_introduction#rasci - consulted|Consulted]]     | <<TODO>> |
+| :::                                                                         | <<TODO>> |
+| [[:general:glossary:glossary_introduction#rasci - informed|Informed]]       | <<TODO>> |
+   
+==== Process ====
+
+<rigrr>
+
+<<BPMN GOES HERE>>
+
+</rigrr>
+
+
+{{keywords>IT Efficiency, IT Testing, IT best practices, the SDLC, IT Standards}}
+{{description>The introduction to IT Testing from testers explaining their processes to the other ALM Competencies. It is based on IT best practices, increasing your IT Efficiency considerably across the SDLC}}
+
+
+
+
+
+
