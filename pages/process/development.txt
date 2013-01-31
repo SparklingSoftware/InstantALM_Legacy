@@ -19,7 +19,7 @@
 | [[:general:glossary:glossary_introduction#rasci - consulted|Consulted]]     | <<TODO>> |
 | :::                                                                         | <<TODO>> |
 | [[:general:glossary:glossary_introduction#rasci - informed|Informed]]       | <<TODO>> |
-   
+
 ==== Process ====
 
 <rigrr>

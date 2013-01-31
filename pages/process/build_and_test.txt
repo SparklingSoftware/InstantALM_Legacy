@@ -9,7 +9,6 @@ testing, write test plans and test cases and execute those according the defined
 
 We will therefore focus on the generic practices and call out differences where we need to.
 
-  
 ==== Process ====
 
 For explanation purposes we are going to assume this very simplified high level process:

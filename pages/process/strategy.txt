@@ -1,4 +1,4 @@
-===== Process: Implement Features =====
+===== Process: Strategy =====
 
 ==== Description ====
 
@@ -11,7 +11,7 @@
 | <<INPUT2>>     |      <<OUTPUT2>>  |
 
 ^ RASCI ^ Role ^
-| [[:general:glossary:glossary_introduction#rasci - responsible|Responsible]] | [[:role:developer|Developer]] |
+| [[:general:glossary:glossary_introduction#rasci - responsible|Responsible]] | <<TODO>> |
 | :::                                                                         | <<TODO>> |
 | [[:general:glossary:glossary_introduction#rasci - accountable|Accountable]] | <<TODO>> |
 | :::                                                                         | <<TODO>> |
@@ -23,11 +23,24 @@
 
 ==== Process ====
 
+The exact process has not yet been defined, but the following sub processes are most likely part of this processes:
+
+  * [[process:business_analysis|Business Analysis]]
+
+/*
+
+This is where the process maps go. The Rigrr library will render BPMN notation inline. 
+See below for the syntax. You can create your own process maps by visiting:
+http://rigrr.rapilabs.com 
+
+Or you can extend the "Rigrr Dokuwiki Plugin" with DokuWiki editor integration that provides 
+you with an "Edit BPMN" option in the DokuWiki toolbar.
+
 <rigrr>
-
 <<BPMN GOES HERE>>
-
 </rigrr>
+
+*/
 
 {{keywords>IT Efficiency, IT best practices, the SDLC, IT Standards}}
 {{description>This standards library has been compiled by the ALM Community. It is based on IT best practices, increasing your IT Efficiency considerably across the SDLC}}

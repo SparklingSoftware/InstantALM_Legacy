@@ -20,14 +20,23 @@
 | [[:general:glossary:glossary_introduction#rasci - consulted|Consulted]]     | <<TODO>> |
 | :::                                                                         | <<TODO>> |
 | [[:general:glossary:glossary_introduction#rasci - informed|Informed]]       | <<TODO>> |
-   
+
 ==== Process ====
 
+/*
+
+This is where the process maps go. The Rigrr library will render BPMN notation inline. 
+See below for the syntax. You can create your own process maps by visiting:
+http://rigrr.rapilabs.com 
+
+Or you can extend the "Rigrr Dokuwiki Plugin" with DokuWiki editor integration that provides 
+you with an "Edit BPMN" option in the DokuWiki toolbar.
+
 <rigrr>
-
 <<BPMN GOES HERE>>
-
 </rigrr>
+
+*/
 
 {{keywords>IT Efficiency, IT best practices, the SDLC, IT Standards}}
 {{description>This standards library has been compiled by the ALM Community. It is based on IT best practices, increasing your IT Efficiency considerably across the SDLC}}
