@@ -3,11 +3,15 @@
 
 ===== A =====
 
+Artifact Management -> See [[:tools:tools_introduction#D|Definitive Software Library]]
+
 ===== B =====
 
 ===== C =====
 
 ===== D =====
+
+[[:tool:introduction:definitive software library|Definitive Software Library]]
 
 ===== E =====
 
@@ -32,6 +36,8 @@
 ===== O =====
 
 ===== P =====
+
+Package Management -> See [[:tools:tools_introduction#D|Definitive Software Library]]
 
 ===== Q =====
 

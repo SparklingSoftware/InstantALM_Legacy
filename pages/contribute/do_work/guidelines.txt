@@ -9,6 +9,11 @@ The language to be used: "US English".
 Date notation:           "dd-MM-yyyy"
 Time notation:           "hh:mm" using 24 hour notation (GMT if applicable)
 
+links are created using all lower casing, spaces are allowed. For example:
+<nowiki>
+[[:tool:some really complicated tool:requirements|The Requirements of a really complicated tool]]
+</nowiki>
+
 === Wiki Syntax ===
 
 [[:wiki:syntax|General Wiki Syntax]]

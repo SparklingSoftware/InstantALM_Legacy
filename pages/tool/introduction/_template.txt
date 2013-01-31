@@ -1,21 +1,12 @@
 
 ===== Tool: <<tool function>> =====
 
-
-
-
-
-==== Description: ====
-
 <<Description>>
-
-==== Sources ====
-
-<<Link to sources used on this page>>
 
 ==== Requirements ====
 
-<<Link to requirements sub-page, i.e. ":tool:requirements:<<tool function>>">>
+The list of requirement can be found here:
+[[:tool:requirements:<<tool function>>|Full list of requirements]]
 
 ==== Formal evaluation ====
 
@@ -29,36 +20,18 @@ Entire list of tools:
 
 << Provide an exec summary (Max 250 words) for the evaluation >>
 
+<< Link to the full evaluation document >>
+
 ==== Advise ====
 
 << Provide an exec summary (Max 250 words) of the advise >>
 
+<< Link to the full advise document >>
+
 ==== Training ====
 
-**< 10 Minute Elevator Pitch**
+<< Provide links into the Training section to the relevant training offerings >>
 
-<<Link to a really short introduction of this tools function>>
+==== Sources ====
 
-**< 90 min Introductions**
-
-<<Link to a introduction of this tools function which explains why you should use this tool function>>
-
-** Base Training **
-
-<<Links to Base training>>
-
-** Beginner Training **
-
-<<Links to Beginner training>>
-
-** Intermediate Training **
-
-<<Links to Intermediate training>>
-
-** Advanced Training **
-
-<<Links to Advanced training>>
-
-**Extremer Training**
-
-<<Links to Extreme training>>
+<<Link to sources used on this page>>

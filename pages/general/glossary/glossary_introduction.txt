@@ -2052,6 +2052,18 @@ See monitor.
 
 Testing by means of a random selection from a large range of inputs and by randomly pushing buttons, ignorant of how the product is being used. 
 
+==== MoSCoW (BABOK) ====
+
+According to wikipedia: http://en.wikipedia.org/wiki/MoSCoW_Method
+
+MoSCoW is a technique used in business analysis and software development to reach a common understanding with stakeholders on the importance they place on the delivery of each requirement - also known as MoSCoW prioritisation or MoSCoW analysis.
+
+    M - MUST: Describes a requirement that must be satisfied in the final solution for the solution to be considered a success.
+    S - SHOULD: Represents a high-priority item that should be included in the solution if it is possible. This is often a critical requirement but one which can be satisfied in other ways if strictly necessary.
+    C - COULD: Describes a requirement which is considered desirable but not necessary. This will be included if time and resources permit.
+    W - WON'T: Represents a requirement that stakeholders have agreed will not be implemented in a given release, but may be considered for the future.
+
+
 ==== MSG ====
 
 See Management Steering Group 

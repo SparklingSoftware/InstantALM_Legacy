@@ -1,16 +1,12 @@
 
-===== Tool: Version Control System =====
-
-
-
-
+===== Tool: Definitive Software Library (DSL) =====
 
 <<Description>>
 
 ==== Requirements ====
 
 The list of requirement can be found here:
-[[:tool:requirements:version control system|Full list of requirements]]
+[[:tool:requirements:<<tool function>>|Full list of requirements]]
 
 ==== Formal evaluation ====
 
@@ -39,4 +35,3 @@ Entire list of tools:
 ==== Sources ====
 
 <<Link to sources used on this page>>
-

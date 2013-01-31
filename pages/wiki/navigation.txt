@@ -9,10 +9,10 @@
 [[:methods:methods introduction|Methods]]
 [[:maturity:maturity introduction|Maturity]]
 [[:continuous delivery:continuous delivery introduction|Continuous Delivery]]
-[[:tools:tools introduction|Tools]]
 [[:metrics and reporting:metrics and reporting introduction|Metrics and Reporting]]
 [[:knowledge management:knowledge management introduction|Knowledge mgmt]]
-[[:job aids:job aids introduction|Alphabetical]]
+[[:tools:tools introduction|Tools]]
+[[:job aids:job aids introduction|Job Aids]]
 
 **Adoption:**
 [[:adoption:training:training introduction|Training]]
