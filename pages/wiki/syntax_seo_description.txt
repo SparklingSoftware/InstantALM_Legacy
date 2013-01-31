@@ -1,0 +1,16 @@
+===== Writing Guidelines: SEO Descriptions =====
+
+In the plugin configation (admin only):
+keyword_source = syntax
+
+The syntax is:
+<code>
+{{description>Place the page description here}}
+</code>
+
+=== Read on: ===
+[[https://www.dokuwiki.org/plugin:description |DokuWiki plugin: Search Engine Optimization - Description]]
+[[:wiki:syntax seo keywords|Writing Guidance SEO Keywords]] 
+[[:contribute:do_work:guidelines|Back to guidelines overview]]
+
+

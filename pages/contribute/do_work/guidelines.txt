@@ -13,7 +13,10 @@ Time notation:           "hh:mm" using 24 hour notation (GMT if applicable)
 
 [[:wiki:syntax|General Wiki Syntax]]
 [[:wiki:syntax imagemaps|Image map Syntax]]
+[[:wiki:syntax seo keywords |Search Engine Optimization: Keywords]]
+[[:wiki:syntax seo description |Search Engine Optimization: Description]]
 [[http://en.wikibooks.org/wiki/LaTeX/Mathematics |Mathematics Syntax]]
+
 
 === Namespace Layout ===
 

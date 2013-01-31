@@ -1,0 +1,12 @@
+===== Writing Guidelines: SEO Keywords =====
+
+Syntax:
+<code>
+{{keywords>art in the park,Sheffield,urban,street,creative}}
+</code>
+
+
+=== Read on: ===
+[[https://www.dokuwiki.org/plugin:keywords |DokuWiki plugin: Search Engine Optimization - Keywords]]
+[[:wiki:syntax seo description|Writing Guidance SEO Descriptions]] 
+[[:contribute:do_work:guidelines|Back to guidelines overview]]
