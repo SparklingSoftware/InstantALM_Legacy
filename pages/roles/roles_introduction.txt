@@ -6,6 +6,17 @@ Below is a list of roles that are identified withing the ALM. They are sorted (b
 
 It also ignores methodologies. Agile methodologies tend to encourage cross-competency team interaction. The roles below ignore the offical job title of people and refers to the work they are performing on the team, which can Business Analist in the morning and tester in the afternoon. Either role is described below so that the same person can learn about the expected outcomes in both team roles.
 
+==== Sources ====
+
+The following sources have been used to gather these generic IT role descriptions:
+
+**Multiple roles**
+http://wiki.okfn.org/Handbook/Generic_Team_Roles
+
+**Business Analysis**
+http://www.bridging-the-gap.com/what-is-a-business-analyst-role-anyway/
+
+
 
 ==== Business Stakeholders ====
 

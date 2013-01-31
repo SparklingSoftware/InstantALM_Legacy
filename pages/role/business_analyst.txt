@@ -1,10 +1,44 @@
 
 
-===== <<Name>> =====
+===== Role: Business Analyst =====
 
-** Description: **
+==== Description: ====
 
-<<Description>>
+Business analysis as defined by the International Institute of Business Analysis (IIBA) in the Business Analysis Body of Knowledge (BABOK) is:
+
+    …the set of tasks and techniques used to work as a liaison 
+    among stakeholders in order to understand the structure, policies, 
+    and operations of an organization, and to recommend solutions 
+    to enable the organization to achieve its goals.
+
+The body of business analysis activities does not define a role. The BABOK goes on to say to define a business analyst as:
+
+    any person who performs business analysis activities, no matter 
+    what their job title or organizational role may be…
+
+and continues to reference that many roles do only some of the business analysis activities and others do business analysis activities and activities from other professional domains.
+
+==== The Key Responsibilities of a Business Analyst. ====
+
+Even thought the business analyst has a vital role in IT project, the role doesn't necessarily involve IT. The primary focus is to "enable the organization to achieve its goals", which almost always means "improve business processes and tools". As many processes are automated in this day and age, this will likely include some change to IT and hence the involvement in IT teams. However the role of the business analyst is much bigger.
+
+Therefore, withing the scope of ALM processes, a business analyst is responsible for the following:
+
+
+    Elicitation - Discovering the underlying business need to be addressed 
+    and information related to the product and project requirements, often 
+    through conversations with stakeholders.
+    
+    Analyzing Requirements - Organizing, specifying and modeling the requirements 
+    to ensure they are complete and unambiguous.
+    
+    Specifying Requirements - Documenting the requirements in a format that can
+    be shared with stakeholders.
+    
+    Validating and Verifying Requirements - Ensuring the requirements map to the 
+    real business need, are approved by all relevant stakeholders, and meet 
+    essential quality standards.
+
 
 ^ Processes where this role is involved in ^
 | [[:process:todo:todo| Todo -> Todo]]  |

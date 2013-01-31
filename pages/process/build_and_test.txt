@@ -9,24 +9,7 @@ testing, write test plans and test cases and execute those according the defined
 
 We will therefore focus on the generic practices and call out differences where we need to.
 
-
-==== Input / Outputs ====
-
-^ Inputs: ^   Outputs: ^
-| <<INPUT1>>     |      <<OUTPUT1>>  |
-| <<INPUT2>>     |      <<OUTPUT2>>  |
-
-^ RASCI ^ Role ^
-| [[:general:glossary:glossary_introduction#rasci - responsible|Responsible]] | <<TODO>> |
-| :::                                                                         | <<TODO>> |
-| [[:general:glossary:glossary_introduction#rasci - accountable|Accountable]] | <<TODO>> |
-| :::                                                                         | <<TODO>> |
-| [[:general:glossary:glossary_introduction#rasci - supportive|Supportive]]   | <<TODO>> |
-| :::                                                                         | <<TODO>> |
-| [[:general:glossary:glossary_introduction#rasci - consulted|Consulted]]     | <<TODO>> |
-| :::                                                                         | <<TODO>> |
-| [[:general:glossary:glossary_introduction#rasci - informed|Informed]]       | <<TODO>> |
-   
+  
 ==== Process ====
 
 For explanation purposes we are going to assume this very simplified high level process:

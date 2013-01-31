@@ -1,0 +1,18 @@
+===== Process: Business Analysis =====
+
+==== Description ====
+
+<<DESCRIPTION GOES HERE>>
+
+
+==== Process ====
+
+{{map>:process:babok_overview.jpg|BABOK Overview}}
+
+  * [[:process:business analysis planning and monitoring|Business Analysis Planning and Monitoring @ 322,50,452,119]]
+ 
+{{<map}}
+
+{{keywords>IT Efficiency, IT best practices, the SDLC, IT Standards}}
+{{description>This standards library has been compiled by the ALM Community. It is based on IT best practices, increasing your IT Efficiency considerably across the SDLC}}
+
