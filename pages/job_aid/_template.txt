@@ -1,0 +1,42 @@
+~~NOCACHE~~
+
+===== JA<<ID>> - <<NAME>> =====
+
+/* The ID is a 6 digit number that increases with every job aid created. Before you claim 
+an ID, do yourself a favour and check with the other authors whether it's already been taken.
+
+Come approval time, it's "first come, first serve" so if you are using an ID that has already been
+taken by someone else and has been approved by the SEPG, you will have to change yours including all
+links
+*/
+
+==== Description ====
+
+<<DESCRIPTION>>
+
+==== Why should I do this? ====
+
+[[ todo | todo ]]
+/* Provide guidance why it's important to apply this practice. It's highly preferable to provide 
+evidence to back up your claims.
+If you are to write this content later, leave the todo links where they are as they will come up in the
+reporting and will remind everyone that some work still has to be done*/
+
+==== What will/might happen if I don't? ====
+
+[[ todo | todo ]]
+/* Provide guidance what risks are associated with not applying this practice. It's highly 
+preferable to provide evidence to back up your claims.
+If you are to write this content later, leave the todo links where they are as they will come up in the
+reporting and will remind everyone that some work still has to be done*/
+
+==== Effort ====
+
+[[ todo | todo ]]
+*/ What effort is needed to apply this practice?
+If you are to write this content later, leave the todo links where they are as they will come up in the
+reporting and will remind everyone that some work still has to be done*/
+
+
+
+

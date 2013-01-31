@@ -6,7 +6,7 @@
 
 These coding guidelines will help [[:role:developer|developers]] write more consistent code. 
 
-==== Benefits ====
+==== Why should I do this? ====
 
 Convincing management of the importance of  implementing coding standards is one of the first steps to successfully adoption.  You will need to justify the time you will spend defining, documenting, communicating, fostering adoption and enforcing your coding standards.  Your project manager will likely ask you the question, “So what are the benefits of implementing coding standards on our project?”.  Here are a few of the benefits of coding standards:
 
@@ -16,7 +16,7 @@ Convincing management of the importance of  implementing coding standards is one
   * Facilitates better designs – for instance, limiting all methods to 40 lines forces developers to think about the functionality of the method
   * Improving the quality of technical documentation – Generating Technical Documentation highlights inconsistencies. Coding standards will create more consistent code, therefore more consistent documentation.
 
-==== Disadvantages and Risks of not doing it ====
+==== What will/might happen if I don't? ====
 
   * There is a big risk that formal code reviews are impossible and there is certainly an efficiency loss when doing formal code reviews without agreed coding standards. You can find the pro's and con's of [[:todo|formal code reviews]] in that [[:todo|standard]].
 

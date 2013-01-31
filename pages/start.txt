@@ -6,7 +6,7 @@
 
 ====== About the ALM Library ======
 
-The "Application Lifecyle Management Library" contains Job-aids, standards and practices agreed by the ALM-Community [(www.alm-community.org)]
+The "Application Lifecyle Management Library" contains [[:contribute:types of content|Job-aids, standards and practices]] agreed by the ALM-Community [(www.alm-community.org)]. 
 
   * The content is 100% community driven and only contains content that your peers consider useful. The rest simply doesn't make it in.
   * Installing an on-premise instance of this library provides the end user with regular updates of improvements which can be chosen to be adopted or ignored.
