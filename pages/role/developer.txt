@@ -7,7 +7,7 @@
 A person in a team who will control the projects performed by your software development team. He will follow the execution of the software project, control time and budget. He should be organized himself and have excellent organizational skills. He is responsible for the software team’s activity, and project accounting.
 
 
-^ Processes where this role is involved in ^
+^ Key processes where this role is involved in ^
 | [[:process:development| Development]]  |
 
 ^ Job-aids ^

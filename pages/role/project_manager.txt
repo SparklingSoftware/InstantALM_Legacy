@@ -10,7 +10,7 @@
 
 <<Description>>
 
-^ Processes where this role is involved in ^
+^ Key processes where this role is involved in ^
 | [[:process:todo:todo| Todo -> Todo]]  |
 | [[:process:todo:todo| Todo -> Todo]]  |
 | [[:process:todo:todo| Todo -> Todo]]  |

@@ -6,7 +6,7 @@
 A person who will test the software during the course of software development. He should be familiar with various techniques and methods of software testing (black box testing, smoke testing, etc) and should very patient.
 
 
-^ Processes where this role is involved in ^
+^ Key processes where this role is involved in ^
 | todo  |
 | todo  |
 

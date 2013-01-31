@@ -40,17 +40,15 @@ Therefore, withing the scope of ALM processes, a business analyst is responsible
     essential quality standards.
 
 
-^ Processes where this role is involved in ^
-| [[:process:todo:todo| Todo -> Todo]]  |
-| [[:process:todo:todo| Todo -> Todo]]  |
-| [[:process:todo:todo| Todo -> Todo]]  |
+^ Key processes where this role is involved in ^
+| [[:process:business analysis| Business Analysis]]  |
 
 ^ Job-aids ^
 | [[:todo|todo]] |
 | [[:todo|todo]] |
 
 ^ Tools used ^
-| [[:todo|todo]] |
+| [[:tool:introduction:business process modelling|Business Process Modelling]] |
 
 ^ Maturity     ^ Practices ^
 | Extreme      |           |
