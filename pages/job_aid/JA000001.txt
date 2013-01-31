@@ -1,7 +1,6 @@
+~~NOCACHE~~
 
-
-
-===== ALM000001 - Coding Guidelines =====
+===== JA000001 - Coding Guidelines =====
 
 ==== Description ====
 
@@ -29,7 +28,7 @@ Convincing management of the importance of  implementing coding standards is one
 
 ==== .NET Coding Guidelines ====
 
-{{filelist>data/downloads/ALM000001/dotnet"*&direct=1}}
+{{filelist>downloads/ALM000001/dotnet/*&direct=2}}
 
 ** Sources **
 http://www.csharpcodingguidelines.com/
@@ -38,14 +37,14 @@ http://www.dennisdoomen.net/
 
 ==== Java Coding Standards ====
 
-{{filelist>data/downloads/ALM000001/java/*&direct=1}}
+{{filelist>downloads/ALM000001/java/*&direct=2}}
 
 ** Sources **
 http://www.oracle.com/technetwork/java/codeconv-138413.html
 
 ==== SQL Server ====
 
-{{filelist>data/downloads/ALM000001/sqlserver/*&direct=1}}
+{{filelist>downloads/ALM000001/sqlserver/*&direct=2}}
 
 ** Sources **
 
@@ -54,7 +53,7 @@ http://sqlserverpedia.com/wiki/SQL-Server-Download
 
 ==== T-SQL ====
 
-{{filelist>data/downloads/ALM000001/tsql/*&direct=1}}
+{{filelist>downloads/ALM000001/tsql/*&direct=2}}
 
 ** Sources **
 
