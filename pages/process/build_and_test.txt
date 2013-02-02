@@ -22,5 +22,5 @@ For explanation purposes we are going to assume this very simplified high level 
 As you can see there is a natural order where we first specify the requirements, we then build the software, test it and when we are satisfied with the quality, we deploy it to production. Obviously in practice and depending on our chosen method, we hop back and forth, do tasks concurrently, split a release up in tiny chunk and follow the above process iteratively, but few people will disagree that this is the general order of things.
 
 
-{{keywords>it best practices, the sdlc, software engineer, software developer}}
+{{keywords>ALM, it best practices, the sdlc, software engineer, software developer}}
 {{description>Overview of the Build and Test Processes as agreed by the ALM Community. Every Software Engineer should follow these!}}

@@ -6,21 +6,20 @@
 ==== Requirements ====
 
 The list of requirement can be found here:
-[[:tool:requirements:<<tool function>>|Full list of requirements]]
+[[:tool:requirements:definitive software library|Full list of requirements]]
 
 ==== Formal evaluation ====
 
 Entire list of tools:
 ^ Tool ^ Status ^ Reason if not on shortlist ^
-| [[:todo|todo]] | Shortlisted   | |
-| [[:todo|todo]] | Shortlisted   | |
-| [[:todo|todo]] | Not evaluated | Not able to be hosted on-premise |
-| [[:todo|todo]] | Shortlisted   | |
-| [[:todo|todo]] | Not evaluated | Latest release >5 years |
+| [[:todo|Artifactory Pro]]            | Shortlisted      | |
+| [[:todo|Nexus Pro]]                  | Shortlisted      | |
+| [[:todo|IBM Rational Asset Manager]] | Not evaluated    | [[todo|todo]] |
+| [[:todo|put]]                        | Current Standard | |
 
 << Provide an exec summary (Max 250 words) for the evaluation >>
 
-<< Link to the full evaluation document >>
+{{:tool:evaluation:definitive_software_library.xlsx|Full evaluation document}}
 
 ==== Advise ====
 

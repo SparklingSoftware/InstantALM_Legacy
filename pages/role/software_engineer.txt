@@ -1,0 +1,79 @@
+
+===== Role: Software Engineer =====
+
+Designs, develops, modifies, documents, tests, implements, installs and supports software applications and systems.
+
+** Tasks Include: **
+  * researching, consulting, analysing and evaluating system program needs 
+  * identifying technology limitations and deficiencies in existing systems and associated processes, procedures and methods 
+  * testing, debugging, diagnosing and correcting errors and faults in an applications programming language within established testing protocols, guidelines and quality standards to ensure programs and applications perform to specification 
+  * writing and maintaining program code to meet system requirements, system designs and technical specifications in accordance with quality accredited standards 
+  * writing, updating and maintaining technical program, end user documentation and operational procedures 
+  * providing advice, guidance and expertise in developing proposals and strategies for software design activities such as financial evaluation and costing for recommending software purchases and upgrades
+
+** Example of units undertaken in higher education qualifications: **
+Programming Languages, Software Engineering, Operating Systems, Programming, System Software, Systems Programming, Compiler Theory.
+
+** Example knowledge and technical requirements: **
+Databases: MySQL, Oracle, Access, SAP 
+Software: Microsoft SQL Server, DB Artisan, Eclipse, Visual Studio.NET, FrontPage 
+Languages: C#, Java, Visual Basic, ASP, XML, XSL, JWS, SQL, and T-SQL
+
+** Vendor/vendor-neutral qualifications appropriate to this occupation: **
+(this is not an essential or exhaustive list: please refer to guidelines for eligibility)
+Microsoft Certified Solution Developer 
+Certified Lotus Professional or Certified Novell Engineer 
+Oracle Certified Master 
+Microsoft Certified Database Administrator (MCSD)
+
+** Professional qualifications we might expect in the career: **
+ACS Certified Technologist
+ACS Certified Professional
+
+** Capabilities that we might expect in this role: **
+Programming/software development
+Software development process improvement
+Application Support
+Configuration Management
+Database design
+System design
+Data analysis
+Software integration
+Systems testing
+Usability evaluation
+Content creation
+
+^ Key processes where this role is involved in ^
+| [[:process:development| Development]]  |
+
+^ Job-aids ^
+| SCM Policies |
+| [[:job_aid:ja000001|Coding Guidelines]] |
+
+^ Tools used ^
+| [[:tool:introduction:version control system|Version Control System]] |
+
+
+^ Maturity     ^ Practices ^
+| Extreme      |           |
+| :::          |           |
+| Advanced     |           |
+| :::          |           |
+| Intermediate |           |
+| :::          |           |
+| Beginner     |           |
+| :::          |           |
+| Base         | Use Coding Guidelines       |
+| :::          | Perform formal code reviews |
+
+=== Sources: ===
+
+[[http://www.acs.org.au/__data/assets/pdf_file/0018/7641/ANZSCO-Code-Descriptions-1-July-2012-V2.pdf]]
+
+=== Continue Reading: ===
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, Software Engineer, Software Engineer, it best practices, the sdlc, application development}}
+{{description>Description of the Software Engineer role within ALM and the IT industry in general, based on IT Best Practices}}
+

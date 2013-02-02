@@ -1,4 +1,4 @@
-
+﻿
 
 ===== Role: Business Analyst =====
 
@@ -61,4 +61,16 @@ Therefore, withing the scope of ALM processes, a business analyst is responsible
 | :::          |           |
 | Base         |           |
 | :::          |           |
+
+=== Sources: ===
+
+
+=== Continue Reading: ===
+
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Business Analyst role within ALM and the IT industry in general, based on IT Best Practices}}
 

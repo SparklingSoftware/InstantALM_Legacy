@@ -1,0 +1,78 @@
+
+
+===== Role: Analyst Programmer =====
+
+** Description: **
+
+Analyses user needs, produces requirements documentation and system plans, and encodes, tests, 
+debugs, maintains and documents programs and applications, Web Design. 
+
+** Tasks Include: **
+  * Researching, consulting, analyzing and evaluating system program needs 
+  * Identifying technology limitations and deficiencies in existing systems and associated processes, procedures and methods 
+  * Testing, debugging, diagnosing and correcting errors and faults in an applications programming language within established testing protocols, guidelines and quality standards to ensure programs and applications perform to specification 
+  * Writing and maintaining program code to meet system requirements, system designs and technical specifications in accordance with quality accredited standards 
+  * Writing, updating and maintaining technical program, end user documentation and operational procedures 
+  * Providing advice, guidance and expertise in developing proposals and strategies for software design activities such as financial evaluation and costing for recommending software purchases and upgrades
+
+** Example of units undertaken in higher education qualifications: **
+System Analysis and Design, Program Design and Development, Program Testing, Data Base Management Systems, eCommerce Development, Programming.
+
+**Example knowledge and technical requirements: **
+Variety of operating systems environments such as Operating System: Windows, DOS, Linux, UNIX. 
+
+Programming such as C++ and Java
+
+Database systems SQL, Access, ORACLE
+
+** Vendor/vendor-neutral qualifications appropriate to this occupation: **
+(this is not an essential or exhaustive list: please refer to guidelines for eligibility)
+Microsoft Certified Professional Developer 
+Microsoft Certified IT Professional 
+Certified Information Systems Auditor or Certified Information Security Manager from Information 
+Systems Audit and Control Association 
+
+** Professional qualifications we might expect in the career: **
+ACS Certified Technologist
+ACS Certified Professional
+
+** Capabilities that we might expect in this role: **
+Programming/software development
+Systems integration
+Applications support
+System design
+Software development process improvement
+Requirements definition and management
+IT operations
+Testing
+
+^ Key processes where this role is involved in ^
+| [[:process:development| Development]]  |
+
+^ Job-aids ^
+| SCM Policies |
+| [[:job_aid:ja000001|Coding Guidelines]] |
+
+^ Tools used ^
+| [[:tool:introduction:version control system|Version Control System]] |
+
+
+^ Maturity     ^ Practices ^
+| Extreme      |           |
+| :::          |           |
+| Advanced     |           |
+| :::          |           |
+| Intermediate |           |
+| :::          |           |
+| Beginner     |           |
+| :::          |           |
+| Base         | Use Coding Guidelines       |
+| :::          | Perform formal code reviews |
+
+=== Continue Reading: ===
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the --- role within ALM and the IT industry in general, based on IT Best Practices}}

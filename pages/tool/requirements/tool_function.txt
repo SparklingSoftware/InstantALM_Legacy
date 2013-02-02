@@ -1,18 +1,3 @@
+﻿
 
-^ ID ^ [[:general:glossary:glossary_introduction#MoSCoW (BABOK)|MoSCoW]] ^ Requirement ^
-| 4.1.1 | M | As an Security User I want the tool to support integration with Active Directory for authorization So that the tool meets security group policy |
-| 4.1.2	| M | As a User I want the Enterprise Artefact Repository to Audit who created and when So that I can easily identify who created artefacts in the event of a change breach.|
-
-
-4.1.3	M	As a Dev/Test/Prod Manager
-I want the Enterprise Artefact Repository to Audit who modified a state transition (promotion) and when
-So that I can easily identify which user has promoted an artefact.
-4.1.4	M	As a Security User
-I want to ensure that only Developers can create artefacts and once created  they become immutable to all roles.
-So that Integrity of artefacts is achieved throughout the SDLC process.
-4.1.5	M	As a Security User 
-I want the tool to support fine grained security permissions
-So that I can restrict access as required including specific artefacts and assets
-4.1.6	M	As Security Architecture
-I have non functional requirements addressing security and audit 
-So that the tool is compliant for NAB.
+===== Please fix the link pointing to this page! =====
