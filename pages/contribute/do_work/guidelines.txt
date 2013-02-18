@@ -20,6 +20,7 @@ links are created using all lower casing, spaces are allowed. For example:
 [[:wiki:syntax imagemaps|Image map Syntax]]
 [[:wiki:syntax seo keywords |Search Engine Optimization: Keywords]]
 [[:wiki:syntax seo description |Search Engine Optimization: Description]]
+[[:wiki:syntax rigrr|Rigrr (Process Maps)]]
 [[http://en.wikibooks.org/wiki/LaTeX/Mathematics |Mathematics Syntax]]
 
 

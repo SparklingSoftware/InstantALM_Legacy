@@ -1,10 +1,78 @@
-
 ===== Training =====
 
+Training is organized in a cost-effective layered model, where the layer above builds on the foundations of the layer below itself, where the cost increase by each layer.
 
-rew
-gfrwe
-g
-reg
-erg
-erg
+A big emphasis has been put on the self learning (and therefore teaching) of the entire organizations. Its interesting that many (usually enterprise size organisations sometime forget the expertise they've got already in house. Sometime external trainers get hired while internals would know the material equally well or even better, while being able to add additional relevance to the organization into the training.
+
+The layers are as followed and are explained below the diagram. You can click on the image to find out what training is offered in each layer and more information on how to apply to attend and perhaps on how to even become a trainer yourself!
+
+{{map>:adoption:training:training_pyramid.png|Training Pyramid}}
+
+  * [[:adoption:training:conferences| Conferences @ 203,3,402,78]]
+  * [[:adoption:training:formal training and train the trainer| Formal Training and Train the Trainer @ 167,92,438,166]]
+  * [[:adoption:training:mentoring| Mentoring @ 124,180,475,253]]
+  * [[:adoption:training:peer2peer| Peer 2 Peer @ 85,269,512,342]]
+  * [[:adoption:training:self learning| Self Learning @ 48,357,553,431]]
+  * [[:adoption:training:foundation| Foundation @ 4,445,593,520]]
+ 
+{{<map}}
+
+
+==== Foundation ====
+
+The foundation training offerings focus on the basic information that all employees need to know to do their job. Think about Time sheets, Internal Processes, Organizational Structure and Purpose of each department, etc.
+
+Foundation training should also include role specific components that explains those practices that are specific for a particular role. It would be a waste of time for both roles if the Business Analyst would attend the developers training and vice versa.
+
+These foundation training sessions tend to be mandatory and could require refreshing on a periodic basis. 
+
+=== Continue Reading: ===
+[[:adoption:training:foundation| Foundation]]
+
+==== Self Learning ====
+
+Once the employee knows WHAT things need to be done in the organization, it's time to start learning exactly HOW to do those tasks. The first step is to provide Self Learning in the form of video's, power point style slides, written Hands-on exercises, etc.
+
+The power is in the repeatability because the creation of the training material is one-off, while receiving the training is no effort at all (from the trainers perspective :-)). Usually, self learning will be created after two or three peer 2 peer sessions as by then the training material has become stable somewhat.
+
+=== Continue Reading: ===
+[[:adoption:training:self learning| Self Learning]]
+
+==== Peer 2 Peer ====
+
+A peer2peer learning system is that where, as the name suggests, peers train their peers. Many organizations have great in house talent 
+that would be perfectly capable of giving training and yet those companies still hire well payed externals to give that training. This won't replace external training completely, as there are good opportunities in hiring externals. (see below). 
+
+This approach provides a very cost effective way for seniors to train more junior employees in the subject at hand and to also put it into perspective of the organization. The training will also become a subject matter expert within the organization and the go-to person to ask question in that topic.
+
+The quality of these training sessions should still ambitious, but doesn't have to be perfect. The idea is to have a light weight approach to transfer knowledge, not to waste time gold-plating slides.
+
+=== Continue Reading: ===
+[[:adoption:training:peer2peer| Peer 2 Peer]]
+
+==== Mentoring ====
+
+Mentoring (or coaching) is an excellent way of extending peer 2 peer by providing follow up support to apply the lessons learned. A team will be assigned a Mentor to help them, hands-on, on their day-to-day tasks. This might be a long term engagement.
+
+Even though it might distract the Mentor from his/her normal tasks, it might be worth it as the value of the mentors time might be multiplied if a whole teams performance and quality increases by applying the agreed IT Best Practices.
+
+=== Continue Reading: ===
+[[:adoption:training:mentoring| Mentoring]]
+
+==== Formal Training and Train the Trainer ====
+
+  * Objective view into the organisation, challenging the status quo?
+
+=== Continue Reading: ===
+[[:adoption:training:formal training and train the trainer| Formal Training and Train the Trainer]]
+
+
+==== Conferences ====
+
+=== Continue Reading: ===
+[[:adoption:training:conferences| Conferences]]
+
+
+
+
+

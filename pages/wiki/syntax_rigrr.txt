@@ -1,0 +1,28 @@
+===== How to use Rigrr in DokuWiki =====
+
+The Rigrr library gives the user the ability to include process maps inside their wiki pages. This is particularly useful to show complicated processes work alternative flows or cross-competency workflows. Having the diagrams embedded in the pages means that the surrounding text can provide more context and/or more detail to understand the process map better.
+
+Even though the Rigrr library can render any BPMN document coming from any BPM tool that exports to BPMN, it is recommended to use either the basic [[http://rigrr.rapilabs.com|BPMN online tool]] or the commercially available DokuWiki plugin that allows for tight integration between the library and the library.
+
+When using the online application the following process needs to be followed:
+  * Open the online application ([[http://rigrr.rapilabs.com|BPMN online tool]])
+  * Create the drawing. Help is available in the application if needs be.
+  * Export the drawing to BPMN by choosing "File -> Save" from the menu. Click "Select" and use CTRL+C to copy the selected text to the clipboard.
+  * Open a wiki page in edit more and add the following code:
+
+<code>
+   <rigrr>
+
+   <<BPMN GOES HERE>>
+
+   </rigrr>
+</code>
+
+  * Replace the <<BPMN GOED HERE>>  with the BPMN copied from the Rigrr online application
+
+=== Known issues ===
+
+  * Only one process map per wiki page.
+  * Clicking on links will open the sub-process (or rather linked wiki page) in a new browser window.
+
+

@@ -1,8 +1,18 @@
 ===== Approve Deliverables =====
 
 
-During the next SEPG meeting the changes will be discussed and potentially approved. If not approved (very rare as all members had the opportunity to review before the meeting) the PII Admin will revert the changes and thereby unlock the workspace. Most improvements will be approved by the SEPG and the PII Admin will promote the content to "Live" right there and then.
+During the next SEPG meeting the changes will be discussed and potentially approved. Approvals can only happen when the quora of attendees mentioned in the SEPG Charter is met.
 
-The workspace will exist (locked) until it is archived/deleted.
+During the approval, the SEPG will also discuss and decide the strategy around sharing the newly approved content. Two questions will need to be addressed: 
+  - Whether or not to mark certain content as "Internal IP". Content marked as "Internal IP" is important for the organisational competitive position and CANNOT BE presented externally or shared with the Global ALM Community. 
+  - If not marked as "Internal IP", does the organization want to publish it in the Global ALM Community. The SEPG Charter should state the default thinking when dealing 
+
+
+If not approved (Should be very rare when following normal process as all members have had the opportunity to review before the meeting) the PII Admin will revert the changes and thereby unlock the workspace again so that amendments can be made before re-submitting. 
+
+When improvement are approved by the SEPG the PII Admin will immediately promote the content to "Live" and change the status of the IP to "Done". The workspace will exist (locked) until it is archived/deleted.
+
+
+
 
 
