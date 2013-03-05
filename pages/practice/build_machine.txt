@@ -14,31 +14,105 @@ name            : Build Machine
 More information on what to specify as part of each section, please refer to [[:contribute:do_work:guidelines|Writing Guidelines]] 
 *****/
 
-<< Description >>
+Build Machine is PC or server that is used for "Build Automation". It builds (scripting) or automates various tasks that a software developer does manually in their routine activities like:
+
+** Compiling: **
+A compiler is a computer program or set of programs that transforms source code written in a computer language or the source language into another computer language or the target language, often having a binary form known as object code. The reason to transform source code is to create an executable program.
+
+When this step is successful the build machine continues with the next step. If errors occurred, they are logged and the build is flagged as failed.
+
+** Running Tests: **
+
+After building the executable packages, automated tests are be run on those executable programs. This is usually the [[:role:developer|developers]] in collaboration with the [[:role:tester|testers]] to [[:todo:Implement Automated Tests]]. 
+
+When this step is successful the build machine continues with the next step. If errors occurred, they are logged and the build is flagged as failed.
+
+** Packaging the binary code: **
+
+Packaging the executable programs and configurations into a bundle that can be easily deployed. It implies to the package management systems, which are commonly used with the Linux operating systems, Microsoft MSIs or plain ZIP files. Depending on the [[:todo|Build Pipeline Setup]] the package can include database up- and rollback/downgrade scripts.
+
+A package is a set of software application which can be installed or uninstalled. The removal of the packages is handled by the packaging management system. The package is nothing but the set of binary code. The package management system holds the Meta information, allows searches and perform automatic up gradation to latest version. (2)
+
+The packages are given a unique version number and will be made available in the [[:tool:definitive software library
+|Definitive Software Library]] from where deployments to the various environments can happen.
+
+** Deployment of project to production systems: **
+
+Deployment is strictly speaking not part of the build machine tasks, but handle by the Deployment Server. 
+
+However, because the nature of these two systems is very similar, they are usually combined into one. Only in scenarios where there are organizational requirements (Usually highly regulated environments like financial institutions) that requires separation of the two systems.
+
+The "Continue Reading" has a link to more information about Deployment Machines.
+
+** Release Notes and other documentation: **
+
+The [[:job-aid:release notes|Release Notes]] document is a human readable document that explains what is included in the package, what the known errors are, etc. It is used to inform the reader on what to expect when installing that particular package.
+
+Other documents that could be produced are:
+[[:job-aid:test summary report|Test Summary Report]]
+[[:job-aid:source code documentation|Source Code Documentation]]
 
 
 ==== RASCI  ====
 
 ^ RASCI ^ Role ^
-| [[:general:glossary:glossary_introduction#rasci - responsible|Responsible]] | [[:role:example|Example]] |
-| [[:general:glossary:glossary_introduction#rasci - accountable|Accountable]] | <<TODO>> |
+| [[:general:glossary:glossary_introduction#rasci - responsible|Responsible]] | [[:role:technical project lead|Technical Project Lead]] |
+| [[:general:glossary:glossary_introduction#rasci - accountable|Accountable]] | [[:role:technical project lead|Technical Project Lead]] |
 | :::                                                                         | <<TODO>> |
 | [[:general:glossary:glossary_introduction#rasci - supportive|Supportive]]   | <<TODO>> |
 | :::                                                                         | <<TODO>> |
 | [[:general:glossary:glossary_introduction#rasci - consulted|Consulted]]     | <<TODO>> |
 | :::                                                                         | <<TODO>> |
-| [[:general:glossary:glossary_introduction#rasci - informed|Informed]]       | <<TODO>> |
+| [[:general:glossary:glossary_introduction#rasci - informed|Informed]]       | [[:role:developer|Developer]] |
+
 
 ==== Why should we do this? ====
 
-/* */
+**Minimization of bad builds**
+
+[[:todo|Todo]]
+
+**Elimination of redundant tasks**
+
+[[:todo|Todo]]
+
+**Improvement in the product quality**
+
+[[:todo|Todo]]
+
+**Acceleration in link processing and compilation**
+
+[[:todo|Todo]]
+
+**Record preparation of previous builds and releases in order to investigate future issues **
+
+[[:todo|Todo]]
+
+**Saving of time and money**
+
+[[:todo|Todo]]
+
+**Frequent and fast builds to catch problems **
+
+[[:todo|Todo]]
+
+**Incremental build processing**
+
+[[:todo|Todo]]
+
+**Correct and efficient build status reporting and many more.**
+
 
 ==== What could/might happen if I don't apply this? ====
 
 
 ==== Effort ====
 
+
+
 ==== Tools ====
+
+[[:tool:build machine|Build Machine Tool]]
 
 ==== Artifacts ====
 
@@ -47,6 +121,11 @@ More information on what to specify as part of each section, please refer to [[:
 
 
 ==== Continue Reading: ====
+
+[[:practice:deployement machine|Deployment Machine]]
+http://en.wikipedia.org/wiki/Compiling
+http://en.wikipedia.org/wiki/Software_package_%28installation%29
+
 
 
 

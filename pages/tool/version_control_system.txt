@@ -1,0 +1,42 @@
+
+===== Tool: Version Control System =====
+
+
+
+
+
+<<Description>>
+
+==== Requirements ====
+
+The list of requirement can be found here:
+[[:tool:requirements:version control system|Full list of requirements]]
+
+==== Formal evaluation ====
+
+Entire list of tools:
+^ Tool ^ Status ^ Reason if not on shortlist ^
+| [[:todo|todo]] | Shortlisted   | |
+| [[:todo|todo]] | Shortlisted   | |
+| [[:todo|todo]] | Not evaluated | Not able to be hosted on-premise |
+| [[:todo|todo]] | Shortlisted   | |
+| [[:todo|todo]] | Not evaluated | Latest release >5 years |
+
+<< Provide an exec summary (Max 250 words) for the evaluation >>
+
+<< Link to the full evaluation document >>
+
+==== Advise ====
+
+<< Provide an exec summary (Max 250 words) of the advise >>
+
+<< Link to the full advise document >>
+
+==== Training ====
+
+<< Provide links into the Training section to the relevant training offerings >>
+
+==== Sources ====
+
+<<Link to sources used on this page>>
+
