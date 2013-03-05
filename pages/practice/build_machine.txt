@@ -1,0 +1,53 @@
+<nodisp>
+<revision_frequency>30</revision_frequency>
+
+---- dataentry practices ----
+type            : practice
+name            : Build Machine
+----
+
+</nodisp>
+
+
+===== Practice: Build Machine =====
+/*****
+More information on what to specify as part of each section, please refer to [[:contribute:do_work:guidelines|Writing Guidelines]] 
+*****/
+
+<< Description >>
+
+
+==== RASCI  ====
+
+^ RASCI ^ Role ^
+| [[:general:glossary:glossary_introduction#rasci - responsible|Responsible]] | [[:role:example|Example]] |
+| [[:general:glossary:glossary_introduction#rasci - accountable|Accountable]] | <<TODO>> |
+| :::                                                                         | <<TODO>> |
+| [[:general:glossary:glossary_introduction#rasci - supportive|Supportive]]   | <<TODO>> |
+| :::                                                                         | <<TODO>> |
+| [[:general:glossary:glossary_introduction#rasci - consulted|Consulted]]     | <<TODO>> |
+| :::                                                                         | <<TODO>> |
+| [[:general:glossary:glossary_introduction#rasci - informed|Informed]]       | <<TODO>> |
+
+==== Why should we do this? ====
+
+/* */
+
+==== What could/might happen if I don't apply this? ====
+
+
+==== Effort ====
+
+==== Tools ====
+
+==== Artifacts ====
+
+
+==== Do's and Don'ts ====
+
+
+==== Continue Reading: ====
+
+
+
+

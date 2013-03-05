@@ -1,0 +1,11 @@
+===== Practices Introduction =====
+
+This is the complete list of practices described as part of the ALM Library.
+
+---- datatable ----
+cols    : %pageid%, name, 
+headers : Details, Name
+max     : 100
+filter  : type=practice
+sort    : ^name
+----

@@ -127,6 +127,7 @@ A Process page will have the following sections:
 | RASCI | |
 | Swimlane Diagram | |
 | Detailed Description | |
+| Continue Reading: | Links to other pages in this library that the reader might find interesting after reading the current page |
 
 An example page can be found here: [[todo|todo]]
 
@@ -140,5 +141,26 @@ A Tool page will have the following sections:
 | Requirements | |
 | Evaluation | |
 | Advise | |
+| Continue Reading: | Links to other pages in this library that the reader might find interesting after reading the current page |
 
 An example page can be found here: [[todo|todo]]
+
+=== Practice Page Layout ===
+
+A Practice page will have the following sections:
+
+^ Section ^ Description ^
+| Unique Practice Name | This is the generic name of the function of a practice e.g. "Agile Story Estimation" |
+| Datatable | The datatable to populate the overview page |
+| Description |  |
+| RASCI | Links to the roles involved in this practice, fitted into a RASCI table |
+| Why should do this? | Provide summary and the details of the benefits of applying this practice. Provide evidence to back up any claims (whitepapers, academic studies, etc)  |
+| What could/might happen if I don't apply this? | Provide summary and the details of the risks when not applying. Provide evidence to back up any claims (whitepapers, academic studies, etc) |
+| Effort | How much effort is involved in implementing this? |
+| Tools | What are the tool needed (generic function names) to be used to implement this practice? Implement as links to the tool function in the tools area. |
+| Artifacts | What are the templates or other useful artifacts that the practitioner would need/want to apply this practice? |
+| Do's and Don'ts | Provide tips, tricks, pitfalls for this practice. Use casual wording if you like in this section. Straight brain dumps of real-life experiences are allowed and even encouraged here. |
+| Continue Reading: | Links to other pages in this library that the reader might find interesting after reading the current page |
+
+An example page can be found here: [[:practice:example|Example Practice]]
+

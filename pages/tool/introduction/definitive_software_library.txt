@@ -1,4 +1,8 @@
 
+<nodisp>
+   <revision_frequency>-5</revision_frequency>
+</nodisp>
+
 ===== Tool: Definitive Software Library (DSL) =====
 
 <<Description>>

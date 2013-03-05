@@ -39,7 +39,7 @@ GL = Guideline, VM = Virtual Machine, Repo = Repository
 |  :::           |                                 | Nightly Builds                  | Test-Requirement Traceability      |                                   | Standardised Deployment              | | | |
 |  :::           |                                 | Build Artefact Repo             |                                    | Some Information Radiators        | | | | |
 |  Base          | [[:job_aid:ja000001|Coding GL]] | Build Script                    | Test Case Repo                     | Tool Generated Reports            | Multiple Environments Exist  | | | |
-|  :::           | Version Control                 | Build Machine                   | Manual Testing                     | Report Runner                     | Deployment Scripts           | | | |
+|  :::           | Version Control                 | [[:practice:build machine|Build Machine]]   | Manual Testing                     | Report Runner                     | Deployment Scripts           | | | |
 
 
 

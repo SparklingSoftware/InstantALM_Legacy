@@ -1,5 +1,4 @@
 
-~~NOCACHE~~
 <nodisp>
   <revision_frequency>30</revision_frequency>
 </nodisp>
