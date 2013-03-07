@@ -15,7 +15,11 @@ tag             : Continuous Delivery
 More information on what to specify as part of each section, please refer to [[:contribute:do_work:guidelines|Writing Guidelines]] 
 *****/
 
-Build Machine is PC or server that is used for "Build Automation". It builds (scripting) or automates various tasks that a software developer does manually in their routine activities like:
+Build Machine is PC or server that is used for "Build Automation". It builds (scripting) or automates various tasks that a software developer does manually in their routine activities. 
+
+In the higher maturity levels the build machine can execute automated tests on the compiled code and the more mature the processes are the more tasks the build machine will take over from the team and thus creating more and more consistency and freeing up time from the team to deliver more value to the end customers and/or to implement even more automation.
+
+At the basic maturity level only the compilation and packaging are included.
 
 ** Compiling: **
 A compiler is a computer program or set of programs that transforms source code written in a computer language or the source language into another computer language or the target language, often having a binary form known as object code. The reason to transform source code is to create an executable program.
@@ -24,7 +28,9 @@ When this step is successful the build machine continues with the next step. If 
 
 ** Running Tests: **
 
-After building the executable packages, automated tests are be run on those executable programs. This is usually the [[:role:developer|developers]] in collaboration with the [[:role:tester|testers]] to [[:todo:Implement Automated Tests]]. 
+After building the executable packages, automated tests can be run on those executable programs. This is usually the [[:role:developer|developers]] in collaboration with the [[:role:tester|testers]] to [[:todo:Implement Automated Tests]].
+
+As mentioned above, this is mentioned for completeness, but is only applicable for maturity level higher than Basic. See the [[#continue reading|continue reading]] section for links to more information.
 
 When this step is successful the build machine continues with the next step. If errors occurred, they are logged and the build is flagged as failed.
 

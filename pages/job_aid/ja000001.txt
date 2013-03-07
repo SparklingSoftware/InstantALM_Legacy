@@ -1,8 +1,15 @@
-~~NOCACHE~~
+<nodisp>
+<revision_frequency>30</revision_frequency>
 
-===== JA000001 - Coding Guidelines =====
+---- dataentry jobaids ----
+type            : job aid
+name            : Coding Guidelines
+tag             : Development, .NET, Java, CSharp
+----
 
-==== Description ====
+</nodisp>
+
+===== Job Aid: Coding Guidelines =====
 
 These coding guidelines will help [[:role:developer|developers]] write more consistent code. 
 

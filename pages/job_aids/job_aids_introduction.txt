@@ -1,61 +1,16 @@
 ===== Job Aids introduction =====
 
+This is the complete list of practices described as part of the ALM Library.
 
-===== A =====
+---- datacloud ----
+field   : tag
+filter  : type=job aid
+----
 
-===== B =====
-
-===== C =====
-
-[[:job aid:JA000001|Coding Guidelines]]
-
-===== D =====
-
-===== E =====
-
-===== F =====
-
-===== G =====
-
-===== H =====
-
-===== I =====
-
-===== J =====
-
-===== K =====
-
-===== L =====
-
-===== M =====
-
-===== N =====
-
-[[:job aid:JA000001|.NET coding Guidelines]]
-
-===== O =====
-
-===== P =====
-
-===== Q =====
-
-===== R =====
-
-===== S =====
-
-===== T =====
-
-===== U =====
-
-===== V =====
-
-===== W =====
-
-===== X =====
-
-===== Y =====
-
-===== Z =====
-
-
+---- datatable ----
+cols    : %pageid%, name, 
+headers : Details, Name
+filter  : type=job aid
+sort    : ^name
+----
 
