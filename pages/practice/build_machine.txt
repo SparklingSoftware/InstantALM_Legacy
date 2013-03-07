@@ -68,39 +68,11 @@ Other documents that could be produced are:
 
 ==== Why should we do this? ====
 
-**Minimization of bad builds**
 
-[[:todo|Todo]]
-
-**Elimination of redundant tasks**
-
-[[:todo|Todo]]
-
-**Improvement in the product quality**
-
-[[:todo|Todo]]
-
-**Acceleration in link processing and compilation**
-
-[[:todo|Todo]]
-
-**Record preparation of previous builds and releases in order to investigate future issues **
-
-[[:todo|Todo]]
-
-**Saving of time and money**
-
-[[:todo|Todo]]
-
-**Frequent and fast builds to catch problems **
-
-[[:todo|Todo]]
-
-**Incremental build processing**
-
-[[:todo|Todo]]
-
-**Correct and efficient build status reporting and many more.**
+  * Time savings - This one should be more quantifiable than other types of ROI. Time savings comparing manual test execution to automated execution should be useful in building a good case.
+  * Repeatability - Automated tests are executed precisely the same way every time they are executed. This might not seem like a big return, but consider how many steps would need to be executed manually if these tests were not present and then consider how many mistakes might be made with that effort.
+  * Traceability - Automated tests (usually) provide some type of evidence of execution. It could be a traditional log or a simple pass/fail output from execution, but either way, automated tests can keep better track of what was measured during execution and provide the data with less variation than a manual tester.
+  * Availability - Automated tests can be kicked off manually or automatically to run at any hour of the day. They don't get tired, sick, or take vacations, and they can be made to work weekends without special arrangements.
 
 
 ==== What could/might happen if I don't apply this? ====
@@ -125,6 +97,7 @@ Other documents that could be produced are:
 [[:practice:deployement machine|Deployment Machine]]
 http://en.wikipedia.org/wiki/Compiling
 http://en.wikipedia.org/wiki/Software_package_%28installation%29
+http://sqa.stackexchange.com/questions/357/how-do-you-calculate-your-return-on-investment-on-automated-tests/359#359
 
 
 

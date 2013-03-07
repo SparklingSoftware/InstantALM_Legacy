@@ -1,0 +1,172 @@
+===== Plugin Syntax =====
+
+This page is a copy of content found at the DokuWiki website. For the latest information please go to the web page of the [[https://www.dokuwiki.org/plugin:data|Data Plugin]]
+
+This plugin depends on multiple parts, each having a similar syntax. The syntax defines a block with various key/value pairs configuring the behaviour of the plugin part. Next parts are available:
+  * Data Entry (Input)
+  * Data Table (Output)
+  * Data List (Output)
+  * Related Pages (Output)
+  * Tag Cloud (Control)
+
+==== Data Entry (Input) ====
+
+This part is used to add structured data to a page. All data entered here is tied to the page. Let's start with an example:
+
+<code>
+---- dataentry projects ----
+type            : web development
+volume          : 1 Mrd    # how much do they pay?
+employees       : Joe, Jane, Jim
+customer_page   : customers:microsoft
+deadline_dt     : 2009-08-17
+server_pages    : servers:devel01, extern:microsoft
+website_url     : http://www.microsoft.com
+task_tags       : programming, coding, design, html
+----
+</code>
+
+As you can see the block is defined by hyphens and the word ''dataentry''. You may add additional words after the ''dataentry'' keyword. Those will be added as additional CSS classes in the final HTML output and can be queried as ''%class%'' later. You can use this for styling how different entry types should be displayed later or limiting aggregation to certain types of pages.
+
+You may use the ''#'' character to add comments to the block. Those will be ignored and will neither be displayed nor saved. If you need to enter ''#'' as data, escape it with a backslash (''\#''). If you need a backslash, escape it as well (''\\'').
+
+Inside the block you see //column names// and their //values//. There are a few rules for the column names:
+
+  * Use any name you like
+  * If the name ends with the ''s'' character, you may add multiple values separated by commas (like in the employees row). This removes the last ''s'' character from the rendered column name. 
+    * If you want to avoid the multiple value option and keep your column name as is, add an underscore to the end of your name (example: ''thickness_ : 1cm''). 
+    * If you want the multiple value option and keep the your column name as is, add a second ''s'' to your column name...\\ e.g.:\\ ''name :  John'' -> name: John\\ ''names: John, Jack'' -> name: John, Jack\\ ''name_tag :  John, Jack'' -> name: [[John, Jack]]\\ ''name_tags: John, Jack'' -> name: [[John]], [[Jack]]\\ ''thickness : 1cm'' -> thicknes: 1cm\\ ''thickness_: 1cm'' -> thickness: 1cm\\ ''thicknesss: 1cm, 2inch'' -> thickness: 1cm, 2inch\\ 
+  * Special //types// can be added to the name to have the output formatted accordingly. Use an underscore to separate //identifier// and //type//. The following //types// are available currently:
+    * ''dt'' -- a date in the form YYYY-MM-DD, formatted as simple text but the input is checked for correct format
+    * ''page'' -- the entry is treated as Wiki [[:pagename]] and will be linked in output
+    * ''title'' -- like page, but an additional display title can be given separated by a pipe
+    * ''nspage'' -- like page, but the column name is treated as namespace for the link.
+    * ''url'' -- the value will be treated as external link
+    * ''tag'' -- the values are linked to a page named after the column name, using the value as control filter for a data table (change target by a [[#Change tag target with a tag type alias|type alias]])
+    * ''mail'' -- the value is checked to contain a valid email address, additional text is used as name that will be linked with the given email address
+    * ''img<num>'' -- the input is assumed to be a image URL or local media id. The optional <num> is the wanted width in pixels to resize the image to (defaults to 40)
+    * ''wiki'' -- render the input as wikitext
+    * ''pageid'' -- the input is the caption for a link to the data entry page
+    * ''hidden'' -- the input will not be shown in the data entry or the entry editor
+    * when no type is given, it's just treated as simple string
+    * new types can be create by using [[#Type Aliases]]
+  * When using a type, add the ''s'' for multi-values at the very end (like in the ''server_pages'' row)
+
+==== Data Table (Output) ====
+
+To aggregate the structured data attached to various pages in your wiki this syntax is used. It will display a configurable table with the data you want. The table can be sorted and filtered. Paging is supported as well. And just as with the dataentry, you may add additional words after the datatable keyword. Those will be added as additional CSS classes in the final HTML output. Let's start with an example again:
+
+<code>
+---- datatable ----
+cols    : %pageid%, employees, deadline_dt, volume
+headers : Details, Assigned Employees, Deadline, $$$
+max     : 10
+filter  : type=web development
+sort    : ^volume
+----
+</code>
+
+The above config will display a table with all web development projects, the employees assigned to the project, the deadline and the volume. The table will be sorted by the volume and will display a maximum of 10 projects.
+
+The keyword before the colon is a configuration option and the value behind is the actual setting. To make it more fault tolerant often multiple option names are possible. Here is a list of all available options:
+
+^ Option(s)       ^ Required? ^ Description ^
+| cols\\ select | yes       | These are the attributes you want to display. These are the same //names// you used in the Data Entry part |
+| head\\ header\\ headers | no | If specified, these names will be used in the table headers instead of the column names |
+| max\\ limit   | no | How many rows should be displayed. If more rows are available the table will be made browsable. If not given all matching rows are shown |
+| sort\\ order  | no | By what column should the table be sorted initially? Prepend a ''%%^%%'' to reverse the sorting |
+| filter\\ where\\ filterand\\ and | no | Filter by a column value. You may specify this more than once, multiple filters will be ANDed. |
+| filteror\\ or | no | Like filter, but multiple instances will be ORed |
+| dynfilters    | no | Set to ''1'' to enable a row of input fields for dynamically filtering the table |
+| summarize     | no | Set to ''1'' to calculate sum of columns (PDO branch only [[https://github.com/splitbrain/dokuwiki-plugin-data/commit/e9a41540ebf2554890255e16414055ad3b08b917|commit]]) |
+| align         | no | List of column alignments. The alignments can be ''left'' (''l''), ''center'' (''c'') or ''right'' (''r'') |
+| rownumbers    | no | Set to ''1'' to show row numbers (PDO branch only [[https://github.com/splitbrain/dokuwiki-plugin-data/commit/6a28718|commit]]) |
+| widths        | no | Specifies column widths e.g. ''50px, 20em, -, 10%''. Skip column by dash ''-''. (PDO branch only [[https://github.com/Klap-in/dokuwiki-plugin-data/commit/348e3c5dc7f9e789df1bb3d632087b876dcd42bc|commit]]) |
+
+For filtering, multiple comparators are possible:
+
+^ Comparator       ^ Meaning ^
+| ''=''            | Exact match |
+| ''!='' or ''<>'' | Does not exactly match |
+| ''<''            | Less than |
+| ''%%<=%%''       | Less or equal than |
+| ''>''            | Greater than |
+| ''%%>=%%''       | Greater or equal than |
+| ''~''            | Wildcard match. Use a ''*'' as wildcard. Like ''Apple*'' to match ''Apple Pie'' and ''Apple Computer''; e.g. ''dessert~ *Pie''. Case insensitive.|
+| ''*~''           | Wildcard match. Look for matches containing search term; e.g. ''dessert*~ Pi'' match ''Apple Pie'' |
+| ''!~''           | Negative Wildcard match. Select everything that does not match the expression. |
+
+You may use the special variables in a filter to make it match against current logged in user or current date  e.g. ''filter: username=%user%''
+
+^Variable for filtervalue ^ Meaning ^
+| %user% | match against the currently logged in user |
+| %now%  | compare with the current date              |
+
+
+There are a few variables available to be used as field names:
+
+^ Variable for fieldname ^ Meaning ^
+| %pageid% | The whole [[:pagename]] of a page |
+| %title%  | The "title" of a page. This is the first headline of a page. |
+| %class%  | The class of a data entry |
+
+==== Data List (Output) ====
+
+The ''datalist'' works like the ''datatable'' above and accepts the same parameters. But instead of displaying a table, an unordered list is shown. Each result row is one list item, all selected columns are default joined with a space. When ''sepbyheaders'' is not set, the ''header'' parameter is completely ignored. No pagination is used.
+
+^ Option(s)       ^ Required? ^ Description ^
+| sepbyheaders | no       | Set to ''1'' to use headers as separators between the values. In headers you can use additional spaces, when enclosed by quotes e.g. ''" - "'' (PDO branch only)  |
+
+<code>
+---- datalist ----
+cols    : %pageid%, volume
+max     : 10
+filter  : type=web development
+sort    : ^volume
+----
+</code>
+
+==== Related Pages (Output) ====
+
+This mode allows you to display a list of pages which are similar to the current page because they share some of the structured data. Which columns are used for similarity comparison has to be given in the ''cols'' option. Additional filters and sorting options can be set. Here is an example:
+
+<code>
+---- datarelated ----
+cols  : task_tags, type
+title : Similar projects
+max   : 5
+sort  : ^volume
+----
+</code>
+
+The shown config will look for pages which share values in the columns ''task_tags'' and ''type''. A maximum of 5 pages is shown, sorted by volume.
+
+Refer to datatable on what options are available.
+
+This mode will **not** disable caching for the page, so the list might not always be up to date.
+
+==== Tag Cloud (Control) ====
+
+This syntax will display the values of a given data name as a tag cloud. Each value will link back to the current page (unless configured otherwise by ''target'' option). The page should also contain a Data Table - this table will then be filtered for all entries matching the selected tag.
+
+Example:
+
+<code>
+---- datacloud ----
+field: employees
+min: 2
+limit: 20
+----
+</code>
+
+The above code would display a cloud of employees assigned to at least two different projects. A maximum of the 20 most busiest employees are shown.
+
+These are the possible options for the cloud:
+
+^ Option(s)       ^ Required? ^ Description ^
+| field\\ select\\ col | yes  | What attribute is used to build the cloud? |
+| limit\\ max | no | Maximum number of tags to display. If not given all will be displayed |
+| min | no | Minimum count a tag must have. If not given all will be shown |
+| page\\ target | no | Give a page which contains the Data Table to control. If not given the current page is used |
+
+Additionally filters can be given as described in the datatable syntax.

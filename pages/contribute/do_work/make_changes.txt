@@ -1,0 +1,70 @@
+===== Contribute Process: Make Changes =====
+
+The way to make changes is to just click the "Edit" button on top of the page. If you cannot find it, it might be because you are not logged in, you don't have enough rights to edit pages or a different theme is installed where the edit button might not be at the top, but somewhere else on the page.
+
+Once you are in edit mode, you can just start typing and save your changes. Every save creates a new version of the page, so you can go back to previous saved version if you like. DokuWiki also supports a preview option, so when working on the page layout you can quickly preview, rather then saving every single version.
+
+A couple of different [[:contribute:types_of_content|Content Types]] are identified in this ALM Library . On this page we won't go into the details of them and the rationale behind the list. In stead this page gives you more information on how to edit or create new content for the various content types.
+
+==== Roles ====
+
+[[:todo|Todo]]
+
+==== Practices ====
+
+** 1) Determine the new pages' namespace and URL **
+
+All "practice" wiki pages are stored as peers under the namespace. The URLs are for example:
+  * :practice:agile standup meeting
+  * :practice:code review
+  * :practice:build machine
+
+The link to the not yet existing page would therefore look like this:
+<code>
+[[:practice:new practice|The New Practice To Add]]
+</code>
+
+** 2) Add the new page **
+
+Adding a new "Practice" page is as per normal wiki behavior, so by editing an existing page that will have the link to the new page. You edit that page and create a link to the new page as if it's already there and save the page. Next you click on the link to navigate to the new page. That will show a message that the content doesn't exist yet and also show you a "Create" button to create it. So as a user you would first create a link to a non-existing page, follow the link and then create the new page.
+
+They are based on a template, so when you create a new "Practice" page a content skeleton will be created for you. Inside the template are comments to give you guidance on what to enter in each of the sections.
+
+^ Section ^ Description ^
+| Unique Practice Name | This is the generic name of the function of a practice e.g. "Agile Story Estimation" |
+| Datatable | The datatable to populate the overview page |
+| Description |  |
+| RASCI | Links to the roles involved in this practice, fitted into a RASCI table |
+| Why should do this? | Provide summary and the details of the benefits of applying this practice. Provide evidence to back up any claims (whitepapers, academic studies, etc)  |
+| What could/might happen if I don't apply this? | Provide summary and the details of the risks when not applying. Provide evidence to back up any claims (whitepapers, academic studies, etc) |
+| Effort | How much effort is involved in implementing this? |
+| Tools | What are the tool needed (generic function names) to be used to implement this practice? Implement as links to the tool function in the tools area. |
+| Artifacts | What are the templates or other useful artifacts that the practitioner would need/want to apply this practice? |
+| Do's and Don'ts | Provide tips, tricks, pitfalls for this practice. Use casual wording if you like in this section. Straight brain dumps of real-life experiences are allowed and even encouraged here. |
+| Continue Reading: | Links to other pages in this library that the reader might find interesting after reading the current page |
+
+** 3) Edit the content **
+
+It is now just a matter of editing the wiki page as you would normally would with wiki's and saving it. Refer to the [[:contribute:working with wikis|Beginners guide to working with wikis]] for more information about getting started with wikis or go straight to the [[:contribute:do_work:guidelines|Writing Guidelines]] page.
+
+** 4) Meta data and other funky stuff **
+
+As you can see there is a dataentry section in the nodisp area. This is used to populate the [[:practices:practices_introduction|practices introduction page]] which allows the user to browse all the practices that are available. A [[:wiki:syntax data entry|specific syntax is available for the data entry]], in particular around plurals. It it strongly encouraged to read through it when encountering problems.
+
+When you are done, determine whether you need a [[:contribute:keeping the content up-to-date|Revision Frequency]] which you can specify at the top. If its not there, you can use the [[:wiki:syntax_revisionsdue|example snippets]] to get you started or you can look at existing pages.
+
+Finally, Search Engine Optimization (SEO) is very important as we want the content to be found and when it is found, that the content is what the user expected. In order to do that, we need to specify meta-data that the search engines, like google, Yahoo, Bing, FAST search, etc use to optimize their search results. The way to specify this meta data is to add the SEO syntax (if it's not already there). The syntax can be found here: [[:wiki:syntax seo keywords |Search Engine Optimization: Keywords]] and here :[[:wiki:syntax seo description |Search Engine Optimization: Description]]
+
+** 5) Save the new content **
+
+Click save and were done!
+
+==== Tools ====
+
+[[:todo|Todo]]
+
+==== Job Aids ====
+
+[[:todo|Todo]]
+
+

@@ -34,16 +34,17 @@ It also ignores methodologies. Agile methodologies tend to encourage cross-compe
 === Implementation ===
 
   * Technical Project Lead
-  * [[:role:analyst programmer|Analyst Programmer]]
-  * [[:role:developer programmer|Developer Programmer]]
-  * [[:role:software engineer|Software Engineer]]
+  * [[:role:developer|Developer]]
+    * [[:role:analyst programmer|Analyst Programmer]]
+    * [[:role:developer programmer|Developer Programmer]]
+    * [[:role:software engineer|Software Engineer]]
   * Security Administrator
 
 === Test ===
 
-  * Test Manager
-  * Test Lead
   * [[:role:tester|Tester]]
+    * Test Manager
+    * Test Lead
 
 === Deployment ===
   

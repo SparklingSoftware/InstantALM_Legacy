@@ -1,31 +1,10 @@
 
+===== Role: Tester =====
 
-===== Tester =====
+This is the generic description of the following roles:
 
-** Description: **
-A person who will test the software during the course of software development. He should be familiar with various techniques and methods of software testing (black box testing, smoke testing, etc) and should very patient.
+  * Test Manager
+  * Test Lead
 
-
-^ Key processes where this role is involved in ^
-| todo  |
-| todo  |
-
-^ Job-aids ^
-| todo |
-| todo |
-
-^ Tools used ^
-| [[:tools:test management|Test Management System]] |
-
-^ Maturity     ^ Practices ^
-| Extreme      |           |
-| :::          |           |
-| Advanced     |           |
-| :::          |           |
-| Intermediate |           |
-| :::          |           |
-| Beginner     |           |
-| :::          |           |
-| Base         | Assign features while raising defects         |
-| :::          | Use Test Management tool to manage test cases |
+Whenever the generic role is mentioned anywhere in the library, all the roles above are included by the generic role.
 

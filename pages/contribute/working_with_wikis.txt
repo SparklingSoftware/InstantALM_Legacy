@@ -1,0 +1,29 @@
+===== Beginners guide to wikis =====
+
+Hi, Welcome to the ALM Library! You must have noticed by now, that the library is build using DokuWiki which is based on the same technology that WikiPedia is created in. This page will assist you in understanding how to work within a wiki environment and to become very efficient in editing the content.
+
+==== General introductions to Wikis ====
+
+http://computer.howstuffworks.com/internet/basics/wiki.htm
+
+
+==== Editing content ====
+
+[[:wiki:syntax|Dokuwiki Syntax]]
+[[https://www.dokuwiki.org/cheatsheet| Dokuwiki Syntax Cheatsheet]]
+
+** Screencasts **
+
+[[http://www.splitbrain.org/blog/2008-10/05-dokuwiki_beginners_screencast_01|DokuWiki Beginners Screencast #1]]
+[[http://www.splitbrain.org/blog/2008-11/10-dokuwiki_beginners_screencast_02|DokuWiki Beginners Screencast #2]]
+
+
+
+
+
+
+
+
+
+
+
