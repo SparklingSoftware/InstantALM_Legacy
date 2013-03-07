@@ -6,6 +6,7 @@ In this ALM Library, a couple of types of content are used. They are all subtype
 | Standard        | Default choices where the other processes and job aids are customized for. Alternatives can be used, but there might be consequences. |   |
 | Policies        | Mandatory processes that every has to follow. Think about procurement processes, time sheets, reporting deadlines, etc.  |   |
 | Best Practice   | A strong recommendation, however they are not mandated |   |
+| Job aid         | Artifacts involved in practices. They can be templates, guidelines, etc |   |
 
 === Continue Reading: ===
 [[:start|Start at the beginning]]

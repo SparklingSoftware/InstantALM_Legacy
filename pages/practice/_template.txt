@@ -11,8 +11,8 @@
 ---- dataentry practices ----
 type            : practice
 name            : <<PRACTICE_NAME>>
+tag             : <<TAG CLOUD FILTER>>
 ----
-
 
 ==== RASCI  ====
 

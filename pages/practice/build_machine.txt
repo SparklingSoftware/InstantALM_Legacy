@@ -4,6 +4,7 @@
 ---- dataentry practices ----
 type            : practice
 name            : Build Machine
+tag             : Continuous Delivery
 ----
 
 </nodisp>

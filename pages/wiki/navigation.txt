@@ -13,6 +13,7 @@
 [[:knowledge management:knowledge management introduction|Knowledge mgmt]]
 [[:tools:tools introduction|Tools]]
 [[:job aids:job aids introduction|Job Aids]]
+[[:practices:practices introduction|Practices]]
 
 **Adoption:**
 [[:adoption:training:training introduction|Training]]

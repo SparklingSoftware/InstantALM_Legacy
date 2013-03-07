@@ -1,4 +1,4 @@
-===== Plugin Syntax =====
+===== Syntax: Data Entry =====
 
 This page is a copy of content found at the DokuWiki website. For the latest information please go to the web page of the [[https://www.dokuwiki.org/plugin:data|Data Plugin]]
 

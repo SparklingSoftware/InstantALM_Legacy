@@ -1,16 +1,23 @@
 
 <nodisp>
-   <revision_frequency>-5</revision_frequency>
+<revision_frequency>30</revision_frequency>
+
+---- dataentry tools ----
+type            : tool
+name            : Build Artifact Repository
+tag             : Continuous Delivery
+----
+
 </nodisp>
 
-===== Tool: Definitive Software Library (DSL) =====
+===== Tool: Build Artifact Repository =====
 
 <<Description>>
 
 ==== Requirements ====
 
 The list of requirement can be found here:
-[[:tool:requirements:definitive software library|Full list of requirements]]
+[[:tool:requirements:Build Artifact Repository|Full list of requirements]]
 
 ==== Formal evaluation ====
 
@@ -19,11 +26,10 @@ Entire list of tools:
 | [[:todo|Artifactory Pro]]            | Shortlisted      | |
 | [[:todo|Nexus Pro]]                  | Shortlisted      | |
 | [[:todo|IBM Rational Asset Manager]] | Not evaluated    | [[todo|todo]] |
-| [[:todo|put]]                        | Current Standard | |
 
 << Provide an exec summary (Max 250 words) for the evaluation >>
 
-{{:tool:evaluation:definitive_software_library.xlsx|Full evaluation document}}
+{{:tool:evaluation:build_artifact_repository.xlsx|Full evaluation document}}
 
 ==== Advise ====
 

@@ -1,71 +1,21 @@
 ===== Tools Introduction =====
 
+Once we've established what processes we want to follow, it finally time to look at tools are best suited for the job. 
 
-===== A =====
+The tool functions below lead you to evaluations between various tools, where we start with the requirements, then we look at our options which we evaluate. Finally we give advise based on the outcomes of the evaluation. 
 
-Artifact Management -> See [[:tools:tools_introduction#D|Definitive Software Library]]
+This [[:contribute:tool evaluation|Tool Evaluation Process]] will assist the community to look at the tools objectively and it will allow for easy extension later. When new tools enter the market or new version are released of already included tools, only a subset of work has to executed, rather than starting from scratch.
 
-===== B =====
+---- datacloud ----
+field   : tag
+filter  : type=tool
+----
 
-===== C =====
-
-===== D =====
-
-[[:tool:introduction:definitive software library|Definitive Software Library]]
-
-===== E =====
-
-===== F =====
-
-===== G =====
-
-===== H =====
-
-===== I =====
-
-===== J =====
-
-===== K =====
-
-===== L =====
-
-===== M =====
-
-===== N =====
-
-===== O =====
-
-===== P =====
-
-Package Management -> See [[:tools:tools_introduction#D|Definitive Software Library]]
-
-===== Q =====
-
-===== R =====
-
-===== S =====
-
-Source Control -> See [[:tools:tools introduction#v|Version Control System]]
-
-===== T =====
-
-===== U =====
-
-===== V =====
-
-[[:tool:introduction:version_control_system|Version Control System]]
-
-===== W =====
-
-===== X =====
-
-===== Y =====
-
-===== Z =====
-
-
-
-
-
+---- datatable ----
+cols    : %pageid%, name, 
+headers : Details, Name
+filter  : type=tool
+sort    : ^name
+----
 
 
