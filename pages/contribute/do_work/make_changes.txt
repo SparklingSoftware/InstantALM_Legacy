@@ -1,5 +1,12 @@
 ===== Contribute Process: Make Changes =====
 
+==== Select the correct Workspace ====
+
+Before you start editing make sure you have [[:contribute:do_work:select_workspace|selected the correct workspace]]. 
+
+==== Start making changes to pages ====
+
+
 The way to make changes is to just click the "Edit" button on top of the page. If you cannot find it, it might be because you are not logged in, you don't have enough rights to edit pages or a different theme is installed where the edit button might not be at the top, but somewhere else on the page.
 
 Once you are in edit mode, you can just start typing and save your changes. Every save creates a new version of the page, so you can go back to previous saved version if you like. DokuWiki also supports a preview option, so when working on the page layout you can quickly preview, rather then saving every single version.

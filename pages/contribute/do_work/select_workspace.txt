@@ -1,0 +1,29 @@
+===== Select Workspace =====
+
+The Process Improvement Infrastructure (PII) acknowledges the fact that multiple, if not many, initiatives run in parallel. In order to keep track of the parallel changes and to allow participating organizations to cherry pick updates, these initiatives need to happen in their own workspace.
+
+At the top of every page, there is a drop-down that contains a list of all available work spaces and the option to create new ones:
+{{:contribute:do_work:select_workspace.png?nolink&500|}}
+It also contains a "Live" and "Minor Updates" You can use this drop-down to select different work spaces.
+
+The "Live" is the default work space that users see when browsing to the library. It contains all the approved content and only that. It cannot be edited, but when content in the other work spaces is approved, it automatically get updated into "Live".
+
+=== Select workspace ===
+
+So in order to make changes, you just need to select the correct workspace from the list and [[:contribute:do_work:make_changes|follow the guidelines for making changes]].
+
+=== Create new workspace ===
+
+If your workspace isn't there, you do have the option to create it. 
+
+By selecting "Create New" from the drop-down you will see a list of all initiatives that are ready to be worked on. They either already exist, which means that there is no "Create" link, but in stead has a "Edit" link which takes the user to that workspace. The administrator also has a "Remove" link that removes the workspace entirely). If it doesn't exist yet, a link "Create" is shown which will (drum roll...) create the workspace.
+
+**Btw:** You might notice that work spaces all start with a prefix and then a description. For the Global ALM Community, that prefix is "ALM-", but for participating organizations that could be different. This prefix is used to identify improvements in the progress tracking tools that are ready to be worked on. (i.e. Have the status "In Progress"). The prefix can be specified in the admin configuration.
+
+The creation of the workspace might take a while, so please be patient while that happens.
+
+=== Just a minor update ===
+
+If you have minor updates (Like fixing typos, links, etc) then use the "Minor Updates" workspace to make those changes. Please don't submit your changes to the SEPG as this will lock the workspace for other user until the next SEPG meeting. 
+
+
