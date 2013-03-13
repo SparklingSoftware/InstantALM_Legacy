@@ -1,7 +1,122 @@
 ===== SEPG Charter =====
 
-[[TODO|TODO]]
+Software Engineering Process Group (SEPG) Charter
+<<COMPANY_NAME>>
+<<CITY>>, <<COUNTRY>>
+<<dd>> <<MONTH>> <<YYYY>>
 
+==== PURPOSE ====
+
+The purpose of this Charter is to authorize and approve:
+•	The establishment of a Software Engineering Process Group
+•	Membership
+•	Conduct of operations
+
+==== SCOPE: ====
+
+This charter applies to all organizations and personnel, including sub-contract personnel, located at the <<COMPANY_NAME>>.
+
+==== Authority ====
+
+The SEPG has been delegated authority to create standards, policies and guidelines on behalf of the Chief Information Officer, <<COMPANY_NAME>> in line with the [[:contribute:types_of_content|definitions of the types of artifacts]].
+
+** Mission: **
+
+  * To organize and initiate the prioritized actions in the approved [[:contribute:sepg:strategic action plan|Strategic Action Plan]].
+  * To facilitate and monitor the development and implementation of process improvements.
+  * To create an culture and atmosphere to encourage and foster change.
+
+==== Core values ====
+
+  - We will be open and honest to each other. Anyone can challenge anything with the intend to improve.
+  - We won’t spend money for the sake of spending money. All spending should be invested wisely.
+  - Teaching over governing
+  - We will help others as we would expect others to help us.
+
+==== Responsibilities ====
+
+  * Oversee process improvement activities and report progress.
+  * Serve as SDLC Standard’s Change Agent.
+  * Facilitate action planning.
+  * Facilitate and advise Technical Working Groups (TWGs).
+  * Provide for training necessary to promote SPII
+  * Improvement to maintain an atmosphere receptive to change.
+  * Serve as focal point for coordination of SDLC Standards process improvement activities with SEI, corporate headquarters, and sub-contractor organizations.
+ 
+==== Membership ====
+
+The Software Engineering Process Group membership consists of SDLC Standards team members and the Process Owners. The identification and responsibilities of Software Engineering Process Group members are defined below:
+
+== Standards Team members ==
+They will participate 100% of their time excluding leave and required administrative duties. The Core Members shall perform the majority of overseeing implementation of the Action Plan toward process improvement. 
+
+The SDLC Standards team members are:
+  * <<PERSON_NAME>>, Standards Manager
+  * <<PERSON_NAME>>, PII Admin
+
+== The Process Owners ==
+They will contribute up to 20% of their time. These members are a representative group of managers and practitioners who have formed and are leading the Process Improvement Teams. They provide insight, additional data, and consensus on the implementation of the Action Plan. They will also act as a focal point to identify experts within their organization on particular topics. 
+
+The Process Owners are:
+  * <<PERSON_NAME>>, Process Owner – Testing
+  * <<PERSON_NAME>>, Process Owner – Microsoft competence
+  * <<PERSON_NAME>>, Process Owner – Java and Open Source
+  * <<PERSON_NAME>>, Process Owner – Business Analysis
+  * <<PERSON_NAME>>, Process Owner – Methodologies
+  * <<PERSON_NAME>>, Process Owner – Continues Integration and Deployment
+
+==== Conduct of Operations: ====
+
+== General ==
+  * Improvements are initiated by an “Improvement Proposal”. These proposals are discussed and prioritised during the next SEPG meeting.
+  * MSG, Standard Team members or other full time members working on process improvements will never be able to create a “Standard” other than following the normal processes that the SEPG has in place.
+  * Organise PII Induction training every first working day of the month.
+  * Automate as much as possible.
+  * The standards need to be of top quality and periodically validated.
+  * Teaching over governing, the more we teach, the less we have to correct with governance.
+
+
+== Meetings ==
+  * The SEPG Chair will be an associate member of the MSG.
+  * SEPG will hold forth nightly meetings, the length of each as required. The results of the meeting are captured by minutes, which get approved in the next meeting.
+  * Progresses of all SEPG tasks are tracked by means of a (virtual) card wall, for everyone to see; only SEPG members can update the wall.
+
+
+== Decisions ==
+
+All decisions are made “By consent”, which means that decisions are made by majority while the minority will need to consent the decision.
+
+Reporting lines:
+  * The SEPG will report to and receive guidance from the Chief Technology Officer <<COMPANY_NAME>>.
+  * The SEPG will keep the Chief Information Officer, the _____, the ____ and the ____ up to date with regular status reports.
+  * The SEPG will present periodic status reviews and conceptual briefings to the Management Steering Group (MSG).
+
+== Expected Products ==
+  * Documented standardized processes and procedures on the execution of the division’s software processes
+  * Process description to approve diversion from the standards
+  * Newsletter input to Software Engineering News
+  * Monthly update newsletter on electronic mail
+  * Presentations to Division workforce on process improvement
+  * Process improvement promotional materials
+  * Status reports for MSG
+  * Process improvement metrics reports
+
+
+==== Strategic Plan ====
+
+To be presented as part of the “Strategic action plan” and approved by the MSG at the first meeting.
+
+
+==== Termination ====
+
+The SEPG will function indefinitely.
+
+
+==== Signed: ====
+
+______________________________
+<<PERSON_NAME>>
+Chief Information Officer <<COMPANY_NAME>>
 
 
 

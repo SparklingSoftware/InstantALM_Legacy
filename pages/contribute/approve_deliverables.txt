@@ -1,18 +1,32 @@
 ===== Approve Deliverables =====
 
+During the next SEPG meeting the changes will be discussed and potentially approved. Approvals can only happen when the quora of attendees that is mentioned in the [[:contribute:sepg:charter|SEPG Charter]] is met.
 
-During the next SEPG meeting the changes will be discussed and potentially approved. Approvals can only happen when the quora of attendees mentioned in the SEPG Charter is met.
+This is the workflow for the approval:
 
-During the approval, the SEPG will also discuss and decide the strategy around sharing the newly approved content. Two questions will need to be addressed: 
-  - Whether or not to mark certain content as "Internal IP". Content marked as "Internal IP" is important for the organisational competitive position and CANNOT BE presented externally or shared with the Global ALM Community. 
-  - If not marked as "Internal IP", does the organization want to publish it in the Global ALM Community. The SEPG Charter should state the default thinking when dealing 
+<rigrr>
 
+<Definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" targetNamespace="http://rapilabs.com/definitions/20120204" name="Approve Improvement Process"><Collaboration id="2"><Participant id="4" name="PIT Lead" processRef="3"/></Collaboration><Process id="3"><LaneSet id="5"><Lane id="6" name="PIT Lead"><FlowNodeRef>9</FlowNodeRef><FlowNodeRef>11</FlowNodeRef></Lane><Lane id="7" name="SEPG"><FlowNodeRef>13</FlowNodeRef><FlowNodeRef>15</FlowNodeRef><FlowNodeRef>17</FlowNodeRef><FlowNodeRef>27</FlowNodeRef></Lane><Lane id="8" name="PII Admin"><FlowNodeRef>19</FlowNodeRef><FlowNodeRef>21</FlowNodeRef><FlowNodeRef>23</FlowNodeRef><FlowNodeRef>25</FlowNodeRef></Lane></LaneSet><StartEvent id="9"/><Task id="11" name="Present Improvement results"/><Task id="13" name="Ask Clarification"/><ExclusiveGateway id="15" name="Consensus?"/><ExclusiveGateway id="17" name="Approved?"/><Task id="19" name="Revert Submission"/><EndEvent id="21"/><SequenceFlow id="20" sourceRef="19" targetRef="21"/><SequenceFlow id="18" name="No" sourceRef="17" targetRef="19"/><Task id="23" name="Promote Content to 'Live'"/><EndEvent id="25"/><SequenceFlow id="24" sourceRef="23" targetRef="25"/><SequenceFlow id="22" name="Yes" sourceRef="17" targetRef="23"/><SequenceFlow id="16" name="Yes" sourceRef="15" targetRef="17"/><Task id="27" name="Schedule meeting to discuss further"/><SequenceFlow id="26" name="No" sourceRef="15" targetRef="27"/><SequenceFlow id="14" sourceRef="13" targetRef="15"/><SequenceFlow id="12" sourceRef="11" targetRef="13"/><SequenceFlow id="10" sourceRef="9" targetRef="11"/></Process><bpmndi:BPMNDiagram id="rigrr.rapilabs.com"><bpmndi:BPMNPlane bpmnElement="2"><bpmndi:BPMNShape bpmnElement="4"><dc:Bounds x="10" y="18" width="776" height="542"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="6"><dc:Bounds x="60" y="18" width="726" height="109"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="7"><dc:Bounds x="60" y="127" width="726" height="230"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="8"><dc:Bounds x="60" y="357" width="726" height="203"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="9"><dc:Bounds x="123" y="56" width="40" height="40"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="11"><dc:Bounds x="200" y="36" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="13"><dc:Bounds x="200" y="163" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="15"><dc:Bounds x="340" y="178" width="50" height="50"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="17"><dc:Bounds x="406" y="276" width="50" height="50"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="19"><dc:Bounds x="381" y="451" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="21"><dc:Bounds x="693" y="471" width="40" height="40"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="20"><di:Waypoint x="481" y="491"/><di:Waypoint x="693" y="491"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="18"><di:Waypoint x="431" y="326"/><di:Waypoint x="431" y="451"/></bpmndi:BPMNEdge><bpmndi:BPMNShape bpmnElement="23"><dc:Bounds x="517" y="390" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="25"><dc:Bounds x="691" y="410" width="40" height="40"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="24"><di:Waypoint x="617" y="430"/><di:Waypoint x="691" y="430"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="22"><di:Waypoint x="456" y="301"/><di:Waypoint x="567" y="390"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="16"><di:Waypoint x="365" y="228"/><di:Waypoint x="406" y="301"/></bpmndi:BPMNEdge><bpmndi:BPMNShape bpmnElement="27"><dc:Bounds x="434" y="163" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="26"><di:Waypoint x="390" y="203"/><di:Waypoint x="434" y="203"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="14"><di:Waypoint x="300" y="203"/><di:Waypoint x="340" y="203"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="12"><di:Waypoint x="250" y="116"/><di:Waypoint x="250" y="163"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="10"><di:Waypoint x="163" y="76"/><di:Waypoint x="200" y="76"/></bpmndi:BPMNEdge></bpmndi:BPMNPlane></bpmndi:BPMNDiagram></Definitions>
 
-If not approved (Should be very rare when following normal process as all members have had the opportunity to review before the meeting) the PII Admin will revert the changes and thereby unlock the workspace again so that amendments can be made before re-submitting. 
+</rigrr>
+
+The PIT that is the captain for the improvement, opens the conversation by explaining:
+  - The original intend.
+  - The agreed deliverables
+  - The artifacts delivered.
+This will not be an in-depth showcase, just at a high level. It really shouldn't take more than 5 minutes and less is more in this case.
+
+The other SEPG members have the opportunity to ask questions, which can be detailed. The questioning part is really important as it re-enforces that all SEPG members need to get consensus to the outcomes. 
+
+The consensus conversation needs to be time boxed, so if too many questions arise, the discussions will be closed and continued in a separate meeting, perhaps the next PIT meeting of the captaining PIT? The Improvement will keep it's status until fully discussed and all questions answered. 
+
+The SEPG will also discuss and decide on sharing the newly approved content. Two questions will need to be addressed: 
+  - Whether or not to mark certain content as "Internal IP". Content marked as "Internal IP" is important for the organizational competitive position and CANNOT be presented externally and/or shared with the Global ALM Community. 
+  - If not marked as "Internal IP", does the organization want to publish it in the Global ALM Community. The [[:contribute:sepg:charter|SEPG Charter]] should state the default organizational appetite for contributing, including examples of previous decisions with their rationale for future reference.
 
 When improvement are approved by the SEPG the PII Admin will immediately promote the content to "Live" and change the status of the IP to "Done". The workspace will exist (locked) until it is archived/deleted.
 
+When consensus has been reached the PII Admin will promote the submitted changes to "Live" and subsequently change the status of the improvement to "Done".
 
-
-
+If not approved (Should be very rare when following normal process as all members have had the opportunity to review before the meeting) the PII Admin will revert the changes and thereby unlock the workspace again so that amendments can be made before re-submitting. 
 
