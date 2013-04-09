@@ -1,0 +1,89 @@
+<nodisp>
+  <revision_frequency>30</revision_frequency>
+</nodisp>
+
+/* More information on what to specify as part of each section, please refer to [[:contribute:do_work:guidelines|Writing Guidelines]] */
+
+---- dataentry practices ----
+type            : practice
+name            : Unit Testing
+tag             : Automated Testing
+----
+
+===== Practice: Unit Testing =====
+
+Unit testing is the programming process to validate the correctness of the individual modules of the program source code. The idea is to write tests for each non-trivial function or method. This allows you to quickly check to see whether the resulting change in the next code to the regression – that is to errors in the field – is of tested programs. This facilitates the detection and elimination of such errors. 
+
+==== RASCI  ====
+
+^ RASCI ^ Role ^
+| [[:general:glossary:glossary_introduction#rasci - responsible|Responsible]] | [[:role:developer|Developer]] |
+| [[:general:glossary:glossary_introduction#rasci - accountable|Accountable]] | <<TODO>> |
+| :::                                                                         | <<TODO>> |
+| [[:general:glossary:glossary_introduction#rasci - supportive|Supportive]]   | [[:role:project manager|Project Manager]] |
+| :::                                                                         | <<TODO>> |
+| [[:general:glossary:glossary_introduction#rasci - consulted|Consulted]]     | <<TODO>> |
+| :::                                                                         | <<TODO>> |
+| [[:general:glossary:glossary_introduction#rasci - informed|Informed]]       | <<TODO>> |
+
+==== Why should we do this? ====
+
+  * Increased quality
+    * 18% less defects according to George and Williams (See [[#Continue Reading]])
+    * 40%-90% less pre-release defects according a study at IBM and Microsoft (See [[#Continue Reading]])
+    * On legacy code, a reduction of defects in the order of magnitude of 35-50% over 2 years. [(http://blog.jphpsf.com/2012/09/30/OMG-test-driven-development-actually-works)]
+  * Unit Testing helps us to uncover problems early and defects are much cheaper to fix when found early. Defects found in Test are 7 times more expensive. Found in production they are 14 times as expensive. [(http://agileelements.wordpress.com/2008/04/22/cost-of-software-defects)]. 
+  * Decrease in QA efforts, as much as 35% in some cases [(http://visualstudiomagazine.com/blogs/onward-and-upward/2012/02/proof-of-unit-testing-time-savings.aspx (Comment made by Joe on Mon, Feb 13, 2012))]
+  * Provide developers with a level of self-documenting code
+  * Enables the project to confidently [[:practice:refactoring]] the code base.
+  * Total ROI of 229% measured at HP. (See [[#Continue Reading]])
+
+{{:practice:benefits_from_unit_testing.png?nolink&400|Benefits from Unit Testing}}
+
+(Graphs taken from: Benefit From Unit Testing in THE REAL WORLD read about it [[http://blog.typemock.com/2009/02/tdd-in-real-world-presentation-we-had.html|here]] and [[http://blogs.microsoft.co.il/blogs/dhelper/archive/2009/02/23/presentation-from-net-software-architects-user-group.aspx|here]]).
+
+==== What could/might happen if I don't apply this? ====
+
+  * Increased risk of defects reaching production environments causing production incidents which in turn have huge costs associated with them to resolve, loss in business revenue and/or reputation, potential legal consequences and/or costs.
+  * Having 30% more defects that are at least 7 times as expensive to fix, increases the project cost by 210%.
+
+==== Effort ====
+
+  * Unit Testing does increase development effort.
+    * By approx 16% [...]
+    * 15%-30% increase in development effort according to a study across IBM and Microsoft internal projects.  (See [[#Continue Reading]])
+  * [[:practice:dependency injection|Dependency Injection]] is most likely needed to allow high code coverage.
+
+==== Tools ====
+
+  * [[:tools:unit test frameworks|Unit Test Frameworks]]
+  * [[:tools:dependency injection frameworks|Dependency Injection Framworks]]
+  * [[:tools:mocking frameworks|Mocking Frameworks]]
+  * [[:tools:code coverage analyser|Code Coverage Analyser]]
+
+==== Artifacts ====
+
+
+==== Do's and Don'ts ====
+
+  * Do start TDD from the beginning of projects. Don't stop in the middle and claim it doesn’t work. Do not start TDD late in the project cycle when the design has already been decided and majority of the code has been written. TDD is best done incrementally and continuously.
+  * For a team new to TDD, introduce automated build test integration towards the second third of the development phase - not too early but not too late. If this is a “Greenfield” project, adding the automated build test towards the second third of the development schedule allows the team to adjust to and become familiar with TDD. Prior to the automated build test integration, each developer should run all the test cases on their own machine. 
+  * Convince the development team to add new tests every time a problem is found, no matter when the problem is found. By doing so, the unit test suites improve during the development and test phases.
+  * Get the test team involved and knowledgeable about the TDD approach. The test team should not accept new development release if the unit tests are failing.
+  * Hold a thorough review of an initial unit test plan, setting an ambitious goal of having the highest possible (agreed upon) code coverage targets.
+  * Constantly running the unit tests cases in a daily automatic build (or continuous integration); tests run should become the heartbeat of the system as well as a means to track progress of the development. This also gives a level of confidence to the team when new features are added.
+  * Encourage fast unit test execution and efficient unit test design. Test execution speed is very important since when all the tests are integrated, the complete execution can become quite long for a reasonably-sized project and when using constant test executions. Tests results are important early and often; they provide feedback on the current state of the system. Further, the faster the execution of the tests the more likely developers themselves will run the tests without waiting for the automated build tests
+  * Don’t aim for 100% coverage. [(http://37signals.com/svn/posts/3159-testing-like-the-tsa)]
+  * Don't: Code-to-test ratios above 1:2 is a smell, above 1:3 is a stink. [(http://37signals.com/svn/posts/3159-testing-like-the-tsa)]
+  * Don't: You’re probably doing it wrong if testing is taking more than 1/3 of your time. You’re definitely doing it wrong if it’s taking up more than half. [(http://37signals.com/svn/posts/3159-testing-like-the-tsa)]
+  * Don’t test standard Active Record associations, validations, or scopes. [(http://37signals.com/svn/posts/3159-testing-like-the-tsa)]
+  * Do Reserve integration testing for issues arising from the integration of separate elements (aka don’t integration test things that can be unit tested instead). [(http://37signals.com/svn/posts/3159-testing-like-the-tsa)]
+  * Don’t use Cucumber unless you live in the magic kingdom of non-programmers-writing-tests (and send me a bottle of fairy dust if you’re there!) [(http://37signals.com/svn/posts/3159-testing-like-the-tsa)]
+  * Don’t force yourself to test-first every controller, model, and view (my ratio is typically 20% test-first, 80% test-after). [(http://37signals.com/svn/posts/3159-testing-like-the-tsa)]
+
+==== Continue Reading ====
+
+{{:practice:hp_-_roi_of_code_inspections_and_unit_testing.pdf}}
+{{:practice:nagappan_tdd.pdf|Realizing quality improvement through test driven development: results and experiences of four industrial teams}}
+{{:practice:stmheima7testdrivendevelopment.pdf}}
+
