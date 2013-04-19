@@ -6,13 +6,24 @@
 
 ---- dataentry practices ----
 type            : practice
-name            : <<PRACTICE_NAME>>
-tag             : <<TAG CLOUD FILTER>>
+name            : Refactoring
+tag             : Developer
 ----
 
-===== Practice: <<PRACTICE_NAME>> =====
+===== Practice: Refactoring =====
 
-<< Description >>
+From [[https://en.wikipedia.org/wiki/Code_refactoring|Wikipedia]]:
+
+Code refactoring is a "disciplined technique for restructuring an existing body of code, altering its internal structure without changing its external behavior", undertaken in order to improve some of the nonfunctional attributes of the software. Advantages include improved code readability and reduced complexity to improve the maintainability of the source code, as well as a more expressive internal architecture or object model to improve extensibility.
+
+  By continuously improving the design of code, we make it easier and easier to
+  work with. This is in sharp contrast to what typically happens: little 
+  refactoring and a great deal of attention paid to expediently adding new
+  features. If you get into the hygienic habit of refactoring continuously, 
+  you'll find that it is easier to extend and maintain code.
+  Joshua Kerievsky, Refactoring to Patterns 
+
+Typically, refactoring is done by applying a series of standardised basic "micro-refactorings", each of which is a (usually) tiny change in a computer program's source code that either preserves the behaviour of the software or at least does not modify its conformance to functional requirements. Many development environments provide automated support for carrying out the mechanical aspects of these basic refactorings.
 
 ==== Problems that are addressed by this practice ====
 
@@ -34,8 +45,8 @@ tag             : <<TAG CLOUD FILTER>>
 
 ==== Training and Coaching  ====
 
-[[http://www.sparklingconsulting.com.au]]
-[[http://www.sparklingtraining.com.au]]
+[[http://www.sparklingconsulting.com.au
+[[http://www.sparklingtraining.com.au
 
 ^ Key processes where this role is involved in ^
 | [[:process:todo:todo| Todo -> Todo]]  |
@@ -43,6 +54,8 @@ tag             : <<TAG CLOUD FILTER>>
 | [[:process:todo:todo| Todo -> Todo]]  |
 
 ==== Prerequisite IT Best Practice ====
+
+[[:practice:unit testing|Unit Testing]]
 
 ==== Effort ====
 
@@ -54,6 +67,6 @@ tag             : <<TAG CLOUD FILTER>>
 
 ==== Continue Reading: ====
 
-{{keywords>IT Efficiency, IT best practices, the SDLC, IT Standards}}
-{{description>This standards library has been compiled by the ALM Community. It is based on IT best practices, increasing your IT Efficiency considerably across the SDLC}}
+
+
 

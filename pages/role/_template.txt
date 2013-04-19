@@ -11,7 +11,7 @@
 | [[:process:todo:todo| Todo -> Todo]]  |
 | [[:process:todo:todo| Todo -> Todo]]  |
 
-^ Job-aids ^
+^ IT Best Practices ^
 | [[:todo|todo]] |
 | [[:todo|todo]] |
 
