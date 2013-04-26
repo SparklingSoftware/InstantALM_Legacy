@@ -1,12 +1,187 @@
-===== Types of content =====
+===== Types of library content =====
 
-In this ALM Library, a couple of types of content are used. They are all subtypes of "Job aids" as they will all aid the IT industry in increasing their IT efficiency. The [[:job_aids:job_aids_introduction|fill list of all the Job Aids]] allows you to filter by the following sub types:
+In this Library, various types of content are used. By reading this page you will understand all the content types, how they relate and how to add more content.
 
-^ Type: ^ Purpose ^ Examples ^
-| Standard        | Default choices where the other processes and job aids are customized for. Alternatives can be used, but there might be consequences. |   |
-| Policies        | Mandatory processes that every has to follow. Think about procurement processes, time sheets, reporting deadlines, etc.  |   |
-| Best Practice   | A strong recommendation, however they are not mandated |   |
-| Job aid         | Artifacts involved in practices. They can be templates, guidelines, etc |   |
+Following these guidelines will create consistency across the library and therefore better useability for both first time and more experienced users users.
+
+=== Overview ===
+
+They are all subtypes of [[:contribute:types of content#Community Agreements|Community Agreements]] and each have a specific type of information they are conveying. The following diagram gives an overview of the relationship between the various types, a decision flowchart is also given at the bottom of the page to determine which type of content to add.
+
+{{map>:contribute:library_content.png|Library Content Types}}
+
+  * [[:contribute:types of content#Principles|Principles @ 82,2,717,67]]
+  * [[:contribute:types of content#policies|Policies @ 46,82,752,145]]
+  * [[:contribute:types of content#Processes|Processes @ 13,161,789,225]]
+  * [[:contribute:types of content#Standards|Standards @ 59,251,228,518]]
+  * [[:contribute:types of content#Best Practices|Best Practices@ 305,251,471,518]]
+  * [[:contribute:types of content#Job-Aids|Job-Aids @ 554,251,718,518]]
+  * [[:contribute:types of content#Tools|Tools @ 801,251,969,518]]
+  * [[:contribute:types of content#Metrics|Metrics @ 1049,251,1216,518]]
+  * [[:contribute:types of content#Community Agreements|Community Agreements @ 7,545,792,608]]
+ 
+{{<map}}
+
+
+=== Principles ===
+
+The principles that the organization abides by. They are usually described in idealistic terms like honestly, respect, priorities, etc.
+
+   (usually plural) Moral rule or aspect.   
+   
+   I don't doubt your principles; you are clearly a person of principle.
+   It's the principle of the thing; I won't do business with someone I
+   can't trust.   
+
+[[http://en.wiktionary.org/wiki/principle|"principle" (Definition #3) on Wiktionary]]
+
+**Examples**
+  * Our organization has the ambition to be above average in reducing carbon emissions by 10% across our industry.
+  * We will not work overtime with very rare exceptions to allow for a fair work-life balance.
+
+=== Policies ===
+
+   A policy is a principle or rule to guide decisions and achieve 
+   rational outcomes. A policy is a statement of intent, and is 
+   implemented as a procedure[1] or protocol. Policies are generally 
+   adopted by the Board of or senior governance body within an 
+   organization whereas procedures or protocols would be developed 
+   and adopted by senior executive officers. Policies can assist in 
+   both subjective and objective decision making. Policies to assist 
+   in subjective decision making would usually assist senior management 
+   with decisions that must consider the relative merits of a number of 
+   factors before making decisions and as a result are often hard to 
+   objectively test e.g. work-life balance policy. In contrast policies 
+   to assist in objective decision making are usually operational in 
+   nature and can be objectively tested e.g. password policy
+
+[[http://en.wikipedia.org/wiki/Policy|"Policies" on WikiPedia]]
+
+**Examples**
+  * Every person entering our building has to be registered
+  * All employees have to be registered with our Industry Body of Knowledge
+
+=== Processes ===
+
+   A business process or business method is a collection of related,
+   structured activities or tasks that produce a specific service 
+   or product (serve a particular goal) for a particular customer 
+   or customers. It often can be visualized with a flowchart as a 
+   sequence of activities with interleaving decision points or with 
+   a Process Matrix as a sequence of activities with relevance rules 
+   based on the data in the process.
+
+[[http://en.wikipedia.org/wiki/Business_process|"Business Process" on WikiPedia]]
+
+**Examples**
+[[:contribute#The high level process|The high level Contribute Process]]
+[[:process:implement features|Implement Features]]
+
+=== Standards ===
+
+Standard are the specific methods employed to express policies in action within the operations of the organization. These will include high level requirements to be carried out by the end user to comply with the policy rules. Each Standard will contain a purpose, exceptions and requirements. Standard changes are triggered by Policy or Process changes.
+
+   A technical standard is an established norm or requirement in 
+   regard to technical systems. It is usually a formal document that 
+   establishes uniform engineering or technical criteria, methods, 
+   processes and practices.
+   
+   In contrast, a custom, convention, company product, corporate 
+   standard, etc. that becomes generally accepted and dominant is often 
+   called a de facto standard.
+
+[[http://en.wikipedia.org/wiki/Technical_standard|"Technical Standard" on WikiPedia]]
+
+**Examples**
+[[http://tools.ietf.org/html/rfc1459.html|IRC Chat Protocal]]
+[[http://webstore.iec.ch/preview/info_iec60908(ed2.0)b.pdf|CD Audio Standard (IEC)]]
+
+=== Best Practices ===
+
+   A best practice is a method or technique that has consistently 
+   shown results superior to those achieved with other means, and 
+   that is used as a benchmark. In addition, a "best" practice can 
+   evolve to become better as improvements are discovered. Best practice 
+   is considered by some as a business buzzword, used to describe the 
+   process of developing and following a standard way of doing things 
+   that multiple organizations can use.
+   
+   Best practices are used to maintain quality as an alternative to 
+   mandatory legislated standards and can be based on self-assessment or benchmarking
+
+[[http://en.wikipedia.org/wiki/Best_practice|"Best Practice" on WikiPedia]]
+
+**Examples**
+[[:todo|Todo]]
+[[:todo|Todo]]
+
+
+=== Job aids ===
+
+A job aid is a source of information that provides guidance for an activity that an individual undertakes. Job Aids support performance, allowing a user to get something done.
+
+A job aid provides direction on how to accomplish a task. A tool, such as a can opener, is not a job aid even though it helps a user get something done, because it is not a source of information or direction. A job aid is an external source of direction so, for instance, any information a person memorizes is also not a job aid.
+
+**Examples**
+A television manual, cookbook, etc.
+
+=== Templates ===
+
+
+
+=== Tools ===
+
+Software tooling is an important part of IT Efficiency Improvements and is probably also the hardest to apply. It requires thorough research in the requirements for the particular tool, an evaluation of the available options and finally advising management on the direction, given the organizational constraints, strategy and potentially the politics.
+
+They form the link between the various other content types as advise on tools takes inputs from:
+  * [[:contribute:types of content#processes|Processes]]
+  * [[:contribute:types of content#standards|Standards]]
+  * [[:contribute:types of content#best practices|Best Practices]]
+
+And the tools need to address the requirements to deliver:
+  * [[:contribute:types of content#metrics|Metrics]]
+
+Furthermore, people might have contributed [[:contribute:types of content#job-aids|Job-Aids]] to help to use the tools to their fullest capacity.
+
+**Examples**
+[[:todo|Todo]]
+[[:todo|Todo]]
+
+=== Community Agreements ===
+
+All the above content is agreed by [[:contribute#The teams within the PII|communities of experts]], either internal to the [[http://go/navigate|organization]] or external as part of the [[http://www.alm-community.org|Global ALM Community]].
+
+The "Community Agreements" is a super-type that encapsulates all other types, therefore all content that is added to this library has been agreed by the communities.
+
+By applying a [[:contribute#The high level process|lean process]] the effort of submitting improvements to this library is brought to a minimum.
+
+From the perspective of an employee that is not participating in the Process Improvement Infrastructure (PII), the process is:
+  * Go the standard library: "http://go/standards"
+  * Click on the "Propose an Improvement" in the bottom right corner.
+  * Fill in the details and click "Save".
+  * After the SEPG has agreed the proposal is indeed an improvement, you will receive an email that a workspace has been created for you to implement the improvement. This email will also give guidance on the expected changes to be made to the library to maintain its consistency. This usually includes things like plans to increase the adoption and training.
+  * You make the changes and submit them for approval.
+
+This whole process could be a matter of hours, depending on the timing of submission of the idea and the SEPG meetings.
+
+
+=== Difference between Standards, Best Practices, Job aids and Templates ===
+
+Marilou Myrick put the difference between Standards and Best Practices quite well in her [[http://www.thestage1.com/2011/03/03/standards-or-best-practices|blog post]]
+
+   Standards describe how to comply and are usually governed by a authoritative body.
+   Best Practices describe effective practices to achieve goals and are back-ed up with evidence.
+   Job aids on the other hand give guidance on **how** to perform a particular task (that is not a formal process activity).
+   Templates are artefacts that can/should be used within processes as a starting point to complete.
+
+=== Determine the type of content ===
+
+<rigrr>
+
+<Definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" targetNamespace="http://rapilabs.com/definitions/20120204" name="Identifying the content type to add"><Process id="3"><StartEvent id="2" name="Something to Contribute"/><ExclusiveGateway id="5" name="Management Directive?"/><ExclusiveGateway id="7" name="Idealistic?"/><Task id="9" name="Principle"/><SequenceFlow id="8" sourceRef="7" targetRef="9"/><Task id="11" name="Policy"/><SequenceFlow id="10" sourceRef="7" targetRef="11"/><SequenceFlow id="6" sourceRef="5" targetRef="7"/><ExclusiveGateway id="13" name="Sequence"/><ExclusiveGateway id="15" name="Software Product"/><ExclusiveGateway id="17" name="End user can change implementation?"/><ExclusiveGateway id="19" name="Evidence of Improvements?"/><Task id="21" name="Job aid"/><SequenceFlow id="20" sourceRef="19" targetRef="21"/><Task id="23" name="Best Practice"/><SequenceFlow id="22" sourceRef="19" targetRef="23"/><SequenceFlow id="18" sourceRef="17" targetRef="19"/><Task id="25" name="Standard"/><SequenceFlow id="24" sourceRef="17" targetRef="25"/><SequenceFlow id="16" sourceRef="15" targetRef="17"/><Task id="27" name="Tool"/><SequenceFlow id="26" sourceRef="15" targetRef="27"/><SequenceFlow id="14" sourceRef="13" targetRef="15"/><Task id="29" name="Process"/><SequenceFlow id="28" sourceRef="13" targetRef="29"/><SequenceFlow id="12" sourceRef="5" targetRef="13"/><SequenceFlow id="4" sourceRef="2" targetRef="5"/></Process><bpmndi:BPMNDiagram id="rigrr.rapilabs.com"><bpmndi:BPMNPlane bpmnElement="3"><bpmndi:BPMNShape bpmnElement="2"><dc:Bounds x="58" y="109" width="40" height="40"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="5"><dc:Bounds x="206" y="104" width="50" height="50"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="7"><dc:Bounds x="206" y="204" width="50" height="50"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="9"><dc:Bounds x="181" y="326" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="8"><di:Waypoint x="231" y="254"/><di:Waypoint x="231" y="326"/></bpmndi:BPMNEdge><bpmndi:BPMNShape bpmnElement="11"><dc:Bounds x="70" y="326" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="10"><di:Waypoint x="206" y="229"/><di:Waypoint x="120" y="326"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="6"><di:Waypoint x="231" y="154"/><di:Waypoint x="231" y="204"/></bpmndi:BPMNEdge><bpmndi:BPMNShape bpmnElement="13"><dc:Bounds x="352" y="104" width="50" height="50"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="15"><dc:Bounds x="464" y="104" width="50" height="50"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="17"><dc:Bounds x="604" y="104" width="50" height="50"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="19"><dc:Bounds x="729" y="104" width="50" height="50"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="21"><dc:Bounds x="829" y="89" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="20"><di:Waypoint x="779" y="129"/><di:Waypoint x="829" y="129"/></bpmndi:BPMNEdge><bpmndi:BPMNShape bpmnElement="23"><dc:Bounds x="704" y="322" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="22"><di:Waypoint x="754" y="154"/><di:Waypoint x="754" y="322"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="18"><di:Waypoint x="654" y="129"/><di:Waypoint x="729" y="129"/></bpmndi:BPMNEdge><bpmndi:BPMNShape bpmnElement="25"><dc:Bounds x="579" y="322" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="24"><di:Waypoint x="629" y="154"/><di:Waypoint x="629" y="322"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="16"><di:Waypoint x="514" y="129"/><di:Waypoint x="604" y="129"/></bpmndi:BPMNEdge><bpmndi:BPMNShape bpmnElement="27"><dc:Bounds x="439" y="325" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="26"><di:Waypoint x="489" y="154"/><di:Waypoint x="489" y="325"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="14"><di:Waypoint x="402" y="129"/><di:Waypoint x="464" y="129"/></bpmndi:BPMNEdge><bpmndi:BPMNShape bpmnElement="29"><dc:Bounds x="327" y="326" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="28"><di:Waypoint x="377" y="154"/><di:Waypoint x="377" y="326"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="12"><di:Waypoint x="256" y="129"/><di:Waypoint x="352" y="129"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="4"><di:Waypoint x="98" y="129"/><di:Waypoint x="206" y="129"/></bpmndi:BPMNEdge></bpmndi:BPMNPlane></bpmndi:BPMNDiagram></Definitions>
+
+</rigrr>
+
 
 === Continue Reading: ===
 [[:start|Start at the beginning]]
