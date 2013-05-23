@@ -12,7 +12,7 @@
 [[:metrics and reporting:metrics and reporting introduction|Metrics and Reporting]]
 [[:knowledge management:knowledge management introduction|Knowledge mgmt]]
 [[:tools:tools introduction|Tools]]
-[[:job aids:job aids introduction|Job Aids]]
+[[:deliverables:deliverables introduction|Deliverables]]
 [[:practices:practices introduction|Practices]]
 
 **Adoption:**

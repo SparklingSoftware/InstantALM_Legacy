@@ -1,6 +1,6 @@
 ~~NOCACHE~~
 
-===== JA<<ID>> - <<NAME>> =====
+===== Deliverable: <<DELIVERABLE_NAME>> =====
 
 /* The ID is a 6 digit number that increases with every job aid created. Before you claim 
 an ID, do yourself a favour and check with the other authors whether it's already been taken.

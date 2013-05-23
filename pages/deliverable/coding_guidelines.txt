@@ -9,7 +9,7 @@ tag             : Development, .NET, Java, CSharp
 
 </nodisp>
 
-===== Job Aid: Coding Guidelines =====
+===== Deliverable: Coding Guidelines =====
 
 These coding guidelines will help [[:role:developer|developers]] write more consistent code. 
 
