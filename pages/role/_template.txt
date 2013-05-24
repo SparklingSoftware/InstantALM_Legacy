@@ -1,34 +1,67 @@
 
+---- dataentry practices ----
+type               : group
+name               : <<ROLE_OR_GROUP_NAME>>
+summary            : 
+groups_pages       :
+----
 
-===== Role: <<Name>> =====
+===== Role: <<ROLE_OR_GROUP_NAME>> =====
 
-** Description: **
+<<DESCRIPTION>>
 
-<<Description>>
+==== Processes ====
 
-^ Key processes where this role is involved in ^
-| [[:process:todo:todo| Todo -> Todo]]  |
-| [[:process:todo:todo| Todo -> Todo]]  |
-| [[:process:todo:todo| Todo -> Todo]]  |
+---- datatable ----
+cols     : Name, %pageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:<<ROLE_OR_GROUP_NAME>> 
+filteror : accountable_pages=role:<<ROLE_OR_GROUP_NAME>> 
+filteror : consulted_pages=role:<<ROLE_OR_GROUP_NAME>> 
+filteror : informed_pages=role:<<ROLE_OR_GROUP_NAME>> 
+sort     : name
+----
 
-^ IT Best Practices ^
-| [[:todo|todo]] |
-| [[:todo|todo]] |
+==== Practices ====
 
-^ Tools used ^
-| [[:todo|todo]] |
+---- datatable ----
+cols     : Name, %pageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:<<ROLE_OR_GROUP_NAME>> 
+filteror : accountable_pages=role:<<ROLE_OR_GROUP_NAME>> 
+filteror : consulted_pages=role:<<ROLE_OR_GROUP_NAME>> 
+filteror : informed_pages=role:<<ROLE_OR_GROUP_NAME>> 
+sort     : name
+----
 
-^ Maturity     ^ Practices ^
-| Extreme      |           |
-| :::          |           |
-| Advanced     |           |
-| :::          |           |
-| Intermediate |           |
-| :::          |           |
-| Beginner     |           |
-| :::          |           |
-| Base         |           |
-| :::          |           |
+==== Role Maturity ====
+
+---- datatable ----
+cols      : Name, %pageid%, base_pages, beginner_pages, intermediate_pages, advanced_pages, extreme_pages
+headers   : Name, Details, Base, Beginner, Intermediate, Advanced, Extreme
+filter    : type = practice
+filterand : base_pages = role:<<ROLE_OR_GROUP_NAME>> 
+filteror  : beginner_pages = role:<<ROLE_OR_GROUP_NAME>> 
+filteror  : intermediate_pages = role:<<ROLE_OR_GROUP_NAME>> 
+filteror  : advanced_pages = role:<<ROLE_OR_GROUP_NAME>> 
+filteror  : extreme_pages = role:<<ROLE_OR_GROUP_NAME>> 
+sort      : name
+----
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, %pageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:<<ROLE_OR_GROUP_NAME>> 
+filteror : accountable_pages=role:<<ROLE_OR_GROUP_NAME>> 
+filteror : consulted_pages=role:<<ROLE_OR_GROUP_NAME>> 
+filteror : informed_pages=role:<<ROLE_OR_GROUP_NAME>> 
+sort     : name
+----
 
 === Sources: ===
 
@@ -39,6 +72,8 @@
 /* Where could the reader want to go to next?? */
 /* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
 
+[[:roles:roles_introduction|To the complete list of roles]]
+
 {{keywords>ALM, it best practices, the sdlc, application development}}
-{{description>Description of the --- role within ALM and the IT industry in general, based on IT Best Practices}}
+{{description>Description of the <<ROLE_OR_GROUP_NAME>> role within ALM and the IT industry in general, based on IT Best Practices}}
 
