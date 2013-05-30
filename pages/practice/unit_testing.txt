@@ -1,6 +1,6 @@
-<nodisp>
+<wrap hide>
   <revision_frequency>30</revision_frequency>
-</nodisp>
+</wrap>
 
 /* More information on what to specify as part of each section, please refer to [[:contribute:do_work:guidelines|Writing Guidelines]] */
 
