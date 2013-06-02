@@ -1,7 +1,7 @@
 
-<nodisp>
+<wrap hide>
   <revision_frequency>30</revision_frequency>
-</nodisp>
+</wrap>
 
 ====== About the ALM Library ======
 

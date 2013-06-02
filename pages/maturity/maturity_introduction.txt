@@ -2,8 +2,7 @@
 ===== ALM Maturity Matrix =====
 
 This ALM Maturity model is based on information from these locations:
-  * The Pragmatic Capability Model Of Software Delivery (PCM-OSD) [(http://blog.figmentengine.com/)]
-  * 
+  * The Pragmatic Capability Model Of Software Delivery (PCM-OSD) [(http://blog.figmentengine.com/2010/08/pragmatic-capability-model-of-software.html)]
 
 
 ==== Maturity Categories ====
