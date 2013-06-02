@@ -1,0 +1,93 @@
+
+---- dataentry roles ----
+type               : role
+name               : Methods & tools
+category           : Strategy and architecture
+subcategory        : Technical strategy and planning
+summary            : 
+groups_pages       :
+----
+
+===== Role: Methods & tools (METL) =====
+
+
+==== Description ====
+Ensuring that appropriate methods and tools for the planning, development,testing,operation,
+management and maintenance of systems are adopted and used effectively throughout the organisation.
+
+==== SFIA Level 4 ====
+Provides expertise and support on use of methods and tools.
+
+==== SFIA Level 5 ====
+Promotes and ensures use of appropriate techniques, methodologies and tools.
+
+==== SFIA Level 6 ====
+Sets direction and leads in the introduction and use of techniques,methodologies and tools, to match overall business requirements (both current and future),ensuring consistency across all user groups.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Methods & tools 
+filteror : accountable_pages=role:Methods & tools 
+filteror : consulted_pages=role:Methods & tools 
+filteror : informed_pages=role:Methods & tools
+sort     : name
+----
+
+==== Practices ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Methods & tools 
+filteror : accountable_pages=role:Methods & tools 
+filteror : consulted_pages=role:Methods & tools 
+filteror : informed_pages=role:Methods & tools 
+sort     : name
+----
+
+==== Role Maturity ====
+
+---- datatable ----
+cols      : Name, AMageid%, base_pages, beginner_pages, intermediate_pages, advanced_pages, extreme_pages
+headers   : Name, Details, Base, Beginner, Intermediate, Advanced, Extreme
+filter    : type = practice
+filterand : base_pages = role:Methods & tools 
+filteror  : beginner_pages = role:Methods & tools 
+filteror  : intermediate_pages = role:Methods & tools 
+filteror  : advanced_pages = role:Methods & tools 
+filteror  : extreme_pages = role:Methods & tools 
+sort      : name
+----
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Methods & tools 
+filteror : accountable_pages=role:Methods & tools 
+filteror : consulted_pages=role:Methods & tools 
+filteror : informed_pages=role:Methods & tools 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Methods & tools role within ALM and the IT industry in general, based on IT Best Practices}}
+

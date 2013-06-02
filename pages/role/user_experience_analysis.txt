@@ -1,0 +1,78 @@
+
+---- dataentry roles ----
+type               : role
+name               : User experience analysis
+category           : Solution development and implementation
+subcategory        : Human factors
+summary            : 
+groups_pages       :
+----
+
+===== Role: User experience analysis (UNAN) =====
+
+==== Description ====
+The establishment, clarification and communication of the user's perceptions and responses that result from the use and/or anticipated use of a product, system or service. The analysis of user experience, the characteristics of users and their tasks, and the technical, organisational and physical environment in which products or systems will operate. 
+
+==== SFIA Level 3 ====
+ Applies tools and methods to identify the user experience, users characteristics and tasks, and the technical, organisational and physical environment in which the product or system will operate.
+
+==== SFIA Level 4 ====
+Selects and uses tools and methods to establish, clarify and communicate the user experience, users' characteristics and tasks, and identifies the technical, organisational and physical environment in which complex products or systems will operate.
+
+==== SFIA Level 5 ====
+Advises on tools and methods to be used and clarifies and communicates the user experience, users' characteristics and tasks, and the technical, organisational and physical environment in which products or systems will operate.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:User experience analysis 
+filteror : accountable_pages=role:User experience analysis
+filteror : consulted_pages=role: User experience analysis
+filteror : informed_pages=role:User experience analysis 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:User experience analysis
+filteror : accountable_pages=role:User experience analysis
+filteror : consulted_pages=role:User experience analysis
+filteror : informed_pages=role:User experience analysis
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:User experience analysis 
+filteror : accountable_pages=role:User experience analysis 
+filteror : consulted_pages=role:User experience analysis 
+filteror : informed_pages=role:User experience analysis 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the User experience analysis role within ALM and the IT industry in general, based on IT Best Practices}}
+

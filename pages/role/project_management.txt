@@ -1,0 +1,94 @@
+
+---- dataentry roles ----
+type               : role
+name               : Project management
+category           : Business change
+subcategory        : Business change implementation
+summary            : 
+groups_pages       :
+----
+
+===== Role: Project management (PRMG) =====
+
+==== Description ====
+The management of projects, typically (but not exclusively) involving the development and implementation of business processes to meet identified business needs, acquiring and utilising
+the necessary resources and skills, within agreed parameters of cost, timescales, and quality.
+
+==== SFIA Level 4 ====
+Defines, documents and carries out small projects or subprojects(typically less than six months, with limited budget, limited interdependency with other projects, and no significant strategic
+impact), alone or with a small team, actively participating in all phases. Identifies, assesses
+and manages risks to the success of the project. Prepares realistic plans (including quality, risk
+and communications plans) and tracks activities against the project schedule, providing regular
+and accurate reports to stakeholders as appropriate.Monitors costs, timescales and resources used, and takes action where these deviate from agreed tolerances. Ensures that own projects are
+formally closed and, where appropriate, subsequently reviewed, and that lessons learned are
+recorded.
+
+==== SFIA Level 5 ====
+Takes full responsibility for the definition, documentation and satisfactory completion of medium-scale projects (typically lasting 6-12 months, with direct business impact, teams of 3-5 and firm deadlines). Identifies, assesses and manages risks to the success of the project. Ensures that realistic project and quality plans are prepared and maintained and provides regular and accurate reports to stakeholders as appropriate.Ensures Quality reviews occur on schedule and
+according to procedure. Manages the change control procedure, and ensures that project deliverables are completed within planned cost,timescale and resource budgets, and are signed
+off. Provides effective leadership to the project team, and takes appropriate action where team
+performance deviates from agreed tolerances.
+
+==== SFIA Level 6 ====
+Takes full responsibility for the definition, documentation and successful completion of complex projects (typically greater than 12 months, with significant business, political, or high-profile impact, and high-risk dependencies), ensuring that realistic project, quality, change control and risk management processes are maintained. Monitors and controls resources, revenue and capital
+costs against the project budget and manages expectations of all project stakeholders.
+
+==== SFIA Level 7 ==== 
+Sets organisational strategy governing the direction and conduct of project management, including application of appropriate methodologies. Authorises the management of large scale projects. Leads
+project planning, scheduling, controlling and reporting activities for strategic, high impact, high risk projects. Manages risk and ensures that solutions to problems are implemented in line with change control processes.
+
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Project management 
+filteror : accountable_pages=role:Project management 
+filteror : consulted_pages=role:Project management 
+filteror : informed_pages=role:Project management 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Project management 
+filteror : accountable_pages=role:Project management
+filteror : consulted_pages=role:Project management
+filteror : informed_pages=role:Project management
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Project management 
+filteror : accountable_pages=role:Project management 
+filteror : consulted_pages=role:Project management 
+filteror : informed_pages=role:Project management 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Project management role within ALM and the IT industry in general, based on IT Best Practices}}
+

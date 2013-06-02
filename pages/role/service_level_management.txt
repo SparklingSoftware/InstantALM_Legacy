@@ -1,0 +1,87 @@
+
+---- dataentry roles ----
+type               : role
+name               : Service level management
+category           : Service management
+subcategory        : Service design
+summary            : 
+groups_pages       :
+----
+
+===== Role: Service level management (SLMO) =====
+
+==== Description ====
+The planning, implementation, control, review and audit of service provision, to meet customer business requirements. This includes negotiation, implementation and monitoring of service level agreements, and the ongoing management of operational facilities to provide the agreed levels of service, seeking continually and proactively to improve service delivery and sustainability targets.
+
+==== SFIA Level 2 ====
+Monitors and logs the actual service provided, compared to that required by service level agreements.
+
+==== SFIA Level 3 ====
+Monitors service delivery performance metrics and liaises with managers and customers to ensure that service level agreements are not breached with-out the stakeholders being given the opportunity of planning for a deterioration in service.
+
+==== SFIA Level 4 ====
+Performs defined tasks to monitor service delivery against service level agreements and maintains records of relevant information. Analyses service records against agreed service levels regularly to identify actions required to maintain or improve levels of service, and initiates or reports these actions.
+
+==== SFIA Level 5 ====
+Ensures that service delivery meets agreed service levels. Creates and maintains a catalogue of available services. In consultation with the customer negotiates service level requirements and agrees service levels. Diagnoses service delivery problems and initiates actions to maintain or improve levels of service. Establishes and maintains operational methods, procedures and facilities in assigned area of responsibility and reviews them regularly for effectiveness and efficiency. 
+
+==== SFIA Level 6 ====
+Ensures that a catalogue of available services is created and maintained and that service level agreements are complete and cost effective. Ensures that service delivery is monitored effectively and that identified actions to maintain or improve levels of service are implemented. Ensures that operational methods, procedures, facilities and tools are established, reviewed and maintained. Negotiates with relevant parties in respect of disruptions and major amendments to the provision of services. Reviews service delivery to ensure that agreed targets are met and prepares proposals to meet forecast changes in the level or type of service. 
+
+==== SFIA Level 7 ====
+Sets strategies for service delivery that support the strategic needs of the client organisation. Authorises allocation of resources for monitoring service delivery arrangements. Provides leadership within the industry on the identification of future trends (e.g. technical, market, industrial, socioeconomic, legislative). Develops relationships with customers at the highest level to identify potential areas of mutual commercial interest for future development, maintains an overview of the contribution of service delivery arrangements to organisational success. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Service level management 
+filteror : accountable_pages=role: Service level management
+filteror : consulted_pages=role:Service level management
+filteror : informed_pages=role: Service level management
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Service level management 
+filteror : accountable_pages=role:Service level management
+filteror : consulted_pages=role:Service level management
+filteror : informed_pages=role:Service level management
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Service level management 
+filteror : accountable_pages=role:Service level management 
+filteror : consulted_pages=role: Service level management
+filteror : informed_pages=role:Service level management 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Service level management role within ALM and the IT industry in general, based on IT Best Practices}}
+

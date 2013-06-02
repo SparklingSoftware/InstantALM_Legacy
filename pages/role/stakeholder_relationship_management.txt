@@ -1,0 +1,87 @@
+
+---- dataentry roles ----
+type               : role
+name               : Stakeholder relationship management
+category           : Business change
+subcategory        : Stakeholder relationship management
+summary            : 
+groups_pages       :
+----
+
+===== Role: Stakeholder relationship management (RLMT) =====
+
+==== Description ====
+During the design, management and implementation of business change and throughout the service lifecycle, the analysis and coordination of relationships with and between stakeholders,taking account of the services they use.
+
+==== SFIA Level 4 ====
+Collects and uses feedback from customers and stakeholders to help measure effectiveness of stakeholder management. Helps develop and enhance customer and stakeholder relationships. Implements a communications strategy, including, for example; handling of complaints; problems and issues; managing resolutions; corrective actions and lessons learned; collection and dissemination of relevant information appropriately.
+
+==== SFIA Level 5 ====
+Develops and maintains one or more defined communication channels and/or stakeholder groups, acting as a single point of contact.Gathers information from the customer to understand their needs (demand management) and detailed requirements. Facilitates open communication and discussion between stakeholders,using feedback to assess and promote understanding of need for future changes in services,products and systems. Agrees changes to be made and the planning and implementation of change. Maintains contact with the customer and stakeholders throughout to ensure satisfaction. Captures and disseminates technical and business information.
+
+==== SFIA Level 6 ====
+Supports business change, acting as a single point of contact for senior stakeholders, facilitating relationships between them. Ensures that stakeholders understand available IT services,and promotes financial and commercial awareness in order to deliver value-for-money.
+Conducts analysis of demand for services and influences stakeholders to ensure that the necessary
+investments are made to deliver required services. Negotiates at senior level on technical
+and commercial issues, to ensure that customers,suppliers and other stakeholders understand
+and agree what will meet their needs, and that appropriate service level agreements are
+defined. Oversees monitoring of relationships including lessons learned and appropriate feedback.
+Initiates improvement in services, products and systems.
+
+==== SFIA Level 7 ====
+Is responsible for defining the strategic approach to understanding the needs of the business (demand management) and works with suppliers to meet these needs. Establishes and promotes the overall vision for how IT can support the business. Defines, and gains agreement on, the principles for establishing effective relationships between stakeholders, including responsibility for the relationship between IT functions and end users.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Stakeholder relationship management 
+filteror : accountable_pages=role:Stakeholder relationship management 
+filteror : consulted_pages=role:Stakeholder relationship management 
+filteror : informed_pages=role: Stakeholder relationship management 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Stakeholder relationship management 
+filteror : accountable_pages=role:Stakeholder relationship management
+filteror : consulted_pages=role:Stakeholder relationship management
+filteror : informed_pages=role:Stakeholder relationship management
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Stakeholder relationship management 
+filteror : accountable_pages=role:Stakeholder relationship management 
+filteror : consulted_pages=role: Stakeholder relationship management
+filteror : informed_pages=role: Stakeholder relationship management
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Stakeholder relationship management role within ALM and the IT industry in general, based on IT Best Practices}}
+

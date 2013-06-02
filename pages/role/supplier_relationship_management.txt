@@ -1,0 +1,87 @@
+
+---- dataentry roles ----
+type               : role
+name               : Supplier relationship management
+category           : Procurement and management support
+subcategory        : Supply management
+summary            : 
+groups_pages       :
+----
+
+===== Role: Supplier relationship management (SURE) =====
+
+==== Description ====
+On behalf of a client organisation, the identification and management of external suppliers to ensure successful delivery of products and services required by the business. 
+
+==== SFIA Level 2 ====
+2 Assists in the collection and reporting on supplier performance data. Assists with the routine day to day communication between the organisation and suppliers.
+
+==== SFIA Level 3 ====
+Acts as the routine contact point between organisation and supplier. Collects and reports on supplier performance data.
+
+==== SFIA Level 4 ====
+Collects performance data and investigates problems. Monitors and reports on supplier performance, customer satisfaction, and market intelligence. Resolves or escalates problems. Implements supplier service improvement actions and programmes. Monitors performance.
+
+==== SFIA Level 5 ====
+Maintains a broad understanding of the commercial IT environment, how the organisation sources, deploys and manages external partners and when it is appropriate to use in-house resources. Develops and manages contracts with suppliers to meet key performance indicators and agreed targets, taking account of information security of third parties. Is responsible for the liaison between the organisation and designated supplier(s). Carries out benchmarking and makes use of supplier performance data to ensure that supplier performance is properly monitored and regularly reviewed. Is responsible for the management and implementation of supplier service improvement actions and programmes. May be responsible for managing a discrete IT function or service in a multi supplier environment. 
+
+==== SFIA Level 6 ====
+Influences policy and procedures covering the selection of suppliers, tendering and procurement, promoting good practice in third party management with respect to information security. Deploys highly developed commercial skills to identify external partners, engaging with professionals in other related disciplines (e.g. procurement specialists, lawyers) as appropriate. Is responsible for defining commercial communications, and the management and maintenance of the relationship between the organisation and the supplier. Measures the perception about how services are delivered, how this influences the performance of the supplier and their perception of own organisation’s performance. Ensures that processes and tools are in place to conduct benchmarking. Conducts supplier analysis and assesses effectiveness across the supply chain. Promotes good practice with regard to third party information security.
+
+==== SFIA Level 7 ====
+Determines overall supplier management strategy, embracing effective management and operational relationships at all levels. Establishes a framework to monitor the service provided and ensure value for money over the lifetime of the contract. Puts in place and has overall responsibility for conformance to legislation; supply chain management; commercial governance; policies for selection of suppliers and benchmarking their performance. Represents the company in any serious disputes involving suppliers. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Supplier relationship management
+filteror : accountable_pages=role:Supplier relationship management 
+filteror : consulted_pages=role:Supplier relationship management
+filteror : informed_pages=role: Supplier relationship management
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Supplier relationship management 
+filteror : accountable_pages=role:Supplier relationship management
+filteror : consulted_pages=role:Supplier relationship management
+filteror : informed_pages=role:Supplier relationship management
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Supplier relationship management 
+filteror : accountable_pages=role: Supplier relationship management
+filteror : consulted_pages=role:Supplier relationship management 
+filteror : informed_pages=role:Supplier relationship management 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Supplier relationship management role within ALM and the IT industry in general, based on IT Best Practices}}
+

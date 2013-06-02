@@ -1,0 +1,85 @@
+
+---- dataentry roles ----
+type               : role
+name               : Systems integration
+category           : Solution development and implementation
+subcategory        : Installation and integration
+summary            : 
+groups_pages       :
+----
+
+===== Role: Systems integration (SINT) =====
+
+
+==== Description ====
+The incremental and logical integration and testing of components and/or subsystems and their interfaces in order to create operational services. 
+
+==== SFIA Level 2 ====
+Produces soft-ware builds from software source code. Conducts tests as defined in an integration test specification, records the details of any failures, and carries out fault diagnosis relating to simple failures, reporting the results of the diagnosis in a clear and concise manner.
+
+==== SFIA Level 3 ====
+Defines the integration build and produces a build definition for generation of the software. Accepts software modules from software developers, and produces software builds for loading onto the target hardware from software source code. Configures the hardware environment, produces integration test specifications, conducts tests and records the details of any failures. Carries out and reports fault diagnosis relating to moderately complex problems. 
+
+==== SFIA Level 4 ====
+Defines the integration build, accepts software modules from software developers, and produces software builds for loading onto the target environment. Configures the hardware environment, produces integration test specifications, and conducts tests, recording details of any failures and carrying out fault diagnosis.
+
+==== SFIA Level 5 ====
+Designs and builds integration components and interfaces. Leads practical integration work under the technical direction of the system /service designer. May contribute to the overall design of the service. May define the technical criteria for product/ component selection. Contributes to decisions about tools, methods and approaches. 
+
+==== SFIA Level 6 ====
+Establishes standards and procedures across the IT service lifecycle (including the development lifecycle) in the areas of systems integration and testing and ensures that practitioners adhere to them. Manages resources to ensure that the systems integration function operates effectively.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Systems integration 
+filteror : accountable_pages=role:Systems integration 
+filteror : consulted_pages=role:Systems integration 
+filteror : informed_pages=role:Systems integration 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Systems integration 
+filteror : accountable_pages=role:Systems integration
+filteror : consulted_pages=role:Systems integration
+filteror : informed_pages=role:Systems integration
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Systems integration
+filteror : accountable_pages=role:Systems integration 
+filteror : consulted_pages=role: Systems integration
+filteror : informed_pages=role: Systems integration
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Systems integration role within ALM and the IT industry in general, based on IT Best Practices}}
+

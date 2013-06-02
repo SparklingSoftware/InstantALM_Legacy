@@ -1,0 +1,99 @@
+
+---- dataentry roles ----
+type               : role
+name               : Sustainability management for IT
+category           : Strategy and architecture
+subcategory        : Technical strategy and planning
+summary            : 
+groups_pages       :
+----
+
+===== Role: Sustainability management for IT (SUMI) =====
+
+==== Description ====
+The specification, planning and management of changes to IT assets, systems, processes or practices intended to reduce or constrain consumption and/or disposal of energy or materials,
+within the context of company strategy and policy, and regulatory and contractual requirements.
+The evaluation of changes to ensure that planned benefits have been obtained. The specification
+of remedial and process improvement actions in cases where planned benefits have not been obtained. The identification and planning of alternative sources of supply.
+
+
+==== SFIA Level 5 ====
+Plans and implements new practices that ensure that sustainability matters are appropriately
+addressed in specification, design and operation of systems and services. Recommends methods,
+tools and practices to be used. Establishes organisation-wide practices for the disposal of materials. Sets standards for the conformance of components and services to efficient use of
+energy and materials.
+
+
+==== SFIA Level 6 ====
+Establishes the overall approach to the incorporation of sustainability requirements and factors
+into the specification and design of systems and services; determines relevant methods and tools
+to be used to address energy efficiency issues in specification, design and operation.
+
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Sustainability management for IT
+filteror : accountable_pages=role:Sustainability management for IT 
+filteror : consulted_pages=role:Sustainability management for IT
+filteror : informed_pages=role:Sustainability management for IT 
+sort     : name
+----
+
+==== Practices ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Sustainability management for IT 
+filteror : accountable_pages=role:Sustainability management for IT
+filteror : consulted_pages=role:Sustainability management for IT 
+filteror : informed_pages=role:Sustainability management for IT 
+sort     : name
+----
+
+==== Role Maturity ====
+
+---- datatable ----
+cols      : Name, AMageid%, base_pages, beginner_pages, intermediate_pages, advanced_pages, extreme_pages
+headers   : Name, Details, Base, Beginner, Intermediate, Advanced, Extreme
+filter    : type = practice
+filterand : base_pages = role:Sustainability management for IT 
+filteror  : beginner_pages = role:Sustainability management for IT 
+filteror  : intermediate_pages = role:Sustainability management for IT 
+filteror  : advanced_pages = role:Sustainability management for IT 
+filteror  : extreme_pages = role:Sustainability management for IT 
+sort      : name
+----
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Sustainability management for IT 
+filteror : accountable_pages=role:Sustainability management for IT
+filteror : consulted_pages=role:Sustainability management for IT 
+filteror : informed_pages=role:Sustainability management for IT 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Sustainability management for IT role within ALM and the IT industry in general, based on IT Best Practices}}
+

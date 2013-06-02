@@ -1,0 +1,75 @@
+
+---- dataentry roles ----
+type               : role
+name               : Learning design and development
+category           : Business change
+subcategory        : Skills management
+summary            : 
+groups_pages       :
+----
+
+===== Role: Learning design and development (TMCR) =====
+
+==== Description ====
+The design, creation, packaging and mainte-nance of materials and resources for use in learn-ing and development. Typically involves the assimilation of information from existing sources, selection and re-presentation in a form suitable to the intended purpose and audience. Includes design, configuration and testing of learning environments, and use of appropriate current technologies
+
+==== SFIA Level 4 ====
+Designs, creates, develops, customises and maintains learning solution content and resources to deliver agreed outcomes. Assists with design, configuration and testing of learning environments, including creation of simulated data, and replication of external systems and interfaces.
+
+==== SFIA Level 5 ====
+Specifies the content and structure of learning and development packages. Takes responsibility for design, creation, packaging and maintenance and manages development to deliver agreed outcomes. Where required, designs, configures and tests learning environments, including population of simulated databases, and replication of external systems and interfaces. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Learning design and development 
+filteror : accountable_pages=role:Learning design and development 
+filteror : consulted_pages=role: Learning design and development
+filteror : informed_pages=role:Learning design and development 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Learning design and development 
+filteror : accountable_pages=role:Learning design and development
+filteror : consulted_pages=role:Learning design and development
+filteror : informed_pages=role:Learning design and development
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Learning design and development
+filteror : accountable_pages=role:Learning design and development 
+filteror : consulted_pages=role:Learning design and development
+filteror : informed_pages=role:Learning design and development 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Learning design and development role within ALM and the IT industry in general, based on IT Best Practices}}
+

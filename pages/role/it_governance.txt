@@ -1,4 +1,13 @@
 
+---- dataentry roles ----
+type               : role
+name               : IT governance
+category           : Strategy and architecture
+subcategory        : Information strategy
+summary            : 
+groups_pages       :
+----
+
 ===== Role: IT governance (GOVN) =====
 
 ==== Description ====
@@ -16,29 +25,58 @@ compliant with the organisation's strategy for corporate governance of informati
 Reviews information systems for compliance with legislation and specifies any required changes. Responsible for ensuring compliance with organisational policies and procedures and overall information management strategy
 
 
-^ Key processes where this role is involved in ^
-| [[:process:todo:todo| Todo -> Todo]]  |
-| [[:process:todo:todo| Todo -> Todo]]  |
-| [[:process:todo:todo| Todo -> Todo]]  |
+==== Processes ====
 
-^ IT Best Practices ^
-| [[:todo|todo]] |
-| [[:todo|todo]] |
+---- datatable ----
+cols     : Name, %pageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:IT governance 
+filteror : accountable_pages=role:IT governance
+filteror : consulted_pages=role:IT governance
+filteror : informed_pages=role:IT governance
+sort     : name
+----
 
-^ Tools used ^
-| [[:todo|todo]] |
+==== Practices ====
 
-^ Maturity     ^ Practices ^
-| Extreme      |           |
-| :::          |           |
-| Advanced     |           |
-| :::          |           |
-| Intermediate |           |
-| :::          |           |
-| Beginner     |           |
-| :::          |           |
-| Base         |           |
-| :::          |           |
+---- datatable ----
+cols     : Name, %pageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:IT governance 
+filteror : accountable_pages=role:IT governance
+filteror : consulted_pages=role:IT governance
+filteror : informed_pages=role:IT governance
+sort     : name
+----
+
+==== Role Maturity ====
+
+---- datatable ----
+cols      : Name, %pageid%, base_pages, beginner_pages, intermediate_pages, advanced_pages, extreme_pages
+headers   : Name, Details, Base, Beginner, Intermediate, Advanced, Extreme
+filter    : type = practice
+filterand : base_pages = role:IT governance
+filteror  : beginner_pages = role:IT governance
+filteror  : intermediate_pages = role:IT governance
+filteror  : advanced_pages = role:IT governance
+filteror  : extreme_pages = role:IT governance
+sort      : name
+----
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, %pageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:IT governance
+filteror : accountable_pages=role:IT governance
+filteror : consulted_pages=role:IT governance
+filteror : informed_pages=role:IT governance 
+sort     : name
+----
 
 === Sources: ===
 
@@ -49,6 +87,8 @@ Reviews information systems for compliance with legislation and specifies any re
 /* Where could the reader want to go to next?? */
 /* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
 
+[[:roles:roles_introduction|To the complete list of roles]]
+
 {{keywords>ALM, it best practices, the sdlc, application development}}
-{{description>Description of the --- role within ALM and the IT industry in general, based on IT Best Practices}}
+{{description>Description of the IT governance role within ALM and the IT industry in general, based on IT Best Practices}}
 

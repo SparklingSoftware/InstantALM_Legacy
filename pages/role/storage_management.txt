@@ -1,0 +1,81 @@
+
+---- dataentry roles ----
+type               : role
+name               : Storage management
+category           : Service management
+subcategory        : Service operation
+summary            : 
+groups_pages       :
+----
+
+===== Role: Storage management (STMG) =====
+
+==== Description ====
+The planning, implementation, configuration and tuning of storage hardware and software, covering online storage (Storage Area network, Networked-Attached Storage, Direct Attached Storage), offline storage (backup, archiving), remote and offsite data storage (disaster recovery). Also incorporates storage techniques such as tiered or hierarchical storage, data de-duplication, storage virtualisation, optimisation, quota management, future capacity planning, and compliance with data retention and data protection regulations. 
+
+==== SFIA Level 3 ====
+Performs regular high-performance, scalable backups and restores on a schedule and tracks offsite storage. Carries out documented configuration for allocation of storage, installation & maintenance of storage system as per the agreed operational procedure. Identifies operational problems and contributes to their resolution. Uses standard management and reporting tools to collect and report on storage utilisation, performance and backup statistics. 
+
+==== SFIA Level 4 ====
+Reviews capacity, performance, availability and other operational metrics and take appropriate action to ensure corrective and proactive maintenance of storage and backup systems to support the requirement to protect business information. Creates reports and proposals for improvement and contributes to the planning and implementation of new installations and scheduled maintenance and changes within the system. Prepares and maintains operational procedures and provides technical expertise and appropriate information to the management. 
+
+==== SFIA Level 5 ====
+Manages the storage and backup systems to provide agreed service levels. Responsible for creating, improving, and supporting quality IT services with optimal utilisation of storage resources, ensuring Data Security, Availability and integrity of business data. Drafts standards, procedures & guide-lines for implementing data protection and disaster recovery functionality for all business applications and business data using different online and offline storage devices.
+
+==== SFIA Level 6 ====
+Develops strategies for managing storage and data based on level of criticality of information, managing compliance with regulatory and security requirements. Drafts and maintains policies and standards for the corporate data management practice and align storage investments and data management policies to meet the business goals based on the information value, classification of data the Recovery Point Objective and Recovery Time Objective.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Storage management 
+filteror : accountable_pages=role:Storage management 
+filteror : consulted_pages=role: Storage management
+filteror : informed_pages=role:Storage management 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Storage management 
+filteror : accountable_pages=role:Storage management
+filteror : consulted_pages=role:Storage management
+filteror : informed_pages=role:Storage management
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Storage management 
+filteror : accountable_pages=role:Storage management 
+filteror : consulted_pages=role: 
+filteror : informed_pages=role: 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the <<ROLE_OR_GROUP_NAME>> role within ALM and the IT industry in general, based on IT Best Practices}}
+

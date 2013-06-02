@@ -1,0 +1,87 @@
+
+---- dataentry roles ----
+type               : role
+name               : Programme management
+category           : Business change
+subcategory        : Business change implementation
+summary            : 
+groups_pages       :
+----
+
+===== Role: Programme management (PGMG) =====
+
+==== Description ====
+The identification, planning and coordination of a set of related projects within a programme of
+business change, to manage their interdependencies in support of specific business strategies
+and objectives. The maintenance of a strategic view over the set of projects, providing the framework for implementing business initiatives, or large-scale change, by conceiving, maintaining
+and communicating a vision of the outcome of the programme. (The vision, and the means of
+achieving it, may change as the programme progresses). Agreement of business requirements,
+and translation of requirements into operational plans. Determination, monitoring,and review of programme costs, operational budgets, staffing requirements, programme resources, inter-dependencies and programme risk.
+
+==== SFIA Level 6 ====
+Plans,directs, and co-ordinates activities to manage and implement a programme from contract /
+proposal initiation to final operational stage;plans, schedules, monitors, and reports on activities related to the programme. Ensures that programmes are managed to realise business
+benefits and that programme management is informed by an awareness of current technical developments.
+
+==== SFIA Level 7 ====
+Sets organisational strategy governing the direction and conduct of programme management,including
+application of appropriate methodologies. Plans,directs, and co-ordinates activities to manage
+and implement complex programmes from contract /proposal initiation to final operational
+stage. Aligns the programme objectives with business objectives, and authorises the selection
+and planning of all related projects and activities. Plans, schedules, monitors, and reports on activities related to the programme, ensuring that there are appropriate and effective governance
+arrangements, supported by comprehensive reporting.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Programme management 
+filteror : accountable_pages=role:Programme management 
+filteror : consulted_pages=role:Programme management 
+filteror : informed_pages=role:Programme management 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Programme management 
+filteror : accountable_pages=role:Programme management
+filteror : consulted_pages=role:Programme management
+filteror : informed_pages=role:Programme management
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Programme management 
+filteror : accountable_pages=role:Programme management 
+filteror : consulted_pages=role:Programme management 
+filteror : informed_pages=role:Programme management 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Programme management role within ALM and the IT industry in general, based on IT Best Practices}}
+

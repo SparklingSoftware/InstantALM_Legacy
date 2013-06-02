@@ -1,0 +1,81 @@
+
+---- dataentry roles ----
+type               : role
+name               : Quality assurance
+category           : Procurement and management support
+subcategory        : Quality and conformation
+summary            : 
+groups_pages       :
+----
+
+===== Role: Quality assurance (QUAS) =====
+
+==== Description ====
+The process of ensuring that the agreed quality standards within an organisation are adhered to and that best practice is promulgated throughout the organisation. 
+
+==== SFIA Level 3 ====
+3 Uses appropriate methods and tools in the development, maintenance, control and distribution of quality and environmental standards. Makes technical changes to quality and environmental standards according to documented procedures. Distributes new and revised standards.
+
+==== SFIA Level 4 ====
+Investigates and documents the internal control of specified aspects of automated or partly automated processes, and assesses compliance with the relevant standard. 
+
+==== SFIA Level 5 ====
+5 Uses quality standards to review past performance and plan future activities. Conducts audits of quality requirements and produces audit reports. Monitors and reports on the outputs from the quality assurance and audit processes.
+
+==== SFIA Level 6 ====
+Develops organisational commitment to ongoing quality and environmental improvement by ensuring that the quality assurance process is robust and is based on the best industry practice. Considers implications of emerging technological developments, economic and social trends, etc. Plans and resources periodic quality assurance audits. Conducts and/or manages audits of quality requirements, and analyses audit results, to ensure appropriate quality standards and operational definitions are in place. Prepares and delivers formal audit reports. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Quality assurance
+filteror : accountable_pages=role: Quality assurance
+filteror : consulted_pages=role: Quality assurance
+filteror : informed_pages=role:Quality assurance
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Quality assurance 
+filteror : accountable_pages=role:Quality assurance
+filteror : consulted_pages=role:Quality assurance
+filteror : informed_pages=role:Quality assurance
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Quality assurance 
+filteror : accountable_pages=role:Quality assurance 
+filteror : consulted_pages=role:Quality assurance 
+filteror : informed_pages=role:Quality assurance 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Quality assurance role within ALM and the IT industry in general, based on IT Best Practices}}
+

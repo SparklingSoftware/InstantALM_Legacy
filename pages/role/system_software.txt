@@ -1,0 +1,78 @@
+
+---- dataentry roles ----
+type               : role
+name               : System software
+category           : Service management
+subcategory        : Service operation
+summary            : 
+groups_pages       :
+----
+
+===== Role: System software (SYSP) =====
+
+==== Description ====
+The provision of specialist expertise to facilitate and execute the installation and maintenance of system software such as operating systems, data management products, office automation products and other utility software. 
+
+==== SFIA Level 3 ====
+Uses system management software and tools to collect agreed performance statistics. Carries out agreed system software maintenance tasks.
+
+==== SFIA Level 4 ====
+Reviews system soft-ware updates and identifies those that merit action. Tailors system software to maximise hard-ware functionality. Installs and tests new versions of system software. Investigates and coordinates the resolution of potential and actual service problems. Prepares and maintains operational documentation for system software. Advises on the correct and effective use of system software. 
+
+==== SFIA Level 5 ====
+Evaluates new system software, reviews system software updates and identifies those that merit action. Ensures that system software is tailored to facilitate the achievement of service objectives. Plans the installation and testing of new versions of system software. Investigates and coordinates the resolution of potential and actual service problems. Ensures that operational documentation for system software is fit for purpose and current. Advises on the correct and effective use of system software. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:System software 
+filteror : accountable_pages=role:System software 
+filteror : consulted_pages=role:System software 
+filteror : informed_pages=role: System software
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:System software 
+filteror : accountable_pages=role:System software
+filteror : consulted_pages=role:System software
+filteror : informed_pages=role:System software
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:System software 
+filteror : accountable_pages=role:System software 
+filteror : consulted_pages=role:System software 
+filteror : informed_pages=role:System software
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the System software role within ALM and the IT industry in general, based on IT Best Practices}}
+

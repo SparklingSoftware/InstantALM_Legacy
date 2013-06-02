@@ -1,0 +1,81 @@
+
+---- dataentry roles ----
+type               : role
+name               : Marketing
+category           : Client interface
+subcategory        : Sales and marketing
+summary            : 
+groups_pages       :
+----
+
+===== Role: Marketing (MKTG) =====
+
+==== Description ====
+The research, analysis and stimulation of potential or existing markets for IT and related products and services, both to provide a sound basis for business development and to generate a satisfactory flow of sales enquiries. 
+
+==== SFIA Level 3 ====
+Works with technical and non-technical customer representatives or from reports, to identify industry trends, needs and sales opportunities. Selects from and uses marketing tools appropriate to a project. Maintains a database of marketing information, including lessons learned from previous projects. Conducts market research. Contributes to marketing plans. Creates unique selling points and key messages for marketing material. Presents and communicates at marketing events.  
+
+==== SFIA Level 4 ====
+Maintains effective internal and external business relationships. Plans and conducts market research. Investigates and analyses customer dynamics and uses research to inform marketing plans, including planning for customer loyalty. Creates unique selling points, and key messages for marketing material. Drafts marketing support materials such as brochures and mailshots. Organises and participates actively in marketing events. 
+
+==== SFIA Level 5 ====
+Manages marketing campaigns within specified budgets to meet specified objectives. Develops and maintains successful internal and external business relationships. Manages and monitors market research, analysis and the marketing planning process. Takes overall responsibility for the production of marketing materials and staging of events. Finds innovative solutions to marketing problems. Uses experience to make informed recommendations to senior management. This includes focusing on market segmentation and initiatives to attract and retain customers.
+
+==== SFIA Level 6 ====
+Makes strategic decisions regarding marketing plans and the planning process. Determines and oversees the overall marketing strategy for the organisation to meet its business objectives. This includes strategies for market segmentation and to attract and retain customers.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Marketing 
+filteror : accountable_pages=role:Marketing 
+filteror : consulted_pages=role:Marketing
+filteror : informed_pages=role: Marketing
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Marketing 
+filteror : accountable_pages=role:Marketing
+filteror : consulted_pages=role:Marketing
+filteror : informed_pages=role:Marketing
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Marketing 
+filteror : accountable_pages=role: Marketing
+filteror : consulted_pages=role: Marketing
+filteror : informed_pages=role:Marketing 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Marketing role within ALM and the IT industry in general, based on IT Best Practices}}
+

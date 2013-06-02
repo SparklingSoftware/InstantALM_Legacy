@@ -1,0 +1,84 @@
+
+---- dataentry roles ----
+type               : role
+name               : Radio frequency engineering
+category           : Service management
+subcategory        : Service operation
+summary            : 
+groups_pages       :
+----
+
+===== Role: Radio frequency engineering (RFEN) =====
+
+==== Description ====
+The deployment, integration, calibration, tuning and maintenance of radio frequency (RF) and analogue elements of IT systems. 
+
+==== SFIA Level 2 ====
+Assists with setting up, tuning and functional checks of radio frequency/analogue elements. Resolves faults down to line replaceable unit (LRU) level or escalates according to given procedures. Carries out user confidence checks and escalates faults according to given procedures.
+
+==== SFIA Level 3 ====
+Deploys, sets up, tunes and calibrates radio frequency/analogue elements following maintenance schedules and using appropriate tools and test equipment. Incorporates hardware/ firmware modifications. Interprets automatic fault/performance indications and resolves faults down to discrete component level or escalates according to given procedures. 
+
+==== SFIA Level 4 ====
+Investigates and resolves system-wide fault conditions using a wide range of diagnostic tools and techniques. Reconfigures equipment to circumvent temporary outages. 
+
+==== SFIA Level 5 ====
+Develops maintenance schedules and procedures. Approves equipment upgrades and modifications. Monitors system performance, recommends equipment modifications and changes to operating procedures, servicing methods and schedules. 
+
+==== SFIA Level 6 ====
+Specifies radio frequency equipment performance requirements and sets maintenance policy. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Radio frequency engineering 
+filteror : accountable_pages=role: Radio frequency engineering
+filteror : consulted_pages=role:Radio frequency engineering 
+filteror : informed_pages=role: Radio frequency engineering
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Radio frequency engineering 
+filteror : accountable_pages=role:Radio frequency engineering
+filteror : consulted_pages=role:Radio frequency engineering
+filteror : informed_pages=role:Radio frequency engineering
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Radio frequency engineering 
+filteror : accountable_pages=role:Radio frequency engineering
+filteror : consulted_pages=role: Radio frequency engineering
+filteror : informed_pages=role:Radio frequency engineering
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Radio frequency engineering role within ALM and the IT industry in general, based on IT Best Practices}}
+

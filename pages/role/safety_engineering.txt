@@ -1,0 +1,80 @@
+
+---- dataentry roles ----
+type               : role
+name               : Safety engineering
+category           : Solution development and implementation
+subcategory        : Systems development
+summary            : 
+groups_pages       :
+----
+
+===== Role: Safety engineering (SFEN) =====
+
+==== Description ====
+The application of appropriate methods to assure safety during all lifecycle phases of safety-related systems developments, including maintenance and re-use. These include safety hazard and risk analysis, safety requirements specification, safety-related system architectural design, formal method design, safety validation and verification, and safety case preparation. 
+
+==== SFIA Level 3 ====
+Assists with the collection of safety assurance evidence, under-taking all work in accordance with agreed safety, technical and quality standards, using appropriate methods and tools. Documents the results of hazard and risk analysis activities. 
+
+==== SFIA Level 4 ====
+Contributes to the identification, analysis and documentation of hazards, and to the capture, evaluation and specification of safety requirements. Analyses and documents safety validation results. Contributes to the development and maintenance of project safety assurance plans, and gathers safety assurance evidence for safety case preparation. 
+
+==== SFIA Level 5 ====
+5 Identifies and analyses hazards and contributes to the identification and evaluation of risk reduction measures, ensuring these are adequately documented. Specifies safety-related systems architectures up to the highest safety integrity levels. Develops and maintains project safety assurance plans, monitors compliance and ensures that safety assurance evidence is gathered for safety case preparation. 
+
+==== SFIA Level 6 ====
+Takes full responsibility for hazard analysis and risk assessment, safety-related system architectural design, safety assurance planning and compliance and safety case preparation on systems up to the highest safety integrity levels. Takes responsibility for the safety-related aspects of multiple complex or high safety integrity level projects, providing effective leadership to team members. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Safety engineering 
+filteror : accountable_pages=role:Safety engineering 
+filteror : consulted_pages=role:Safety engineering 
+filteror : informed_pages=role:Safety engineering
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role: Safety engineering
+filteror : accountable_pages=role:Safety engineering
+filteror : consulted_pages=role:Safety engineering
+filteror : informed_pages=role:Safety engineering
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Safety engineering 
+filteror : accountable_pages=role: Safety engineering
+filteror : consulted_pages=role:Safety engineering
+filteror : informed_pages=role:Safety engineering
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Safety engineering role within ALM and the IT industry in general, based on IT Best Practices}}
+

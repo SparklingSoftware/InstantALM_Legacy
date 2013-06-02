@@ -1,0 +1,84 @@
+
+---- dataentry roles ----
+type               : role
+name               : Service desk and incident management
+category           : Service management
+subcategory        : Service operation
+summary            : 
+groups_pages       :
+----
+
+===== Role: Service desk and incident management (USUP) =====
+
+==== Description ====
+The processing and coordination of appropriate and timely responses to incident reports, including channelling requests for help to appropriate functions for resolution, monitoring resolution activity, and keeping clients appraised of progress towards service restoration. 
+
+==== SFIA Level 1 ====
+Receives and handles requests for support following agreed procedures. Promptly allocates calls as appropriate. Maintains relevant records. 
+
+==== SFIA Level 2 ====
+Receives and handles requests for support following agreed procedures. Responds to common requests for support by providing information to enable resolution and promptly allocates unresolved calls as appropriate. Maintains records and advises relevant persons of actions taken. 
+
+==== SFIA Level 3 ====
+Receives and handles requests for support following agreed procedures. Responds to requests for support by providing information to enable incident resolution and promptly allocates unresolved calls as appropriate. Maintains records and advises relevant persons of actions taken. 
+
+==== SFIA Level 4 ====
+Ensures that incidents and requests are handled according to agreed procedures. Ensures that documentation of the supported components is available and in an appropriate form for those providing support. Creates and maintains support documentation. 
+
+==== SFIA Level 5 ====
+Ensures that the inventory of components to be supported is complete and current. Drafts and maintains policy, standards and procedures for the service desk and incident management. Schedules the work of service desk staff to meet agreed service levels. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Service desk and incident management 
+filteror : accountable_pages=role:Service desk and incident management 
+filteror : consulted_pages=role: Service desk and incident management
+filteror : informed_pages=role:Service desk and incident management 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Service desk and incident management 
+filteror : accountable_pages=role:Service desk and incident management
+filteror : consulted_pages=role:Service desk and incident management
+filteror : informed_pages=role:Service desk and incident management
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Service desk and incident management 
+filteror : accountable_pages=role:Service desk and incident management 
+filteror : consulted_pages=role:Service desk and incident management 
+filteror : informed_pages=role:Service desk and incident management 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Service desk and incident management role within ALM and the IT industry in general, based on IT Best Practices}}
+

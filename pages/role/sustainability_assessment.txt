@@ -1,0 +1,82 @@
+
+---- dataentry roles ----
+type               : role
+name               : Sustainability assessment
+category           : Business change
+subcategory        : Business change management
+summary            : 
+groups_pages       :
+----
+
+===== Role: Sustainability assessment (SUAS) =====
+
+==== Description ====
+The evaluation of the sustainability of operational or planned IT services, devices and day-today
+operations such as travel. The establishment of a model or scheme to track changes in consumption over time and to generate feedback to enable improvements in energy or resource efficiency. The identification of areas requiring attention, and the initiation of actions to change or control the procurement of energy or other resources, so as to improve sustainability.
+
+==== SFIA Level 4 ====
+Assesses,records and reports on utilisation of energy and other resources, showing expertise in a given area such as a class of computing devices, or business travel. Provides advice on the improvement of sustainability in that area of expertise.
+
+==== SFIA Level 5 ====
+Leads the introduction and management of measures to assess and report on sustainability and the
+impact of conservation activities. Ensures that the effectiveness and accuracy of the monitoring
+actions is kept under review, and that appropriate improvements are made
+
+==== SFIA Level 6 ====
+Determines the organisation’s approach to the assessment of sustainability and to the monitoring of  the effectiveness of activities intended to cause improvements. Provides overall leadership in
+assessment activity around the organisation.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Sustainability assessment
+filteror : accountable_pages=role:Sustainability assessment 
+filteror : consulted_pages=role:Sustainability assessment 
+filteror : informed_pages=role:Sustainability assessment
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Sustainability assessment 
+filteror : accountable_pages=role:Sustainability assessment
+filteror : consulted_pages=role:Sustainability assessment
+filteror : informed_pages=role:Sustainability assessment
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Sustainability assessment 
+filteror : accountable_pages=role:Sustainability assessment 
+filteror : consulted_pages=role:Sustainability assessment 
+filteror : informed_pages=role:Sustainability assessment 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Sustainability assessment role within ALM and the IT industry in general, based on IT Best Practices}}
+

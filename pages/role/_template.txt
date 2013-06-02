@@ -1,7 +1,9 @@
 
----- dataentry practices ----
-type               : group
+---- dataentry roles ----
+type               : role
 name               : <<ROLE_OR_GROUP_NAME>>
+category           :
+subcategory        :
 summary            : 
 groups_pages       :
 ----
@@ -24,31 +26,17 @@ sort     : name
 ----
 
 ==== Practices ====
-
 ---- datatable ----
-cols     : Name, %pageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
-headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+cols     : maturity, %pageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
 filter   : type=practice
 filterand : responsible_pages=role:<<ROLE_OR_GROUP_NAME>> 
-filteror : accountable_pages=role:<<ROLE_OR_GROUP_NAME>> 
-filteror : consulted_pages=role:<<ROLE_OR_GROUP_NAME>> 
-filteror : informed_pages=role:<<ROLE_OR_GROUP_NAME>> 
-sort     : name
+filteror : accountable_pages=role:<<ROLE_OR_GROUP_NAME>>
+filteror : consulted_pages=role:<<ROLE_OR_GROUP_NAME>>
+filteror : informed_pages=role:<<ROLE_OR_GROUP_NAME>>
+sort     : maturity
 ----
 
-==== Role Maturity ====
-
----- datatable ----
-cols      : Name, %pageid%, base_pages, beginner_pages, intermediate_pages, advanced_pages, extreme_pages
-headers   : Name, Details, Base, Beginner, Intermediate, Advanced, Extreme
-filter    : type = practice
-filterand : base_pages = role:<<ROLE_OR_GROUP_NAME>> 
-filteror  : beginner_pages = role:<<ROLE_OR_GROUP_NAME>> 
-filteror  : intermediate_pages = role:<<ROLE_OR_GROUP_NAME>> 
-filteror  : advanced_pages = role:<<ROLE_OR_GROUP_NAME>> 
-filteror  : extreme_pages = role:<<ROLE_OR_GROUP_NAME>> 
-sort      : name
-----
 
 ==== Tools used ====
 
@@ -66,6 +54,7 @@ sort     : name
 === Sources: ===
 
 /* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
 
 === Continue Reading: ===
 
