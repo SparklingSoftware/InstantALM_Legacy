@@ -1,0 +1,81 @@
+
+---- dataentry roles ----
+type               : role
+name               : Procurement
+category           : Procurement and management support
+subcategory        : Supply management
+summary            : 
+groups_pages       :
+----
+
+===== Role: Procurement (PROC) =====
+
+==== Description ====
+The management of, and the provision of policies, internal standards and advice on the procurement of goods and services. 
+
+==== SFIA Level 4 ====
+Organises requirements into appropriate categories. Advises on different procurement routes to acquire services and products. Gathers information and uses appropriate techniques to assess benefits and options and make decisions about the most appropriate route of procurement e.g., open market or collaborative framework. Uses knowledge of supplier markets to inform specifications. Evaluates and selects suppliers based on the specification and evaluation criteria. Adapts terms and conditions to reflect the scale of the requirement and encourage good performance. Collects and collates data to support collaboration.
+
+==== SFIA Level 5 ====
+Undertakes strategic analysis, including research into suppliers, markets and product and service categories, to inform and develop commercial strategy and sourcing plans. Advises on policy and procedures covering the selection of suppliers, tendering, and procurement. Leads procurements, managing cross-functional teams as required. Clarifies specifications for key products and services. Ensures that suppliers are approved in accordance with organisation’s procedures. Typically as part of a wider commercial and legal team, applies commercial strategy and relevant procurement and intellectual property law and assists with negotiations with preferred suppliers, drafting contracts and technical schedules, and developing acceptance procedures and criteria. Manages the tender, evaluation and acquisition process with expert assistance as required and places contracts
+
+==== SFIA Level 6 ====
+Establishes procurement strategy, standards, methods, processes and management practices that ensure compliance with legislation and regulation. Puts in place services that support the business by providing for cost-effective procurement of products and services. Reviews and influences terms and conditions to ensure alignment with current legislation and policies. Leads the procurement process, from clarifying requirements through to placing, monitoring and terminating contracts. Identifies and implements opportunities for business improvement. 
+
+==== SFIA Level 7 ====
+Determines procurement policies for the organisation, including "build or buy" criteria. Determines organisation's policy and procedures covering the selection of suppliers, tendering and procurement. Is responsible for deployment and review of acquisition processes and for negotiating major contracts. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Procurement
+filteror : accountable_pages=role:Procurement 
+filteror : consulted_pages=role:Procurement 
+filteror : informed_pages=role: Procurement
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Procurement 
+filteror : accountable_pages=role:Procurement
+filteror : consulted_pages=role:Procurement
+filteror : informed_pages=role:Procurement
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Procurement 
+filteror : accountable_pages=role:Procurement 
+filteror : consulted_pages=role: Procurement
+filteror : informed_pages=role: Procurement
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Procurement role within ALM and the IT industry in general, based on IT Best Practices}}
+

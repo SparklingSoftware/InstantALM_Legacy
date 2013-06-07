@@ -1,0 +1,87 @@
+
+---- dataentry roles ----
+type               : role
+name               : Sales support
+category           : Client interface
+subcategory        : Client support
+summary            : 
+groups_pages       :
+----
+
+===== Role: Sales support (SSUP) =====
+
+==== Description ====
+The provision of technical advice and assistance to the sales force, sales agents, reseller/distributor staff and existing or prospective customers, either in support of customer development or sales activity or in fulfilment of sales obligations. 
+
+==== SFIA Level 1 ====
+Able to communicate effectively with customers by telephone and provide information about products and services. Seeks assistance from colleagues for the resolution of more complex customer service queries and complaints. Can use databases to retrieve and enter data.
+
+==== SFIA Level 2 ====
+Communicates effectively with customers by telephone and in person. Assists in the provision of customer service, including technical advice and guidance on matters bearing on the successful use of products and services. Assists in devising solutions to customer requirements and solves straightforward problems.
+
+==== SFIA Level 3 ====
+Provides customer service, including technical advice and guidance on all matters bearing on the successful use of complex products and services. Helps customers to clarify their requirements; documents the conclusions reached, and contributes to preparing and supporting bids and sales proposals 
+
+==== SFIA Level 4 ====
+4 Works closely with the sales team to help prospects to clarify their needs and requirements; devises solutions and assesses their feasibility and practicality. Demonstrates technical feasibility using physical or simulation models. Produces estimates of cost and risk and initial project plans to inform sales proposals. Resolves technical problems. 
+
+==== SFIA Level 5 ====
+5 Works closely with the sales team to ensure that customers are assisted and advised properly. Ensures that reliable cost, effort and risk estimates and project plans are produced. Manages all sales support activities, taking full responsibility for the technical content of bids and sales proposals. Establishes metrics to provide data on performance and help with the continuous improvement of sales support activities. 
+
+==== SFIA Level 6 ====
+Leads the organisation's customer service activities to ensure that they are aligned with corporate objectives and policy. Approves proposals and initiates the implementation of development activity in customer services and systems. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Sales support 
+filteror : accountable_pages=role:Sales support 
+filteror : consulted_pages=role:Sales support
+filteror : informed_pages=role:Sales support
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Sales support 
+filteror : accountable_pages=role:Sales support
+filteror : consulted_pages=role:Sales support
+filteror : informed_pages=role:Sales support
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Sales support 
+filteror : accountable_pages=role:Sales support
+filteror : consulted_pages=role:Sales support 
+filteror : informed_pages=role:Sales support 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Sales support role within ALM and the IT industry in general, based on IT Best Practices}}
+

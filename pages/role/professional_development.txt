@@ -1,0 +1,78 @@
+
+---- dataentry roles ----
+type               : role
+name               : Professional development
+category           : Business change
+subcategory        : Skills management
+summary            : 
+groups_pages       :
+----
+
+===== Role: Professional development (PDSV) =====
+
+==== Description ====
+The facilitation of the professional development of IT practitioners, including initiation, monitoring, review and validation of individual learning and development plans in line with organisational or business requirements. The counselling of participants in all relevant aspects of their professional development. The identification of appropriate learning/development resources. Liaison with external training providers. The evaluation of the benefits of professional development activities. 
+
+==== SFIA Level 4 ====
+Maintains skills framework, or information about access to standard frameworks. Advises on required outcomes for learning or development, from knowledge of skills frameworks and organisational development needs. Assists practitioners with the process of creating development plans based on outcome statements. Monitors practitioners’ progress records, ensuring that achievements and enhanced capabilities are recorded and referenced to the outcome statements.
+
+==== SFIA Level 5 ====
+Deter-mines the required outcomes for learning or development, from organisational development needs and the training strategy. Mentors assigned practitioners, ensuring alignment with predetermined statements of required development outcomes. Assists each practitioner with the creation of development plans based on the outcome statements. Ensures that each practitioner records evidence of progress. Validates practitioners' records at the end of each cycle of planned development, to ensure that achievements and enhanced capabilities are recorded and referenced to the outcome statements. May contribute to practitioners' performance appraisals. 
+
+==== SFIA Level 6 ====
+Deter-mines organisational development needs in line with business needs and strategic direction. Generates development strategies to achieve required change. Develops and leads communities of practice. Monitors progress and evaluates business benefits achieved. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Professional development 
+filteror : accountable_pages=role:Professional development
+filteror : consulted_pages=role:Professional development 
+filteror : informed_pages=role:Professional development 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Professional development
+filteror : accountable_pages=role:Professional development
+filteror : consulted_pages=role:Professional development
+filteror : informed_pages=role:Professional development
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Professional development
+filteror : accountable_pages=role: Professional development
+filteror : consulted_pages=role:Professional development
+filteror : informed_pages=role:Professional development
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Professional development role within ALM and the IT industry in general, based on IT Best Practices}}
+

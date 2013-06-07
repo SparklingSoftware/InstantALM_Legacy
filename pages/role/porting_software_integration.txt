@@ -1,0 +1,81 @@
+
+---- dataentry roles ----
+type               : role
+name               : Porting/software integration
+category           : Solution development and implementation
+subcategory        : Installation and integration
+summary            : 
+groups_pages       :
+----
+
+===== Role: Porting/software integration (PORT) =====
+
+==== Description ====
+The integration of software products into existing software environments to produce new plat-form-specific versions of the software products. 
+
+==== SFIA Level 3 ====
+Assists in the configuration of software and equipment and the systems testing of platform-specific versions of one or more software products. Documents faults, implements resolutions and retests to agreed standards. 
+
+==== SFIA Level 4 ====
+Configures software and equipment and tests platform-specific versions of one or more software products. Reports the outcome of testing and identifies potential improvements to the process and to the software products according to agreed designs and standards.
+
+==== SFIA Level 5 ====
+Leads a team, providing expert technical knowledge in the systems testing of platform-specific versions of the software products, on varying platforms. Provides specialist guidance information to support, systems testing and quality assurance functions to assist in improving procedures. 
+
+==== SFIA Level 6 ====
+Ensures the availability of hardware, software, and resources for the systems testing of plat-form-specific versions of one or more software products. Defines configurations required for testing with reference to agreed testing standards. Evaluates new developments in the organisation and the industry and advises senior management on potential growth, problem areas and resourcing needs. Ensures adherence to agreed standards and good practice
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Porting/software integration 
+filteror : accountable_pages=role:Porting/software integration 
+filteror : consulted_pages=role:Porting/software integration 
+filteror : informed_pages=role:Porting/software integration 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Porting/software integration 
+filteror : accountable_pages=role:Porting/software integration
+filteror : consulted_pages=role:Porting/software integration
+filteror : informed_pages=role:Porting/software integration
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Porting/software integration 
+filteror : accountable_pages=role: Porting/software integration
+filteror : consulted_pages=role:Porting/software integration 
+filteror : informed_pages=role:Porting/software integration 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Porting/software integration role within ALM and the IT industry in general, based on IT Best Practices}}
+

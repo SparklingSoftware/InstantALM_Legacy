@@ -1,0 +1,97 @@
+
+---- dataentry roles ----
+type               : role
+name               : Research
+category           : Strategy and architecture
+subcategory        : Business strategy and planning
+summary            : 
+groups_pages       :
+----
+
+===== Role: Research RSCH =====
+
+==== Description ====
+The advancement of knowledge in one or more fields of IT by innovation, experimentation,evaluation
+and dissemination, carried out in pursuit of a predetermined set of research goals.
+
+==== SFIA Level 3 ====
+Within given research goals,builds on and refines appropriate outline ideas for research, i.e. evaluation, development,demonstration and implementation. Uses available resources to gain an up-to-date knowledge of any relevant IT field. Reports on work carried out and may contribute sections of material of publication quality.
+
+==== SFIA Level 4 ====
+Contributes to research goals and builds on and refines appropriate outline ideas for the evaluation, development, demonstration and implementation of research. Uses available resources to gain an up-to-date knowledge of any relevant IT field. Reports on work carried out and may contribute significant sections of material of publication quality. Contributes to research plans and identifies appropriate opportunities for publication and dissemination of research findings.
+
+==== SFIA Level 5 ====
+Agrees research goals and generates original and worthwhile ideas in a specialised IT field. Develops, reviews and constructively criticises ideas, possibly leading a small research team, making necessary observations and tests and carrying them through to a full practical demonstration, wherever viable and feasible. Where necessary, designs data collection
+tools and techniques for both qualitative and quantitative data. Presents papers at conferences,
+writes papers of publication quality, and presents reports to clients.
+
+==== SFIA Level 6 ====
+Sets research goals, makes effective proposals for the investment of funds in research projects, plays a major role in the development of the employing organisation's research policy, and supervises the work of a research function. Gains an appreciation of current research work over a substantial area of IT, and takes a leading part in professional activities outside own employing organisation.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Research  
+filteror : accountable_pages=role:Research  
+filteror : consulted_pages=role:Research  
+filteror : informed_pages=role:Research  
+sort     : name
+----
+
+==== Practices ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Research 
+filteror : accountable_pages=role:Research 
+filteror : consulted_pages=role:Research
+filteror : informed_pages=role:Research  
+sort     : name
+----
+
+==== Role Maturity ====
+
+---- datatable ----
+cols      : Name, AMageid%, base_pages, beginner_pages, intermediate_pages, advanced_pages, extreme_pages
+headers   : Name, Details, Base, Beginner, Intermediate, Advanced, Extreme
+filter    : type = practice
+filterand : base_pages = role:Research  
+filteror  : beginner_pages = role:Research  
+filteror  : intermediate_pages = role:Research  
+filteror  : advanced_pages = role:Research  
+filteror  : extreme_pages = role:Research  
+sort      : name
+----
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Research  
+filteror : accountable_pages=role:Research  
+filteror : consulted_pages=role:Research  
+filteror : informed_pages=role:Research  
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Research role within ALM and the IT industry in general, based on IT Best Practices}}
+

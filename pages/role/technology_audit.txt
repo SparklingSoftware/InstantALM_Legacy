@@ -1,0 +1,81 @@
+
+---- dataentry roles ----
+type               : role
+name               : Technology audit
+category           : Procurement and management support
+subcategory        : Quality and conformance
+summary            : 
+groups_pages       :
+----
+
+===== Role: Technology audit (TAUD) =====
+
+==== Description ====
+The independent, risk-based assessment of the adequacy and integrity of controls in information processing systems, including hardware, soft-ware solutions, information management systems, security systems and tools, and communications technologies - both web-based and physical. The structured analysis of the risks to achievement of business objectives, including the risk that the organisation fails to make effective use of new technology to improve delivery and internal effectiveness. Assessment of the extent to which effective use has been made of techniques and tools to achieve sustainability and business continuity. 
+
+==== SFIA Level 4 ====
+Contributes to risk-based audit of existing and planned technology systems. Identifies IT risk in detail, assesses and tests the effectiveness of control measures and prepares formal reports in order to provide independent assurance on an organisation's information security, integrity and resilience.
+
+==== SFIA Level 5 ====
+Manages risk-based audit of existing and planned technology systems. Identifies areas of risk and evaluates adequacy and effectiveness of organisation's approach to risk in use of IT. Assesses and communicates associated risks of a complex nature to middle and senior managers. Recommends changes in processes and control procedures based on audit findings. Provides general and specific advice. Collates conclusions and recommendations, and presents audit findings to management regarding the effectiveness and efficiency of control mechanisms in information systems. Engages with providers of other IT assurance such as compliance audits, quality assurance functions and other technical specialists. 
+
+==== SFIA Level 6 ====
+Specifies organisational procedures for the assessment of an activity, process, product or service, against recognised criteria, such as ISO 27001. Develops plans for risk-based audit coverage of technology systems for inclusion in audit planning and uses experience to ensure audit coverage is sufficient to provide the business with assurance of adequacy and integrity. Leads and manages complex technical audits, managing specialists contracted to contribute highly specialised technical knowledge and experience. Identifies areas of risk and specifies interrogation programs. Recommends changes in processes and control procedures based on audit findings, including, where appropriate, the assessment of safety-related software systems to determine compliance with standards and required levels of safety integrity. Provides general and specific advice, and authorises the issue of formal reports to management on the effectiveness and efficiency of control mechanisms. 
+
+==== SFIA Level 7 ====
+Ensures that there is planned audit coverage across the organisation, and liaises with executives to ensure that this coverage is relevant and understood. Directs use of risk analysis to identify areas for in-depth review. Evaluates the effectiveness of corporate IT strategy and governance and makes recommendations for development. Agrees terms of reference for audits with clients. Plans audit cycle, and leads and manages audit function. Determines the need for and manages the effective use of additional IT experts. Reports at the most senior level on the findings, relevance and recommendations for improvement. Represents the audit function at the Audit Committee of the organisation.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Technology audit 
+filteror : accountable_pages=role:Technology audit 
+filteror : consulted_pages=role:Technology audit 
+filteror : informed_pages=role:Technology audit 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Technology audit 
+filteror : accountable_pages=role:Technology audit
+filteror : consulted_pages=role:Technology audit
+filteror : informed_pages=role:Technology audit
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Technology audit 
+filteror : accountable_pages=role:Technology audit
+filteror : consulted_pages=role: Technology audit
+filteror : informed_pages=role: Technology audit
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Technology audit role within ALM and the IT industry in general, based on IT Best Practices}}
+

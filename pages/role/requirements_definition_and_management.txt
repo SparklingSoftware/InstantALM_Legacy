@@ -1,0 +1,95 @@
+
+---- dataentry roles ----
+type               : role
+name               : Requirements definition and management
+category           : Business change
+subcategory        : Business change management
+summary            : 
+groups_pages       :
+----
+
+===== Role: Requirements definition and management (REQM) =====
+
+==== Description ====
+The definition and management of the business goals and scope of change initiatives. The specification of business requirements to a level that enables effective delivery of agreed changes.
+
+==== SFIA Level 2 ====
+Uses established techniques as directed to identify current problems and elicit, specify and document business functional, data and non-functional requirements for simple subject areas with clearly-defined boundaries. Assists in more complex requirements activities and with the processes for establishing agreed baselines for change and managing the assessment and application of requested changes to those requirements.
+
+==== SFIA Level 3 ====
+Defines scope and business priorities for small-scale changes and may assist in larger scale scoping exercises. Elicits and discovers requirements from operational management and other stakeholders. Selects appropriate techniques for the elicitation of detailed requirements
+taking into account the nature of the required changes, established practice and the characteristics and culture of those providing the requirements. Specifies and documents business
+requirements as directed, ensuring traceability back to source. Analyses them for adherence to
+business objectives and for consistency, challenging positively as appropriate. Works with
+stakeholders to prioritise requirements.
+
+==== SFIA Level 4 ====
+Facilitates scoping and business priority setting for change initiatives of medium size and
+complexity. Contributes to selection of the most appropriate means of representing business
+requirements in the context of a specific change initiative, ensuring traceability back to source.
+Discovers and analyses requirements for fitness for purpose as well as adherence to business
+objectives and consistency, challenging positively as appropriate. Obtains formal agreement by
+stakeholders and recipients to scope and requirements and establishes a base-line on which delivery of a solution can commence.Manages requests for and the application of changes to base-lined requirements. Identifies the impact on business requirements of interim (e.g. migration) scenarios as well as the required end position.
+
+==== SFIA Level 5 ====
+Facilitates scoping and business priority setting for large or complex changes, engaging senior stakeholders as required. Selects the most appropriate means of representing business requirements in the context of a specific change initiative. Drives the requirements elicitation
+process where necessary, identifying what stakeholder input is required. Obtains formal agreement
+from a large and diverse range of potentially senior stakeholders and recipients to the scope and requirements, plus the establishment of a base-line on which delivery of a solution can commence. Takes responsibility for the investigation and application of changes to programme scope.  Identifies the impact on business requirements of external impacts affecting a programme or project.
+
+==== SFIA Level 6 ====
+Determines policy on discovery, analysis and documentation of requirements. Defines requirements standards and quality targets for an organisation in agreement with key stakeholders. Organises scoping and business priority setting for strategic business changes involving business policy-makers and direction setters.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Requirements definition and management 
+filteror : accountable_pages=role:Requirements definition and management 
+filteror : consulted_pages=role:Requirements definition and management 
+filteror : informed_pages=role:Requirements definition and management 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Requirements definition and management 
+filteror : accountable_pages=role:Requirements definition and management
+filteror : consulted_pages=role:Requirements definition and management
+filteror : informed_pages=role:Requirements definition and management
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Requirements definition and management 
+filteror : accountable_pages=role:Requirements definition and management 
+filteror : consulted_pages=role:Requirements definition and management 
+filteror : informed_pages=role:Requirements definition and management 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Requirements definition and management role within ALM and the IT industry in general, based on IT Best Practices}}
+

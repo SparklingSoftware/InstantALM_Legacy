@@ -1,0 +1,78 @@
+
+---- dataentry roles ----
+type               : role
+name               : Quality management
+category           : Procurement and management support
+subcategory        : Quality and conformation
+summary            : 
+groups_pages       :
+----
+
+===== Role: Quality management (QUMG) =====
+
+==== Description ====
+The application of techniques for monitoring and improvement of quality to any aspect of a function or process. The achievement of, and maintenance of compliance to, national and international standards, as appropriate, and to internal policies, including those relating to sustainability and security. 
+
+==== SFIA Level 5 ====
+Advises on the application of appropriate quality and/or environmental management techniques. Facilitates improvements to processes by changing approaches and working practices, typically using recognised models.
+
+==== SFIA Level 6 ====
+Prioritises areas for quality and/or environmental improvement in light of the strategy, wider business objectives, results from internal and external audits, and advice from colleagues. Initiates the application of appropriate quality management techniques in these areas. Initiates improvements to processes by changing approaches and working practices, typically using recognised models. Achieves and maintains compliance against national and international standards, as appropriate. Identifies and plans systematic corrective action to reduce errors and improve the quality of the systems and services, by examination of the root causes of problems. 
+
+==== SFIA Level 7 ====
+Sets the quality strategy for approval and adoption by business management. Measures the extent to which the quality policy meets the organisation's needs and objectives and reviews it as necessary. Plans, resources (either directly or indirectly) and monitors the internal quality audit schedule. Defines and reviews quality and environmental systems. Ensures that adequate technology, procedures and resources are in place to support the quality system. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Quality management> 
+filteror : accountable_pages=role:Quality management
+filteror : consulted_pages=role:Quality management 
+filteror : informed_pages=role:Quality management 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Quality management
+filteror : accountable_pages=role:Quality management
+filteror : consulted_pages=role:Quality management
+filteror : informed_pages=role:Quality management
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Quality management 
+filteror : accountable_pages=role:Quality management 
+filteror : consulted_pages=role:Quality management 
+filteror : informed_pages=role:Quality management 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Quality management role within ALM and the IT industry in general, based on IT Best Practices}}
+

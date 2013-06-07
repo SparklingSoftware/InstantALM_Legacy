@@ -1,0 +1,79 @@
+
+---- dataentry roles ----
+type               : role
+name               : Problem management
+category           : Service management
+subcategory        : Service operations
+summary            : 
+groups_pages       :
+----
+
+===== Role: Problem management (PBMG) =====
+
+
+==== Description ====
+The resolution (both reactive and proactive) of problems throughout the information system lifecycle, including classification, prioritisation and initiation of action, documentation of root causes and implementation of remedies to prevent future incidents. 
+
+==== SFIA Level 3 ====
+Investigates problems in systems and services. Assists with the implementation of agreed remedies and preventative measures.  
+
+==== SFIA Level 4 ====
+Initiates and monitors actions to investigate and resolve problems in systems and services. Assists with the implementation of agreed remedies and preventative measures. 
+
+==== SFIA Level 5 ====
+Ensures that appropriate action is taken to anticipate, investigate and resolve problems in systems and services. Ensures that such problems are fully documented within the relevant reporting system(s). Coordinates the implementation of agreed remedies and preventative measures. Analyses patterns and trends. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Problem management 
+filteror : accountable_pages=role:Problem management 
+filteror : consulted_pages=role:Problem management
+filteror : informed_pages=role:Problem management 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Problem management 
+filteror : accountable_pages=role:Problem management
+filteror : consulted_pages=role:Problem management
+filteror : informed_pages=role:Problem management>
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Problem management 
+filteror : accountable_pages=role:Problem management 
+filteror : consulted_pages=role:Problem management 
+filteror : informed_pages=role:Problem management 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Problem management role within ALM and the IT industry in general, based on IT Best Practices}}
+

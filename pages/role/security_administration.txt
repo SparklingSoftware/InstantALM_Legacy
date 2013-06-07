@@ -1,0 +1,81 @@
+
+---- dataentry roles ----
+type               : role
+name               : Security administration
+category           : Service management
+subcategory        : Service operation
+summary            : 
+groups_pages       :
+----
+
+===== Role: Security administration (SCAD) =====
+
+==== Description ====
+The authorisation and monitoring of access to IT facilities or infrastructure in accordance with established organisational policy. Includes investigation of unauthorised access, compliance with relevant legislation and the performance of other administrative duties relating to security management. 
+
+==== SFIA Level 3 ====
+Investigates minor security breaches in accordance with established procedures. Assists users in defining their access rights and privileges, and operates agreed logical access controls and security systems. Maintains agreed security records and documentation. 
+
+==== SFIA Level 4 ====
+Investigates identified security breaches in accordance with established procedures and recommends any required actions. Assists users in defining their access rights and privileges, and administers logical access controls and security systems. Maintains security records and documentation
+
+==== SFIA Level 5 ====
+Drafts and maintains the policy, standards, procedures and documentation for security. Monitors the application and compliance of security operations procedures and reviews information systems for actual or potential breaches in security. Ensures that all identified breaches in security are promptly and thoroughly investigated. Ensures that any system changes required to maintain security are implemented. Ensures that security records are accurate and complete. 
+
+==== SFIA Level 6 ====
+Develops strategies for ensuring both the physical and electronic security of automated systems. Ensures that the policy and standards for security are fit for purpose, current and are correctly implemented. Reviews new business proposals and provides specialist advice on security issues and implications. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Security administration 
+filteror : accountable_pages=role: Security administration
+filteror : consulted_pages=role: Security administration
+filteror : informed_pages=role:Security administration 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Security administration 
+filteror : accountable_pages=role:Security administration
+filteror : consulted_pages=role:Security administration
+filteror : informed_pages=role:Security administration
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Security administration 
+filteror : accountable_pages=role:Security administration 
+filteror : consulted_pages=role: Security administration
+filteror : informed_pages=role: Security administration
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Security administration role within ALM and the IT industry in general, based on IT Best Practices}}
+

@@ -1,0 +1,86 @@
+
+---- dataentry roles ----
+type               : role
+name               : Portfolio management
+category           : Business change
+subcategory        : Business change implementation
+summary            : 
+groups_pages       :
+----
+
+===== Role: Portfolio management (POMG) =====
+
+==== Description ====
+The development and application of a systematic management framework to define and deliver a
+portfolio of programmes, projects and ongoing services, in support of specific business strategies
+and objectives. Includes the implementation of a strategic investment appraisal and decision
+making process based on a clear understanding of cost, risk, inter-dependencies, and impact on
+existing business activities, enabling measurement and objective evaluation of potential changes and the benefits to be realised. The prioritisation of resource utilisation and changes to be implemented. The regular review of portfolios.
+
+==== SFIA Level 5 ====
+Ensures that programme and project leads adhere to the agreed portfolio management approach and
+timetable and that they provide the appropriate information to agreed targets of timelines and
+accuracy. Produces reports as appropriate for portfolio governance, including making recommendations for changes to the portfolio.
+
+==== SFIA Level 6 ====
+Leads the definition of a portfolio of change and the portfolio roadmap. Engages and influences senior managers to ensure the portfolio will deliver the agreed business objectives. Plans, schedules, monitors and reports on activities related to the portfolio to ensure that each part of the portfolio contributes to the overall achievement of the portfolio.Identifies issues with portfolio structure, cost,risk, inter-dependencies, impact on current business activities and the strategic benefits to be realised. Notifies projects / programmes /change initiatives of issues and recommends and monitors corrective action. Reports on portfolio status as appropriate.
+
+==== SFIA Level 7 ====
+Leads the definition,implementation and review of the organisation’s portfolio management framework.Authorises the structure of portfolios and is responsible for alignment with business strategy & business objectives. Makes decisions on the prioritisation of resources and the changes to be implemented. Recommends and implements corrective action by engaging and influencing
+senior management. Leads the on-going monitoring and review of the portfolio for cost, risk,
+inter-dependencies, impact on current business activities and the strategic benefits to be realised.Is responsible for implementing effective portfolio governance arrangements supported by effective reporting.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Portfolio management 
+filteror : accountable_pages=role:Portfolio management 
+filteror : consulted_pages=role:Portfolio management 
+filteror : informed_pages=role:Portfolio management 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Portfolio management 
+filteror : accountable_pages=role:Portfolio management
+filteror : consulted_pages=role:Portfolio management
+filteror : informed_pages=role:Portfolio management
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Portfolio management 
+filteror : accountable_pages=role:Portfolio management 
+filteror : consulted_pages=role:Portfolio management 
+filteror : informed_pages=role:Portfolio management 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Portfolio management role within ALM and the IT industry in general, based on IT Best Practices}}
+

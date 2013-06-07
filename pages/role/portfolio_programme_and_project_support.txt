@@ -1,0 +1,84 @@
+
+---- dataentry roles ----
+type               : role
+name               : Portfolio, programme and project support
+category           : Business change
+subcategory        : Business change implementation
+summary            : 
+groups_pages       :
+----
+
+===== Role: Portfolio, programme and project support (PROF) =====
+
+==== Description ====
+The provision of support and guidance on portfolio,programme and project management processes,
+procedures, tools and techniques. Support includes definition of portfolios, programmes,and projects; advice on the development,production and maintenance of business cases;time, resource, cost and exception plans, and the use of related software tools. Tracking and reporting of programme/project progress and performance are also covered, as is the capability to facilitate all aspects of portfolio/ programme/project meetings, workshops and documentation.
+
+==== SFIA Level 2 ====
+Assists with the compilation of project management reports. Maintains programme and project files from supplied actual and forecast data.
+
+==== SFIA Level 3 ====
+Uses recommended project control solutions for planning, scheduling and tracking projects. Sets up project files, compiles and distributes reports. Provides administrative services to project boards, project assurance teams and quality review meetings. Provides guidance on project management software, procedures,processes, tools and techniques.
+
+==== SFIA Level 4 ====
+Takes responsibility for the provision of Project support services to small/medium scale projects. Uses and recommends project control solutions for planning, scheduling and tracking
+projects. Sets up and provides detailed guidance on project management software, procedures,
+processes, tools and techniques. Supports programme or project control boards, project assurance teams and quality review meetings.Provides basic guidance on individual project proposals. May be involved in aspects of supporting a programme by providing a cross programme view on risk,change, quality, finance or configuration management.
+
+==== SFIA Level 5 ====
+Takes responsibility for the provision of portfolio, programme and project office services,either to a large project or to a number of projects within an organisation. Advises on the available standards, procedures, methods, tools and techniques. Evaluates project and/or programme performance and recommends changes where necessary. Contributes to reviews and audits of project and programme management to ensure conformance to standards.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Portfolio, programme and project support 
+filteror : accountable_pages=role:Portfolio, programme and project support 
+filteror : consulted_pages=role:Portfolio, programme and project support 
+filteror : informed_pages=role:Portfolio, programme and project support 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Portfolio, programme and project support 
+filteror : accountable_pages=role:Portfolio, programme and project support
+filteror : consulted_pages=role:Portfolio, programme and project support
+filteror : informed_pages=role:Portfolio, programme and project support
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Portfolio, programme and project support 
+filteror : accountable_pages=role:Portfolio, programme and project support
+filteror : consulted_pages=role:Portfolio, programme and project support 
+filteror : informed_pages=role:Portfolio, programme and project support 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Portfolio, programme and project support role within ALM and the IT industry in general, based on IT Best Practices}}
+

@@ -1,0 +1,84 @@
+
+---- dataentry roles ----
+type               : role
+name               : Systems design
+category           : Solution development and implementation
+subcategory        : Systems development
+summary            : 
+groups_pages       :
+----
+
+===== Role: Systems design (DESN) =====
+
+==== Description ====
+The specification and design of information systems to meet defined business needs in any public or private context, including commercial, industrial, scientific, gaming and entertainment. The identification of concepts and their translation into implementable design. The design or selection of components. The retention of compatibility with enterprise and solution architectures, and the adherence to corporate standards within constraints of cost, security and sustainability. 
+
+==== SFIA Level 2 ====
+Undertakes complete design of simple applications using simple templates and tools. Assists as part of a team on design of components of larger systems. Produces detailed designs including for example: physical data flows, file layouts, common routines and utilities, program specifications or prototypes, and backup, recovery and restart procedures.
+
+==== SFIA Level 3 ====
+Specifies user/system interfaces, and translates logical designs into physical designs taking account of target environment, performance requirements and existing systems. Produces detailed designs and documents all work using required standards, methods and tools, including prototyping tools where appropriate. 
+
+==== SFIA Level 4 ====
+Recommends/ designs structures and tools for systems which meet business needs. Delivers technical visualisation of proposed applications for approval by customer and execution by system developers. Translates logical designs into physical designs, and produces detailed design documentation. Maps work to user specification and removes errors and deviations from specification to achieve user-friendly processes. 
+
+==== SFIA Level 5 ====
+5 Specifies and designs large or complex systems. Selects appropriate design standards, methods and tools, consistent with agreed enterprise and solution architectures and ensures they are applied effectively. Reviews others' systems designs to ensure selection of appropriate technology, efficient use of resources, and integration of multiple systems and technology. Contributes to policy for selection of architecture components. Evaluates and undertakes impact analysis on major design options and assesses and manages associated risks. Ensures that the system design balances functional, service quality and systems management requirements. 
+
+==== SFIA Level 6 ====
+Controls system design practice within an enterprise or industry architecture. Influences industry-based models for the development of new technology applications. Develops effective implementation and procurement strategies, consistent with business needs. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Systems design
+filteror : accountable_pages=role:Systems design
+filteror : consulted_pages=role: Systems design
+filteror : informed_pages=role:Systems design
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Systems design 
+filteror : accountable_pages=role:Systems design
+filteror : consulted_pages=role:Systems design
+filteror : informed_pages=role:Systems design
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Systems design
+filteror : accountable_pages=role:Systems design
+filteror : consulted_pages=role:Systems design 
+filteror : informed_pages=role:Systems design
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Systems design role within ALM and the IT industry in general, based on IT Best Practices}}
+

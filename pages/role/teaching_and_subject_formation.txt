@@ -1,0 +1,75 @@
+
+---- dataentry roles ----
+type               : role
+name               : Teaching and subject formation
+category           : Business change
+subcategory        : Skills management
+summary            : 
+groups_pages       :
+----
+
+===== Role: Teaching and subject formation (TEAC) =====
+
+==== Description ====
+The design, development, delivery and assessment of curricula for computing and for information technology (including electronic communication), at any level of the education system from primary through to tertiary (all age ranges). The topics addressed are those of the fundamental and more advanced areas of computing and the common skills needed to make productive use of computers and IT systems for both computing professionals and competent users of IT based systems including the ideas of computational thinking and the application of computational concepts to every-day and professional life. Special attention is paid to the methods, techniques and pedagogy (the study of being a teacher or the process of teaching) of computing & IT education. 
+
+==== SFIA Level 5 ====
+5 Delivers computing and IT curricula in a formal educational context from primary through to tertiary level. Specialises in delivering Computing and IT education at the relevant educational level. Is aware of the techniques and methods used to evaluate and critique research in computing and IT education.  
+
+==== SFIA Level 6 ====
+Leads development and delivery of computing and IT curricula in a formal educational context, from primary through to tertiary level. Specialises in the advanced aspects of delivering Computing and IT education at the relevant educational level. Uses current techniques and methods to evaluate and critique research in computing and IT education. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Teaching and subject formation 
+filteror : accountable_pages=role:Teaching and subject formation
+filteror : consulted_pages=role:Teaching and subject formation 
+filteror : informed_pages=role:Teaching and subject formation 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Teaching and subject formation 
+filteror : accountable_pages=role:Teaching and subject formation
+filteror : consulted_pages=role:Teaching and subject formation
+filteror : informed_pages=role:Teaching and subject formation
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Teaching and subject formation 
+filteror : accountable_pages=role:Teaching and subject formation 
+filteror : consulted_pages=role:Teaching and subject formation 
+filteror : informed_pages=role:Teaching and subject formation 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Teaching and subject formation role within ALM and the IT industry in general, based on IT Best Practices}}
+

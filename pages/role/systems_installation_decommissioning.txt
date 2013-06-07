@@ -1,0 +1,84 @@
+
+---- dataentry roles ----
+type               : role
+name               : Systems installation/decommissioning
+category           : Solution development and implementation
+subcategory        : Installation and integration
+summary            : 
+groups_pages       :
+----
+
+===== Role: Systems installation/decommissioning (HSIN) =====
+
+==== Description ====
+The installation, testing, implementation or decommissioning and removal of cabling, wiring, equipment, hardware and appropriate software, following plans and instructions and in accordance with agreed standards. The testing of hard-ware and software components, resolving malfunctions found and recording the results. The reporting of details of hardware and software installed so that configuration management records can be updated. 
+
+==== SFIA Level 1 ====
+Following agreed procedures, performs simple installations, replaces consumable items, checks correct working of installations, and documents and reports on work done.
+
+==== SFIA Level 2 ====
+Installs or removes hardware and/or software, and associated connections, using supplied installation instructions and tools. Conducts tests and corrects malfunctions, calling on help from more experienced colleagues if required. Documents results in accordance with agreed procedures. Assists with the evaluation of change requests. Contributes, as required, to investigations of problems and faults concerning the installation of hardware and/or software and confirms the correct working of installations. 
+
+==== SFIA Level 3 ====
+Installs or removes hardware and/or software, using supplied installation instructions and tools including, where appropriate, handover to the client. Conducts tests, corrects malfunctions, and documents results in accordance with agreed procedures. Reports details of all hardware/software items that have been installed and removed so that configuration management records can be updated. Provides assistance to users in a professional manner following agreed procedures for further help or escalation. Maintains accurate records of user requests, contact details and outcomes. Contributes to the development of installation procedures and standards. 
+
+==== SFIA Level 4 ====
+Undertakes routine installations and deinstallations of items of hardware and/or soft-ware. Takes action to ensure targets are met within established safety and quality procedures, including, where appropriate, handover to the client. Conducts tests of hardware and/or soft-ware using supplied test procedures and diagnostic tools. Corrects malfunctions, calling on other experienced colleagues and external resources if required. Documents details of all hardware/software items that have been installed and removed so that configuration management records can be updated. Develops installation procedures and standards, and schedules installation work. Provides specialist guidance and advice to less experienced colleagues to ensure best use is made of available assets, and to maintain or improve the installation service. 
+
+==== SFIA Level 5 ====
+Takes responsibility for installation projects, providing effective team leadership, including information flow to and from the customer during project work. Develops and implements quality plans and method statements. Monitors the effectiveness of installations and ensures that appropriate recommendations for change are made
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Systems installation/decommissioning 
+filteror : accountable_pages=role:Systems installation/decommissioning 
+filteror : consulted_pages=role:Systems installation/decommissioning 
+filteror : informed_pages=role:Systems installation/decommissioning 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Systems installation/decommissioning 
+filteror : accountable_pages=role:Systems installation/decommissioning
+filteror : consulted_pages=role:Systems installation/decommissioning
+filteror : informed_pages=role:Systems installation/decommissioning
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Systems installation/decommissioning 
+filteror : accountable_pages=role: Systems installation/decommissioning
+filteror : consulted_pages=role:Systems installation/decommissioning 
+filteror : informed_pages=role: Systems installation/decommissioning
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Systems installation/decommissioning role within ALM and the IT industry in general, based on IT Best Practices}}
+

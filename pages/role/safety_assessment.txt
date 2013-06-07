@@ -1,0 +1,75 @@
+
+---- dataentry roles ----
+type               : role
+name               : Safety assessment
+category           : Procurement and management support
+subcategory        : Quality and conformation
+summary            : 
+groups_pages       :
+----
+
+===== Role: Safety assessment (SFAS) =====
+
+==== Description ====
+The assessment of safety-related software systems to determine compliance with standards and required levels of safety integrity. This involves making professional judgements on software engineering approaches, including the suitability of design, testing, and validation and verification methods, as well as the identification and evaluation of risks and the means by which they can be reduced. The establishment, maintenance and management of an assessment framework and practices. 
+
+==== SFIA Level 5 ====
+Participates in assessments up to IEC 61508 Safety Integrity level 3 (or equivalent standard), and undertakes safety analyses on initial designs using HAZOPS, FMEA or similar methods.
+
+==== SFIA Level 6 ====
+Leads assessments up to IEC 61508 Safety Integrity level 4 (or equivalent standard) or participates in any level of assessment. Determines assessment methods, techniques and tools that are to be used as appropriate to the integrity levels of the assessments undertaken.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Safety assessment 
+filteror : accountable_pages=role:Safety assessment 
+filteror : consulted_pages=role:Safety assessment 
+filteror : informed_pages=role:Safety assessment
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Safety assessment 
+filteror : accountable_pages=role:Safety assessment
+filteror : consulted_pages=role:Safety assessment
+filteror : informed_pages=role:Safety assessment
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Safety assessment 
+filteror : accountable_pages=role: Safety assessment
+filteror : consulted_pages=role: Safety assessment
+filteror : informed_pages=role:Safety assessment 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Safety assessment role within ALM and the IT industry in general, based on IT Best Practices}}
+

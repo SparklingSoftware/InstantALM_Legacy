@@ -1,0 +1,78 @@
+
+---- dataentry roles ----
+type               : role
+name               : Selling
+category           : Client interface
+subcategory        : Sales and marketing
+summary            : 
+groups_pages       :
+----
+
+===== Role: Selling (SALE) =====
+
+==== Description ====
+The identification of sales prospects and their qualification, the development of customer inter-est and the preparation (including managing the bid process), execution and monitoring of the sale of any IT or related product or service into an external or internal market. 
+
+==== SFIA Level 4 ====
+Collects and uses market information in order to achieve sales objectives. Responds to existing sales leads and identifies and qualifies new leads and prospects with a view to developing a pipeline of potential opportunities. Develops and enhances customer relationships, before, during and after the conclusion of sales agreements. Key tasks may also include bid management, negotiation and presentation. Monitors and reports on performance, customer satisfaction, market intelligence and competitors.
+
+==== SFIA Level 5 ====
+5 Designs and implements sales strategies and works with senior management to implement sales plans. Plans, monitors and controls the work of sales teams. Develops and maintains effective customer relationships at executive levels and qualifies new sales leads. Leads the bid process within organisation, maintaining customer contact during and after the selling process to ensure customer satisfaction. Contributes to the development and training of sales teams and product/service development. 
+
+==== SFIA Level 6 ====
+Oversees the organisation's sales activities to ensure they are aligned with corporate marketing objectives. Approves sales proposals and targets. Negotiates with customer representatives at the most senior level on both technical and commercial issues. Develops and implements organisational sales policy and strategy, and contributes significantly to the development of marketing strategy. Initiates development and change in services, products and systems. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Selling 
+filteror : accountable_pages=role:Selling 
+filteror : consulted_pages=role: Selling
+filteror : informed_pages=role: Selling
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Selling 
+filteror : accountable_pages=role:Selling
+filteror : consulted_pages=role:Selling
+filteror : informed_pages=role:Selling
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Selling 
+filteror : accountable_pages=role: Selling
+filteror : consulted_pages=role: Selling
+filteror : informed_pages=role: Selling
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Selling role within ALM and the IT industry in general, based on IT Best Practices}}
+

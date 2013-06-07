@@ -1,0 +1,81 @@
+
+---- dataentry roles ----
+type               : role
+name               : Network support
+category           : Service management
+subcategory        : Service operations
+summary            : 
+groups_pages       :
+----
+
+===== Role: Network support (NTAS) =====
+
+==== Description ====
+The provision of network maintenance and support services. Support may be provided both to users of the systems and to service delivery functions. Support typically takes the form of investigating and resolving problems and providing information about the systems. It may also include monitoring their performance. Problems may be resolved by providing advice or training to users about the network's functionality, correct operation or constraints, by devising workarounds, correcting faults, or making general or site-specific modifications. 
+
+==== SFIA Level 2 ====
+Assists in investigation and resolution of network problems. Assists with specified maintenance procedures.
+
+==== SFIA Level 3 ====
+Identifies and resolves network problems following agreed procedures. Uses network management soft-ware and tools to collect agreed performance statistics. Carries out agreed network maintenance tasks.
+
+==== SFIA Level 4 ====
+Maintains the network support process and checks that all requests for support are dealt with according to agreed procedures. Uses network management software and tools to investigate and diagnose network problems, collect performance statistics and create reports, working with users, other staff and suppliers as appropriate.
+
+==== SFIA Level 5 ====
+Drafts and maintains procedures and documentation for network  support. Makes a significant contribution to the investigation, diagnosis and resolution of network problems. Ensures that all requests for support are dealt with according to set standards and procedures. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Network support 
+filteror : accountable_pages=role:Network support
+filteror : consulted_pages=role: Network support
+filteror : informed_pages=role: Network support
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Network support 
+filteror : accountable_pages=role:Network support
+filteror : consulted_pages=role:Network support
+filteror : informed_pages=role:Network support
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Network support 
+filteror : accountable_pages=role:Network support 
+filteror : consulted_pages=role:Network support 
+filteror : informed_pages=role:Network support 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Network support role within ALM and the IT industry in general, based on IT Best Practices}}
+

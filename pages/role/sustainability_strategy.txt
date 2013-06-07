@@ -1,0 +1,91 @@
+
+---- dataentry roles ----
+type               : role
+name               : Sustainability strategy
+category           : Strategy and architecture
+subcategory        : Business strategy and planning
+summary            : 
+groups_pages       :
+----
+
+===== Role: Sustainability strategy (SUST) =====
+
+==== Description ====
+The preparation of a sustainability strategy for IT, taking into account any established corporate
+strategy, to be used as a basis for policies and planning, and covering both consumption and
+sources of supply of energy and materials. Evaluation and inclusion, as appropriate, of political,
+legislative, economic, social and technological factors. Identification of major external standards, practices or schemes to be adopted. Consultation with identified relevant parties,
+either internal or external. Obtaining agreement to the strategy and the commitment to act upon
+it.
+
+==== SFIA Level 6 ====
+Provides leadership and guidelines on sustainability; leads in the development of a sustainability strategy for IT, encompassing sources of supply, control and measurement of in-house utilisation, procurement of resource-efficient products and services, and legislative factors.
+
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Sustainability strategy 
+filteror : accountable_pages=role:Sustainability strategy 
+filteror : consulted_pages=role: Sustainability strategy 
+filteror : informed_pages=role:Sustainability strategy 
+sort     : name
+----
+
+==== Practices ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role: Sustainability strategy 
+filteror : accountable_pages=role: Sustainability strategy 
+filteror : consulted_pages=role: Sustainability strategy
+filteror : informed_pages=role: Sustainability strategy 
+sort     : name
+----
+
+==== Role Maturity ====
+
+---- datatable ----
+cols      : Name, AMageid%, base_pages, beginner_pages, intermediate_pages, advanced_pages, extreme_pages
+headers   : Name, Details, Base, Beginner, Intermediate, Advanced, Extreme
+filter    : type = practice
+filterand : base_pages = role:Sustainability strategy 
+filteror  : beginner_pages = role:Sustainability strategy 
+filteror  : intermediate_pages = role:Sustainability strategy 
+filteror  : advanced_pages = role:Sustainability strategy
+filteror  : extreme_pages = role:Sustainability strategy 
+sort      : name
+----
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Sustainability strategy 
+filteror : accountable_pages=role:Sustainability strategy 
+filteror : consulted_pages=role:Sustainability strategy 
+filteror : informed_pages=role:Sustainability strategy 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Sustainability strategy role within ALM and the IT industry in general, based on IT Best Practices}}
+

@@ -1,0 +1,93 @@
+
+---- dataentry roles ----
+type               : role
+name               : Software development process improvement
+category           : Strategy and architecture
+subcategory        : Technical strategy and planning
+summary            : 
+groups_pages       :
+----
+
+===== Role: Software development process improvement (SPIM) =====
+
+==== Description ====
+The provision of advice, assistance and leadership in improving the quality of software development,by focusing on process definition,management, repeatability and measurement.The facilitation of improvements by changing approaches and working practices, typically using recognised models such as the Capability Maturity Model Integration (CMMI), the Software Process Improvement and Capability dEtermination Model (SPICE), Test Process Improvement (TPI) and Test Maturity Model (TMM).
+
+==== SFIA Level 5====
+Develops and maintains a detailed knowledge of software process improvement. Contributes effectively to identifying new areas of software process improvement within the organisation. Carries out software process improvement assignments, justified by measurable business benefits.
+
+
+==== SFIA Level 6====
+Plans and manages the evaluation of software processes. Identifies, proposes,and initiates software process improvement activities within the organisation, devising solutions. Takes action to exploit opportunities that will have a measurable effect on operational effectiveness, with associated benefits to the business. Promotes the benefits of addressing security during system development and applies secure development improvement practices.
+
+
+==== SFIA Level 7====
+Liaises with client functions to establish business requirements and identifies,proposes, initiates and leads significant improvement programmes. Manages the quality and appropriateness of the work performed and delivers measurable business benefits. Modifies existing software process improvement approaches and/or develops new approaches to achieving improvement.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Software development process improvement 
+filteror : accountable_pages=role:Software development process improvement 
+filteror : consulted_pages=role:Software development process improvement 
+filteror : informed_pages=role:Software development process improvement 
+sort     : name
+----
+
+==== Practices ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Software development process improvement 
+filteror : accountable_pages=role:Software development process improvement 
+filteror : consulted_pages=role:Software development process improvement 
+filteror : informed_pages=role:Software development process improvement 
+sort     : name
+----
+
+==== Role Maturity ====
+
+---- datatable ----
+cols      : Name, AMageid%, base_pages, beginner_pages, intermediate_pages, advanced_pages, extreme_pages
+headers   : Name, Details, Base, Beginner, Intermediate, Advanced, Extreme
+filter    : type = practice
+filterand : base_pages = role:Software development process improvement 
+filteror  : beginner_pages = role:Software development process improvement 
+filteror  : intermediate_pages = role:Software development process improvement 
+filteror  : advanced_pages = role:Software development process improvement 
+filteror  : extreme_pages = role:Software development process improvement 
+sort      : name
+----
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Software development process improvement 
+filteror : accountable_pages=role:Software development process improvement 
+filteror : consulted_pages=role:Software development process improvement 
+filteror : informed_pages=role:Software development process improvement 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Software development process improvement role within ALM and the IT industry in general, based on IT Best Practices}}
+

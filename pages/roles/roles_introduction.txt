@@ -6,60 +6,17 @@ Below is a list of roles that are identified withing the ALM. They are sorted (b
 
 It also ignores methodologies. Agile methodologies tend to encourage cross-competency team interaction. The roles below ignore the offical job title of people and refers to the work they are performing on the team, which can Business Analist in the morning and tester in the afternoon. Either role is described below so that the same person can learn about the expected outcomes in both team roles.
 
-=== Business Stakeholders ===
+---- datacloud ----
+field: Category
+----
 
-  * Financial sponsor
-  * Subject Matter Expert (SME)
-
-=== Business Analysis ===
-
-  * [[:role:business analyst|Business Analist]]
-  * << TODO >>
-
-=== Project Management ===
-
-  * Sales Manager
-  * Delivery Manager
-
-=== Architecture ===
-
-  * Enterprise Architect
-  * Solution Architect
-  * Security Architect
-
-=== Procurement ===
-
-  * << TODO >>
-
-=== Implementation ===
-
-  * Technical Project Lead
-  * [[:role:developer|Developer]]
-    * [[:role:analyst programmer|Analyst Programmer]]
-    * [[:role:developer programmer|Developer Programmer]]
-    * [[:role:software engineer|Software Engineer]]
-  * Security Administrator
-
-=== Test ===
-
-  * [[:role:tester|Tester]]
-    * Test Manager
-    * Test Lead
-
-=== Deployment ===
-  
-
-=== Operations ===
-
-  * [[:role:service_manager|Service Manager]]
+---- datatable ----
+cols     : Category, Subcategory, %pageid%
+headers  : Category, Subcategory, Details
+filter   : type=role
+sort     : Category
+----
 
 
 === Continue reading: ===
 
-The following sources have been used to gather these generic IT role descriptions:
-
-**Multiple roles**
-http://wiki.okfn.org/Handbook/Generic_Team_Roles
-
-**Business Analysis**
-http://www.bridging-the-gap.com/what-is-a-business-analyst-role-anyway/
