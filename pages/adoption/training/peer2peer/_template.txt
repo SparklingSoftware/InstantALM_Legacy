@@ -1,0 +1,55 @@
+<wrap hide>
+  <revision_frequency>365</revision_frequency>
+</wrap>
+
+/* More information on what to specify as part of each section, please refer to [[:contribute:do_work:guidelines|Writing Guidelines]] */
+
+====== <<TRAINING>> ======
+ 
+---- dataentry peer2peer ----
+roles:            <<Generic roles as specified in the ":roles:alm_roles_overview: page, like: "Developer", "Tester", etc>>
+maturity:         <<Choose: Basic, Beginner, Intermediate, Advanced, Extreme>>
+type:             <<Choose: "Face to face", "Video", "(e)Book", "Vulcan mind meld">>
+facilitators:     <<Name of the facilitator>>
+process_pages:    <<The page name of the process where the content of this training needs to be applied. For instance: ":process:implementation:test_package" >>
+practice_pages:   <<To what standards is this training linked?>>
+----
+
+<<Description>>
+
+Duration:    <<How long>>
+Form:        <Choose: Lecture, Workshop>>
+
+==== Audience ====
+
+/* Who is the audience that should be attending? */
+
+==== Requirements ====
+
+
+==== Learning objectives ====
+
+
+==== Agenda ====
+
+Day 1
+  *  9:00 Welcome.
+  *  9:15 Slides.
+  * 17:00 End of day.
+
+Day 2
+  *  9:00 Recap of previous day.
+  *  9:10 Slides.
+  * 17:00 End of day.
+
+==== What's included ====
+
+  * Slides Handouts
+  * USB Stick with exam prep material
+  * etc
+
+==== Continue Reading ====
+
+[[http://todo|Enrol]]
+
+
