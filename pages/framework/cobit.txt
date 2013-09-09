@@ -1,0 +1,27 @@
+<nodisp>
+  <revision_frequency>365</revision_frequency>
+</nodisp>
+
+/* More information on what to specify as part of each section, please refer to [[:contribute:do_work:guidelines|Writing Guidelines]] */
+
+===== Framework: COBIT =====
+
+An overview of Internal Audit's requirements, mapped to the SDLC deliverables that support and deliver to these requirements, is as follows:
+
+Background on COBIT from [[http://en.wikipedia.org/wiki/COBIT:]]
+
+The Control Objectives for Information and related Technology (COBIT) is a set of best practices (framework) for information technology (IT) management created by the Information Systems Audit and Control Association (ISACA), and the IT Governance Institute (ITGI) in 1996. COBIT provides managers, auditors, and IT users with a set of generally accepted measures, indicators, processes and best practices to assist them in maximizing the benefits derived through the use of information technology and developing appropriate IT governance and control in a company.
+
+Acquire and Implement Domain within COBIT:
+
+^COBIT Domain section^Control Objectives^
+^AI2 Acquire and Maintain Application Software| Applications are made available in line with business requirements. This process covers the design of the applications, the proper inclusion of application controls and security requirements, and the development and configuration in line with standards. This allows organisations to properly support business operations with the correct automated applications.|
+^AI6 Manage Changes| All changes, including emergency maintenance and patches, relating to infrastructure and applications within the production environment are formally managed in a controlled manner. Changes (including those to procedures, processes, system and service parameters) are logged, assessed and authorised prior to implementation and reviewed against planned outcomes following implementation. This assures mitigation of the risks of negatively impacting the stability or integrity of the production environment.|
+^AI7 Install and Accredit Solutions and Changes| New systems need to be made operational once development is complete. This requires proper testing in a dedicated environment with relevant test data, definition of rollout and migration instructions, release planning and actual promotion to production, and a post-implementation review. This assures that operational systems are in line with the agreed-upon expectations and outcomes.|
+
+==== Continue Reading: ====
+
+[[:methods:stakeholders:internal_audit| How do we comply with COBIT? ]]
+
+{{keywords>SDLC Methodology Requirements, Internal Audit,Scope Management,Planning and Scheduling,Quality Management,Change Management,Knowledge Management,Software Engineering Practices }}
+{{description>An overview of Internal Audit's requirements, mapped to the SDLC deliverables that support and deliver to these requirements, is as follows:}}

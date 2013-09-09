@@ -1,0 +1,79 @@
+
+---- dataentry roles ----
+type               : role
+name               : Asset management
+category           : Service management
+subcategory        : Service transition
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Asset management (ASMG) =====
+
+==== Description ====
+The management of the lifecycle for service assets (hardware, software, intellectual property, licences, warranties etc) including inventory, compliance, usage and disposal, aiming to optimise the total cost of ownership and sustainability by minimising operating costs, improving investment decisions and capitalising on potential opportunities. Knowledge and use of international standards for software asset management and close integration with change and configuration management are examples of enhanced asset management development. 
+
+==== SFIA Level 4 ====
+Controls IT assets in one or more significant areas, ensuring that administration of the acquisition, storage, distribution, movement and disposal of assets is carried out. Produces and analyses registers and histories of authorised assets (including secure master copies of software, documentation, data, licenses and agreements for supply, warranty and maintenance), and verifies that all these assets are in a known state and location. Ensures that there are no unauthorised assets such as unlicensed copies of software.
+
+==== SFIA Level 5 ====
+Manages and maintains the service compliance of all IT and service assets in line with business and regulatory requirements involving knowledge of financial and technical processes, tools and techniques thereby ensuring asset controllers, infrastructure teams and the business coordinate and maximise value, maintain control and ensure any necessary legal compliance. 
+
+==== SFIA Level 6 ====
+6 Promotes the continuing economic and effective provision of services, ensuring that all changes to assets and services are appropriately and accurately control-led and recorded. Provides information and advice on issues such as maintenance of hard-ware assets, licensing of software, protection of intellectual property, and legal obligations. Promotes awareness of and commitment to asset control, ensuring that consequences of decisions to obtain, change or continue the possession or use of an asset, system or service are appropriately understood. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Asset management 
+filteror : accountable_pages=role: Asset management
+filteror : consulted_pages=role:Asset management 
+filteror : informed_pages=role: Asset management
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Asset management 
+filteror : accountable_pages=role:Asset management
+filteror : consulted_pages=role:Asset management
+filteror : informed_pages=role:Asset management
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Asset management 
+filteror : accountable_pages=role:Asset management 
+filteror : consulted_pages=role:Asset management 
+filteror : informed_pages=role: Asset management
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Asset management role within ALM and the IT industry in general, based on IT Best Practices}}
+

@@ -1,0 +1,99 @@
+
+---- dataentry roles ----
+type               : role
+name               : Enterprise and business architecture development
+category           : Strategy and architecture
+subcategory        : Business strategy and planning
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Enterprise and business architecture development STPL =====
+
+
+==== Description ====
+The creation, iteration, and maintenance of structures such as enterprise and business architectures embodying the key principles, methods and models that describe the organisation's
+future state, and that enable its evolution. This typically involves the interpretation of business goals and drivers; the translation of business strategy and objectives into an “operating
+model”; the strategic assessment of current capabilities; the identification of required changes in capabilities; and the description of inter-relationships between people, organisation,service, process, data, information, technology and the external environment. The architecture development process supports the formation of the constraints, standards and guiding principles necessary to define, assure and govern the required evolution; this facilitates change in the organisation's structure, business processes, systems and infrastructure in order to achieve predictable transition to the intended state.
+
+
+==== SFIA Level 5  ====
+Contributes to the creation and review of a systems capability strategy which meets the strategic requirements of the business.Develops models and plans to drive forward the strategy, taking advantage of opportunities to improve business performance. Takes responsibility for investigative work to determine requirements and specify effective business processes,through improvements in information systems,data management, practices, procedures, organisation and equipment.
+
+==== SFIA Level 6  ====
+Captures and prioritises market and environmental trends, business strategies and objectives, and identifies the business benefits of alternative strategies. Establishes the contribution that technology can make to business objectives, conducting feasibility studies,producing high-level business models, and preparing business cases. Leads the creation and review of a systems capability strategy that meets the strategic requirements of the business. Develops enterprise-wide architecture and processes that ensure that the strategic application of change is embedded in the management of the organisation, ensuring the buy-in of all stakeholders.
+Develops and presents business cases, for highlevel initiatives, for approval, funding and prioritisation. Ensures compliance between business strategies, enterprise transformation activities and technology directions, setting strategies,policies, standards and practices.
+
+==== SFIA Level 7  ====
+Directs the creation and review of an enterprise capability strategy to support the strategic requirements of the business. Identifies the business benefits of alternative strategies.
+Directs development of enterprise-wide architecture and processes which ensure that the strategic
+application of change is embedded in the management of the organisation. Ensures compliance between business strategies, enterprise transformation activities and technology directions, setting strategies, policies, standards and practices.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Enterprise and business architecture development 
+filteror : accountable_pages=role:Enterprise and business architecture development 
+filteror : consulted_pages=role: Enterprise and business architecture development
+filteror : informed_pages=role: Enterprise and business architecture development
+sort     : name
+----
+
+==== Practices ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Enterprise and business architecture development 
+filteror : accountable_pages=role:Enterprise and business architecture development 
+filteror : consulted_pages=role:Enterprise and business architecture development 
+filteror : informed_pages=role:Enterprise and business architecture development
+sort     : name
+----
+
+==== Role Maturity ====
+
+---- datatable ----
+cols      : Name, AMageid%, base_pages, beginner_pages, intermediate_pages, advanced_pages, extreme_pages
+headers   : Name, Details, Base, Beginner, Intermediate, Advanced, Extreme
+filter    : type = practice
+filterand : base_pages = role:Enterprise and business architecture development
+filteror  : beginner_pages = role:Enterprise and business architecture development 
+filteror  : intermediate_pages = role:Enterprise and business architecture development 
+filteror  : advanced_pages = role: Enterprise and business architecture development 
+filteror  : extreme_pages = role:Enterprise and business architecture development 
+sort      : name
+----
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Enterprise and business architecture development 
+filteror : accountable_pages=role:Enterprise and business architecture development 
+filteror : consulted_pages=role:Enterprise and business architecture development 
+filteror : informed_pages=role:Enterprise and business architecture development 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Enterprise and business architecture development role within ALM and the IT industry in general, based on IT Best Practices}}
+

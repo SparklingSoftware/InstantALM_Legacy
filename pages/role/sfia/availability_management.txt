@@ -1,0 +1,80 @@
+
+---- dataentry roles ----
+type               : role
+name               : Availability management
+category           : Service management
+subcategory        : Service design
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Availability management (AVMT) =====
+
+
+==== Description ====
+The definition, analysis, planning, measurement and improvement of all aspects of the availability of IT services, including the availability of power. The overall control and management of service availability to ensure that the level of service delivered in all services is matched to or exceeds the current and future agreed needs of the business, in a cost effective manner.
+
+==== SFIA Level 4 ====
+Contributes to the availability management process and its operation and performs defined availability management tasks. Analyses service and component availability, reliability, maintainability and serviceability. Ensures that services and components meet and continue to meet all of their agreed performance targets and service levels. Implements arrangements for disaster recovery and documents recovery procedures. Conducts testing of recovery procedures
+
+==== SFIA Level 5 ====
+Provides advice, assistance and leadership associated with the planning, design and improvement of service and component availability, including the investigation of all breaches of availability targets and service non-availability, with the instigation of remedial activities. Plans arrangements for disaster recovery together with supporting processes and manages the testing of such plans. 
+
+==== SFIA Level 6 ====
+Sets strategy and develops plans, policies and processes for the design, monitoring, measurement, reporting and continuous improvement of service and component availability, including the development and implementation of new availability techniques and methods.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Availability management 
+filteror : accountable_pages=role:Availability management 
+filteror : consulted_pages=role: Availability management
+filteror : informed_pages=role: Availability management
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Availability management 
+filteror : accountable_pages=role:Availability management
+filteror : consulted_pages=role:Availability management
+filteror : informed_pages=role:Availability management
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Availability management 
+filteror : accountable_pages=role:Availability management 
+filteror : consulted_pages=role:Availability management 
+filteror : informed_pages=role:Availability management 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Availability management role within ALM and the IT industry in general, based on IT Best Practices}}
+

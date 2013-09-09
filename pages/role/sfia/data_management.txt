@@ -1,0 +1,95 @@
+
+---- dataentry roles ----
+type               : role
+name               : Data management
+category           : Strategy and architecture
+subcategory        : Technical strategy and planning
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Data management (DATM)=====
+
+==== Description ====
+The management of practices and processes to ensure the integrity, safety and availability of all
+forms of data and data structures that make up the organisation’s information. The management
+of data and information in all its forms and the analysis of information structure (including logical analysis of taxonomies, data and metadata). The development of innovative ways of managing
+the information asset of the organisation.
+
+==== SFIA Level 4 ====
+Takes responsibility for the accessibility, retrievability and security of specific subsets of information. Provides advice on the transformation of information from one format/medium to another, where appropriate. Maintains and implements information handling procedures. Enables the availability, integrity and searchability of information through the application of formal data structures and protection measures. Manipulates specific data from information services, to satisfy local or specific information needs.
+
+==== SFIA Level 5 ====
+Plans effective information storage, sharing and publishing within the organisation. Assesses issues (such as “Islands of Information”) which might prevent the organisation from making maximum use of its information assets. Derives data management structures to ensure consistency of information retrieval, combination, analysis, pattern recognition and interpretation, throughout the organisation. Devises and implements document and record systems, including classification, security,retrieval and retention processes.
+
+==== SFIA Level 6 ====
+From an understanding of current and future business, derives an overall strategy of data management, within an established Information Architecture, that supports the business model. Identifies information structures and detail to enable the development and secure operation of new information services. Takes overall responsibility for planning effective information storage, sharing and publishing within the organisation.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Data management 
+filteror : accountable_pages=role:Data management 
+filteror : consulted_pages=role:Data management 
+filteror : informed_pages=role:Data management 
+sort     : name
+----
+
+==== Practices ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Data management 
+filteror : accountable_pages=role:Data management 
+filteror : consulted_pages=role:Data management 
+filteror : informed_pages=role:Data management 
+sort     : name
+----
+
+==== Role Maturity ====
+
+---- datatable ----
+cols      : Name, AMageid%, base_pages, beginner_pages, intermediate_pages, advanced_pages, extreme_pages
+headers   : Name, Details, Base, Beginner, Intermediate, Advanced, Extreme
+filter    : type = practice
+filterand : base_pages = role:Data management 
+filteror  : beginner_pages = role:Data management 
+filteror  : intermediate_pages = role:Data management 
+filteror  : advanced_pages = role:Data management 
+filteror  : extreme_pages = role:Data management 
+sort      : name
+----
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Data management 
+filteror : accountable_pages=role:Data management 
+filteror : consulted_pages=role:Data management 
+filteror : informed_pages=role:Data management 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Data management role within ALM and the IT industry in general, based on IT Best Practices}}
+

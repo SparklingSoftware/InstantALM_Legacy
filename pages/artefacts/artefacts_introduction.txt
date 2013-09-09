@@ -1,0 +1,16 @@
+===== Artefacts introduction =====
+
+This is the complete list of practices described as part of the ALM Library.
+
+---- datacloud ----
+field   : tag
+filter  : type=artefact
+----
+
+---- datatable ----
+cols    : %pageid%, name, 
+headers : Details, Name
+filter  : type=artefact
+sort    : ^name
+----
+

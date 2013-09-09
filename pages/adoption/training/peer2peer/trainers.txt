@@ -1,0 +1,15 @@
+===== Peer-2-Peer Trainers =====
+
+==== Thanks to all our current trainers!! ====
+
+Want to become one? [[:adoption:training:peer2peer:trainer|Become a Peer-2-Peer trainer]] yourself!
+
+Please find the list below with all the trainers. We are very thankful!
+
+---- datatable  ----
+cols    : facilitators, %title%
+headers : Facilitators, Title
+filter  : %class%=peer2peer
+sort    : ^facilitators
+----
+

@@ -1,0 +1,79 @@
+
+---- dataentry roles ----
+type               : role
+name               : Human factors integration
+category           : Solution development and implementation
+subcategory        : Human factors
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Human factors integration (HFIN) =====
+
+==== Description ====
+Achievement of optimum levels of product or service usability, by ensuring that project and enterprise activities take account of the user experience. 
+
+==== SFIA Level 5 ====
+Advises on achievement of usability (including health and safety and accessibility) for IT products and services.
+
+==== SFIA Level 6 ====
+Is responsible for organisational commitment to high standards in all aspects of the interaction between users and deployed technology - the user experience. Specifies ergonomics standards and methods to meet organisational objectives. 
+
+==== SFIA Level 7 ====
+Acts to influence the perception of the organisation, in relation to ergonomics, and the user experience of deployed IT products and systems, and to ensure that this is addressed in future design. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Human factors integration 
+filteror : accountable_pages=role:Human factors integration 
+filteror : consulted_pages=role:Human factors integration 
+filteror : informed_pages=role:Human factors integration 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Human factors integration 
+filteror : accountable_pages=role:Human factors integration
+filteror : consulted_pages=role:Human factors integration
+filteror : informed_pages=role:Human factors integration
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Human factors integration 
+filteror : accountable_pages=role:Human factors integration 
+filteror : consulted_pages=role:Human factors integration 
+filteror : informed_pages=role:Human factors integration 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Human factors integration role within ALM and the IT industry in general, based on IT Best Practices}}
+

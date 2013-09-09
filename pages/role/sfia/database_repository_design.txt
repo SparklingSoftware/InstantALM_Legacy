@@ -1,0 +1,85 @@
+
+---- dataentry roles ----
+type               : role
+name               : Database/repository design
+category           : Solution development and implementation
+subcategory        : Systems development
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Database/repository design (DBDS) =====
+
+==== Description ====
+The specification, design and maintenance of mechanisms for storage and access to both structured and unstructured information, in support of business information needs
+
+==== SFIA Level 2 ====
+Translates and implements simple development project requirements into physical database structures. Assesses proposed changes to object and data structures and implements these changes in physical databases. Assists in data-base management system support activities for operational database systems.  
+
+==== SFIA Level 3 ====
+Develops specialist knowledge of database concepts, object and data modelling techniques and design principles. Translates object and data models into appropriate database schemas within design constraints. Interprets installation standards to meet project needs and produces database components as required. Evaluates potential solutions, demonstrating, installing and commissioning selected products
+
+==== SFIA Level 4 ====
+Develops and maintains specialist knowledge of data-base concepts, object and data modelling techniques and design principles and a detailed knowledge of database architectures, software and facilities. Analyses data requirements to establish, modify or maintain object/data models. Evaluates potential solutions, demonstrating, installing and commissioning selected products.
+
+==== SFIA Level 5 ====
+Maintains and applies up to date, specialist knowledge of database concepts, object and data modelling techniques and design principles, and a detailed knowledge of the full range of data-base architectures, software and facilities available. Analyses data requirements, to establish, modify or maintain a data model. Takes account of specialist requirements (e.g. geocoding, for geographic information systems). Interprets the model into an appropriate database schema within set policies. Demonstrates, installs and commissions selected products.
+
+==== SFIA Level 6 ====
+Sets strategies for effective use of database technology taking account of the complex interrelations between hardware/software. Provides specialist expertise in the development, use or operation of database management system tools and facilities. Provides expert knowledge in the selection, provision and use of database architectures, soft-ware and facilities, typically taking responsibility for a team of technical staff. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Database/repository design 
+filteror : accountable_pages=role:Database/repository design 
+filteror : consulted_pages=role: Database/repository design
+filteror : informed_pages=role:Database/repository design 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Database/repository design 
+filteror : accountable_pages=role:Database/repository design
+filteror : consulted_pages=role:Database/repository design
+filteror : informed_pages=role:Database/repository design
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Database/repository design 
+filteror : accountable_pages=role:Database/repository design 
+filteror : consulted_pages=role:Database/repository design 
+filteror : informed_pages=role:Database/repository design 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Database/repository design role within ALM and the IT industry in general, based on IT Best Practices}}
+

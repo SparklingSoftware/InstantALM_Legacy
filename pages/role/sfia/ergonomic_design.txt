@@ -1,0 +1,82 @@
+
+---- dataentry roles ----
+type               : role
+name               : Ergonomic design
+category           : Solution development and implementation
+subcategory        : Human factors
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Ergonomic design (HCEV) =====
+
+==== Description ====
+The iterative development of user tasks, interaction and interfaces to meet user requirements, considering the whole user experience. Refining the design solutions in response to user-centred evaluation and feedback and communicating the design to those responsible for implementation. 
+
+==== SFIA Level 3 ====
+Applies ergonomics tools and methods to develop users' tasks, interaction and interfaces to meet users' requirements.
+
+==== SFIA Level 4 ====
+Specifies how to use ergonomics tools and methods to develop users' tasks, interaction and interfaces to meet the users' requirements. 
+
+==== SFIA Level 5 ====
+Advises which ergonomics tools and methods to use in order to develop users' tasks, interaction and interfaces to meet the users' requirements. In some cases this includes design of the working environment and users' jobs.
+
+==== SFIA Level 6 ====
+Is responsible for organisational commitment to high standards in human factors. Specifies ergonomics standards and methods to meet organisational objectives. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Ergonomic design 
+filteror : accountable_pages=role:Ergonomic design 
+filteror : consulted_pages=role:Ergonomic design 
+filteror : informed_pages=role:Ergonomic design
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Ergonomic design 
+filteror : accountable_pages=role:Ergonomic design
+filteror : consulted_pages=role:Ergonomic design
+filteror : informed_pages=role:Ergonomic design
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Ergonomic design 
+filteror : accountable_pages=role:Ergonomic design 
+filteror : consulted_pages=role:Ergonomic design 
+filteror : informed_pages=role:Ergonomic design 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Ergonomic design role within ALM and the IT industry in general, based on IT Best Practices}}
+

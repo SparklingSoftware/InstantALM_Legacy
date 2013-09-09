@@ -1,0 +1,79 @@
+
+---- dataentry roles ----
+type               : role
+name               : Contract management
+category           : Procurement and management support
+subcategory        : Supply management
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Contract management (ITCM) =====
+
+==== Description ====
+The overall management and control of the operation of formal contracts between own organisation and suppliers, for supply of products and services. 
+
+==== SFIA Level 4 ====
+4 Sources and collects contract performance data (such as pricing and supply chain costs), and monitors performance against KPIs. Identifies and reports under-performance and develops opportunities for improvement. Monitors compliance with Terms and Conditions and take appropriate steps to address non-compliance. Pro-actively manages risk and reward mechanisms in the contract. Monitors progress against business objectives specified in the business case. Identifies where change is required, and plans for variations. In consultation with team members, suppliers and customers, ensures that change management protocols are implemented
+
+==== SFIA Level 5 ====
+Oversees and measures the fulfillment of contractual obligations. Uses key performance indicators (KPIs) to monitor and challenge supplier performance and identify opportunities for continuous improvement. Develops strategies to address under-performance and compliance failures, including application of contract terms. Identifies where changes are required, evaluates the impact, and advises stakeholders about the implications and consequences for the business and/or the procurement element of programmes/projects. Negotiates variations and seeks appropriate authorisation. Actively supports and engages with experts and stakeholders to ensure continuous improvements are identified through review and benchmarking processes. Develops and implements change management protocols. 
+
+==== SFIA Level 6 ====
+Negotiates and resolves contractual issues, including failure to meet contractual obligations. Promotes change control processes and leads variation negotiations when necessary. Champions continuous improvement programmes with suppliers, jointly developing strategies and incentives to enhance performance. Undertakes comprehensive financial evaluations. Ensures non-discriminatory behaviour and legal compliance. Ensures that lessons learned from reviews are documented and promoted with colleagues, stakeholders, and the organisation. Develops broad industry/ category credentials as ‘best practice’ champion. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Contract management
+filteror : accountable_pages=role: Contract management
+filteror : consulted_pages=role: Contract management
+filteror : informed_pages=role: Contract management
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Contract management 
+filteror : accountable_pages=role:Contract management
+filteror : consulted_pages=role:Contract management
+filteror : informed_pages=role:Contract management
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Contract management 
+filteror : accountable_pages=role:Contract management 
+filteror : consulted_pages=role:Contract management
+filteror : informed_pages=role:Contract management
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Contract management role within ALM and the IT industry in general, based on IT Best Practices}}
+

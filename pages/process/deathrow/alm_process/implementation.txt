@@ -1,7 +1,0 @@
-
-
-===== Implementation Phase =====
-
-
-[[:process:alm_process:implementation:write_code|Write Code]]
-

@@ -1,0 +1,85 @@
+
+---- dataentry roles ----
+type               : role
+name               : Change management
+category           : Service management
+subcategory        : Service transition
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Change management (CHMG) =====
+
+==== Description ====
+The management of change to the service infra-structure including service assets, configuration items and associated documentation, be it via request for change (RFC), emergency changes, incidents or problems, providing effective control and treatment of risk to the availability, performance, security and compliance of the business services impacted.
+
+==== SFIA Level 2 ====
+Documents changes based on requests for change. Applies change control procedures.
+
+==== SFIA Level 3 ====
+Develops, documents and implements changes based on requests for change. Applies change control procedures. 
+
+==== SFIA Level 4 ====
+Assesses, analyses, develops, documents and implements changes based on requests for change. 
+
+==== SFIA Level 5 ====
+Develops implementation plans for dealing with more complex requests for change, evaluates risks to integrity of infrastructure inherent in proposed implementations, seeks authority for those activities, reviews the effectiveness of change implementation, suggests improvement to organisational procedures governing change management. Leads the assessment, analysis, development, documentation and implementation of changes based on requests for change. 
+
+==== SFIA Level 6 ====
+Sets the organisation's policy for the management of change in live services and test environments, and ensures that the policy is reflected in practice. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Change management 
+filteror : accountable_pages=role:Change management
+filteror : consulted_pages=role:Change management 
+filteror : informed_pages=role:Change management 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Change management 
+filteror : accountable_pages=role:Change management
+filteror : consulted_pages=role:Change management
+filteror : informed_pages=role:Change management
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Change management 
+filteror : accountable_pages=role:Change management
+filteror : consulted_pages=role: Change management
+filteror : informed_pages=role: Change management
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Change management role within ALM and the IT industry in general, based on IT Best Practices}}
+

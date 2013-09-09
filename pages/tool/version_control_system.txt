@@ -1,42 +1,86 @@
+<wrap hide>
+  <revision_frequency>365</revision_frequency>
+</wrap>
 
-===== Tool: Version Control System =====
+====== Version Control System ======
 
+/* More information on what to specify as part of each section, please refer to [[:contribute:do_work:guidelines|Writing Guidelines]] */
+ 
+---- dataentry tools ----
+type              : tool
+name              : version control system
+artefacts_pages   : artefact:working software
+tags              : Development
+----
 
+==== Description ====
 
+An important part of Software Delivery is managing source code. Allowing multiple versions of an application to co-exist in environments, while managing enhancements to each version, requires mature source control processes. The tools to help development teams perform these tasks are called Version Control System (VCS) tools. There are many VCS tools currently on the market and the variation in functionality within those tools is also quite big. 
 
+{{:tool:source_control_management_opportunity_document.docx|}}
+{{:tool:source_control_management_opportunity_document.pdf|}}
 
-<<Description>>
+==== Practices ====
+
+---- datatable ----
+filter    : type=practice
+cols      : %pageid%
+headers   : Practice
+sort      : Practice
+filterand : tool_pages=tool:version control system
+----
 
 ==== Requirements ====
 
 The list of requirement can be found here:
 [[:tool:requirements:version control system|Full list of requirements]]
 
+The conversation leading up to the formulations for the requirements can be found here:
+{{:tool:scm_review_dialogue.doc|}}
+{{:tool:scm_review_dialogue.pdf|}}
+{{:tool:scm_review_dialogue_2.doc|}}
+{{:tool:scm_review_dialogue_2.pdf|}}
+
 ==== Formal evaluation ====
 
 Entire list of tools:
 ^ Tool ^ Status ^ Reason if not on shortlist ^
-| [[:todo|todo]] | Shortlisted   | |
-| [[:todo|todo]] | Shortlisted   | |
-| [[:todo|todo]] | Not evaluated | Not able to be hosted on-premise |
-| [[:todo|todo]] | Shortlisted   | |
-| [[:todo|todo]] | Not evaluated | Latest release >5 years |
+| [[http://mercurial.selenic.com|Mercurial]] | Shortlisted   | |
+| [[http://msdn.microsoft.com/en-us/vstudio/ff637362|TFS]] | Shortlisted   | |
+| [[http://git-scm.com/|GIT]] | Shortlisted    | |
+| [[http://www.perforce.com|Perforce]] | Shortlisted   | |
+| [[http://subversion.apache.org/|SubVersion]] | Shortlisted    | |
+| [[http://www.ibm.com/developerworks/rational/products/clearcase/|ClearCase]] | Shortlisted    | |
+| [[http://www.accurev.com/|AccuRev]] | Shortlisted    | |
+| [[http://www-01.ibm.com/software/rational/products/rtc/|RTC]] | Not evaluated | for various reasons, external to NAB WB, we were unable to fully evaluate. |
+| [[http://www.tortoisecvs.org/|CVS]] | Not evaluated | was considered however it lacked some of the requirements like atomic commit operations. |
 
 << Provide an exec summary (Max 250 words) for the evaluation >>
 
-<< Link to the full evaluation document >>
+{{:tool:vcs_tool_comparison.xlsx|}}
 
 ==== Advise ====
 
-<< Provide an exec summary (Max 250 words) of the advise >>
+The advice to management of NAB is:
+  * GIT is the default central Version Control System for all technologies including Microsoft technology based development.
+  * However, if a Microsoft technology based project intends to use the additional features of TFS, then we support that too.
 
-<< Link to the full advise document >>
+{{:tool:scm_implementation_advice.docx|}}
+{{:tool:scm_implementation_advice.pdf|}}
+{{:tool:vcs_eval_article_v0_32.docx|Article for external publication}}
 
-==== Training ====
+==== Training and Coaching  ====
 
-<< Provide links into the Training section to the relevant training offerings >>
+---- datatable ----
+filter     : type=training
+cols       : training_type, %pageid%, mandatory
+headers    : Type, Training, Mandatory
+sort       : Type
+filterand  : tools_pages=tool:version control system
+----
 
-==== Sources ====
+==== Continue reading ====
 
-<<Link to sources used on this page>>
 
+{{keywords>IT Efficiency, IT best practices, the SDLC, IT Standards}}
+{{description>This standards library has been compiled by the ALM Community. It is based on IT best practices, increasing your IT Efficiency considerably across the SDLC}}

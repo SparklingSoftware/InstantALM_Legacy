@@ -1,0 +1,82 @@
+
+---- dataentry roles ----
+type               : role
+name               : Application support
+category           : Service management
+subcategory        : Service operation
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Application support (ASUP) =====
+
+==== Description ====
+The provision of application maintenance and support services, either directly to users of the systems or to service delivery functions. Support typically includes investigation and resolution of issues and may also include performance  monitoring. Issues may be resolved by providing advice or training to users, by devising corrections (permanent or temporary) for faults, making general or site-specific modifications, updating documentation, manipulating data, or defining enhancements Support often involves close collaboration with the system's developers and/or with colleagues specialising in different areas, such as Database administration or Network support. 
+
+==== SFIA Level 2 ====
+Assists in the investigation and resolution of issues relating to applications. Assists with specified maintenance procedures.
+
+==== SFIA Level 3 ====
+Identifies and resolves issues with applications, following agreed procedures. Uses application management software and tools to collect agreed performance statistics. Carries out agreed applications maintenance tasks. 
+
+==== SFIA Level 4 ====
+Maintains application support processes, and checks that all requests for support are dealt with according to agreed procedures. Uses application management software and tools to investigate issues, collect performance statistics and create reports. 
+
+==== SFIA Level 5 ====
+Drafts and maintains procedures and documentation for applications support. Manages application enhancements to improve business performance. Ensures that all requests for support are dealt with according to set standards and procedures. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Application support 
+filteror : accountable_pages=role:Application support
+filteror : consulted_pages=role:Application support 
+filteror : informed_pages=role: Application support
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Application support 
+filteror : accountable_pages=role:Application support
+filteror : consulted_pages=role:Application support
+filteror : informed_pages=role:Application support
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Application support 
+filteror : accountable_pages=role:Application support 
+filteror : consulted_pages=role: Application support
+filteror : informed_pages=role:Application support
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Application support role within ALM and the IT industry in general, based on IT Best Practices}}
+

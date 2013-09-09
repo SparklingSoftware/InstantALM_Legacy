@@ -1,0 +1,101 @@
+
+---- dataentry roles ----
+type               : role
+name               : Information management
+category           : Strategy and architecture
+subcategory        : Information strategy
+summary            : 
+groups_pages       : 
+source             : SFIA
+----
+
+===== Role: Information management (IRMG) =====
+
+==== Description ====
+The overall management of the use of all types of information, structured and unstructured,
+whether produced internally or externally, to support decision-making and business processes.
+Encompasses development and promotion of the strategy and policies covering the design of information structures and taxonomies, the setting of policies for the sourcing and maintenance of the data content, and the development of policies, procedures, working practices and training to promote compliance with legislation regulating the management of records, and all aspects of holding, use and disclosure of data.
+
+=== SFIA Level 4 ===
+Understands and complies with relevant organisational policies and procedures, taking  responsibility for assessing and managing risks around the use of information. Ensures that information is presented effectively. Ensures that effective controls are in place for internal delegation, audit and control and that the board receives timely reports and advice that will inform their decisions. 
+
+=== SFIA Level 5 ===
+Drafts and maintains the policy, standards and procedures for compliance with relevant legislation. Understand the implications of information, both internal and external, that can be mined from business systems and elsewhere. Make business decisions based on that information, including the need to make changes to the systems. Reviews new business proposals and provides
+specialist advice on information management, including advice on and promotion of collaborative working and assessment and management of information-related risk. Creates and maintains an inventory of information assets, which are subject to relevant legislation. Prepares and reviews the periodic notification of registration details and submits it to the relevant regulatory authorities. Ensures that formal information access requests and complaints are dealt with according to approved procedures.
+
+=== SFIA Level 6 ===
+Maintains and communicates the organisation's strategy for managing information, ensuring that uniformly recognised and accepted data definitions are developed and applied throughout the organisation. Ensures that the business processes and information required to support the organisation are accurately modelled and devises appropriate standards, processes and data architectures. Identifies the impact of any relevant statutory,internal or external regulations on the organisation's use of information and develops strategies for compliance. Coordinates information resources to meet specific business objectives whilst maintaining the principles of professional standards, accountability, openness, equality and diversity and clarity of purpose. Implements systems and IT controls to measure performance,manage risk and ensure that IT and the business work together to support the business purpose.
+
+=== SFIA Level 7 ===
+Specifies at a strategic level the business functions and data subjects needed to support future business, thereby enabling the development of an Information Architecture. Establishes and communicates the organisation's information management strategy, developing it as an integrated part of the business strategy. Directs information resources, to create value for the stakeholders by improving the performance of the organisation, whilst maintaining the principles of professional standards, accountability, openness, equality and diversity and clarity of
+purpose. Responsible for compliance with regulations, standards and codes of good practice
+relating to information and documentation,records management, information assurance and data protection.
+
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Information management 
+filteror : accountable_pages=role:Information management 
+filteror : consulted_pages=role:Information management
+filteror : informed_pages=role:Information management 
+sort     : name
+----
+
+==== Practices ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Information management 
+filteror : accountable_pages=role:Information management 
+filteror : consulted_pages=role:Information management 
+filteror : informed_pages=role:Information management 
+sort     : name
+----
+
+==== Role Maturity ====
+
+---- datatable ----
+cols      : Name, PMageid%, base_pages, beginner_pages, intermediate_pages, advanced_pages, extreme_pages
+headers   : Name, Details, Base, Beginner, Intermediate, Advanced, Extreme
+filter    : type = practice
+filterand : base_pages = role:Information management 
+filteror  : beginner_pages = role:Information management 
+filteror  : intermediate_pages = role:Information management 
+filteror  : advanced_pages = role:Information management 
+filteror  : extreme_pages = role:Information management 
+sort      : name
+----
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Information management 
+filteror : accountable_pages=role:Information management 
+filteror : consulted_pages=role:Information management 
+filteror : informed_pages=role:Information management 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Information management role within ALM and the IT industry in general, based on IT Best Practices}}
+

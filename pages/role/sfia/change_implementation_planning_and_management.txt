@@ -1,0 +1,78 @@
+
+---- dataentry roles ----
+type               : role
+name               : Change implementation planning and management
+category           : Business change
+subcategory        : Business change management
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Change implementation planning and management (CIPM) =====
+
+==== Description ====
+The definition and management of the process for deploying and integrating new capabilities into the business in a way that is sensitive to and fully compatible with business operations.
+
+==== SFIA Level 5 ====
+Creates the business readiness plan, taking into consideration IT deployment, data migration, capability deployment (training and engagement activities) and any business activities required to integrate new processes or jobs into the "business as usual" environment. Determines the readiness levels of business users with regard to upcoming changes; uncovers readiness gaps and creates and implements action plans to close the gaps prior to going live. Assists the user community in the provision of transition support and change planning,and liaises with the project team. Monitors and reports progress on business readiness targets, business engagement activity, training design and deployment activities, key operational metrics and return to productivity measures.Defines the series and sequence of activities to bring stakeholders to the required
+level of commitment, prior to going live.
+
+==== SFIA Level 6 ====
+Ensures that there is a business perspective on how the new technical capabilities will be delivered to the business,including planning around key business cycles,selecting appropriate customers for migration,etc. Initiates the business implementation plan,including all the activities that the business needs to do to prepare for new technical components and technologies. Ensures sites deliver site implementation plans that align with the overall plan. Tracks and reports against these activities to ensure progress. Defines and manages the activities
+to ensure achievement of the business case after delivery. Outlines key business engagement messages that need to take place throughout the programme / project.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Change implementation planning and management
+filteror : accountable_pages=role:Change implementation planning and management
+filteror : consulted_pages=role:Change implementation planning and management 
+filteror : informed_pages=role:Change implementation planning and management 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Change implementation planning and management 
+filteror : accountable_pages=role:Change implementation planning and management
+filteror : consulted_pages=role:Change implementation planning and management
+filteror : informed_pages=role:Change implementation planning and management
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Change implementation planning and management 
+filteror : accountable_pages=role:Change implementation planning and management 
+filteror : consulted_pages=role:Change implementation planning and management 
+filteror : informed_pages=role:Change implementation planning and management 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Change implementation planning and management role within ALM and the IT industry in general, based on IT Best Practices}}
+

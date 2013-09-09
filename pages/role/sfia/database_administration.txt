@@ -1,0 +1,82 @@
+
+---- dataentry roles ----
+type               : role
+name               : Database administration
+category           : Service management
+subcategory        : Service Operation
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Database administration (DBAD) =====
+
+==== Description ====
+The installation, configuration, upgrade, administration, monitoring and maintenance of physical databases. 
+
+==== SFIA Level 2 ====
+Assists in database support activities.
+
+==== SFIA Level 3 ====
+Uses data-base management system software and tools to collect agreed performance statistics. Carries out agreed database maintenance and administration tasks. 
+
+==== SFIA Level 4 ====
+Uses data-base management system software and tools to investigate problems and collect performance statistics and create reports. Carries out routine configuration/installation and reconfiguration of database and related products. 
+
+==== SFIA Level 5 ====
+Drafts and maintains procedures and documentation for databases. Manages database configuration including installing and upgrading software and maintaining relevant documentation. Contributes to the setting of standards for database objects and ensures conformance to these standards. Monitors database activity and resource usage. Optimises database performance and plans for forecast resource needs
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Database administration 
+filteror : accountable_pages=role:Database administration
+filteror : consulted_pages=role:Database administration 
+filteror : informed_pages=role: Database administration
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Database administration 
+filteror : accountable_pages=role:Database administration
+filteror : consulted_pages=role:Database administration
+filteror : informed_pages=role:Database administration
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Database administration 
+filteror : accountable_pages=role: Database administration
+filteror : consulted_pages=role: Database administration
+filteror : informed_pages=role: Database administration
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Database administration role within ALM and the IT industry in general, based on IT Best Practices}}
+

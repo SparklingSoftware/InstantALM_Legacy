@@ -1,0 +1,85 @@
+
+---- dataentry roles ---
+type               : role
+name               : Learning and development management
+category           : Business change
+subcategory        : Skills management
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Learning and development management (ETMG) =====
+
+==== Description ====
+The provision of learning and development processes (including learning management systems) in order to develop the professional, business and/or technical skills required by the organisation.
+
+==== SFIA Level 3 ====
+Contributes to the maintenance and updates of training records and training catalogue.
+
+==== SFIA Level 4 ====
+Contributes to the development and maintenance of a catalogue of learning and development resources. Books and organises training courses. Updates and controls training records, including attainment of accreditations.
+
+==== SFIA Level 5 ====
+Manages the provision of learning and development, ensuring optimum use of resources. Maintains, publicises and promotes catalogue of learning and development activities. Arranges facilities and schedules with learning and development providers as appropriate.
+
+==== SFIA Level 6 ====
+Determines the learning and development programme and delivery mechanisms needed to grow staff skills in line with business needs. Identifies appropriate accreditation and qualification paths, applicable to individuals within the organisation. Evaluates learning outcomes. Manages the development and provision of all learning, taking account of the strategic aims of the employing organisation.
+
+==== SFIA Level 7 ====
+Develops and controls the learning & development strategy for the organisation, ensuring the needs of the organisation are met, both at strategic and tactical level.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Learning and development management
+filteror : accountable_pages=role:Learning and development management 
+filteror : consulted_pages=role:Learning and development management 
+filteror : informed_pages=role:Learning and development management
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Learning and development management
+filteror : accountable_pages=role:Learning and development management
+filteror : consulted_pages=role:Learning and development management
+filteror : informed_pages=role:Learning and development management
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Learning and development management 
+filteror : accountable_pages=role:Learning and development management 
+filteror : consulted_pages=role:Learning and development management
+filteror : informed_pages=role:Learning and development management 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Learning and development management role within ALM and the IT industry in general, based on IT Best Practices}}
+

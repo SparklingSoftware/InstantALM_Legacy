@@ -1,0 +1,95 @@
+
+---- dataentry roles ----
+type               : role
+name               : IT governance
+category           : Strategy and architecture
+subcategory        : Information strategy
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: IT governance (GOVN) =====
+
+==== Description ====
+The establishment and oversight of an organisation's approach to the use of Information and IT, including acceptance of responsibilities in respect of both supply of, and demand for IT; strategic plans for IT, which satisfy the needs of the organization’s business strategy (which, in turn, takes into account the current and future capabilities of IT); transparent decision making, leading to valid reasons for IT acquisitions with appropriate balance between benefits, opportunities, costs, and risks; provision of IT services, levels of service and service quality which meet current and future business requirements; policies and practices for conformance with mandatory legislation and regulations, which demonstrate respect for the current and evolving needs of all stakeholders.
+
+=== SFIA Level 7 ===
+Leads development and communication of the organisation's policies for corporate governance of information. Contributes to strategic plans for IT, which satisfy the current and ongoing needs of the organization’s business strategy, and the current and future capabilities of IT. Promotes clear decision making, leading to valid reasons for IT acquisitions. Monitors provision of IT services, levels of service and service quality. Assures that the organisation's business processes are compliant with relevant legislation, and that the organisation operates according to the principles embedded in relevant standards. Promotes IT policies, practices and decisions which recognise the current and evolving needs of all the stakeholders.
+
+=== SFIA Level 6 ===
+Puts in place, or confirms, staffing structures to support the work of the board and proper relationships between 
+the organisation and external auditors. Takes responsibility for review of management processes (and decisions) and confirms that they are 
+compliant with the organisation's strategy for corporate governance of information. Is familiar with relevant standards and the principles embedded within them. Reviews new business proposals and provides specialist advice on compliance issues. Acts as the organisation's contact for relevant regulatory authorities. Establishes policy and standards for compliance with relevant legislation, which are fit for purpose
+
+=== SFIA Level 5 ===
+Reviews information systems for compliance with legislation and specifies any required changes. Responsible for ensuring compliance with organisational policies and procedures and overall information management strategy
+
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, %pageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:IT governance 
+filteror : accountable_pages=role:IT governance
+filteror : consulted_pages=role:IT governance
+filteror : informed_pages=role:IT governance
+sort     : name
+----
+
+==== Practices ====
+
+---- datatable ----
+cols     : Name, %pageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:IT governance 
+filteror : accountable_pages=role:IT governance
+filteror : consulted_pages=role:IT governance
+filteror : informed_pages=role:IT governance
+sort     : name
+----
+
+==== Role Maturity ====
+
+---- datatable ----
+cols      : Name, %pageid%, base_pages, beginner_pages, intermediate_pages, advanced_pages, extreme_pages
+headers   : Name, Details, Base, Beginner, Intermediate, Advanced, Extreme
+filter    : type = practice
+filterand : base_pages = role:IT governance
+filteror  : beginner_pages = role:IT governance
+filteror  : intermediate_pages = role:IT governance
+filteror  : advanced_pages = role:IT governance
+filteror  : extreme_pages = role:IT governance
+sort      : name
+----
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, %pageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:IT governance
+filteror : accountable_pages=role:IT governance
+filteror : consulted_pages=role:IT governance
+filteror : informed_pages=role:IT governance 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the IT governance role within ALM and the IT industry in general, based on IT Best Practices}}
+

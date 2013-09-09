@@ -1,0 +1,100 @@
+
+---- dataentry roles ----
+type               : role
+name               : Information assurance
+category           : Strategy and architecture
+subcategory        : Information strategy
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Information assurance INAS =====
+
+
+==== Description ====
+The leadership and oversight of information assurance, setting high level strategy and policy,to ensure stakeholder confidence that risk to the integrity of information in storage and transit is managed pragmatically, appropriately and in a cost effective manner.
+
+
+==== SFIA Level 5 ====
+Provides authoritative advice and guidance on Information assurance architecture and strategies to
+manage identified risk. Is familiar with major legislation relevant to security of information.
+Interprets security and assurance policies and contributes to development of standards and guidelines that comply with these. Uses testing to support information assurance.
+
+
+==== SFIA Level 6 ====
+Develops corporate Information security policy, standards and guidelines. Prepares and maintains organisational strategies that address the evolving business risk and information control requirements. Operates as a focus for Information assurance governance expertise for the  organisation, working effectively with strategic organisational functions such as legal experts and technical support to provide authoritative advice and guidance on the requirements for security controls. Ensures architectural principles are applied during design to reduce risk, and advances assurance standards through ensuring rigorous security testing.
+
+==== SFIA Level 7 ====
+Establishes and manages Information assurance strategy and policies in accordance with appropriate
+standards. Plans and implements processes to take forward the strategy and policies. Provides
+leadership and guidelines for provision of Information assurance requirements across all of the
+organisation's information and information systems.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Information assurance 
+filteror : accountable_pages=role:Information assurance 
+filteror : consulted_pages=role:Information assurance 
+filteror : informed_pages=role:Information assurance 
+sort     : name
+----
+
+==== Practices ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Information assurance 
+filteror : accountable_pages=role:Information assurance 
+filteror : consulted_pages=role:Information assurance 
+filteror : informed_pages=role:Information assurance 
+sort     : name
+----
+
+==== Role Maturity ====
+
+---- datatable ----
+cols      : Name, PMageid%, base_pages, beginner_pages, intermediate_pages, advanced_pages, extreme_pages
+headers   : Name, Details, Base, Beginner, Intermediate, Advanced, Extreme
+filter    : type = practice
+filterand : base_pages = role:Information assurance 
+filteror  : beginner_pages = role:Information assurance 
+filteror  : intermediate_pages = role:Information assurance 
+filteror  : advanced_pages = role:Information assurance 
+filteror  : extreme_pages = role:Information assurance 
+sort      : name
+----
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Information assurance 
+filteror : accountable_pages=role:Information assurance
+filteror : consulted_pages=role:Information assurance 
+filteror : informed_pages=role:Information assurance 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Information assurance role within ALM and the IT industry in general, based on IT Best Practices}}
+

@@ -1,0 +1,79 @@
+
+---- dataentry roles ----
+type               : role
+name               : Learning delivery
+category           : Business change
+subcategory        : Skills management
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Learning delivery (ETDL) =====
+
+==== Description ====
+The transfer of business and/or technical skills and knowledge and the promotion of profes-sional attitudes in order to facilitate learning and development. Uses a range of techniques, resources and media (which might include eLearning, virtual classrooms, self-assessment, peer-assisted learning, simulation, and other current methods). 
+
+==== SFIA Level 3 ====
+Delivers learning activities to a variety of audiences.  
+
+==== SFIA Level 4 ====
+Prepares or customises and delivers learning activities to a variety of audiences.
+
+==== SFIA Level 5 ====
+Plans and schedules the delivery of learning activities, based on learning objectives. Manages the delivery of programmes of learning. Customises formal and informal learning activities, incorporating relevant business scenarios and case studies. Designs appropriate environments, and delivers learning activities to specialist audiences. Advises/coaches others in learning delivery techniques and options.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Learning delivery
+filteror : accountable_pages=role:Learning delivery
+filteror : consulted_pages=role:Learning delivery 
+filteror : informed_pages=role:Learning delivery
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Learning delivery
+filteror : accountable_pages=role:Learning delivery
+filteror : consulted_pages=role:Learning delivery
+filteror : informed_pages=role:Learning delivery
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Learning delivery 
+filteror : accountable_pages=role:Learning delivery 
+filteror : consulted_pages=role:Learning delivery 
+filteror : informed_pages=role:Learning delivery 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Learning delivery role within ALM and the IT industry in general, based on IT Best Practices}}
+

@@ -1,0 +1,78 @@
+
+---- dataentry roles ----
+type               : role
+name               : Systems development management
+category           : Solution development and implementation
+subcategory        : System development
+summary            : 
+groups_pages       :
+----
+
+===== Role: Systems development management (DLMG) =====
+
+==== Description ====
+The management of resources in order to plan, estimate and carry out programmes of systems development work to time, budget and quality targets and in accordance with appropriate standards
+
+==== SFIA Level 5 ====
+Agrees, with business management, systems development projects which support the organisation's objectives and plans. Ensures that management is both aware of and able to provide the required resources, and that available resources are properly utilised and accounted for. Monitors and reports on the progress of systems development projects, using appropriate quality assurance processes to ensure that projects are carried out in accordance with agreed standards, methods and procedures.
+
+==== SFIA Level 6 ====
+Identifies and manages the resources necessary for all stages (planning, estimation, execution) of individual systems development projects to ensure technical, financial and quality targets are met. 
+
+==== SFIA Level 7 ====
+Sets strategy for resource management within systems development, authorises the allocation of resources for programmes of system development projects, and maintains an overview of the contribution of the programme to organisational success. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Systems development management
+filteror : accountable_pages=role:Systems development management
+filteror : consulted_pages=role:Systems development management
+filteror : informed_pages=role:Systems development management 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Systems development management
+filteror : accountable_pages=role:Systems development management
+filteror : consulted_pages=role:Systems development management
+filteror : informed_pages=role:Systems development management
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Systems development management 
+filteror : accountable_pages=role:Systems development management
+filteror : consulted_pages=role:Systems development management 
+filteror : informed_pages=role:Systems development management
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Systems development management role within ALM and the IT industry in general, based on IT Best Practices}}
+

@@ -14,7 +14,7 @@
 [[:metrics and reporting:metrics and reporting introduction|Metrics and Reporting]]
 [[:knowledge management:knowledge management introduction|Knowledge mgmt]]
 [[:tools:tools introduction|Tools]]
-[[:deliverables:deliverables introduction|Deliverables]]
+[[:artefacts:artefacts introduction|Artefacts]]
 [[:practices:practices introduction|Practices]]
 
 **Adoption:**

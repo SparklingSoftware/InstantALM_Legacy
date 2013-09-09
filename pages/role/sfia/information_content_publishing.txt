@@ -1,0 +1,108 @@
+
+---- dataentry roles ----
+type               : role
+name               : Information content publishing
+category           : Strategy and architecture
+subcategory        : Information strategy
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Information content publishing ICPM =====
+
+==== Description ====
+The management and tuning of the processes that collect, assemble and publish information, including in unstructured and semi-structured forms, for delivery to the user at the point at which it is needed.
+
+==== SFIA Level 1 ====
+Contributes, under instruction, to publication support activities and supports the collation of
+data.
+
+==== SFIA Level 2 ====
+Performs publications support activities such as drafting, illustrating, printing, etc. Understands technical publication concepts, tools and methods and the way in which these are implemented. Obtains and analyses usage data and presents it effectively.
+
+==== SFIA Level 3 ====
+Specifies and creates content management processes to meet the needs of users. Uses agreed tools to make finished material available on appropriate platforms.
+
+==== SFIA Level 4 ====
+Defines and manages content management processes to meet the needs of users. Uses appropriate tools and techniques to provide moderately complex interfaces to new or existing platforms and applications.
+
+==== SFIA Level 5 ====
+Develops standards and procedures to support content publishing. Designs overall support information structures. Takes responsibility for publishing assignments, including, for example,
+design of the overall structure and graphical style for substantial, complex or high-profile web sites. Selects appropriate tools, templates and standards for publication in various forms, appropriate to customer expectations (differentiating, for example, between needs such as optimisation and ease of modification). Sets design and coding standards, taking into account bandwidth and compatibility.
+
+==== SFIA Level 6 ====
+Develops strategies for the delivery of support information, including preferred media, rules for
+formatting content, and reprographics strategy if relevant. Ensures that adequate procedures,
+standards, tools and resources are in place to ensure the appropriate quality of material developed by information publishers within the organisation.Takes responsibility for publishing
+strategy, including, for example, frameworks for the overall information structure and graphical
+style for substantial, complex or high-profile web sites. Directs the selection of appropriate tools,templates and standards for publication in various forms, appropriate to customer expectations.
+
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:information content publishing 
+filteror : accountable_pages=role:information content publishing 
+filteror : consulted_pages=role:information content publishing 
+filteror : informed_pages=role:information content publishing 
+sort     : name
+----
+
+==== Practices ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:information content publishing 
+filteror : accountable_pages=role:information content publishing 
+filteror : consulted_pages=role:information content publishing 
+filteror : informed_pages=role:information content publishing 
+sort     : name
+----
+
+==== Role Maturity ====
+
+---- datatable ----
+cols      : Name, PMageid%, base_pages, beginner_pages, intermediate_pages, advanced_pages, extreme_pages
+headers   : Name, Details, Base, Beginner, Intermediate, Advanced, Extreme
+filter    : type = practice
+filterand : base_pages = role:information content publishing 
+filteror  : beginner_pages = role:information content publishing 
+filteror  : intermediate_pages = role:information content publishing 
+filteror  : advanced_pages = role:information content publishing 
+filteror  : extreme_pages = role:information content publishing 
+sort      : name
+----
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:information content publishing 
+filteror : accountable_pages=role:information content publishing 
+filteror : consulted_pages=role:information content publishing 
+filteror : informed_pages=role:information content publishing 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the information content publishing role within ALM and the IT industry in general, based on IT Best Practices}}
+

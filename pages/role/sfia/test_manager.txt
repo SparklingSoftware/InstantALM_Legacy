@@ -1,0 +1,82 @@
+
+===== Role: Test Manager =====
+
+** Description **
+
+Provide technology based services incorporating strategy, design, development, delivery and maintenance of technological solutions to meet business needs.
+
+** Purpose ** 
+
+The Test Manager is responsible for the integration and management of testing of applications across the business unit. The Test Manager works across multiple projects that have system-wide impact and is responsible for ensuring appropriate integration across the organisation. Test Manager is accountable for overseeing and leading the testing competency provision of testing solutions, skills and capabilities into all testing phases of the project/release, including the support and coordination of
+any activities provided by testing.
+
+^ Role ^ Frequency ^ Relationships ^
+| [[:role:test lead|Test Lead]] | frequent | Agreement upon responsibilities and task requirements and to receive status report information |
+| Senior Test Manager | frequent | Report status and liaise for advice regarding the testing effort | 
+| Development Manager | frequent | Understand development requirements to build and verify appropriate testing solutions to test the functionality of the application |
+| Support Manager | frequent | ::: |
+| Lead Analyst Programmer | frequent | ::: |
+| Project Manager | frequent | Understand and coordinate project testing requirements |
+| Solutions Architect | frequent | Understand the technical architecture of the solution to determine testing solutions appropriate to the environment and to understand requirements for technical testing |
+| Technical Specialists | frequent | Provide testing knowledge in development of testing approaches and plans |
+| Clients/users | infrequent | Understand business requirements in order to resolve customer queries |
+
+** NAB Role Responsibilities **
+
+Responsibilities for health and safety has been assigned to all employees. For your specific responsibilities refer to Responsibilities for Workplace Health and Safety located on the intranet under People Toolbar;
+
+Core responsibilities:
+  * Lead the testing effort in the provision and delivery of test capability to development projects
+  * Work with the Project Manager and the testing team to develop a test strategy and plan the testing effort required for each release based on the capability development approach and time line 
+  * Measure and monitor progress using established development project processes to ensure that the testing projects are delivered on time and within budget, and that they meet or exceed expectations
+  * Ensure that the testing resources are used effectively across all development projects and releases
+  * Define the roles, skills and resources required to achieve test objectives for development projects, and secure these resources through testing and other appropriate channels to build the test team
+  * Maintain strong relationships with testing and other partner organisations to ensure effective engagement practices and maximum benefit are returned to the client
+  * Directly and through influencing team leadership ensure the group testing methodology is used appropriately in all projects
+  * Manage project and release interdependencies to ensure Project Managers are fully informed of issues and options
+  * Manage multiple testing projects across parallel development projects, incorporating project interdependencies to ensure release delivery
+  * Assist in business case preparation by supplying appropriate costs, schedules, and environment descriptions for all testing phases of projects
+
+Work with the Project Managers and Development Managers to continue to develop and improve the testing capabilities to increase value returned through development projects Additional responsibilities:
+  * Ensure continuous improvement of testing methodologies, processes and tools across development projects
+  * Review test deliverables to ensure that they adhere to software quality assurance standards
+  * Ensure the delivery of testing environments and tools to meet project and support requirements
+  * Identify opportunities to develop, maintain and consult on quality testing throughout development projects
+  * Contribute to the ongoing development of test standards and best practices to the organisation
+  * Coaching, monitoring, supervision of direct reports to ensure they have the skills and knowledge to perform their role to be compliant with external legislation, bank standards and internal operating policies and procedures relevant to their position(s)
+  * Provide professional and ethical behaviour in your actions by ensuring compliance with external legislation, bank standards and internal operating policies and procedures relevant to the position
+  * Ensure all personal training records are maintained
+  * Ensure that all work is performed in accordance with the requirements of the Health & Safety Policy, procedures and legislation. Take reasonable care for own health & safety, as well as that of others
+  * To conform with all internal operating procedures relevant to the position. 
+
+Major Challenges
+  * Successfully managing the quality assurance for projects or programs
+  * Evaluating methods and tools to improve quality of code development
+  * Managing multiple testing projects across parallel development projects, incorporating project interdependencies to ensure release delivery
+  * Measuring and monitoring progress using established processes to ensure that the testing projects are delivered on time and within budget, and that they meet or exceed expectations
+
+^ RASCI | NAVIGATE Processes ^
+| Responsible | [[:process:acceptance and signoff|Acceptance and Signoff]] |
+| Accountable | [[:process:produce_tsr|Produce Test Summary Report]] |
+| Supporting  |   |
+| Consulted   |   |
+| Informed    |   |
+
+^ Job-aids ^
+| [[:todo|todo]] |
+| [[:todo|todo]] |
+
+^ Tools used ^
+| [[:todo|todo]] |
+
+^ Maturity     ^ Practices ^
+| Extreme      |           |
+| :::          |           |
+| Advanced     |           |
+| :::          |           |
+| Intermediate |           |
+| :::          |           |
+| Beginner     |           |
+| :::          |           |
+| Base         | [[:process:produce_tsr|Produce Test Summary Report]] |
+| :::          |           |

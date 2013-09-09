@@ -1,0 +1,79 @@
+
+---- dataentry roles ----
+type               : role
+name               : Capacity management
+category           : Service management
+subcategory        : Service design
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Capacity management (CPMG) =====
+
+==== Description ====
+The management of the capability, functionality and sustainability of service components (including hardware, software and network) to meet current and forecast needs in a cost effective manner. This includes dealing with both long-term changes and short-term variations in the level of demand, and deployment, where appropriate, of techniques to modify demand for a particular resource or service. 
+
+==== SFIA Level 4 ====
+Monitors service component capacity and initiates actions to resolve any shortfalls according to agreed procedures. Applies techniques to modify demand for a particular resource or service. 
+
+==== SFIA Level 5 ====
+Drafts and maintains policy, standards and procedures for service component capacity management. Ensures the correct implementation of standards and procedures. Reviews information in conjunction with service level agreements to identify any capacity issues and specifies any required changes. Works with business users to agree and implement short and medium term modifications to demand
+
+==== SFIA Level 6 ====
+Develops strategies to ensure all the performance measures of all IT services meet the needs of the business and of any service requirements or service level agreements which may be in place. Ensures that the policy and standards for capacity management are fit for purpose, current and are correctly implemented. Reviews new business proposals and provides specialist advice on capacity and demand issues. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Capacity management 
+filteror : accountable_pages=role: Capacity management
+filteror : consulted_pages=role:Capacity management 
+filteror : informed_pages=role: Capacity management
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Capacity management 
+filteror : accountable_pages=role:Capacity management
+filteror : consulted_pages=role:Capacity management
+filteror : informed_pages=role:Capacity management
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Capacity management 
+filteror : accountable_pages=role: Capacity management
+filteror : consulted_pages=role:Capacity management
+filteror : informed_pages=role:Capacity management 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Capacity management role within ALM and the IT industry in general, based on IT Best Practices}}
+

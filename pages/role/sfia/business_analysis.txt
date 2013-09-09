@@ -1,0 +1,110 @@
+
+---- dataentry roles ----
+type               : role
+name               : Business analysis
+category           : Business change
+subcategory        : Business change management
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Business analysis (BUAN) =====
+
+==== Description ====
+The methodical investigation, analysis, review and documentation of all or part of a business in
+terms of business functions and processes, the information used and the data on which the
+information is based. The definition of requirements for improving processes and systems,
+reducing their costs, enhancing their sustainability,and the quantification of potential business
+benefits. The creation of viable specifications and acceptance criteria in preparation for the
+construction of information and communication systems.
+
+==== SFIA Level 3 ====
+Investigates operational needs and problems, and opportunities,contributing to the recommendation of improvements in automated and non-automated components of new or changed processes and organisation. Assists in defining acceptance tests for these recommendations.
+
+==== SFIA Level 4 ====
+Investigates operational
+requirements, problems, and opportunities,seeking effective business solutions through improvements in automated and non-automated components of new or changed processes. Assists in the analysis of stakeholder objectives, and the underlying issues arising from investigations into business requirements and problems, and identifies options for consideration.Identifies potential benefits, and available options for consideration. Works with clients/users in defining acceptance tests.
+
+==== SFIA Level 5 ====
+Takes responsibility for investigative work to determine business requirements and specify effective business processes, through improvements in information systems, information management, practices,procedures, and organisation change. Applies and monitors the use of required modelling and analysis tools, methods and standards, giving special consideration to business perspectives. Conducts investigations at a high level for strategy studies, business requirements specifications and feasibility studies. Prepares business cases which define potential benefits, options for achieving these benefits through development of new or changed processes, and associated business risks. Identifies stakeholders and their business needs.
+
+==== SFIA Level 6 ====
+Takes full responsibility for business analysis within a significant segment of an organisation where the advice given and decisions made will have a measurable impact on the profitability or effectiveness of the organisation. Establishes the contribution that technology can make to business objectives,defining strategies, validating and justifying business needs, conducting feasibility studies,producing high-level and detailed business models, preparing business cases, overseeing development and implementation of solutions,taking into account the implications of change on the organisation and all stakeholders. Guides senior management towards accepting change
+brought about through process and organisational change.
+
+==== The Key Responsibilities of a Business Analyst. ====
+
+Even thought the business analyst has a vital role in IT project, the role doesn't necessarily involve IT. The primary focus is to "enable the organization to achieve its goals", which almost always means "improve business processes and tools". As many processes are automated in this day and age, this will likely include some change to IT and hence the involvement in IT teams. However the role of the business analyst is much bigger.
+
+Therefore, withing the scope of ALM processes, a business analyst is responsible for the following:
+
+
+    Elicitation - Discovering the underlying business need to be addressed 
+    and information related to the product and project requirements, often 
+    through conversations with stakeholders.
+    
+    Analyzing Requirements - Organizing, specifying and modeling the requirements 
+    to ensure they are complete and unambiguous.
+    
+    Specifying Requirements - Documenting the requirements in a format that can
+    be shared with stakeholders.
+    
+    Validating and Verifying Requirements - Ensuring the requirements map to the 
+    real business need, are approved by all relevant stakeholders, and meet 
+    essential quality standards.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Business analysis 
+filteror : accountable_pages=role:Business analysis 
+filteror : consulted_pages=role:Business analysis 
+filteror : informed_pages=role:Business analysis 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Business analysis 
+filteror : accountable_pages=role:Business analysis
+filteror : consulted_pages=role:Business analysis
+filteror : informed_pages=role:Business analysis
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Business analysis 
+filteror : accountable_pages=role:Business analysis 
+filteror : consulted_pages=role:Business analysis 
+filteror : informed_pages=role:Business analysis 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Business analysis role within ALM and the IT industry in general, based on IT Best Practices}}
+

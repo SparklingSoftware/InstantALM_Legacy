@@ -1,0 +1,82 @@
+
+---- dataentry role ----
+type               : role
+name               : Data analysis
+category           : Solution development and implementation
+subcategory        : Systems development
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Data analysis (DTAN) =====
+
+==== Description ====
+The investigation, evaluation, interpretation and classification of data, in order to define and clarify information structures which describe the relationships between real world entities. Such structures facilitate the development of software systems, links between systems or retrieval activities. 
+
+==== SFIA Level 2 ====
+Applies data analysis and data modelling techniques to establish, modify or maintain a data structure and its associated components (entity descriptions, relation-ship descriptions, attribute definitions).
+
+==== SFIA Level 3 ====
+Applies data analysis, data modelling, and quality assurance techniques, based upon a detailed understanding of business processes, to establish, modify or maintain data structures and associated components (entity descriptions, relationship descriptions, attribute definitions). Advises database designers and other application development team members on the details of data structures and associated components. 
+
+==== SFIA Level 4 ====
+Investigates corporate data requirements, and applies data analysis, data modelling and quality assurance techniques, to establish, modify or maintain data structures and their associated components (entity descriptions, relationship descriptions, attribute definitions). Provides advice and guidance to database designers and others using the data structures and associated components. 
+
+==== SFIA Level 5 ====
+Sets standards for data analysis tools and techniques, advises on their application, and ensures compliance. Manages the investigation of corporate data requirements, and co-ordinates the application of data analysis and data modelling techniques, based upon a detailed understanding of the corporate information requirements, in order to establish, modify or maintain data structures and their associated components (entity descriptions, relationship descriptions, attribute definitions).
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Data analysis 
+filteror : accountable_pages=role:Data analysis 
+filteror : consulted_pages=role:Data analysis
+filteror : informed_pages=role:Data analysis 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Data analysis 
+filteror : accountable_pages=role:Data analysis
+filteror : consulted_pages=role:Data analysis
+filteror : informed_pages=role:Data analysis
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Data analysis
+filteror : accountable_pages=role:Data analysis
+filteror : consulted_pages=role:Data analysis 
+filteror : informed_pages=role:Data analysis
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Data analysis role within ALM and the IT industry in general, based on IT Best Practices}}
+

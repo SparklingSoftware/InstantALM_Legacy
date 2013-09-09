@@ -1,38 +1,21 @@
 
 
-===== End-to-end IT Process =====
+====== End-to-end IT Process ======
 
 {{map>:process:service_lifecycle.png|End-to-end IT Process}}
 
-  * [[:process:strategy|Strategy @ 333,73,464,182]]
+  * [[:process:strategy|Strategy @ 335,74,464,182]]
   * [[:process:design|Design @ 486,124,626,228]]
   * [[:process:build and test|Build and Test @ 585,248,698,360]]
   * [[:process:deployment|Deployment @ 571,391,685,503]]
   * [[:process:operations|Operations@ 408,463,563,569]]
   * [[:process:support|Support @ 206,433,381,548]]
   * [[:process:optimise|Optimise@ 160,260,279,379]]
-  * [[:process:retirement|Retirement @ 0,62,137,207]]
+  * [[:process:retirement|Retirement @ 5,66,139,181]]
 
   * [[:process:project management|Project Management @ 423,241,562,315]]
   * [[:process:service management|Service Management @ 320,317,449,385]]
  
-{{<map}}
-
-
-
-===== Application Lifecycle Management Process (ALM Process) =====
-
-The following process map describes the ALM Process from a very high level:
-
-{{map>::process:high_level_alm_process.png|High Level Process}}
-
-  * [[:process:alm_process:business_case_funnel|Business Case Funnel @ 10,86,80,305]]
-  * [[:process:alm_process:inception|Inception @ 147,201,196,232]]
-  * [[:process:alm_process:elaboration|Elaboration @ 206,201,262,232]]
-  * [[:process:alm_process:implementation|Implementation @ 272,201,354,232]]
-  * [[:process:alm_process:transition|Transition @ 361,201,413,232]]
-  * [[:process:alm_process:retirement|Retirement @ 421,201,477,232]]
-
 {{<map}}
 
 

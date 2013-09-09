@@ -1,0 +1,34 @@
+
+
+===== Role: Test Lead =====
+
+** Description: **
+
+<<Description>>
+
+^ Key processes where this role is involved in ^
+| Responsible | [[:process:todo:todo| Todo -> Todo]]  |
+| Accountable | [[:process:todo:todo| Todo -> Todo]]  |
+| Supporting  | [[:process:todo:todo| Todo -> Todo]]  |
+| Consulted   | [[:process:todo:todo| Todo -> Todo]]  |
+| Informed    | [[:process:todo:todo| Todo -> Todo]]  |
+
+^ Job-aids ^
+| [[:todo|todo]] |
+| [[:todo|todo]] |
+
+^ Tools used ^
+| [[:todo|todo]] |
+
+^ Maturity     ^ Practices ^
+| Extreme      |           |
+| :::          |           |
+| Advanced     |           |
+| :::          |           |
+| Intermediate |           |
+| :::          |           |
+| Beginner     |           |
+| :::          |           |
+| Base         |           |
+| :::          |           |
+

@@ -1,0 +1,103 @@
+
+---- dataentry roles ----
+type               : role
+name               : Information analysis
+category           : Strategy and architecture
+subcategory        : Information strategy
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Information analysis INAN =====
+
+
+==== Description ====
+The validation and analysis of information, including the ability to discover and quantify patterns in data of any kind, including numbers, symbols, text, sound and image. The relevant techniques include statistical and data mining or machine learning methods such as rule induction, artificial neural networks, genetic algorithms and automated indexing systems.
+
+==== SFIA Level 3 ====
+Undertakes analytical activities and delivers analysis outputs,in accordance with customer needs and conforming to agreed standards.
+
+==== SFIA Level 4 ====
+Assesses the integrity of data from various sources (including,for example, from sensors & measurement systems). Applies a variety of analytical and presentational techniques, in consultation with experts if appropriate, and with sensitivity to the limitations of the techniques.
+
+==== SFIA Level 5 ====
+Independently validates external information from multiple sources. Specifies and applies appropriate analytical techniques and reports results to clients and management.
+
+==== SFIA Level 6 ====
+Is responsible for the organisation's commitment to efficient and effective analysis of textual/numerical/visual/audio information, including processes to acquire and validate external information on a regular and consistent basis.
+
+==== SFIA Level 7 ====
+Establishes and manages information analysis methods and techniques. Plans and implements the dissemination of methods and techniques and provides leadership and guidance for analysis of
+both internal and external information. Identifies and establishes the veracity of external sources of information of relevance to the operational needs of the enterprise. Establishes and
+manages the means to independently validate external information from multiple sources.
+Plans and implements processes to acquire and validate external information on a regular and consistent basis.
+
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Information analysis 
+filteror : accountable_pages=role:Information analysis 
+filteror : consulted_pages=role:Information analysis 
+filteror : informed_pages=role:Information analysis 
+sort     : name
+----
+
+==== Practices ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Information analysis 
+filteror : accountable_pages=role:Information analysis 
+filteror : consulted_pages=role:Information analysis 
+filteror : informed_pages=role:Information analysis 
+sort     : name
+----
+
+==== Role Maturity ====
+
+---- datatable ----
+cols      : Name, PMageid%, base_pages, beginner_pages, intermediate_pages, advanced_pages, extreme_pages
+headers   : Name, Details, Base, Beginner, Intermediate, Advanced, Extreme
+filter    : type = practice
+filterand : base_pages = role:Information analysis 
+filteror  : beginner_pages = role:Information analysis 
+filteror  : intermediate_pages = role:Information analysis 
+filteror  : advanced_pages = role:Information analysis 
+filteror  : extreme_pages = role:Information analysis 
+sort      : name
+----
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Information analysis 
+filteror : accountable_pages=role:Information analysis 
+filteror : consulted_pages=role:Information analysis 
+filteror : informed_pages=role:Information analysis 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Information analysis role within ALM and the IT industry in general, based on IT Best Practices}}
+

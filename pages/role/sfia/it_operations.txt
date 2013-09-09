@@ -1,0 +1,82 @@
+
+---- dataentry roles ----
+type               : role
+name               : IT Operations
+category           : Service management
+subcategory        : Service operations
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: IT Operations (ITOP) =====
+
+==== Description ====
+The operation and control of the IT infrastructure (typically hardware, software, data stored on various media, and all equipment within wide and local area networks) required to deliver and support IT services and products to meet the needs of a business. Includes preparation for new or changed services, operation of the change process, the maintenance of regulatory, legal and professional standards, and the monitoring of performance of systems and services in relation to their contribution to business performance, their security and their sustainability. 
+
+==== SFIA Level 1 ====
+Contributes, under instruction, to system operation.  
+
+==== SFIA Level 2 ====
+Carries out agreed operational procedures of a routine nature. Contributes to maintenance, installation and problem resolution. 
+
+==== SFIA Level 3 ====
+Carries out agreed operational procedures, including network configuration, installation and maintenance. Uses network management tools to collect and report on network load and performance statistics. Contributes to the implementation of maintenance and installation work. Uses standard procedures and tools to carry out defined system backups, restoring data where necessary. Identifies operational problems and contributes to their resolution. 
+
+==== SFIA Level 4 ====
+Provides technical expertise to enable the correct application of operational procedures. Uses network management tools to determine network load and performance statistics. Contributes to the planning and implementation of maintenance and installation work. Implements agreed network changes and maintenance routines. Identifies operational problems and contributes to their resolution, checking that they are managed in accordance with agreed standards and procedures. Provides reports and proposals for improvement to specialists, users and managers. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:IT Operations 
+filteror : accountable_pages=role:IT Operations 
+filteror : consulted_pages=role:IT Operations 
+filteror : informed_pages=role:IT Operations
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:IT Operations 
+filteror : accountable_pages=role:IT Operations
+filteror : consulted_pages=role:IT Operations
+filteror : informed_pages=role:IT Operations
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:IT Operations 
+filteror : accountable_pages=role:IT Operations 
+filteror : consulted_pages=role:IT Operations 
+filteror : informed_pages=role:IT Operations 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the IT Operations role within ALM and the IT industry in general, based on IT Best Practices}}
+

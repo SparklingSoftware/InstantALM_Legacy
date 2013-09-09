@@ -1,0 +1,88 @@
+
+---- dataentry roles ----
+type               : role
+name               : Benefits management
+category           : Business change
+subcategory        : Business change Management
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Benefits management (BENM) =====
+
+==== Description ====
+Monitoring for the emergence of anticipated benefits (typically specified as part of the business
+case for a change programme or project). Action (typically by the programme management team) to optimise the business impact of individual and combined benefits.
+
+==== SFIA Level 5 ====
+Identifies
+specific measures and mechanisms by which benefits can be measured, and plans to activate
+these mechanisms at the required time. Monitors benefits against what was predicted in the business case and ensures that all participants are informed and involved throughout the change
+programme and fully prepared to exploit the new operational business environment once it is in
+place. Supports senior management to ensure that all plans, work packages and deliverables are
+aligned to the expected benefits and leads activities required in the realisation of the benefits of each part of the change programme.
+
+==== SFIA Level 6 ====
+Promotes the
+change programme vision to staff at all levels of the business operation, brings order to complex
+situations, and keeps a focus on business objectives. Works with senior people responsible for
+the line business operation, to ensure maximum improvements are made in the business operations
+as groups of projects deliver their products into operational use. Maintains the business case
+for funding the programme and confirms continuing business viability of the programme at regular
+intervals.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Benefits management
+filteror : accountable_pages=role:Benefits management
+filteror : consulted_pages=role:Benefits management 
+filteror : informed_pages=role:Benefits management 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Benefits management 
+filteror : accountable_pages=role:Benefits management
+filteror : consulted_pages=role:Benefits management
+filteror : informed_pages=role:Benefits management
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Benefits management 
+filteror : accountable_pages=role:Benefits management 
+filteror : consulted_pages=role:Benefits management 
+filteror : informed_pages=role:Benefits management 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Benefits management role within ALM and the IT industry in general, based on IT Best Practices}}
+

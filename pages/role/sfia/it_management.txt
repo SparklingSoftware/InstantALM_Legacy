@@ -1,0 +1,79 @@
+
+---- dataentry roles ----
+type               : role
+name               : IT management
+category           : Service management
+subcategory        : Service strategy
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: IT management (ITMG) =====
+
+==== Description ====
+The management of the IT infrastructure and resources required to plan for, develop, deliver and support IT services and products to meet the needs of a business. The preparation for new or changed services, management of the change process and the maintenance of regulatory, legal and professional standards. The management of performance of systems and services in terms of their contribution to business performance and their financial costs and sustainability. The management of bought-in services. The development of continual service improvement plans to ensure the IT infrastructure adequately supports business needs. 
+
+==== SFIA Level 5 ====
+Takes responsibility for the design, procurement, installation, upgrading, operation, control, maintenance (including storage and communication of data, voice, text, audio and images) and effective use of IT infra-structure components and monitors their performance. Provides technical management of an IT operation, ensuring that agreed service levels are met and all relevant procedures are adhered to. Schedules and supervises all maintenance and installation work. Ensures that operational problems are identified and resolved. Provides appropriate status and other reports to specialists, users and managers. Ensures that operational procedures and working practices are fit for purpose and current. 
+
+==== SFIA Level 6 ====
+Identifies and manages resources needed for the planning, development and delivery of specified information and communications systems services (including data, voice, text, audio and images). Influences senior level customers and project teams through change management initiatives, ensuring that the infrastructure is managed to provide agreed levels of service and data integrity. Takes full responsibility for budgeting, estimating, planning and objective setting. Plans and manages implementation of processes and procedures, tools and techniques for monitoring and managing the performance of automated systems and services, in respect of their contribution to business performance and benefits to the business, where the measure of success depends on achieving clearly stated business/ financial goals and performance targets. Monitors performance and takes corrective action where necessary. 
+
+==== SFIA Level 7 ====
+Sets strategy for management of resources, including corporate telecommunications functions, and promotes the opportunities that technology presents to the employing organisation, including the feasibility of change and its likely impact upon the business. Authorises allocation of resources for the planning, development and delivery of all information systems services and products. Responsible for IT governance. Authorises organisational policies governing the conduct of management of change initiatives and standards of professional conduct. Maintains an overview of the contribution of programmes to organisational success. Inspires creativity and flexibility in the management and application of IT. Sets strategy for monitoring and managing the performance of IT-related systems and services, in respect of their contribution to business performance and benefits to the business. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:IT management 
+filteror : accountable_pages=role:IT management 
+filteror : consulted_pages=role: IT management
+filteror : informed_pages=role:IT management
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:IT management 
+filteror : accountable_pages=role:IT management
+filteror : consulted_pages=role:IT management
+filteror : informed_pages=role:IT management
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:IT management 
+filteror : accountable_pages=role:IT management 
+filteror : consulted_pages=role: IT management
+filteror : informed_pages=role: IT management
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the IT management role within ALM and the IT industry in general, based on IT Best Practices}}
+

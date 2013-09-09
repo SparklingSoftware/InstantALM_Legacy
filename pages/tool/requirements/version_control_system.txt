@@ -1,11 +1,12 @@
+<wrap hide>
+  <revision_frequency>30</revision_frequency>
+</wrap>
 
-
-
-===== Version Control System (VCS) Requirements =====
+====== Version Control System (VCS) Requirements ======
 
 ^ 3.1 ^ Security ^
 | 3.1.1 | We require the ability to host repositories on our repository server that are protectable in the form of no access, read-only access, or read/write access. Some project code is of sensitive nature, thus the requirement of no access. We also want the ability to restrict who can update source code of a project.   |
-| 3.1.2 | We also require the ability to secure branches individually, enabling production support teamâ€™s access to the production mainline branch, and development teamâ€™s access to alternate branches.   |
+| 3.1.2 | We also require the ability to secure branches individually, enabling production support team’s access to the production mainline branch, and development team’s access to alternate branches.   |
 | 3.1.3 | Integrated AD authentication and ability to utilise AD groups to manage user access would be desirable. One less password for users is always a good thing.   |
 ^ 3.2 ^ Backup, Reliability and Robustness  ^
 | 3.2.1 | We must have the ability to back up the repositories.   |
@@ -26,14 +27,14 @@
 ^ 3.6 ^ Performance ^
 | 3.6.1 | Creation of new users should be simple. The process should take less than half an hour.   |
 | 3.6.2 | New repositories should be setup easily, also in a reasonable time frame of less than 1 hour.   |
-| 3.6.3 | Checkouts should be fast, a sub 1 second process for up to 20 files, if checking out is even required. Modern version control systems often donâ€™t require a checkout unless single user checkout is enforced.   |
-| 3.6.4 | Integration with the wider teamâ€™s code should take less than 5 minutes for a typical project[6] where no significant time is spent manually resolving merge conflicts. This should essentially be proportional to the size of change, rather than the repository size.   |
+| 3.6.3 | Checkouts should be fast, a sub 1 second process for up to 20 files, if checking out is even required. Modern version control systems often don’t require a checkout unless single user checkout is enforced.   |
+| 3.6.4 | Integration with the wider team’s code should take less than 5 minutes for a typical project[6] where no significant time is spent manually resolving merge conflicts. This should essentially be proportional to the size of change, rather than the repository size.   |
 | 3.6.5 | Creation of a new workspace should occur in less than 10 minutes for typical project[7]. Location should be largely irrelevant, as we should be maintaining a reasonable service level regardless of where our users or teams are located.   |
 | 3.6.6 | Updating of a workspace should take less than 5 minutes. Where there are no files to be updated, it should be a sub 1 minute operation.   |
 | 3.6.7 | Applying labels to the repository should take less than 20 seconds.   |
 | 3.6.8 | Pulling up the last 100 revisions (i.e. the recent history of the project) of the repository should take sub 20 seconds.   |
 | 3.6.9 | Geographically distant development teams must be able to use the tool with minimal impact to above performance.   |
-| 3.6.10 | Adding 1000 files should be easy and fast taking less than 20 seconds. Essentially the system should know where there are new files that need to be added so itâ€™s easy and quick. Note delivery of files would be part of the integration performance requirement.   |
+| 3.6.10 | Adding 1000 files should be easy and fast taking less than 20 seconds. Essentially the system should know where there are new files that need to be added so it’s easy and quick. Note delivery of files would be part of the integration performance requirement.   |
 ^ 3.7 ^ Functionality ^
 | 3.7.1 | All code delivered should be traceable back to the person whom delivered it. Comments should be mandatory and comments should allow tracing back delivery to requirements or defects.   |
 | 3.7.2 | Comment template would be desirable to ensure all required information is included.   |
@@ -46,10 +47,10 @@
 | 3.7.9 | Users must be able to work on individual workspaces, and continuously integrate their changes with other users quickly and easily.   |
 | 3.7.10 | Users should be able to integrate their delivery easily with others via inbuilt merge functionality.   |
 | 3.7.11 | The tool must support varying branching methodologies. We have teams that deal with their pipeline of work differently, some teams use branch by feature, others teams using multiple simultaneous branches concurrently due to unknown release dates.   |
-| 3.7.12 | There should be easy and functional tools to enable users to utilise the source control management system. This could be in the form of Integration with development IDEâ€™s in use within NAB Wholesale (i.e. IntelliJ IDEA, Eclipse, and Visual Studio). This should also be available outside the IDE, on the command line or through GUI another tool.   |
+| 3.7.12 | There should be easy and functional tools to enable users to utilise the source control management system. This could be in the form of Integration with development IDE’s in use within NAB Wholesale (i.e. IntelliJ IDEA, Eclipse, and Visual Studio). This should also be available outside the IDE, on the command line or through GUI another tool.   |
 | 3.7.13 | Support for disconnected mode to enable remote users where network connectivity is not always as reliable as local users. A user in the Asia should not have a problem working if the connection back to NAB Melbourne is broken or unstable.   |
 | 3.7.14 | Support for a web interface to extract information about the source code and history is highly desirable as many continuous integration tools support integration with such interfaces which can give productivity gains to project teams.   |
-| 3.7.15 | Atomic check inâ€™s and delivery is required to ensure the integrity of delivered code by users. Again, we must have to be able to rebuild previous versions of the software components if required. What is delivered to source control management must come out exactly as it was always.   |
+| 3.7.15 | Atomic check in’s and delivery is required to ensure the integrity of delivered code by users. Again, we must have to be able to rebuild previous versions of the software components if required. What is delivered to source control management must come out exactly as it was always.   |
 | 3.7.16 | Integrity checking of repositories should be an available feature to validate repositories content.  |
 | 3.7.17 | The Source Control Management platform should be available to Windows, Linux and UNIX (Solaris) hosts as we operate on all 3 platforms.   |
 | 3.7.18 | All repositories and branches should be able to be centrally co-located to enable easy finding of code, as well as enable other requirements like backup and access control.   |
@@ -69,3 +70,8 @@
 ^ references: ^ ^
 | [6] | Typical projects as surveyed in NAB Wholesale Banking Defined in Appendix D  |
 | [7] | Typical projects as surveyed in NAB Wholesale Banking Defined in Appendix D  |
+
+=== Continue Reading: ===
+
+[[:tool:version control system|Version Control System Overview]]
+[[:tools:tool_introduction|Tools Overview]]

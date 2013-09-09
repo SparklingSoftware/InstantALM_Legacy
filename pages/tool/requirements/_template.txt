@@ -1,0 +1,36 @@
+<wrap hide>
+  <revision_frequency>30</revision_frequency>
+</wrap>
+
+/* More information on what to specify as part of each section, please refer to [[:contribute:do_work:guidelines|Writing Guidelines]] */
+
+====== <<TOOL_FUNCTION>> Requirements ======
+
+^ ID ^ [[:general:glossary:glossary_introduction#MoSCoW (BABOK)|MoSCoW]] ^ Functional Requirements ^
+| 0.0.1 | M  | As a ... I want to ... So that ... |
+| 0.0.1 | M  | As a ... I want to ... So that ... |
+| 0.0.1 | M  | As a ... I want to ... So that ... |
+
+^ ID ^ [[:general:glossary:glossary_introduction#MoSCoW (BABOK)|MoSCoW]] ^ Security ^
+| 1.0.0 | M | As an Security User I want the tool to support integration with Active Directory for authorization So that the tool meets security group policy |
+| 0.0.1 | M  | As a ... I want to ... So that ... |
+
+^ ID ^ [[:general:glossary:glossary_introduction#MoSCoW (BABOK)|MoSCoW]] ^ Reliability ^
+| 0.0.1 | M  | As a ... I want to ... So that ... |
+| 0.0.1 | M  | As a ... I want to ... So that ... |
+| 0.0.1 | M  | As a ... I want to ... So that ... |
+
+^ ID ^ [[:general:glossary:glossary_introduction#MoSCoW (BABOK)|MoSCoW]] ^ Maintenance ^
+| 0.0.1 | M  | As a ... I want to ... So that ... |
+| 0.0.1 | M  | As a ... I want to ... So that ... |
+| 0.0.1 | M  | As a ... I want to ... So that ... |
+
+^ ID ^ [[:general:glossary:glossary_introduction#MoSCoW (BABOK)|MoSCoW]] ^ Traceability ^
+| 0.0.1 | M  | As a ... I want to ... So that ... |
+| 0.0.1 | M  | As a ... I want to ... So that ... |
+| 0.0.1 | M  | As a ... I want to ... So that ... |
+
+=== Continue Reading: ===
+
+[[:tool:<<TOOL_FUNCTION>>|<<TOOL_FUNCTION>> overview]]
+[[:tools:tool_introduction|Tools Overview]]

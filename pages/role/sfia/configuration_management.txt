@@ -1,0 +1,85 @@
+
+---- dataentry roles ----
+type               : role
+name               : Configuration management
+category           : Service management
+subcategory        : Service transition
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Configuration management (CFMG) =====
+
+==== Description ====
+The lifecycle planning, control and management of the assets of an organisation (such as documentation, software and service assets, including information relating to those assets and their relationships. This involves identification, classification and specification of all configuration items (CIs) and the interfaces to other processes and data. Required information relates to storage, access, service relationships, versions, problem reporting and change control of CIs. The application of status accounting and auditing, often in line with acknowledged external criteria such as ISO 9000 and ISO/IEC 20000, throughout all stages of the CI lifecycle, including the early stages of system development. 
+
+==== SFIA Level 2 ====
+Applies tools, techniques and processes for administering information (such as the tracking and logging of components and changes) related to configuration items.
+
+==== SFIA Level 3 ====
+Administers configuration items (CIs) and related information. Applies tools, techniques and processes for administering CIs and related information, ensuring protection of assets and components from unauthorised change, diversion and inappropriate use.
+
+==== SFIA Level 4 ====
+Manages configuration items (CIs) and related information. Applies and maintains tools, techniques and processes for identification, classification and control of CIs and ensuring related information is complete, current and accurate. 
+
+==== SFIA Level 5 ====
+Manages configuration items (CIs) and related information. Investigates and implements tools, techniques and processes for managing CIs and verifies that related information is complete, current and accurate.
+
+==== SFIA Level 6 ====
+Manages the organisation's configuration management system and champions the business value and company policies for the configuration management system. Ensures that processes are in place for consistent classification and management of CIs, and for verification and audit of configuration records. Contributes strongly to the business service knowledge management system. Manages the research and development of tools, processes and techniques. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Configuration management 
+filteror : accountable_pages=role: Configuration management
+filteror : consulted_pages=role:Configuration management 
+filteror : informed_pages=role: Configuration management
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Configuration management 
+filteror : accountable_pages=role:Configuration management
+filteror : consulted_pages=role:Configuration management
+filteror : informed_pages=role:Configuration management
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Configuration management 
+filteror : accountable_pages=role:Configuration management 
+filteror : consulted_pages=role:Configuration management 
+filteror : informed_pages=role:Configuration management 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Configuration management role within ALM and the IT industry in general, based on IT Best Practices}}
+

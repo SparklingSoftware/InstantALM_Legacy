@@ -1,0 +1,82 @@
+
+---- dataentry roles ----
+type               : role
+name               : Learning and development assessment
+category           : Business change
+subcategory        : Skills management
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Learning and development assessment (LEDA) =====
+
+==== Description ====
+The assessment and evaluation of knowledge and skills acquired by any means whether formal or informal against capability and qualification frameworks such as SFIA..
+
+==== SFIA Level 3 ====
+Performs routine assessments of knowl-edge and experience using specified methods and according to specified standards
+
+==== SFIA Level 4 ====
+Performs routine and non-routine assessments of knowledge and experience using specified methods and according to specified standards.
+
+==== SFIA Level 5 ====
+Administers and ensures the accuracy of knowledge and experience assessments based on specified methods and according to specified standards.
+
+==== SFIA Level 6 ====
+Specifies methods and standards for assessing knowledge and experience.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Learning and development assessment 
+filteror : accountable_pages=role:Learning and development assessment
+filteror : consulted_pages=role:Learning and development assessment 
+filteror : informed_pages=role:Learning and development assessment 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Learning and development assessment 
+filteror : accountable_pages=role:Learning and development assessment
+filteror : consulted_pages=role:Learning and development assessment
+filteror : informed_pages=role:Learning and development assessment
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Learning and development assessment 
+filteror : accountable_pages=role:Learning and development assessment 
+filteror : consulted_pages=role:Learning and development assessment 
+filteror : informed_pages=role:Learning and development assessment 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Learning and development assessment role within ALM and the IT industry in general, based on IT Best Practices}}
+

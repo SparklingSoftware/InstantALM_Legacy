@@ -1,0 +1,83 @@
+
+---- dataentry roles ----
+type               : role
+name               : Business process testing
+category           : Business change
+subcategory        : Business change management
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Business process testing (BPTS) =====
+
+==== Description ====
+The planning, design, management, execution and reporting of business process tests and usability evaluations. The application of evaluation skills to the assessment of the ergonomics,usability and fitness for purpose of defined processes.This includes the synthesis of test tasks to be performed (from statement of user needs and user interface specification), the design of an
+evaluation programme, the selection of user samples, the analysis of performance, and inputting
+results to the development team.
+
+==== SFIA Level 4 ====
+Specifies and develops test scenarios to test that new/updated processes deliver improved ways of
+working for the end user at the same time as delivering efficiencies and planned business 
+benefits. Records and analyses test results, and reports any unexpected or unsatisfactory outcomes. Uses test plans and outcomes to specify user instructions.
+
+==== SFIA Level 5 ====
+Designs and manages tests of new/updated processes. Specifies test environment for whole life-cycle testing (e.g. using model office concept). Manages selection/creation of relevant scenarios for testing and ensures that tests reflect realistic operational business conditions. Ensure tests and results are documented, reported to stakeholders and are available for specification of user instructions. Highlights issues and risks identified during testing to business stakeholders. Provides specialist guidance and advice to less experienced colleagues and users to ensure that test are conducted in an appropriate manner.
+
+==== SFIA Level 6 ====
+Is responsible for organisational commitment to high standards in human factors. Specifies ergonomics standards and methods to meet organisational objectives. Sets the policy and standards for business process testing. Manages the design and execution of business process tests, usability evaluations, network and business trials, confidence tests. Maintains an overview of the business environment, required outcomes and potential exposures.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Business process testing 
+filteror : accountable_pages=role:Business process testing 
+filteror : consulted_pages=role:Business process testing 
+filteror : informed_pages=role:Business process testing 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Business process testing 
+filteror : accountable_pages=role:Business process testing
+filteror : consulted_pages=role:Business process testing
+filteror : informed_pages=role:Business process testing
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Business process testing 
+filteror : accountable_pages=role:Business process testing 
+filteror : consulted_pages=role:Business process testing 
+filteror : informed_pages=role:Business process testing 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Business process testing role within ALM and the IT industry in general, based on IT Best Practices}}
+

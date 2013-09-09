@@ -1,0 +1,85 @@
+
+====== Programming and software development (PROG) ======
+
+---- dataentry roles ----
+type               : role
+name               : Programming software development
+category           : Solution development and implementation
+subcategory        : Systems development
+summary            : 
+groups_pages       :
+----
+
+==== Description ====
+
+The design, creation, testing and documenting of new and amended programs from supplied specifications in accordance with agreed standards.
+
+=== Level 2 ===
+
+Designs, codes, tests, corrects, and documents simple programs, and assists in the implementation of software which forms part of a properly engineered information or communications system.
+
+=== Level 3 ===
+
+Designs, codes, tests, corrects, and documents moderately complex programs and program modifications from supplied specifications, using agreed standards and tools. Conducts reviews of supplied specifications, with others as appropriate.
+
+=== Level 4 ===
+Designs, codes, tests, corrects and documents large and/or complex programs and program modifications from supplied specifications using agreed standards and tools, to achieve a well engineered result. Takes part in reviews of own work and leads reviews of colleagues' work.
+
+=== Level 5 ===
+Sets local or team-based standards for programming tools and techniques, advises on their application and ensures compliance. Takes technical responsibility for all stages in the soft-ware development process. Prepares project and quality plans and advises systems development teams. Assigns work packages to technical staff, monitors performance and reports progress. Provides advice, guidance and assistance to less experienced colleagues as required.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, %pageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Programming software development 
+filteror : accountable_pages=role:Programming software development 
+filteror : consulted_pages=role:Programming software development 
+filteror : informed_pages=role:Programming software development 
+sort     : name
+----
+
+==== Practices ====
+
+---- datatable ----
+cols     : maturity, %pageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Programming software development 
+filteror : accountable_pages=role:Programming software development 
+filteror : consulted_pages=role:Programming software development 
+filteror : informed_pages=role:Programming software development 
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, %pageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Programming software development 
+filteror : accountable_pages=role:Programming software development 
+filteror : consulted_pages=role:Programming software development 
+filteror : informed_pages=role:Programming software development 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Programming and software development role within ALM and the IT industry in general, based on IT Best Practices}}
+

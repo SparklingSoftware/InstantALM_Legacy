@@ -1,0 +1,83 @@
+
+---- dataentry roles ----
+type               : role
+name               : IT estate management
+category           : Service management
+subcategory        : Service operation
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: IT estate management (DCMA) =====
+
+
+==== Description ====
+The planning, control and management of all the facilities which, collectively, make up the IT estate. This involves provision and management of the physical environment, including space and power allocation, and environmental monitoring to provide statistics on energy usage. Encompasses physical access control, and adherence to all mandatory policies and regulations concerning health and safety at work. 
+
+==== SFIA Level 3 ====
+Monitors compliance against agreed processes and investigates, assesses and resolves incidents of non-compliance, escalating where necessary. Grants users required physical accesses and monitors and reports on overall access control.
+
+==== SFIA Level 4 ====
+Uses data centre management tools to produce management information on power, cooling and space and investigate issues where necessary. Carries out routine audit and checks to ensure adherence to policies and procedures. Facilitates the implementation of mandatory electrical safety testing.
+
+==== SFIA Level 5 ====
+Develops and maintains the standards, processes and documentation for data centres. Optimises efficiency in population of data centre space. Ensures adherence to all relevant policies and processes. Uses data centre management tools to plan, record and manage the types of infrastructure installed and the associated power, space and cooling capabilities, usage and actions to meet corporate sustainability targets. 
+
+==== SFIA Level 6 ====
+Sets the organisational policy for the management of the IT estate and ensures that policy is reflected using best practice. Develops strategies to ensure future requirements for data centre space can be forecast and fulfilled. Takes overall responsibility for adherence to health & safety regulations and electrical safety policy. Seeks out and ensures use of industry best practice to ensure future plans are aligned to meet corporate sustainability targets
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:IT estate management
+filteror : accountable_pages=role:IT estate management 
+filteror : consulted_pages=role:IT estate management 
+filteror : informed_pages=role:IT estate management
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:IT estate management 
+filteror : accountable_pages=role:IT estate management
+filteror : consulted_pages=role:IT estate management
+filteror : informed_pages=role:IT estate management
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:IT estate management 
+filteror : accountable_pages=role:IT estate management 
+filteror : consulted_pages=role:IT estate management 
+filteror : informed_pages=role:IT estate management
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the IT estate management role within ALM and the IT industry in general, based on IT Best Practices}}
+

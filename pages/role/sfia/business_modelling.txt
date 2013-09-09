@@ -1,0 +1,91 @@
+
+---- dataentry roles ----
+type               : role
+name               : Business modelling
+category           : Business change
+subcategory        : business change management
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Business modelling (BSMO) =====
+
+==== Description ====
+The production of abstract or distilled representations of real world, business or gaming situations in traditional or trans-media applications, to aid the communication and understanding of existing, conceptual or proposed scenarios.Predominantly focused around the representation
+of processes, roles, data, organisation and time. Models may be used to represent a subject
+at varying levels of detail and decomposition.
+
+==== SFIA Level 2 ====
+Understands the purpose and benefits of modelling. Uses established techniques as directed to model simple subject areas with clearly-defined boundaries.May assist in more complex modelling activities.Develops models with input from subject matter experts and communicates the results back to them for review and confirmation.
+
+==== SFIA Level 3 ====
+Conversant with techniques covering full range of modelling situations.Models current and desired scenarios as directed. Selects appropriate modelling techniques for meeting assigned objectives. Gains agreement from subject matter experts to models produced. Reviews resulting models with stakeholders and gains resolution to resultant issues
+
+==== SFIA Level 4 ====
+Conducts advanced modelling activities for significant change programmes and across multiple business functions. Has an in-depth knowledge of organisation-standard techniques. Plans own
+modelling activities, selecting appropriate techniques and the correct level of detail for meeting
+assigned objectives. May contribute to discussions about the choice of the modelling approach to be used. Obtains input from and communicates modelling results to senior managers for agreement.
+
+==== SFIA Level 5 ====
+Produces models in support of business strategy. Has in-depth knowledge of a broad range of industry-wide modelling techniques. Advises on the choice of techniques and approach and influences customers accordingly. Capable of developing bespoke models for unusual contexts. Responsible for planning and co-ordinating team modelling activities and for ensuring the quality of their work.
+
+==== SFIA Level 6 ====
+Defines modelling standards and quality targets for an organisation.Has continuing responsibility for the maintenance of models for a designated function.Initiates organisation-wide modelling
+improvement activities and obtains customer buy-in to general changes. May represent own
+organisation as a modelling expert in industry initiatives.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Business modelling 
+filteror : accountable_pages=role:Business modelling 
+filteror : consulted_pages=role:Business modelling
+filteror : informed_pages=role:Business modelling 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Business modelling 
+filteror : accountable_pages=role:Business modelling
+filteror : consulted_pages=role:Business modelling
+filteror : informed_pages=role:Business modelling
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Business modelling 
+filteror : accountable_pages=role:Business modelling 
+filteror : consulted_pages=role:Business modelling
+filteror : informed_pages=role:Business modelling
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Business modelling role within ALM and the IT industry in general, based on IT Best Practices}}
+

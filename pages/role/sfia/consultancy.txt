@@ -1,0 +1,92 @@
+
+---- dataentry roles ----
+type               : role
+name               : Consultancy
+category           : Strategy and architecture
+subcategory        : Advice and guidance
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Consultancy (CNSL) =====
+
+==== Description ====
+The provision of advice and recommendations,based on expertise and experience, to address client needs. May deal with one specific aspect of IT and the business, or can be wide ranging and address strategic business issues. May also include support for the implementation of any agreed solutions.
+
+==== SFIA Level 5 ====
+Takes responsibility for understanding client requirements, collecting data, delivering analysis and problem resolution. Identifies, evaluates and recommends options,implementing if required. Collaborates with, and facilitates stakeholder groups, as part of formal or informal consultancy agreements. Seeks to fully address client needs, enhancing the capabilities and effectiveness of client personnel, by ensuring that proposed solutions are properly understood and appropriately exploited.
+
+==== SFIA Level 6 ====
+Manages provision of consultancy services, and/or management of a team of consultants. In own areas of expertise, provides advice and guidance to consultants and/or the client through involvement in the delivery of consultancy services. Engages with clients and maintains client relationships. Establishes agreements/contracts and manages completion and disengagement.
+
+==== SFIA Level 7 ====
+Takes responsibility for a significant consultancy practice, including practice development, proposals/sales to internal or external clients, account management and managing the delivery of consultancy services over a wide range of IT, and IT-related topics.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Consultancy  
+filteror : accountable_pages=role:Consultancy  
+filteror : consulted_pages=role:Consultancy  
+filteror : informed_pages=role:Consultancy  
+sort     : name
+----
+
+==== Practices ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Consultancy 
+filteror : accountable_pages=role:Consultancy 
+filteror : consulted_pages=role:Consultancy 
+filteror : informed_pages=role:Consultancy 
+sort     : name
+----
+
+==== Role Maturity ====
+
+---- datatable ----
+cols      : Name, AMageid%, base_pages, beginner_pages, intermediate_pages, advanced_pages, extreme_pages
+headers   : Name, Details, Base, Beginner, Intermediate, Advanced, Extreme
+filter    : type = practice
+filterand : base_pages = role:Consultancy 
+filteror  : beginner_pages = role:Consultancy 
+filteror  : intermediate_pages = role:Consultancy 
+filteror  : advanced_pages = role:Consultancy 
+filteror  : extreme_pages = role:Consultancy 
+sort      : name
+----
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Consultancy 
+filteror : accountable_pages=role:Consultancy 
+filteror : consulted_pages=role:Consultancy 
+filteror : informed_pages=role:Consultancy 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Consultancy role within ALM and the IT industry in general, based on IT Best Practices}}
+

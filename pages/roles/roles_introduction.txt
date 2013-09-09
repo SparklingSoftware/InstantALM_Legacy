@@ -1,22 +1,21 @@
 
+====== Roles Overview ======
 
-===== Roles in the Application Lifecycle Management (ALM) =====
+Below is a list of roles that are identified within the scope of this library. They are sorted (best fit approach) into competencies, however some of the roles are actually cross competency. 
 
-Below is a list of roles that are identified withing the ALM. They are sorted (best fit approach) into competencies, however some of the roles are actully cross competency. 
-
-It also ignores methodologies. Agile methodologies tend to encourage cross-competency team interaction. The roles below ignore the offical job title of people and refers to the work they are performing on the team, which can Business Analist in the morning and tester in the afternoon. Either role is described below so that the same person can learn about the expected outcomes in both team roles.
-
----- datacloud ----
-field: Category
-----
+It also ignores methodologies. Agile methodologies tend to encourage cross-competency team interaction. The roles below ignore the official job title of people and refers to the work they are performing on the team, which can Business Analyst in the morning and tester in the afternoon. Either role is described below so that the same person can learn about the expected outcomes in both team roles.
 
 ---- datatable ----
-cols     : Category, Subcategory, %pageid%
-headers  : Category, Subcategory, Details
-filter   : type=role
-sort     : Category
+cols           : %pageid%, sfia_pages
+headers        : NAB Role, SFIA mapping
+sort           : Category
+filter         : type=role
+filterand      : source=NAB
 ----
-
 
 === Continue reading: ===
 
+The following sources have been used to gather these generic IT role descriptions:
+
+http://wiki.okfn.org/Handbook/Generic_Team_Roles
+http://www.bridging-the-gap.com/what-is-a-business-analyst-role-anyway/

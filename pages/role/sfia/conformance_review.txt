@@ -1,0 +1,82 @@
+
+---- dataentry roles ----
+type               : role
+name               : Conformance review
+category           : Procurement and management support
+subcategory        : Quality and conformance
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Conformance review (CORE) =====
+
+==== Description ====
+The independent assessment of the conformity of any activity, process, deliverable, product or service to the criteria of specified standards, such as ISO 27001, local standards, best practice, or other documented requirements. May relate to, for example, asset management, network security tools, firewalls and internet security, sustainability, real-time systems and application design. 
+
+==== SFIA Level 3 ====
+Collects and collates evidence as part of a formally conducted and planned review of activities, processes, products or services. Examines records as part of specified testing strategies for evidence of compliance with management directives, or the identification of abnormal occurrences.
+
+==== SFIA Level 4 ====
+Plans programmes to review activities, processes, products or services. Collects, collates and examines records as part of specified testing strategies for evidence of compliance with management directives, or the identification of abnormal occurrences. Analyses evidence collated and drafts part or all of formal reports commenting on the conformance found to exist in the reviewed part of an information systems environment
+
+==== SFIA Level 5 ====
+Evaluates and independently appraises the internal control of automated business processes, based on investigative evidence and assessments undertaken by self or team. Ensures that independent appraisals follow agreed procedure and advises others on the review process. Provides advice to management on ways of improving the effectiveness and efficiency of their control mechanisms. Identifies and evaluates associated risks and how they can be reduced. 
+
+==== SFIA Level 6 ====
+Specifies organisational procedures for the internal or third-party assessment of an activity, process, product or service, against recognised criteria, such as BS EN ISO 9000/14000. Develops plans for review of technology systems, including the review of implementation and use of standards and the effectiveness of operational and process controls. May manage the review, conduct the review or manage third party reviewers. Identifies areas of risk and specifies interrogation programs. Recommends improvements in processes and control procedures. Provides advice and guidance. Authorises the issue of formal reports to management on the extent of compliance of systems with standards, regulations and/ or legislation. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Conformance review 
+filteror : accountable_pages=role:Conformance review 
+filteror : consulted_pages=role:Conformance review 
+filteror : informed_pages=role:Conformance review 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Conformance review 
+filteror : accountable_pages=role:Conformance review
+filteror : consulted_pages=role:Conformance review
+filteror : informed_pages=role:Conformance review
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Conformance review 
+filteror : accountable_pages=role: Conformance review
+filteror : consulted_pages=role: Conformance review
+filteror : informed_pages=role:Conformance review 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Conformance review role within ALM and the IT industry in general, based on IT Best Practices}}
+

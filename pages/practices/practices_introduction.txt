@@ -8,11 +8,10 @@ filter  : type=practice
 ----
 
 ---- datatable ----
-cols    : %pageid%, name, 
-headers : Details, Name
+cols    : name, %pageid%
+headers : Name, Details
 filter  : type=practice
-sort    : ^name
+sort    : name
 ----
-
 
 

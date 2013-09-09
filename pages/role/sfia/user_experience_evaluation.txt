@@ -1,0 +1,81 @@
+
+---- dataentry roles ----
+type               : role
+name               : User experience evaluation
+category           : Solution development and implementation
+subcategory        : Human factors
+summary            : 
+groups_pages       :
+----
+
+===== Role: User experience evaluation (USEV) =====
+
+==== Description ====
+Assessment of effectiveness, efficiency, user satisfaction, health and safety, and accessibility to measure or improve the usability of new or existing products or services (including prototypes). Methods include user trials, expert review, survey, and analysis. 
+
+==== SFIA Level 2 ====
+Assists in the preparations for evaluations and in the oper-ation of the test environment. Maintains the test environment.
+
+==== SFIA Level 3 ====
+Performs, analyses and documents evaluations according to a plan, excluding expert reviews. 
+
+==== SFIA Level 4 ====
+4 Plans and performs all types of evaluation. Interprets and presents the results of evaluations. 
+
+==== SFIA Level 5 ====
+Advises on what to evaluate and type of evaluation. Ensures that the results of evaluations are under-stood by system developers. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:User experience evaluation 
+filteror : accountable_pages=role:User experience evaluation 
+filteror : consulted_pages=role:User experience evaluation 
+filteror : informed_pages=role:User experience evaluation 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:User experience evaluation 
+filteror : accountable_pages=role:User experience evaluation
+filteror : consulted_pages=role:User experience evaluation
+filteror : informed_pages=role:User experience evaluation
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:User experience evaluation 
+filteror : accountable_pages=role:User experience evaluation 
+filteror : consulted_pages=role:User experience evaluation
+filteror : informed_pages=role:User experience evaluation 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the User experience evaluation role within ALM and the IT industry in general, based on IT Best Practices}}
+

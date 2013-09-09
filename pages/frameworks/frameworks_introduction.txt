@@ -14,6 +14,8 @@ Many frameworks and bodies of knowledge (BOKs) exist to make life easier for IT 
   * [[:frameworks:togaf|TOGAF (The Open Group Architecture Framework)]]
   * [[:frameworks:open sdlc|Open SDLC]]
   * [[:frameworks:safe|Scaled Agile Framework]]
+  * [[frameworks:cobit|COBIT (Control Objectives for Information and related Technology)]]
+
 
 
 

@@ -1,0 +1,88 @@
+
+---- dataentry roles ----
+type               : role
+name               : Information content authoring
+category           : Solution development and implementation
+subcategory        : Systems development
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Information content authoring (INCA) =====
+
+==== Description ====
+The planning, design and creation of textual information, supported where necessary by graphical content. This material may be delivered electronically (for example, as collections of web pages) or otherwise. This skill includes managing the quality assurance and authoring processes for the material being produced. 
+
+==== SFIA Level 1 ====
+Contributes, under instruction, to the production and distribution of documentation items, to testing the content and layout of specific deliverables, and to the configuration of documentation items and files. 
+
+==== SFIA Level 2 ====
+Develops a broad understanding of technical publication concepts, tools and methods and the way in which these are implemented. Develops an understanding of publication development support activities, such as information gathering, user task analysis, creating draft documentation, and illustration, and printing and publishing. Works with colleagues and clients to create new sections of technical documentation through all stages of the publication process as support literature.
+
+==== SFIA Level 3 ====
+Liaises with clients/users to clarify details of requirements. Designs, creates and tests moderately complex, well-engineered information deliverables with specified content and layout. Manages the configuration of documentation items and files, within own area of responsibility. 
+
+==== SFIA Level 4 ====
+4 Determines the documentation needs of users. Designs individual documentation plans. Creates drafts for review of information format and content. Organises the production and distribution of approved documentation items. Designs the content and appearance of complex information deliverables (e.g. web pages) in collaboration with clients/users. Creates and tests complex, well-engineered deliverables with specified content and layout. Manages the configuration of documentation items and files, within own area of responsibility.
+
+==== SFIA Level 5 ====
+Designs overall support information package plans. Manages small teams of authors, ensuring that they are aware of and work to relevant standards. Advises on appropriate documentation formats and documentation systems to satisfy requirements. Organises reviews of draft material. 
+
+==== SFIA Level 6 ====
+Manages documentation projects, ensuring that adequate procedures, standards, tools and resources are in place and implemented to ensure the appropriate quality of material developed by document content creators within the organisation. Manages relationships with stake-holders, ensuring that they receive the information that they need. Manages reviews of draft material.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Information content authoring 
+filteror : accountable_pages=role:Information content authoring 
+filteror : consulted_pages=role:Information content authoring
+filteror : informed_pages=role:Information content authoring 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Information content authoring 
+filteror : accountable_pages=role:Information content authoring
+filteror : consulted_pages=role:Information content authoring
+filteror : informed_pages=role:Information content authoring
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, PMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Information content authoring 
+filteror : accountable_pages=role:Information content authoring 
+filteror : consulted_pages=role:Information content authoring 
+filteror : informed_pages=role:Information content authoring 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Information content authoring role within ALM and the IT industry in general, based on IT Best Practices}}
+

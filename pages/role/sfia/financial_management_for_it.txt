@@ -1,0 +1,79 @@
+
+---- dataentry roles ----
+type               : role
+name               : Financial management for IT
+category           : Service management
+subcategory        : Service strategy
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Financial management for IT (FMIT) =====
+
+==== Description ====
+The overall financial management, control and stewardship of the IT assets and resources used in the provision of IT services, including the identification of materials and energy costs, ensuring compliance with all governance, legal and regulatory requirements. 
+
+==== SFIA Level 4 ====
+Monitors and maintains all required financial records for compliance and audit to all agreed requirements. Assists all other areas of IT with their financial tasks, especially in the areas of identification of process, service, project and component costs and the calculation and subsequent reduction of all IT service, project, component and process failures.
+
+==== SFIA Level 5 ====
+Monitors and manages IT expenditure, ensuring that all IT financial targets are met, and examining any areas where budgets and expenditure exceed their agreed tolerances. Assists with the definition and operation of effective financial control and decision making, especially in the areas of service, projects and component cost models and the allocation and apportionment of all incurred IT costs. 
+
+==== SFIA Level 6 ====
+Sets strategy and develops plans, policies and processes for the accounting, budgeting and, where applicable, charging of IT resources and services, including the definition of cost models and charging models. Sets, negotiates, agrees and manages all financial budgets and targets, ensuring that there is adequate funding for all IT targets and plans, especially to meet development and capacity needs. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Financial management for IT 
+filteror : accountable_pages=role: Financial management for IT
+filteror : consulted_pages=role: Financial management for IT
+filteror : informed_pages=role: Financial management for IT
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Financial management for IT 
+filteror : accountable_pages=role:Financial management for IT
+filteror : consulted_pages=role:Financial management for IT
+filteror : informed_pages=role:Financial management for IT
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Financial management for IT 
+filteror : accountable_pages=role: Financial management for IT
+filteror : consulted_pages=role:Financial management for IT 
+filteror : informed_pages=role:Financial management for IT 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Financial management for IT role within ALM and the IT industry in general, based on IT Best Practices}}
+

@@ -1,12 +1,34 @@
+<wrap hide>
+  <revision_frequency>365</revision_frequency>
+</wrap>
 
-===== Tool: <<tool function>> =====
+/* More information on what to specify as part of each section, please refer to [[:contribute:do_work:guidelines|Writing Guidelines]] */
+
+====== <<TOOL_FUNCTION>> ======
+ 
+---- dataentry tools ----
+type              : tool
+name              : <<TOOL_FUNCTION>>
+artefacts_pages   : :artefact:todo
+tags              : <<TAGS>>
+----
 
 <<Description>>
+
+==== Practices ====
+
+---- datatable ----
+filter    : type=practice
+cols      : %pageid%
+headers   : Practice
+sort      : Practice
+filterand : tool_pages=tool:<<TOOL_FUNCTION>>
+----
 
 ==== Requirements ====
 
 The list of requirement can be found here:
-[[:tool:requirements:<<tool function>>|Full list of requirements]]
+[[:tool:requirements:<<TOOL_FUNCTION>>|Full list of requirements]]
 
 ==== Formal evaluation ====
 
@@ -28,10 +50,18 @@ Entire list of tools:
 
 << Link to the full advise document >>
 
-==== Training ====
+==== Training and Coaching  ====
 
-<< Provide links into the Training section to the relevant training offerings >>
+---- datatable ----
+filter     : type=training
+cols       : training_type, %pageid%, mandatory
+headers    : Type, Training, Mandatory
+sort       : Type
+filterand  : tools_pages=tool:<<TOOL_FUNCTION>>
+----
 
-==== Sources ====
+==== Continue reading ====
 
-<<Link to sources used on this page>>
+
+{{keywords>IT Efficiency, IT best practices, the SDLC, IT Standards}}
+{{description>This standards library has been compiled by the ALM Community. It is based on IT best practices, increasing your IT Efficiency considerably across the SDLC}}

@@ -1,0 +1,93 @@
+
+---- dataentry roles ----
+type               : role
+name               : Continuity management
+category           : Strategy and architecture
+subcategory        : Technical strategy and planning
+summary            : 
+groups_pages       :
+source             : SFIA
+----
+
+===== Role: Continuity management (COPL) =====
+
+==== Description ====
+The provision of service continuity planning and support. This includes the identification of information systems which support critical business processes, the assessment of risks to those
+systems' availability, integrity and confidentiality and the co-ordination of planning, designing,
+testing and maintenance procedures and contingency plans to address exposures and maintain
+agreed levels of continuity. This function should be performed as part of, or in close cooperation
+with, the function which plans business continuity for the whole organisation.
+
+==== SFIA Level 4 ====
+Provides input to the service continuity planning process and implements resulting plans.
+
+==== SFIA Level 5 ====
+Owns the service continuity planning process and leads the implementation of resulting plans. Coordinates the identification by specialists across the organisation of information and communication systems which support the critical business processes,and the assessment of risks to the availability, integrity, and confidentiality of those systems. Evaluates the critical risks associated with these systems and identifies priority areas for improvement. Coordinates the planning,designing, testing of maintenance procedures and contingency plans to address exposure to risk and ensure that agreed levels of continuity are maintained.
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Continuity management 
+filteror : accountable_pages=role:Continuity management 
+filteror : consulted_pages=role:Continuity management 
+filteror : informed_pages=role:Continuity management
+sort     : name
+----
+
+==== Practices ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Continuity management 
+filteror : accountable_pages=role:Continuity management 
+filteror : consulted_pages=role:Continuity management 
+filteror : informed_pages=role:Continuity management 
+sort     : name
+----
+
+==== Role Maturity ====
+
+---- datatable ----
+cols      : Name, AMageid%, base_pages, beginner_pages, intermediate_pages, advanced_pages, extreme_pages
+headers   : Name, Details, Base, Beginner, Intermediate, Advanced, Extreme
+filter    : type = practice
+filterand : base_pages = role:Continuity management 
+filteror  : beginner_pages = role:Continuity management 
+filteror  : intermediate_pages = role:Continuity management 
+filteror  : advanced_pages = role:Continuity management 
+filteror  : extreme_pages = role:Continuity management 
+sort      : name
+----
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Continuity management 
+filteror : accountable_pages=role:Continuity management 
+filteror : consulted_pages=role:Continuity management 
+filteror : informed_pages=role:Continuity management 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Continuity management role within ALM and the IT industry in general, based on IT Best Practices}}
+

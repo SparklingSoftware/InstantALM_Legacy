@@ -1,10 +1,9 @@
 ===== <<TRAINING NAME>> =====
 
----- dataentry peer2peer ----
+---- dataentry selflearning ----
 roles:            <<Generic roles as specified in the ":roles:alm_roles_overview: page, like: "Developer", "Tester", etc>>
 maturity:         <<Pick one: Basic, Beginner, Intermediate, Advanced, Extreme>>
 type:             <<Pick one: "Face to face", "Video", "(e)Book", "Vulcan mind meld">>
-facilitators:     <<windows login name of the facilitator>>
 process_pages:    <<The page name of the process where the content of this training needs to be applied. For instance: ":process:implementation:test_package" >>
 standard_pages:   <<To what standards is this training linked?>>
 ----

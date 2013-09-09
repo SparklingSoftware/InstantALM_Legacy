@@ -1,0 +1,78 @@
+﻿
+
+---- dataentry roles ----
+type               : role
+name               : Account management
+category           : Client interface
+subcategory        : Sales and marketing
+summary            : 
+groups_pages       : 
+source             : SFIA
+----
+
+====== Role: Account management (ACMG) ======
+
+==== Description ====
+
+On behalf of an organisation supplying IT-related products or services, including commercial, industrial, scientific, entertainment and gaming systems, the coordination of all promotional activities to one or more clients to achieve satisfaction for the client and an acceptable return for the supplier; assistance to the client to ensure that maximum benefit is gained from the products and services supplied.
+
+==== SFIA Level 5 ====
+Oversees the organisation's promotional/selling activities to one or more clients, to ensure that such activities are aligned with corporate marketing objectives. Approves medium-scale proposals to clients. Negotiates with client representatives at senior levels on both technical and commercial issues. Ensures that organisational policy and strategy is adhered to. Provides informed feedback that contributes to promotional strategy and to product development. 
+
+==== SFIA Level 6 ====
+Builds long-term, strategic relationships with the largest client organisations (internal or external). Maintains a strong understanding of the clients’ industry and strategy. Encourages and assists clients in the formation of IT strategies, providing them with access to senior management and subject experts in the supplier organisation and else-where. Acts to ensure that clients are offered products and services in line with the strategy. Manages colleagues in their dealings with clients; initiates procedures to improve service to and relation-ships with clients. Oversees the management and planning of business opportunities. Influences the development and enhancement of services, products and systems. 
+
+==== Processes ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=process
+filterand : responsible_pages=role:Account management
+filteror : accountable_pages=role:Account management
+filteror : consulted_pages=role:Account management 
+filteror : informed_pages=role:Account management 
+sort     : name
+----
+
+==== Practices ====
+---- datatable ----
+cols     : maturity, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Maturity, Practice, Responsible, Accountable, Consulted, Informed
+filter   : type=practice
+filterand : responsible_pages=role:Account management 
+filteror : accountable_pages=role:Account management
+filteror : consulted_pages=role:Account management
+filteror : informed_pages=role:Account management
+sort     : maturity
+----
+
+
+==== Tools used ====
+
+---- datatable ----
+cols     : Name, AMageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers  : Name, Details, Responsible, Accountable, Consulted, Informed
+filter   : type=tools
+filterand : responsible_pages=role:Account management
+filteror : accountable_pages=role:Account management 
+filteror : consulted_pages=role:Account management 
+filteror : informed_pages=role:Account management 
+sort     : name
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+[[http://www.sfia.org.uk|Skills Framework for the Information Age]]
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't use "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the Account management role within ALM and the IT industry in general, based on IT Best Practices}}
+
