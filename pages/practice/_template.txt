@@ -10,10 +10,10 @@
 type               : practice
 name               : <<PRACTICE_NAME>>
 tag                : <<TAG CLOUD FILTER>>
-responsible_pages  : :role:todo
-accountable_pages  : :role:todo
-consulted_pages   : :role:todo
-informed_pages     : :role:todo
+responsible_pages  : :role:todo   <<Choose role at: :roles:roles_introduction>>
+accountable_pages  : :role:todo   <<Choose role at: :roles:roles_introduction>>
+consulted_pages    : :role:todo   <<Choose role at: :roles:roles_introduction>>
+informed_pages     : :role:todo   <<Choose role at: :roles:roles_introduction>>
 maturity_area      : <<choose: developing, building, testing, reporting, deploying, operations, support, product management, architecture>>
 maturity_level     : <<choose: base, beginner, intermediate, advanced, extreme>>
 artefact_pages     : :artefact:todo

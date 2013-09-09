@@ -1,25 +1,44 @@
 <wrap hide>
-  <revision_frequency>30</revision_frequency>
+  <revision_frequency>365</revision_frequency>
 </wrap>
 
 /* More information on what to specify as part of each section, please refer to [[:contribute:do_work:guidelines|Writing Guidelines]] */
 
+====== Unit Testing ======
+
 ---- dataentry practices ----
 type               : practice
-name               : Unit Testing
-tag                : Automated Testing
-responsible_pages  : :role:programming software development
-accountable_pages  : 
-supportive_pages   :
-informed_pages     :
-maturity           : base
+name               : unit testing
+tag                : development
+responsible_pages  : :role:developer
+accountable_pages  : :role:technical project lead
+consulted_pages    : :role:developer
+informed_pages     : :role:test manager
+maturity_area      : developing
+maturity_level     : beginner
+artefact_pages     : :artefact:unit test report
+tool_pages         : :tool:unit testing frameworks
+prerequisites_pages: 
 ----
-
-===== Practice: Unit Testing =====
 
 Unit testing is the programming process to validate the correctness of the individual modules of the program source code. The idea is to write tests for each non-trivial function or method. This allows you to quickly check to see whether the resulting change in the next code to the regression – that is to errors in the field – is of tested programs. This facilitates the detection and elimination of such errors. 
 
-==== Problems that are addressed with this practice ====
+==== Also Known as ====
+
+  * Developer Testing
+  * Automated Testing
+
+==== Artefacts ====
+
+---- datatable ----
+cols      : Name, %pageid%
+headers   : Name, Details
+filter    : type=artefact
+filterand : practice_pages=practice:unit testing
+sort      : name
+----
+
+==== Problems that are addressed by this practice ====
 
   * Many defects progressing through the build pipeline, becoming increasingly expensive to resolve
   * Re-introduction of defects
@@ -46,27 +65,37 @@ Unit testing is the programming process to validate the correctness of the indiv
   * Increased risk of defects reaching production environments causing production incidents which in turn have huge costs associated with them to resolve, loss in business revenue and/or reputation, potential legal consequences and/or costs.
   * Having 30% more defects that are at least 7 times as expensive to fix, increases the project cost by 210%.
 
-==== RASCI ====
+==== Pre-Requisites  ====
 
-^ RASCI ^ Role ^
-| [[:general:glossary:glossary_introduction#rasci - responsible|Responsible]] | [[:role:developer|Developer]] |
-| [[:general:glossary:glossary_introduction#rasci - accountable|Accountable]] | <<TODO>> |
-| :::                                                                         | <<TODO>> |
-| [[:general:glossary:glossary_introduction#rasci - supportive|Supportive]]   | [[:role:project manager|Project Manager]] |
-| :::                                                                         | <<TODO>> |
-| [[:general:glossary:glossary_introduction#rasci - consulted|Consulted]]     | <<TODO>> |
-| :::                                                                         | <<TODO>> |
-| [[:general:glossary:glossary_introduction#rasci - informed|Informed]]       | <<TODO>> |
+---- datatable ----
+cols      : Name, %pageid%
+headers   : Name, Details
+filter    : type=practice
+filterand : prerequisites_pages=practice:unit testing
+sort      : name
+----
 
 ==== Training and Coaching  ====
 
-[[http://www.sparklingconsulting.com.au]]
-[[http://www.sparklingtraining.com.au]]
+Help and coaches with standards: [[http://www.sparklingit.com.au/training]] 
 
-^ Key processes where this role is involved in ^
-| [[:process:todo:todo| Todo -> Todo]]  |
+---- datatable ----
+cols      : Name, %pageid%
+headers   : Name, Details
+filter    : type=training
+filterand : practice_pages=practice:unit testing
+sort      : name
+----
 
-==== Prerequisite IT Best Practice ====
+==== Processes ====
+
+---- datatable ----
+cols      : Name, %pageid%
+headers   : Name, Details
+filter    : type=process
+filterand : practice_pages=practice:unit testing
+sort      : name
+----
 
 ==== Effort ====
 
@@ -76,34 +105,24 @@ Unit testing is the programming process to validate the correctness of the indiv
     * 10% According to [(http://misko.hevery.com/2009/10/01/cost-of-testing/)]
   * [[:practice:dependency injection|Dependency Injection]] is most likely needed to allow high code coverage.
 
-==== Tools ====
-
-  * [[:tools:unit test frameworks|Unit Test Frameworks]]
-  * [[:tools:dependency injection frameworks|Dependency Injection Framworks]]
-  * [[:tools:mocking frameworks|Mocking Frameworks]]
-  * [[:tools:code coverage analyser|Code Coverage Analyser]]
-
-==== Artifacts ====
-
-
 ==== Do's and Don'ts ====
 
-  * Do start TDD from the beginning of projects. Don't stop in the middle and claim it doesn’t work. Do not start TDD late in the project cycle when the design has already been decided and majority of the code has been written. TDD is best done incrementally and continuously.
-  * For a team new to TDD, introduce automated build test integration towards the second third of the development phase - not too early but not too late. If this is a “Greenfield” project, adding the automated build test towards the second third of the development schedule allows the team to adjust to and become familiar with TDD. Prior to the automated build test integration, each developer should run all the test cases on their own machine. 
-  * Convince the development team to add new tests every time a problem is found, no matter when the problem is found. By doing so, the unit test suites improve during the development and test phases.
-  * Get the test team involved and knowledgeable about the TDD approach. The test team should not accept new development release if the unit tests are failing.
-  * Hold a thorough review of an initial unit test plan, setting an ambitious goal of having the highest possible (agreed upon) code coverage targets.
-  * Constantly running the unit tests cases in a daily automatic build (or continuous integration); tests run should become the heartbeat of the system as well as a means to track progress of the development. This also gives a level of confidence to the team when new features are added.
-  * Encourage fast unit test execution and efficient unit test design. Test execution speed is very important since when all the tests are integrated, the complete execution can become quite long for a reasonably-sized project and when using constant test executions. Tests results are important early and often; they provide feedback on the current state of the system. Further, the faster the execution of the tests the more likely developers themselves will run the tests without waiting for the automated build tests
-  * Don’t aim for 100% coverage. [(http://37signals.com/svn/posts/3159-testing-like-the-tsa)]
-  * Don't: Code-to-test ratios above 1:2 is a smell, above 1:3 is a stink. [(http://37signals.com/svn/posts/3159-testing-like-the-tsa)]
-  * Don't: You’re probably doing it wrong if testing is taking more than 1/3 of your time. You’re definitely doing it wrong if it’s taking up more than half. [(http://37signals.com/svn/posts/3159-testing-like-the-tsa)]
-  * Don’t test standard Active Record associations, validations, or scopes. [(http://37signals.com/svn/posts/3159-testing-like-the-tsa)]
-  * Do Reserve integration testing for issues arising from the integration of separate elements (aka don’t integration test things that can be unit tested instead). [(http://37signals.com/svn/posts/3159-testing-like-the-tsa)]
-  * Don’t use Cucumber unless you live in the magic kingdom of non-programmers-writing-tests (and send me a bottle of fairy dust if you’re there!) [(http://37signals.com/svn/posts/3159-testing-like-the-tsa)]
-  * Don’t force yourself to test-first every controller, model, and view (my ratio is typically 20% test-first, 80% test-after). [(http://37signals.com/svn/posts/3159-testing-like-the-tsa)]
+  * DO: start TDD from the beginning of projects. Don't stop in the middle and claim it doesn’t work. Do not start TDD late in the project cycle when the design has already been decided and majority of the code has been written. TDD is best done incrementally and continuously.
+  * DO: For a team new to TDD, introduce automated build test integration towards the second third of the development phase - not too early but not too late. If this is a “Greenfield” project, adding the automated build test towards the second third of the development schedule allows the team to adjust to and become familiar with TDD. Prior to the automated build test integration, each developer should run all the test cases on their own machine. 
+  * DO: convince the development team to add new tests every time a problem is found, no matter when the problem is found. By doing so, the unit test suites improve during the development and test phases.
+  * DO: get the test team involved and knowledgeable about the TDD approach. The test team should not accept new development release if the unit tests are failing.
+  * DO: hold a thorough review of an initial unit test plan, setting an ambitious goal of having the highest possible (agreed upon) code coverage targets.
+  * DO: constantly running the unit tests cases in a daily automatic build (or continuous integration); tests run should become the heartbeat of the system as well as a means to track progress of the development. This also gives a level of confidence to the team when new features are added.
+  * DO: encourage fast unit test execution and efficient unit test design. Test execution speed is very important since when all the tests are integrated, the complete execution can become quite long for a reasonably-sized project and when using constant test executions. Tests results are important early and often; they provide feedback on the current state of the system. Further, the faster the execution of the tests the more likely developers themselves will run the tests without waiting for the automated build tests
+  * DON'T: aim for 100% coverage. [(http://37signals.com/svn/posts/3159-testing-like-the-tsa)]
+  * DON'T: Code-to-test ratios above 1:2 is a smell, above 1:3 is a stink. [(http://37signals.com/svn/posts/3159-testing-like-the-tsa)]
+  * DON'T: You're probably doing it wrong if testing is taking more than 1/3 of your time. You're definitely doing it wrong if it's taking up more than half. [(http://37signals.com/svn/posts/3159-testing-like-the-tsa)]
+  * DON'T: test standard Active Record associations, validations, or scopes. [(http://37signals.com/svn/posts/3159-testing-like-the-tsa)]
+  * DO: Reserve integration testing for issues arising from the integration of separate elements (aka don't integration test things that can be unit tested instead). [(http://37signals.com/svn/posts/3159-testing-like-the-tsa)]
+  * DON'T use Cucumber unless you live in the magic kingdom of non-programmers-writing-tests (and send me a bottle of fairy dust if you're there!) [(http://37signals.com/svn/posts/3159-testing-like-the-tsa)]
+  * DON'T force yourself to test-first every controller, model, and view (my ratio is typically 20% test-first, 80% test-after). [(http://37signals.com/svn/posts/3159-testing-like-the-tsa)]
 
-==== Continue Reading ====
+==== Continue Reading: ====
 
 {{:practice:hp_-_roi_of_code_inspections_and_unit_testing.pdf|hp - roi of code inspections and unit testing.pdf}}
 {{:practice:nagappan_tdd.pdf|Realizing quality improvement through test driven development: results and experiences of four industrial teams}}
