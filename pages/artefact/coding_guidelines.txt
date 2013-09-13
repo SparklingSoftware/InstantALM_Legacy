@@ -16,50 +16,46 @@ knowledge_pages    : :knowledge:todo
 
 ==== Description ====
 
-=== .NET Coding Guidelines ===
+<<DESCRIPTION>>
+
+==== Do's and Don'ts ====
+
+  * DO: .....
+  * DO: .....
+  * DO: .....
+  * DON't: .....
+  * DON't: .....
+  * DON't: .....
+
+==== Templates and other files ====
+
+** .NET Coding Guidelines **
 
 {{filelist>media/artefact/coding guidelines/dotnet/*&direct=2}}
 
-** Sources **
 http://www.csharpcodingguidelines.com/
 http://csharpguidelines.codeplex.com/
 http://www.dennisdoomen.net/
 
-=== Java Coding Standards ===
+** Java Coding Standards **
 
 {{filelist>media/artefact/coding guidelines/java/*&direct=2}}
 
-** Sources **
-http://www.oracle.com/technetwork/java/codeconv-138413.html
+ http://www.oracle.com/technetwork/java/codeconv-138413.html
 
-=== SQL Server ===
+** SQL Server **
 
 {{filelist>media/artefact/coding guidelines/sqlserver/*&direct=2}}
 
-** Sources **
-
 http://www.sourceformat.com
 http://sqlserverpedia.com/wiki/SQL-Server-Download
 
-=== T-SQL ===
+** T-SQL **
 
 {{filelist>media/artefact/coding guidelines/tsql/*&direct=2}}
 
-** Sources **
-
 http://www.sourceformat.com
 http://sqlserverpedia.com/wiki/SQL-Server-Download
-
-=== Other Coding Guidelines ===
-
-There are many other coding guidelines out there. Please find the links below:
-
-
-==== Do's and Don'ts ====
-
-
-==== Templates and other files ====
-
 
 ==== Processes ====
 
@@ -81,7 +77,6 @@ sort      : Practice
 filterand : artefact_pages=artefact:coding guidelines
 ----
 
-
 ==== Tools ====
 
 ---- datatable ----
@@ -102,12 +97,9 @@ sort       : Training
 filterand  : artefacts_pages=artefact:coding guidelines
 ----
 
-
-
 ==== Continue Reading  ====
 
 [[:artefacts:artefacts introduction|An overview of all artefacts]]
-
 
 {{keywords>best practices}}
 {{description>description go here}}

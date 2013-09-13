@@ -1,0 +1,8 @@
+
+====== Project Planning CMMi Process Area ======
+
+^ High Level Goal            ^ Specific Goal:                              ^ Agile Practice ^
+| PP-SG1 Establish Estimates | PP-SG1.1 Estimate the Scope of the Project | Estimate the Agile Stories |
+| :::                        | :::                                        | WBS with different levels of detail ([[:practice:agile wbs|Epic, Feature, Story, Task]]) |
+| :::                        | :::                                        | Costs and Efforts can be derived from estimates and [[:practice:observed velocity]] |
+| :::                        | PP-SG1.2  Establish Estimates of Work Product and Task Attributes | The standards tasks used in Scrum processes combined with specific project tasks ([[:practice:scrum backlog]]) |
