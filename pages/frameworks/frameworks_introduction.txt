@@ -4,6 +4,11 @@
 
 Many frameworks and bodies of knowledge (BOKs) exist to make life easier for IT professionals. With so many out there, its however hard to understand how they all relate and understand. This document will explain all the existing (major) frameworks and BOKs and how they relate.
 
+  * Agile
+    * [[:framework:scrum|Scrum]]
+    * [[:framework:xp|Extreme Programming]]
+    * [[:framework:lean startup|Lean Startup]]
+    * [[:framework:safe|Scaled Agile Framework]]
   * [[:framework:ba_bok|BA BOK (Business Analysis Body of Knowledge)]]
   * [[:framework:cmmi|CMMi (Capability Maturity Model Integrated)]]
   * [[:framework:cobit|COBIT (Control Objectives for Information and related Technology)]]
@@ -15,7 +20,6 @@ Many frameworks and bodies of knowledge (BOKs) exist to make life easier for IT 
   * [[:framework:princeii|PRINCE II (PRojects IN Controlled Environments)]]
   * [[:framework:rup|RUP (Rational Unified Process)]]
   * [[:framework:togaf|TOGAF (The Open Group Architecture Framework)]]
-  * [[:framework:safe|Scaled Agile Framework]]
 
 
 

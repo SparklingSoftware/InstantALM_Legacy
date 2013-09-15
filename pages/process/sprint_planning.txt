@@ -1,0 +1,65 @@
+<wrap hide>
+  <revision_frequency>365</revision_frequency>
+</wrap>
+
+/* More information on what to specify as part of each section, please refer to [[:contribute:do_work:guidelines|Writing Guidelines]] */
+
+====== Sprint Planning ======
+
+---- dataentry artefacts ----
+type               : process
+name               : sprint planning
+tags               : 
+practice_pages     : :practice:todo
+responsible_pages  : :role:todo
+accountable_pages  : :role:todo
+consulted_pages    : :role:todo
+informed_pages     : :role:todo
+artefact_pages     : :artefact:todo
+prerequisites_pages: :practice:todo
+knowledge_pages    : :knowledge:todo
+----
+
+==== Description ====
+
+<<DESCRIPTION>>
+
+/*
+
+This is where the process maps go. The Rigrr library will render BPMN notation inline. 
+See below for the syntax. You can create your own process maps by visiting:
+http://rigrr.rapilabs.com 
+
+Or you can extend the "Rigrr Dokuwiki Plugin" with DokuWiki editor integration that provides 
+you with an "Edit BPMN" option in the DokuWiki toolbar.
+
+<rigrr>
+<<BPMN GOES HERE>>
+</rigrr>
+
+*/
+
+==== Do's and Don'ts ====
+
+  * DO: .....
+  * DO: .....
+  * DO: .....
+  * DON't: .....
+  * DON't: .....
+  * DON't: .....
+
+==== Training and Coaching  ====
+
+Help and coaches with standards: [[http://www.sparklingit.com.au/training]] 
+
+---- datatable ----
+cols      : Name, %pageid%
+headers   : Name, Details
+filter    : type=training
+filterand : practice_pages=practice:sprint planning
+sort      : name
+----
+
+{{keywords>IT Efficiency, IT best practices, the SDLC, IT Standards}}
+{{description>This standards library has been compiled by the ALM Community. It is based on IT best practices, increasing your IT Efficiency considerably across the SDLC}}
+

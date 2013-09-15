@@ -1,0 +1,6 @@
+
+====== Scrum ======
+
+Below you is shown an overview of scrum.
+
+{{:framework:scrum.gif?nolink|}}

@@ -5,12 +5,17 @@ Below is a list of roles that are identified within the scope of this library. T
 
 It also ignores methodologies. Agile methodologies tend to encourage cross-competency team interaction. The roles below ignore the official job title of people and refers to the work they are performing on the team, which can Business Analyst in the morning and tester in the afternoon. Either role is described below so that the same person can learn about the expected outcomes in both team roles.
 
+---- datacloud ----
+field   : tag
+filter  : type=role
+----
+
 ---- datatable ----
 cols           : %pageid%, sfia_pages
-headers        : NAB Role, SFIA mapping
+headers        : Organisational Role, SFIA mapping
 sort           : Category
 filter         : type=role
-filterand      : source=NAB
+filterand      : source!=SFIA
 ----
 
 === Continue reading: ===

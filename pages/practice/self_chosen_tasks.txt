@@ -4,21 +4,21 @@
 
 /* More information on what to specify as part of each section, please refer to [[:contribute:do_work:guidelines|Writing Guidelines]] */
 
-====== <<PRACTICE_NAME>> ======
+====== Self Chosen Tasks ======
 
 ---- dataentry practices ----
 type               : practice
-name               : <<PRACTICE_NAME>>
-tag                : <<TAG CLOUD FILTER>>
-responsible_pages  : :role:todo   <<Choose role at: :roles:roles_introduction>>
-accountable_pages  : :role:todo   <<Choose role at: :roles:roles_introduction>>
-consulted_pages    : :role:todo   <<Choose role at: :roles:roles_introduction>>
-informed_pages     : :role:todo   <<Choose role at: :roles:roles_introduction>>
-maturity_area      : <<choose: developing, building, testing, reporting, deploying, operations, support, product management, architecture>>
-maturity_level     : <<choose: base, beginner, intermediate, advanced, extreme>>
-artefact_pages     : :artefact:todo
-tool_pages         : :tool:todo
-prerequisites_pages: :practice:todo
+name               : self chosen tasks
+tag                : agile
+responsible_pages  : :role:delivery team
+accountable_pages  : :role:project manager
+consulted_pages    : :role:
+informed_pages     : :role:
+maturity_area      : team
+maturity_level     : intermediate
+artefact_pages     : 
+tool_pages         : :tool:progress tracking
+prerequisites_pages: :practice:task board
 ----
 
 << Description >>
@@ -31,7 +31,7 @@ prerequisites_pages: :practice:todo
 cols      : Name, %pageid%
 headers   : Name, Details
 filter    : type=artefact
-filterand : practice_pages=practice:<<PRACTICE_NAME>>
+filterand : practice_pages=practice:self chosen tasks
 sort      : name
 ----
 
@@ -47,7 +47,7 @@ sort      : name
 cols      : Name, %pageid%
 headers   : Name, Details
 filter    : type=practice
-filterand : prerequisites_pages=practice:<<PRACTICE_NAME>>
+filterand : prerequisites_pages=practice:self chosen tasks
 sort      : name
 ----
 
@@ -59,7 +59,7 @@ Help and coaches with standards: [[http://www.sparklingit.com.au/training]]
 cols      : Name, %pageid%
 headers   : Name, Details
 filter    : type=training
-filterand : practice_pages=practice:<<PRACTICE_NAME>>
+filterand : practice_pages=practice:self chosen tasks
 sort      : name
 ----
 
@@ -69,7 +69,7 @@ sort      : name
 cols      : Name, %pageid%
 headers   : Name, Details
 filter    : type=process
-filterand : practice_pages=practice:<<PRACTICE_NAME>>
+filterand : practice_pages=practice:self chosen tasks
 sort      : name
 ----
 

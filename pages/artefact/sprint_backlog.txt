@@ -1,0 +1,81 @@
+<wrap hide>
+  <revision_frequency>365</revision_frequency>
+</wrap>
+
+/* More information on what to specify as part of each section, please refer to [[:contribute:do_work:guidelines|Writing Guidelines]] */
+
+====== Sprint Backlog ======
+
+---- dataentry artefacts ----
+type               : artefact
+name               : sprint backlog
+tags               : 
+practice_pages     : :practice:todo
+knowledge_pages    : :knowledge:todo
+----
+
+==== Description ====
+
+<<DESCRIPTION>>
+
+==== Do's and Don'ts ====
+
+  * DO: .....
+  * DO: .....
+  * DO: .....
+  * DON't: .....
+  * DON't: .....
+  * DON't: .....
+
+==== Templates and other files ====
+
+==== Processes ====
+
+---- datatable ----
+filter    : type=process
+cols      : %pageid%
+headers   : Process
+sort      : name
+filterand : artefacts_pages=artefact:sprint backlog
+----
+
+==== Practices ====
+
+---- datatable ----
+filter    : type=practice
+cols      : %pageid%
+headers   : Practice
+sort      : Practice
+filterand : artefact_pages=artefact:sprint backlog
+----
+
+
+==== Tools ====
+
+---- datatable ----
+filter    : type=tool
+cols      : %pageid%
+headers   : Tool
+sort      : Tool
+filterand : artefacts_pages=artefact:sprint backlog
+----
+
+==== Training and Coaching  ====
+
+---- datatable ----
+filter     : type=training
+cols       : %pageid%
+headers    : Training
+sort       : Training
+filterand  : artefacts_pages=artefact:sprint backlog
+----
+
+
+
+==== Continue Reading  ====
+
+[[:artefacts:artefacts introduction|An overview of all artefacts]]
+
+
+{{keywords>best practices}}
+{{description>description go here}}

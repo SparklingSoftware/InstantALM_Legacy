@@ -1,8 +1,83 @@
 
 ====== Project Planning CMMi Process Area ======
 
-^ High Level Goal            ^ Specific Goal:                              ^ Agile Practice ^
-| PP-SG1 Establish Estimates | PP-SG1.1 Estimate the Scope of the Project | Estimate the Agile Stories |
-| :::                        | :::                                        | WBS with different levels of detail ([[:practice:agile wbs|Epic, Feature, Story, Task]]) |
-| :::                        | :::                                        | Costs and Efforts can be derived from estimates and [[:practice:observed velocity]] |
-| :::                        | PP-SG1.2  Establish Estimates of Work Product and Task Attributes | The standards tasks used in Scrum processes combined with specific project tasks ([[:practice:scrum backlog]]) |
+A Project Management Process Area at Maturity Level 2
+
+**Purpose**
+
+The purpose of Project Planning (PP) is to establish and maintain plans that 
+define project activities. 
+
+**Introduction**
+
+One of the keys to effectively managing a project is project planning. The Project Planning process area involves the following activities: 
+  * Developing the project plan 
+  * Interacting with relevant stakeholders appropriately
+  * Getting commitment to the plan 
+  * Maintaining the plan 
+
+Planning includes estimating the attributes of work products and tasks, determining the resources needed, negotiating commitments, producing a schedule, and identifying and analyzing project risks. Iterating through these activities may be necessary to establish the project plan. The project plan provides the basis for performing and controlling project activities that address commitments with the project’s customer.(See the definition of “project” in the glossary.)
+
+The project plan is usually revised as the project progresses to address changes in requirements and commitments, inaccurate estimates, 
+corrective actions, and process changes. Specific practices describing both planning and replanning are contained in this process area. 
+The term “project plan” is used throughout this process area to refer to the overall plan for controlling the project. The project plan can be a standalone document or be distributed across multiple documents. In either case, a coherent picture of who does what should be included. Likewise, monitoring and control can be centralized or distributed, as long as at the project level a coherent picture of project status can be maintained. 
+
+   For product lines, there are multiple sets of work activities that would
+   benefit from the practices of this process area. These work activities include 
+   the creation and maintenance of the core assets, developing products to be built 
+   using the core assets, and orchestrating the overall product line effort to 
+   support and coordinate the operations of the inter-related work groups and 
+   their activities. 
+   
+   In Agile environments, performing incremental development 
+   involves planning, monitoring, controlling, and re-planning more frequently 
+   than in more traditional development environments. While a high-level plan 
+   for the overall project or work effort is typically established, teams will 
+   estimate, plan, and carry out the actual work an increment or iteration at 
+   a time. Teams typically do not forecast beyond what is known about the project 
+   or iteration, except for anticipating risks, major events, and large-scale 
+   influences and constraints. Estimates reflect iteration and team specific 
+   factors that influence the time, effort, resources, and risks to accomplish 
+   the iteration. Teams plan, monitor, and adjust plans during each iteration 
+   as often as it takes (e.g., daily). Commitments to plans are demonstrated 
+   when tasks are assigned and accepted during iteration planning, user stories 
+   are elaborated or estimated, and iterations are populated with tasks from a 
+   maintained backlog of work. (See ―"Interpreting CMMI When Using Agile 
+   Approaches" in Part I.) 
+
+^ CMMI Specific Goal         ^ CMMI specific Practice:                    ^ Practices in this library ^
+| PP-SG1 Establish Estimates | PP-SP1.1 Estimate the Scope of the Project | [[:practice:estimate|Estimates]] the [[:practice:agile stories|Agile Stories]] |
+| :::                        | :::                                        | [[:artefact:wbs|WBS]] with different levels of detail (Agile: Epic, Feature, Story, Task) |
+| :::                        | :::                                        | Costs and Efforts can be derived from [[:practice:estimate|Estimates]] and [[:practice:observed velocity]] |
+| :::                        | PP-SP1.2  Establish Estimates of Work Product and Task Attributes | The standards tasks used in Scrum processes combined with specific project tasks ([[:practice:scrum backlog]]) |
+| :::                        | PP-SP1.3 Define project lifecycle phases on which to scope the planning effort.   | The [[:framework:scrum|Scrum Processes]] |
+| :::                        | PP-SP1.4 Estimate the project’s effort and cost for work products and tasks based on estimation rationale.  | Scrum [[:practice:estimate|Estimates]] (Similar to billable time or Full-Time equivalents |
+| PP-SG2  Develop a Project Plan | PP-SP2.1 Establish and maintain the project’s budget and schedule. | Scrum [[:practice:estimate|Ideal Time Estimate]] |
+| :::                            | ::: | [[:process:release planning|Release planning]] |
+| :::                            | ::: | [[:artefact:sprint backlog|Sprint Backlog]] |
+| :::                            | ::: | [[:practice:taskboard|Project Taskboard]] |
+| :::                            | PP-SP2.2 Identify and analyze project risks.  |  |
+| :::                            | PP-SP2.3 Plan for the management of project data.  |  |
+| :::                            | PP-SP2.4 Plan for resources to perform the project.  | Scrum [[:practice:estimate|Ideal Time Estimate]] |
+| :::                            | ::: | [[:practice:taskboard|Project Taskboard]] |
+| :::                            | ::: | [[:process:release planning|Release planning]] |
+| :::                            | ::: | [[:artefact:sprint backlog|Sprint Backlog]] |
+| :::                            | ::: | [[:practice:self chosen tasks|Self Chosen Tasks]] |
+| :::                            | PP-SP2.5 Plan for knowledge and skills needed to perform the project.  |  |
+| :::                            | PP-SP2.6 Plan the involvement of identified stakeholders.  | [[:roles:roles_introduction| Scrum roles]]  |
+| :::                            | PP-SP2.7 Establish and maintain the overall project plan.  | [[:process:release planning|Release planning]] |
+| :::                            | ::: | [[:artefact:sprint backlog|Sprint Backlog]] |
+| :::                            | ::: | [[:practice:taskboard|Project Taskboard]] |
+| PP-SG3  Obtain Commitment to the Plan | PP-SP3.1  Review Plans That Affect the Project | [[:process:sprint planning|Sprint Planning]] |
+| :::                            | ::: | [[:practice:standup meeting|Standup Meeting]] |
+| :::                            | ::: | [[:practice:taskboard|Project Taskboard]] |
+| :::                            | PP-SP3.2  Reconcile Work and Resource Levels  | [[:process:sprint planning|Sprint Planning]] |
+| :::                            | ::: | [[:practice:standup meeting|Standup Meeting]] |
+| :::                            | ::: | [[:practice:taskboard|Project Taskboard]] |
+| :::                            | PP-SP3.3  Obtain Plan Commitment  | [[:process:sprint planning|Sprint Planning]] |
+| :::                            | ::: | [[:practice:standup meeting|Standup Meeting]] |
+
+**Notes**
+  * The stakeholders listed in Roles might not be the complete list of stakeholders of the project. E.g. Customers, Other impacted teams.
+
+

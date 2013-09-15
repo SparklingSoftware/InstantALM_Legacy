@@ -10,7 +10,7 @@
 ---- dataentry roles ----
 type              : role
 name              : <<ROLE_NAME>>
-source            : <<choose: NAB, SFIA>>
+source            : <<choose: ORG, SFIA>>
 groups_pages      : 
 sfia_pages        :
 ----
@@ -23,7 +23,7 @@ sfia_pages        :
 
 ==== Practices that this role is involved in ====
 
-The following [:contribute:types_of_content#best_practices|Practices] are applicable for this role and are mapped to the roles' involvement using a [:general:glossary|RACI] model
+The following [[:contribute:types_of_content#best_practices|Practices]] are applicable for this role and are mapped to the roles' involvement using a [[:general:glossary|RACI]] model
 
 ---- datatable ----
 filter     : type=practice
@@ -38,7 +38,7 @@ filteror   : informed_pages=role:<<ROLE_NAME>>
 
 ==== Processes ====
 
-The following [:contribute:types_of_content#processes|Processes] are applicable for this role and are mapped to the roles' involvement using a [:general:glossary|RACI] model
+The following [[:contribute:types_of_content#processes|Processes]] are applicable for this role and are mapped to the roles' involvement using a [[:general:glossary|RACI]] model
 
 ---- datatable ----
 filter     : type=process

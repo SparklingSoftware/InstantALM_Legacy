@@ -98,7 +98,7 @@ sort      : name
 
 ==== Training and Coaching  ====
 
-Help and coaches with standards: [[http://go/Navigate.Assist]] 
+Help and coaches with standards: [[http://www.sparklingit.com.au/training]]
 
 ---- datatable ----
 cols      : Name, %pageid%

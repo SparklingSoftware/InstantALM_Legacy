@@ -4,12 +4,12 @@
 
 /* More information on what to specify as part of each section, please refer to [[:contribute:do_work:guidelines|Writing Guidelines]] */
 
-====== <<PRACTICE_NAME>> ======
+====== Estimate ======
 
 ---- dataentry practices ----
 type               : practice
-name               : <<PRACTICE_NAME>>
-tag                : <<TAG CLOUD FILTER>>
+name               : estimate
+tag                : 
 responsible_pages  : :role:todo   <<Choose role at: :roles:roles_introduction>>
 accountable_pages  : :role:todo   <<Choose role at: :roles:roles_introduction>>
 consulted_pages    : :role:todo   <<Choose role at: :roles:roles_introduction>>
@@ -31,7 +31,7 @@ prerequisites_pages: :practice:todo
 cols      : Name, %pageid%
 headers   : Name, Details
 filter    : type=artefact
-filterand : practice_pages=practice:<<PRACTICE_NAME>>
+filterand : practice_pages=practice:estimate
 sort      : name
 ----
 
@@ -47,19 +47,19 @@ sort      : name
 cols      : Name, %pageid%
 headers   : Name, Details
 filter    : type=practice
-filterand : prerequisites_pages=practice:<<PRACTICE_NAME>>
+filterand : prerequisites_pages=practice:estimate
 sort      : name
 ----
 
 ==== Training and Coaching  ====
 
-Help and coaches with standards: [[http://www.sparklingit.com.au/training]] 
+Help and coaches with standards: [[http://www.sparklingit.com.au/training]]
 
 ---- datatable ----
 cols      : Name, %pageid%
 headers   : Name, Details
 filter    : type=training
-filterand : practice_pages=practice:<<PRACTICE_NAME>>
+filterand : practice_pages=practice:estimate
 sort      : name
 ----
 
@@ -69,7 +69,7 @@ sort      : name
 cols      : Name, %pageid%
 headers   : Name, Details
 filter    : type=process
-filterand : practice_pages=practice:<<PRACTICE_NAME>>
+filterand : practice_pages=practice:estimate
 sort      : name
 ----
 

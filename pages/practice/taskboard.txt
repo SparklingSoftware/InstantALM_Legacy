@@ -1,0 +1,90 @@
+<wrap hide>
+  <revision_frequency>30</revision_frequency>
+</wrap>
+
+/* More information on what to specify as part of each section, please refer to [[:contribute:do_work:guidelines|Writing Guidelines]] */
+
+====== Task Board ======
+
+---- dataentry practices ----
+type               : practice
+name               : task board
+tag                : agile
+responsible_pages  : :role:todo   <<Choose role at: :roles:roles_introduction>>
+accountable_pages  : :role:todo   <<Choose role at: :roles:roles_introduction>>
+consulted_pages    : :role:todo   <<Choose role at: :roles:roles_introduction>>
+informed_pages     : :role:todo   <<Choose role at: :roles:roles_introduction>>
+maturity_area      : <<choose: developing, building, testing, reporting, deploying, operations, support, product management, architecture>>
+maturity_level     : <<choose: base, beginner, intermediate, advanced, extreme>>
+artefact_pages     : :artefact:todo
+tool_pages         : :tool:todo
+prerequisites_pages: :practice:todo
+----
+
+<< Description >>
+
+==== Also Known as ====
+
+==== Artefacts ====
+
+---- datatable ----
+cols      : Name, %pageid%
+headers   : Name, Details
+filter    : type=artefact
+filterand : practice_pages=practice:task board
+sort      : name
+----
+
+==== Problems that are addressed by this practice ====
+
+==== The benefits of applying this IT Best Practice ====
+
+==== The consequences or risks of not applying this IT Best Practice ? ====
+
+==== Pre-Requisites  ====
+
+---- datatable ----
+cols      : Name, %pageid%
+headers   : Name, Details
+filter    : type=practice
+filterand : prerequisites_pages=practice:task board
+sort      : name
+----
+
+==== Training and Coaching  ====
+
+Help and coaches with standards: [[http://www.sparklingit.com.au/training]]
+
+---- datatable ----
+cols      : Name, %pageid%
+headers   : Name, Details
+filter    : type=training
+filterand : practice_pages=practice:task board
+sort      : name
+----
+
+==== Processes ====
+
+---- datatable ----
+cols      : Name, %pageid%
+headers   : Name, Details
+filter    : type=process
+filterand : practice_pages=practice:task board
+sort      : name
+----
+
+==== Effort ====
+
+==== Do's and Don'ts ====
+
+  * DO: .....
+  * DO: .....
+  * DO: .....
+  * DON't: .....
+  * DON't: .....
+  * DON't: .....
+
+==== Continue Reading: ====
+
+{{keywords>IT Efficiency, IT best practices, the SDLC, IT Standards}}
+{{description>This standards library has been compiled by the ALM Community. It is based on IT best practices, increasing your IT Efficiency considerably across the SDLC}}

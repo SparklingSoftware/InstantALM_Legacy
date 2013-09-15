@@ -1,0 +1,73 @@
+
+<wrap hide>
+  <revision_frequency>365</revision_frequency>
+</wrap>
+
+/* More information on what to specify as part of each section, please refer to [[:contribute:do_work:guidelines|Writing Guidelines]] */
+
+====== Iteration Manager ======
+
+---- dataentry roles ----
+type              : role
+name              : iteration manager
+source            : ALM Community
+groups_pages      : 
+sfia_pages        :
+tags              : agile
+----
+
+The main responsibility of Iteration Manager is “building well-oiled delivery machine, continually feeding it story cards, and tuning the machine”.
+
+Generally, the Iteration Manager role is close to the one role from Scrum – Scrum Master. In short, the IM should focus in the following areas:
+  * The Team – track iteration’s progress (day-to-day work), report impediments, make sure iteration’s commitment will be fulfilled, point bottlenecks in the delivery process.
+  * The Customer – act as gatekeeper, protect team from distractions, keep customer from changing requirements.
+  * The Iteration – plan team’s budget (ideal hours), help customer with prioritization, motivate team, owns iteration planning and retrospective.
+  * The Project – form group of people working together towards common goal (they success or fail together); IM needs to aim for productive and happy team members and satisfied customer.
+
+==== Also Known as ====
+
+  * Scrum Master
+
+==== Practices that this role is involved in ====
+
+The following [[:contribute:types_of_content#best_practices|Practices]] are applicable for this role and are mapped to the roles' involvement using a [[:general:glossary|RACI]] model
+
+---- datatable ----
+filter     : type=practice
+cols       : %pageid%, responsible_pages, accountable_pages, consulted_pages, informed_pages, maturity
+headers    : Practice, Responsible, Accountable, Consulted, Informed, Maturity
+sort       : Practice
+filterand  : responsible_pages=role:iteration manager 
+filteror   : accountable_pages=role:iteration manager
+filteror   : consulted_pages=role:iteration manager
+filteror   : informed_pages=role:iteration manager
+----
+
+==== Processes ====
+
+The following [[:contribute:types_of_content#processes|Processes]] are applicable for this role and are mapped to the roles' involvement using a [[:general:glossary|RACI]] model
+
+---- datatable ----
+filter     : type=process
+cols       : %pageid%, stage, responsible_pages, accountable_pages, consulted_pages, informed_pages
+headers    : Process, Stage, Responsible, Accountable, Consulted, Informed
+sort       : name
+filterand  : responsible_pages=role:iteration manager 
+filteror   : accountable_pages=role:iteration manager
+filteror   : consulted_pages=role:iteration manager
+filteror   : informed_pages=role:iteration manager
+----
+
+=== Sources: ===
+
+/* Please provide links to sources used while writing the content in this page */
+
+=== Continue Reading: ===
+
+/* Where could the reader want to go to next?? */
+/* Tip: Don't write "Back to ..." because you don't know where the reader has come from */
+
+[[:roles:roles_introduction|To the complete list of roles]]
+
+{{keywords>ALM, it best practices, the sdlc, application development}}
+{{description>Description of the --- role within ALM and the IT industry in general, based on IT Best Practices}}

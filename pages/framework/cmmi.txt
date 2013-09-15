@@ -3,14 +3,16 @@
 
 ** From WikiPedia **
 
-   Capability Maturity Model Integration (CMMI) is a process improvement training and certification program 
-   and service administered and marketed by Carnegie Mellon University and required by many DOD and U.S. Government 
-   contracts, especially software development. 
+   Capability Maturity Model Integration (CMMI) is a process improvement training and 
+   certification program and service administered and marketed by Carnegie Mellon 
+   University and required by many DOD and U.S. Government contracts, especially 
+   software development. 
    
-   Carnegie Mellon University claims CMMI can be used to guide process improvement across a project, division,
-   or an entire organization. Under the CMMI methodology, processes are rated according to their maturity levels,
-   which are defined as: Initial, Repeatable, Defined, Quantitatively Managed, Optimizing. Currently supported is
-   CMMI Version 1.3. CMMI is registered in the U.S. Patent and Trademark Office by Carnegie Mellon University.
+   Carnegie Mellon University claims CMMI can be used to guide process improvement across a
+   project, division, or an entire organization. Under the CMMI methodology, processes are
+   rated according to their maturity levels, which are defined as: Initial, Repeatable, Defined,
+   Quantitatively Managed, Optimizing. Currently supported is CMMI Version 1.3. CMMI is 
+   registered in the U.S. Patent and Trademark Office by Carnegie Mellon University.
 
 {{map>:framework:cmmi_constellations.png?nolink|CMMI Constellations}}
 
